@@ -578,6 +578,68 @@ def precio_desde_centavos(price_cents):
     return int(round(price_cents / 100))
 
 
+def clave_formato_precio(formato: str) -> str:
+    return re.sub(r"\s+", " ", (formato or "").strip()).lower()
+
+
+def claves_formato_precio(formato: str) -> list:
+    clave = clave_formato_precio(formato)
+    if not clave:
+        return []
+    claves = [clave]
+    base = clave.split(" ", 1)[0]
+    if base and base != clave:
+        claves.append(base)
+    return claves
+
+
+def extraer_precios_cine(
+    slug: str,
+    session: requests.Session,
+    fecha: Optional[str],
+    debug: bool = False,
+) -> dict:
+    """
+    Usa el HTML del cine solo como fuente de precios.
+    Los horarios reales siguen saliendo de la API porque el HTML puede repetir
+    funciones de hoy para fechas futuras.
+    """
+    precios = {}
+    try:
+        _, peliculas = parsear_cine(
+            slug,
+            session,
+            fecha,
+            debug=debug,
+            descargar_imagenes=False,
+        )
+    except Exception as e:
+        log(f"    !! no se pudieron leer precios de {slug}: {e}", True, debug)
+        return precios
+
+    for pelicula in peliculas:
+        for funcion in pelicula.funciones:
+            if funcion.precio_general is None:
+                continue
+            precio = (
+                funcion.precio_general,
+                funcion.precio_jubilado,
+                funcion.precio_menor,
+            )
+            for clave in claves_formato_precio(funcion.formato):
+                precios.setdefault(clave, precio)
+
+    log(f"  precios {slug}: {len(precios)} formatos", True, debug)
+    return precios
+
+
+def precio_para_formato(precios: dict, formato: str):
+    for clave in claves_formato_precio(formato):
+        if clave in precios:
+            return precios[clave]
+    return (None, None, None)
+
+
 def descargar_poster_pelicula(movie: dict, session: requests.Session, descargar_imagenes: bool) -> str:
     poster_url = movie.get("posterUrl") or ""
     if not poster_url or not descargar_imagenes:
@@ -590,6 +652,7 @@ def armar_cines_desde_api(
     zonas_pedido: str,
     cadenas: tuple,
     session: requests.Session,
+    fecha: Optional[str],
     descargar_imagenes: bool,
     debug: bool = False,
 ) -> list:
@@ -602,6 +665,7 @@ def armar_cines_desde_api(
     cines_por_id = {}
     peliculas_por_cine = {}
     imagen_por_movie_id = {}
+    precios_por_cine = {}
 
     for cinema_id, cinema in cinemas.items():
         slug = cinema.get("slug", "")
@@ -641,11 +705,30 @@ def armar_cines_desde_api(
                 imagen=imagen_por_movie_id[movie_id],
             )
 
+        formato = formato_api(showtime)
+        precio_general = precio_desde_centavos(showtime.get("priceCents"))
+        precio_jubilado = None
+        precio_menor = None
+        if precio_general is None:
+            if cinema_id not in precios_por_cine:
+                precios_por_cine[cinema_id] = extraer_precios_cine(
+                    cines_por_id[cinema_id].slug,
+                    session,
+                    fecha,
+                    debug=debug,
+                )
+            precio_general, precio_jubilado, precio_menor = precio_para_formato(
+                precios_por_cine[cinema_id],
+                formato,
+            )
+
         peliculas[movie_id].funciones.append(
             Funcion(
                 horario=showtime.get("time", ""),
-                formato=formato_api(showtime),
-                precio_general=precio_desde_centavos(showtime.get("priceCents")),
+                formato=formato,
+                precio_general=precio_general,
+                precio_jubilado=precio_jubilado,
+                precio_menor=precio_menor,
             )
         )
 
@@ -786,6 +869,7 @@ def escanear(
         zonas_pedido,
         cadenas,
         session,
+        fecha,
         descargar_imagenes,
         debug=debug,
     )
