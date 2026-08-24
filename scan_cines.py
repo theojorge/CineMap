@@ -16,8 +16,8 @@ Uso:
     python3 scan_cines.py --zonas caba,"gba norte",córdoba
     python3 scan_cines.py --zonas todas
     python3 scan_cines.py --cadenas cinemark,atlas
-    python3 scan_cines.py --fecha 2026-08-25
-    python3 scan_cines.py --json salida.json --csv salida.csv
+    python3 scan_cines.py --fecha 2026-08-25 --dias 1
+    python3 scan_cines.py --dias 1 --json salida.json --csv salida.csv
 
 Por defecto recorre las zonas CABA + GBA Norte/Sur/Oeste, sin filtrar por
 cadena. --cadenas queda como filtro opcional.
@@ -104,6 +104,21 @@ CADENA_POR_SLUG = (
     ("atlas", "Atlas Cines"),
     ("cinemacenter", "Cinemacenter"),
 )
+
+CADENA_API = {
+    "atlas": "Atlas Cines",
+    "cinemark": "Cinemark Hoyts",
+    "cinepolis": "Cinépolis",
+    "independiente": "Cine Independiente",
+    "multiplex": "Multiplex",
+    "showcase": "Showcase",
+}
+
+IDIOMA_API = {
+    "cas": "Doblada",
+    "sub": "Subtitulada",
+    "vos": "V.O.S.",
+}
 
 
 @dataclass
@@ -501,6 +516,152 @@ def descargar_imagen(url: str, session: requests.Session, output_dir: str = "pub
         return ""
 
 
+def fetch_showtimes_api(session: requests.Session, fecha: str, delay: float, debug: bool = False) -> dict:
+    """Trae todos los horarios de una fecha desde la API interna de cartelera.ar."""
+    showtimes = []
+    movies = {}
+    cinemas = {}
+    page = 1
+    total = None
+
+    while total is None or len(showtimes) < total:
+        params = {
+            "date": fecha,
+            "page": str(page),
+            "pageSize": "500",
+        }
+        resp = session.get(f"{BASE_URL}/api/showtimes", params=params, headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+
+        page_showtimes = data.get("showtimes", [])
+        showtimes.extend(page_showtimes)
+        for movie in data.get("movies", []):
+            movies[movie["id"]] = movie
+        for cinema in data.get("cinemas", []):
+            cinemas[cinema["id"]] = cinema
+
+        total = data.get("total", len(showtimes))
+        log(
+            f"  API {fecha}: página {page}, {len(page_showtimes)} funciones "
+            f"({len(showtimes)}/{total})",
+            True,
+            debug,
+        )
+        if not page_showtimes:
+            break
+        page += 1
+        time.sleep(delay)
+
+    return {
+        "showtimes": showtimes,
+        "movies": movies,
+        "cinemas": cinemas,
+    }
+
+
+def nombre_cadena_api(chain: str, slug: str) -> str:
+    return CADENA_API.get((chain or "").lower(), inferir_cadena(slug, ""))
+
+
+def formato_api(showtime: dict) -> str:
+    partes = [showtime.get("format") or "2D"]
+    idioma = IDIOMA_API.get((showtime.get("language") or "").lower())
+    if idioma:
+        partes.append(idioma)
+    return " ".join(partes)
+
+
+def precio_desde_centavos(price_cents):
+    if price_cents is None:
+        return None
+    return int(round(price_cents / 100))
+
+
+def descargar_poster_pelicula(movie: dict, session: requests.Session, descargar_imagenes: bool) -> str:
+    poster_url = movie.get("posterUrl") or ""
+    if not poster_url or not descargar_imagenes:
+        return ""
+    return descargar_imagen(poster_url, session)
+
+
+def armar_cines_desde_api(
+    payload: dict,
+    zonas_pedido: str,
+    cadenas: tuple,
+    session: requests.Session,
+    descargar_imagenes: bool,
+    debug: bool = False,
+) -> list:
+    cinemas = payload["cinemas"]
+    movies = payload["movies"]
+    zonas_disponibles = sorted({c.get("zone", "") for c in cinemas.values() if c.get("zone")})
+    zonas = resolver_zonas_pedidas(zonas_pedido, zonas_disponibles)
+    zonas_set = set(zonas)
+
+    cines_por_id = {}
+    peliculas_por_cine = {}
+    imagen_por_movie_id = {}
+
+    for cinema_id, cinema in cinemas.items():
+        slug = cinema.get("slug", "")
+        cadena = nombre_cadena_api(cinema.get("chain", ""), slug)
+        if cinema.get("zone") not in zonas_set:
+            continue
+        if not cadena_matchea(cadena, slug, cadenas):
+            continue
+
+        cines_por_id[cinema_id] = Cine(
+            cadena=cadena,
+            nombre=cinema.get("name") or slug.replace("-", " ").title(),
+            slug=slug,
+            zona=cinema.get("zone", ""),
+            direccion=cinema.get("address", ""),
+        )
+        peliculas_por_cine[cinema_id] = {}
+
+    for showtime in sorted(payload["showtimes"], key=lambda s: (s.get("cinemaId"), s.get("movieId"), s.get("time", ""))):
+        cinema_id = showtime.get("cinemaId")
+        movie_id = showtime.get("movieId")
+        if cinema_id not in cines_por_id or movie_id not in movies:
+            continue
+
+        movie = movies[movie_id]
+        peliculas = peliculas_por_cine[cinema_id]
+        if movie_id not in peliculas:
+            if movie_id not in imagen_por_movie_id:
+                imagen_por_movie_id[movie_id] = descargar_poster_pelicula(
+                    movie,
+                    session,
+                    descargar_imagenes,
+                )
+            peliculas[movie_id] = Pelicula(
+                titulo=movie.get("title") or "Sin título",
+                url=f"{BASE_URL}/pelicula/{movie.get('slug')}" if movie.get("slug") else "",
+                imagen=imagen_por_movie_id[movie_id],
+            )
+
+        peliculas[movie_id].funciones.append(
+            Funcion(
+                horario=showtime.get("time", ""),
+                formato=formato_api(showtime),
+                precio_general=precio_desde_centavos(showtime.get("priceCents")),
+            )
+        )
+
+    resultado = []
+    for cinema_id, cine in cines_por_id.items():
+        cine.peliculas = [
+            pelicula
+            for pelicula in peliculas_por_cine[cinema_id].values()
+            if pelicula.funciones
+        ]
+        resultado.append(cine)
+
+    log(f"Encontrados {len(resultado)} cines con datos API.", True, debug)
+    return resultado
+
+
 def parsear_cine(slug: str, session: requests.Session, fecha: Optional[str], debug: bool = False, descargar_imagenes: bool = False):
     """Trae /cine/{slug} y devuelve (nombre_real, [Pelicula, ...])."""
     url = f"{BASE_URL}/cine/{slug}"
@@ -614,25 +775,20 @@ def escanear(
     descargar_imagenes: bool = False,
 ) -> list:
     session = requests.Session()
+    if not fecha:
+        fecha = fecha_argentina_hoy()
 
-    log("Buscando cines en cartelera.ar ...")
-    cines = listar_cines(session, zonas_pedido, cadenas, debug=debug)
-    log(f"Encontrados {len(cines)} cines.\n")
-
-    resultado = []
-    for i, cine in enumerate(cines, 1):
-        log(f"[{i}/{len(cines)}] {cine.zona} — {cine.cadena} — {cine.nombre} ({cine.slug})")
-        try:
-            nombre_real, peliculas = parsear_cine(cine.slug, session, fecha, debug=debug, descargar_imagenes=descargar_imagenes)
-            cine.nombre = nombre_real
-            cine.peliculas = peliculas
-            log(f"    -> {len(peliculas)} películas con horarios")
-        except requests.RequestException as e:
-            log(f"    !! error al pedir la página: {e}")
-        resultado.append(cine)
-        time.sleep(delay)
-
-    return resultado
+    log(f"Buscando funciones en cartelera.ar para {fecha} ...")
+    payload = fetch_showtimes_api(session, fecha, delay, debug=debug)
+    log(f"Encontradas {len(payload['showtimes'])} funciones.\n")
+    return armar_cines_desde_api(
+        payload,
+        zonas_pedido,
+        cadenas,
+        session,
+        descargar_imagenes,
+        debug=debug,
+    )
 
 
 def exportar_json(cines: list, path: str):
@@ -644,6 +800,46 @@ def exportar_json(cines: list, path: str):
 
 def fecha_argentina_hoy() -> str:
     return datetime.now(ZoneInfo("America/Argentina/Buenos_Aires")).date().isoformat()
+
+
+def descubrir_cantidad_dias_disponibles(session: requests.Session, debug: bool = False) -> int:
+    """Lee del frontend de cartelera.ar cuántos días muestra el selector."""
+    try:
+        resp = session.get(f"{BASE_URL}/cines", headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        scripts = sorted(set(re.findall(r'src="([^"]+\.js)"', resp.text)))
+        for src in scripts:
+            url = src if src.startswith("http") else urljoin(BASE_URL, src)
+            js = session.get(url, headers=HEADERS, timeout=20).text
+            match = re.search(r"getNextDays\)\((\d+)\)", js) or re.search(
+                r"getNextDays\((\d+)\)",
+                js,
+            )
+            if match:
+                cantidad = int(match.group(1))
+                log(f"Fechas disponibles detectadas en cartelera.ar: {cantidad}", True, debug)
+                return cantidad
+    except Exception as e:
+        log(f"  [debug] no se pudo detectar la cantidad de fechas: {e}", True, debug)
+    return 7
+
+
+def fechas_disponibles_cartelera(
+    session: requests.Session,
+    dias: Optional[int],
+    fecha_inicio: Optional[str],
+    debug: bool = False,
+) -> list:
+    """
+    Devuelve las fechas que publica cartelera.ar en su selector.
+    Si --dias no se pasa, detecta la cantidad desde el frontend del sitio.
+    """
+    inicio = fecha_inicio or fecha_argentina_hoy()
+    cantidad = dias if dias is not None else descubrir_cantidad_dias_disponibles(session, debug)
+    return [
+        (datetime.fromisoformat(inicio) + timedelta(days=i)).date().isoformat()
+        for i in range(max(cantidad, 1))
+    ]
 
 
 def filtrar_funciones_pasadas(cines: list, fecha: Optional[str]):
@@ -785,8 +981,16 @@ def main():
             "(ej. cinemark,atlas,cinepolis). Default: todas."
         ),
     )
-    parser.add_argument("--fecha", default=None, help="Fecha en formato YYYY-MM-DD (default: hoy).")
-    parser.add_argument("--dias", type=int, default=1, help="Cantidad de días consecutivos a escanear (default 1).")
+    parser.add_argument("--fecha", default=None, help="Fecha inicial en formato YYYY-MM-DD (default: hoy).")
+    parser.add_argument(
+        "--dias",
+        type=int,
+        default=None,
+        help=(
+            "Cantidad de días consecutivos a escanear. "
+            "Default: todas las fechas disponibles en cartelera.ar."
+        ),
+    )
     parser.add_argument("--json-dir", default="public/cartelera", help="Directorio de JSON por día.")
     parser.add_argument("--csv-dir", default="cartelera-csv", help="Directorio de CSV por día.")
     parser.add_argument("--json", default=None, help="Archivo JSON de salida para un solo día.")
@@ -804,11 +1008,9 @@ def main():
 
     cadenas = tuple(c.strip().lower() for c in args.cadenas.split(",") if c.strip())
 
-    fecha_inicio = args.fecha or fecha_argentina_hoy()
-    fechas = [
-        (datetime.fromisoformat(fecha_inicio) + timedelta(days=i)).date().isoformat()
-        for i in range(max(args.dias, 1))
-    ]
+    session_fechas = requests.Session()
+    fechas = fechas_disponibles_cartelera(session_fechas, args.dias, args.fecha, args.debug)
+    log(f"Fechas a escanear: {', '.join(fechas)}")
 
     resultados = []
     for fecha in fechas:

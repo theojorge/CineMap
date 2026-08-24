@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Refresh cartelera and posters
-        run: python scan_cines.py --dias 7 --json-dir public/cartelera --csv-dir cartelera-csv --delay 1.5
+        run: python scan_cines.py --json-dir public/cartelera --csv-dir cartelera-csv --delay 1.5
 
       - name: Commit changes
         run: |
