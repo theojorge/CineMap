@@ -1,0 +1,40 @@
+name: Update cartelera
+
+on:
+  schedule:
+    # 12:00 Argentina (UTC-03:00)
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cartelera:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh cartelera and posters
+        run: python scan_cines.py --json cartelera.json --csv cartelera.csv --delay 1.5
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cartelera.json public/posters
+          if git diff --cached --quiet; then
+            echo "No cartelera changes to commit."
+          else
+            git commit -m "Update cartelera"
+            git push
+          fi

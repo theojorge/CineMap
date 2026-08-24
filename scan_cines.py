@@ -38,8 +38,10 @@ import re
 import sys
 import time
 from dataclasses import dataclass, field, asdict
+from datetime import datetime
 from typing import Optional
 from urllib.parse import urljoin, urlparse, parse_qs, unquote
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
@@ -639,6 +641,48 @@ def exportar_json(cines: list, path: str):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def fecha_argentina_hoy() -> str:
+    return datetime.now(ZoneInfo("America/Argentina/Buenos_Aires")).date().isoformat()
+
+
+def filtrar_funciones_pasadas(cines: list, fecha: Optional[str]):
+    """Quita funciones vencidas y películas que se quedaron sin funciones futuras."""
+    fecha_objetivo = fecha or fecha_argentina_hoy()
+    hoy = fecha_argentina_hoy()
+    if fecha_objetivo > hoy:
+        return
+
+    ahora = datetime.now(ZoneInfo("America/Argentina/Buenos_Aires")).strftime("%H:%M")
+    for cine in cines:
+        peliculas_vigentes = []
+        for peli in cine.peliculas:
+            if fecha_objetivo < hoy:
+                peli.funciones = []
+            elif fecha_objetivo == hoy:
+                peli.funciones = [f for f in peli.funciones if f.horario >= ahora]
+            if peli.funciones:
+                peliculas_vigentes.append(peli)
+        cine.peliculas = peliculas_vigentes
+
+
+def limpiar_posters_no_usados(cines: list, output_dir: str = "public/posters"):
+    """Borra posters locales que ya no están referenciados por la cartelera vigente."""
+    if not os.path.isdir(output_dir):
+        return
+
+    usados = set()
+    for cine in cines:
+        for peli in cine.peliculas:
+            imagen = getattr(peli, "imagen", "") or ""
+            if imagen.startswith("/posters/"):
+                usados.add(os.path.basename(imagen))
+
+    for filename in os.listdir(output_dir):
+        path = os.path.join(output_dir, filename)
+        if os.path.isfile(path) and filename not in usados:
+            os.remove(path)
+
+
 def exportar_csv(cines: list, path: str):
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -744,7 +788,10 @@ def main():
 
     cines = escanear(args.zonas, cadenas, args.fecha, args.delay, debug=args.debug, descargar_imagenes=args.descargar_imagenes)
 
+    filtrar_funciones_pasadas(cines, args.fecha)
     exportar_json(cines, args.json)
+    if args.descargar_imagenes:
+        limpiar_posters_no_usados(cines)
     exportar_csv(cines, args.csv)
     imprimir_resumen(cines)
 
