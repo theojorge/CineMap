@@ -25,13 +25,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Refresh cartelera and posters
-        run: python scan_cines.py --json cartelera.json --csv cartelera.csv --delay 1.5
+        run: python scan_cines.py --dias 7 --json-dir public/cartelera --csv-dir cartelera-csv --delay 1.5
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cartelera.json public/posters
+          git add public/cartelera cartelera-csv public/posters
           if git diff --cached --quiet; then
             echo "No cartelera changes to commit."
           else

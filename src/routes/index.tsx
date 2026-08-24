@@ -43,7 +43,7 @@ function CarteleraApp() {
 
   const cartelera = useQuery({
     queryKey: ["cartelera", date],
-    queryFn: () => getCartelera({ data: { date } }),
+    queryFn: () => getCartelera(date),
     staleTime: 5 * 60 * 1000,
   });
 

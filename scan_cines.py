@@ -38,7 +38,7 @@ import re
 import sys
 import time
 from dataclasses import dataclass, field, asdict
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Optional
 from urllib.parse import urljoin, urlparse, parse_qs, unquote
 from zoneinfo import ZoneInfo
@@ -636,6 +636,7 @@ def escanear(
 
 
 def exportar_json(cines: list, path: str):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     data = [asdict(c) for c in cines]
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -683,7 +684,21 @@ def limpiar_posters_no_usados(cines: list, output_dir: str = "public/posters"):
             os.remove(path)
 
 
+def limpiar_archivos_vencidos(directorio: str, extension: str):
+    """Borra archivos YYYY-MM-DD.ext anteriores a hoy en Argentina."""
+    if not os.path.isdir(directorio):
+        return
+
+    hoy = fecha_argentina_hoy()
+    patron = re.compile(rf"^(\d{{4}}-\d{{2}}-\d{{2}})\.{re.escape(extension)}$")
+    for filename in os.listdir(directorio):
+        match = patron.match(filename)
+        if match and match.group(1) < hoy:
+            os.remove(os.path.join(directorio, filename))
+
+
 def exportar_csv(cines: list, path: str):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(
@@ -771,8 +786,11 @@ def main():
         ),
     )
     parser.add_argument("--fecha", default=None, help="Fecha en formato YYYY-MM-DD (default: hoy).")
-    parser.add_argument("--json", default="cartelera.json", help="Archivo JSON de salida.")
-    parser.add_argument("--csv", default="cartelera.csv", help="Archivo CSV de salida.")
+    parser.add_argument("--dias", type=int, default=1, help="Cantidad de días consecutivos a escanear (default 1).")
+    parser.add_argument("--json-dir", default="public/cartelera", help="Directorio de JSON por día.")
+    parser.add_argument("--csv-dir", default="cartelera-csv", help="Directorio de CSV por día.")
+    parser.add_argument("--json", default=None, help="Archivo JSON de salida para un solo día.")
+    parser.add_argument("--csv", default=None, help="Archivo CSV de salida para un solo día.")
     parser.add_argument("--delay", type=float, default=1.0, help="Segundos entre pedidos (default 1.0).")
     parser.add_argument("--debug", action="store_true", help="Mostrar info extra de diagnóstico.")
     parser.add_argument(
@@ -786,16 +804,31 @@ def main():
 
     cadenas = tuple(c.strip().lower() for c in args.cadenas.split(",") if c.strip())
 
-    cines = escanear(args.zonas, cadenas, args.fecha, args.delay, debug=args.debug, descargar_imagenes=args.descargar_imagenes)
+    fecha_inicio = args.fecha or fecha_argentina_hoy()
+    fechas = [
+        (datetime.fromisoformat(fecha_inicio) + timedelta(days=i)).date().isoformat()
+        for i in range(max(args.dias, 1))
+    ]
 
-    filtrar_funciones_pasadas(cines, args.fecha)
-    exportar_json(cines, args.json)
+    resultados = []
+    for fecha in fechas:
+        json_path = args.json if args.json and len(fechas) == 1 else os.path.join(args.json_dir, f"{fecha}.json")
+        csv_path = args.csv if args.csv and len(fechas) == 1 else os.path.join(args.csv_dir, f"{fecha}.csv")
+
+        log(f"\n=== Escaneando fecha {fecha} ===")
+        cines = escanear(args.zonas, cadenas, fecha, args.delay, debug=args.debug, descargar_imagenes=args.descargar_imagenes)
+        filtrar_funciones_pasadas(cines, fecha)
+        exportar_json(cines, json_path)
+        exportar_csv(cines, csv_path)
+        resultados.extend(cines)
+        print(f"Guardado: {json_path} y {csv_path}")
+
+    limpiar_archivos_vencidos(args.json_dir, "json")
+    limpiar_archivos_vencidos(args.csv_dir, "csv")
+
     if args.descargar_imagenes:
-        limpiar_posters_no_usados(cines)
-    exportar_csv(cines, args.csv)
-    imprimir_resumen(cines)
-
-    print(f"Guardado: {args.json} y {args.csv}")
+        limpiar_posters_no_usados(resultados)
+    imprimir_resumen(resultados)
 
 
 if __name__ == "__main__":
