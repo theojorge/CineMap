@@ -1,0 +1,1342 @@
+{
+  "version": 1,
+  "cines": {
+    "atlas-alcorta": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Alcorta",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 24000,
+          "precio_jubilado": 17000,
+          "precio_menor": 17000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 24000,
+          "precio_jubilado": 17000,
+          "precio_menor": 17000
+        }
+      }
+    },
+    "atlas-caballito": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Caballito",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18000,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 17000,
+          "precio_menor": 17000
+        },
+        "4dx doblada": {
+          "formato": "4DX Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        }
+      }
+    },
+    "atlas-catan": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Catan",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 14000,
+          "precio_jubilado": 10500,
+          "precio_menor": 10500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "4dx doblada": {
+          "formato": "4DX Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        }
+      }
+    },
+    "atlas-flores": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Flores",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 13000,
+          "precio_jubilado": 10000,
+          "precio_menor": 10000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15400,
+          "precio_jubilado": 12400,
+          "precio_menor": 12400
+        }
+      }
+    },
+    "atlas-liniers": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Liniers",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 11600,
+          "precio_menor": 11600
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15400,
+          "precio_jubilado": 12400,
+          "precio_menor": 12400
+        }
+      }
+    },
+    "atlas-nordelta": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Nordelta",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18000,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15400,
+          "precio_jubilado": 12400,
+          "precio_menor": 12400
+        }
+      }
+    },
+    "atlas-patio-bullrich": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Patio Bullrich",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        }
+      }
+    },
+    "cine-gaumont": {
+      "cadena": "Cine Independiente",
+      "nombre": "Cine Gaumont",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 2500,
+          "precio_jubilado": 1300,
+          "precio_menor": 1300
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 2500,
+          "precio_jubilado": 1300,
+          "precio_menor": 1300
+        }
+      }
+    },
+    "cinearte-cacodelphia": {
+      "cadena": "Cine Independiente",
+      "nombre": "CineArte Cacodelphia",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 7000,
+          "precio_jubilado": 1300,
+          "precio_menor": 1300
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 7000,
+          "precio_jubilado": 1300,
+          "precio_menor": 1300
+        }
+      }
+    },
+    "cinemark-avellaneda": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Avellaneda",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18800,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 28600,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 2d subtitulada": {
+          "formato": "4D 2D Subtitulada",
+          "precio_general": 28600,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d doblada": {
+          "formato": "4D 3D Doblada",
+          "precio_general": 28600,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 18800,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "dbox xd 2d doblada": {
+          "formato": "DBOX XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox xd 2d subtitulada": {
+          "formato": "DBOX XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "cinemark-caballito": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Caballito",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": 16000,
+          "precio_menor": 16000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 20000,
+          "precio_jubilado": 16000,
+          "precio_menor": 16000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 26200,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        }
+      }
+    },
+    "cinemark-malvinas-argentinas": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Malvinas Argentinas",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 8600,
+          "precio_jubilado": 5700,
+          "precio_menor": 5700
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 8600,
+          "precio_jubilado": 5700,
+          "precio_menor": 5700
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 11000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 8600,
+          "precio_jubilado": 5700,
+          "precio_menor": 5700
+        },
+        "dbox 3d doblada": {
+          "formato": "DBOX 3D Doblada",
+          "precio_general": 11000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox xd 2d doblada": {
+          "formato": "DBOX XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox xd 3d doblada": {
+          "formato": "DBOX XD 3D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 3d doblada": {
+          "formato": "XD 3D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "cinemark-palermo": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Palermo",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": 16000,
+          "precio_menor": 16000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 20000,
+          "precio_jubilado": 16000,
+          "precio_menor": 16000
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 26400,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        }
+      }
+    },
+    "cinemark-puerto-madero": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Puerto Madero",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 19800,
+          "precio_jubilado": 15800,
+          "precio_menor": 15800
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 19800,
+          "precio_jubilado": 15800,
+          "precio_menor": 15800
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 26000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        }
+      }
+    },
+    "cinemark-san-justo": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark San Justo",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 19000,
+          "precio_jubilado": 15200,
+          "precio_menor": 15200
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23800,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 19000,
+          "precio_jubilado": 15200,
+          "precio_menor": 15200
+        },
+        "dbox xd 2d doblada": {
+          "formato": "DBOX XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox xd 2d subtitulada": {
+          "formato": "DBOX XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "cinemark-soleil": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Soleil",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17400,
+          "precio_jubilado": 12200,
+          "precio_menor": 12200
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17400,
+          "precio_jubilado": 12200,
+          "precio_menor": 12200
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 22800,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        }
+      }
+    },
+    "cinemark-tortugas": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Cinemark Tortugas",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18200,
+          "precio_jubilado": 14600,
+          "precio_menor": 14600
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18200,
+          "precio_jubilado": 14600,
+          "precio_menor": 14600
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23800,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 18200,
+          "precio_jubilado": 14600,
+          "precio_menor": 14600
+        },
+        "dbox 3d doblada": {
+          "formato": "DBOX 3D Doblada",
+          "precio_general": 23800,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox xd 2d doblada": {
+          "formato": "DBOX XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox xd 2d subtitulada": {
+          "formato": "DBOX XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
+          "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "cinepolis-avellaneda": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Avellaneda",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 16600,
+          "precio_jubilado": 12500,
+          "precio_menor": 12500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 16600,
+          "precio_jubilado": 12500,
+          "precio_menor": 12500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 19600,
+          "precio_jubilado": 12500,
+          "precio_menor": 12500
+        }
+      }
+    },
+    "cinepolis-houssay": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Houssay",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 10000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 10000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 11500,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        }
+      }
+    },
+    "cinepolis-lujan": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Luján",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        }
+      }
+    },
+    "cinepolis-merlo": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Merlo",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        }
+      }
+    },
+    "cinepolis-pilar": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Pilar",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 11400,
+          "precio_menor": 11400
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15000,
+          "precio_jubilado": 11400,
+          "precio_menor": 11400
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 11400,
+          "precio_menor": 11400
+        }
+      }
+    },
+    "cinepolis-recoleta": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Recoleta",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 19000,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 19000,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 24000,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        }
+      }
+    },
+    "hoyts-abasto": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Abasto",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18800,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18800,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 24600,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 18800,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        },
+        "dbox 2d subtitulada": {
+          "formato": "DBOX 2D Subtitulada",
+          "precio_general": 18800,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
+        }
+      }
+    },
+    "hoyts-dot-baires": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Dot Baires",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 14400,
+          "precio_menor": 14400
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18000,
+          "precio_jubilado": 14400,
+          "precio_menor": 14400
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 23400,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 2d subtitulada": {
+          "formato": "4D 2D Subtitulada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d doblada": {
+          "formato": "4D 3D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d subtitulada": {
+          "formato": "4D 3D Subtitulada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "premier 2d doblada": {
+          "formato": "PREMIER 2D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 14400,
+          "precio_menor": 14400
+        },
+        "premier 2d subtitulada": {
+          "formato": "PREMIER 2D Subtitulada",
+          "precio_general": 18000,
+          "precio_jubilado": 14400,
+          "precio_menor": 14400
+        },
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "hoyts-moreno": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Moreno",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        },
+        "dbox 2d subtitulada": {
+          "formato": "DBOX 2D Subtitulada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        }
+      }
+    },
+    "hoyts-moron": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Morón",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        },
+        "dbox 2d subtitulada": {
+          "formato": "DBOX 2D Subtitulada",
+          "precio_general": 18400,
+          "precio_jubilado": 14800,
+          "precio_menor": 14800
+        }
+      }
+    },
+    "hoyts-quilmes": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Quilmes",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17400,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17400,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 22600,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d doblada": {
+          "formato": "4D 3D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "hoyts-temperley": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Temperley",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15800,
+          "precio_jubilado": 12600,
+          "precio_menor": 12600
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15800,
+          "precio_jubilado": 12600,
+          "precio_menor": 12600
+        },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d doblada": {
+          "formato": "4D 3D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 15800,
+          "precio_jubilado": 12600,
+          "precio_menor": 12600
+        },
+        "dbox xd 2d doblada": {
+          "formato": "DBOX XD 2D Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox xd 2d subtitulada": {
+          "formato": "DBOX XD 2D Subtitulada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "hoyts-unicenter": {
+      "cadena": "Cinemark Hoyts",
+      "nombre": "Hoyts Unicenter",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17600,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17600,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 2d subtitulada": {
+          "formato": "4D 2D Subtitulada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d doblada": {
+          "formato": "4D 3D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 3d subtitulada": {
+          "formato": "4D 3D Subtitulada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox 2d doblada": {
+          "formato": "DBOX 2D Doblada",
+          "precio_general": 17600,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "dbox 2d subtitulada": {
+          "formato": "DBOX 2D Subtitulada",
+          "precio_general": 17600,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "dbox 3d doblada": {
+          "formato": "DBOX 3D Doblada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "dbox 3d subtitulada": {
+          "formato": "DBOX 3D Subtitulada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
+        "premier 2d doblada": {
+          "formato": "PREMIER 2D Doblada",
+          "precio_general": 17600,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        },
+        "premier 2d subtitulada": {
+          "formato": "PREMIER 2D Subtitulada",
+          "precio_general": 17600,
+          "precio_jubilado": 14000,
+          "precio_menor": 14000
+        }
+      }
+    },
+    "imax-showcase-norte": {
+      "cadena": "Showcase",
+      "nombre": "IMAX Showcase Norte",
+      "formatos": {
+        "imax subtitulada": {
+          "formato": "IMAX Subtitulada",
+          "precio_general": 19500,
+          "precio_jubilado": null,
+          "precio_menor": 15000
+        }
+      }
+    },
+    "malba-cine": {
+      "cadena": "Cine Independiente",
+      "nombre": "MALBA Cine",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "multiplex-belgrano": {
+      "cadena": "Multiplex",
+      "nombre": "Multiplex Belgrano",
+      "formatos": {
+        "2d + comfort plus doblada": {
+          "formato": "2D + COMFORT PLUS Doblada",
+          "precio_general": 16000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "2d + comfort plus subtitulada": {
+          "formato": "2D + COMFORT PLUS Subtitulada",
+          "precio_general": 16000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "4d + 2d subtitulada": {
+          "formato": "4D + 2D Subtitulada",
+          "precio_general": 21000,
+          "precio_jubilado": 21000,
+          "precio_menor": 21000
+        },
+        "4d + 3d doblada": {
+          "formato": "4D + 3D Doblada",
+          "precio_general": 22000,
+          "precio_jubilado": 22000,
+          "precio_menor": 22000
+        },
+        "4d + 3d subtitulada": {
+          "formato": "4D + 3D Subtitulada",
+          "precio_general": 22000,
+          "precio_jubilado": 22000,
+          "precio_menor": 22000
+        },
+        "comfort plus 2d doblada": {
+          "formato": "COMFORT PLUS 2D Doblada",
+          "precio_general": 16000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "comfort plus 2d subtitulada": {
+          "formato": "COMFORT PLUS 2D Subtitulada",
+          "precio_general": 16000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        }
+      }
+    },
+    "multiplex-canning": {
+      "cadena": "Multiplex",
+      "nombre": "Multiplex Canning",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 14000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 14000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 17000,
+          "precio_menor": 17000
+        },
+        "4d (2d) doblada": {
+          "formato": "4D (2D) Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": 20000,
+          "precio_menor": 20000
+        },
+        "4d (3d) doblada": {
+          "formato": "4D (3D) Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 21000,
+          "precio_menor": 21000
+        }
+      }
+    },
+    "multiplex-lavalle": {
+      "cadena": "Multiplex",
+      "nombre": "Multiplex Lavalle",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 10000,
+          "precio_menor": 10000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15000,
+          "precio_jubilado": 10000,
+          "precio_menor": 10000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "4d (3d) doblada": {
+          "formato": "4D (3D) Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "xtremo 2d doblada": {
+          "formato": "XTREMO 2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 10000,
+          "precio_menor": 10000
+        }
+      }
+    },
+    "multiplex-pilar": {
+      "cadena": "Multiplex",
+      "nombre": "Multiplex Pilar",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 18000,
+          "precio_menor": 18000
+        },
+        "4d (3d) doblada": {
+          "formato": "4D (3D) Doblada",
+          "precio_general": 23000,
+          "precio_jubilado": 23000,
+          "precio_menor": 23000
+        },
+        "platinum 2d subtitulada": {
+          "formato": "PLATINUM 2D Subtitulada",
+          "precio_general": 22000,
+          "precio_jubilado": 22000,
+          "precio_menor": 22000
+        },
+        "xtremo 2d doblada": {
+          "formato": "XTREMO 2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        }
+      }
+    },
+    "showcase-belgrano": {
+      "cadena": "Showcase",
+      "nombre": "Showcase Belgrano",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 14000,
+          "precio_jubilado": 5500,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 14000,
+          "precio_jubilado": 5500,
+          "precio_menor": 11000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15500,
+          "precio_jubilado": null,
+          "precio_menor": 12000
+        }
+      }
+    },
+    "showcase-haedo": {
+      "cadena": "Showcase",
+      "nombre": "Showcase Haedo",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 13500,
+          "precio_jubilado": 5500,
+          "precio_menor": 10500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 13500,
+          "precio_jubilado": 5500,
+          "precio_menor": 10500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": null,
+          "precio_menor": 11500
+        }
+      }
+    },
+    "showcase-norte-norcenter": {
+      "cadena": "Showcase",
+      "nombre": "Showcase Norte (Norcenter)",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 14000,
+          "precio_jubilado": 5500,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 14000,
+          "precio_jubilado": 5500,
+          "precio_menor": 11000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15500,
+          "precio_jubilado": null,
+          "precio_menor": 12000
+        }
+      }
+    },
+    "showcase-quilmes": {
+      "cadena": "Showcase",
+      "nombre": "Showcase Quilmes",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 14000,
+          "precio_jubilado": 5500,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 14000,
+          "precio_jubilado": 5500,
+          "precio_menor": 11000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 15500,
+          "precio_jubilado": null,
+          "precio_menor": 12000
+        }
+      }
+    }
+  },
+  "promociones": [
+    {
+      "id": "ejemplo-2x1-miercoles",
+      "nombre": "2x1 miércoles",
+      "activa": false,
+      "dias": [
+        3
+      ],
+      "cadenas": [
+        "Cinemark Hoyts"
+      ],
+      "formatos": [
+        "*"
+      ],
+      "tipo": "2x1"
+    }
+  ]
+}

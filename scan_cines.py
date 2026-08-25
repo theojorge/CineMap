@@ -32,6 +32,7 @@ Notas:
 
 import argparse
 import csv
+import html
 import json
 import os
 import re
@@ -47,11 +48,19 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://cartelera.ar"
+CINEMARK_BASE_URL = "https://bff.cinemark.com.ar/api"
+MULTIPLEX_BASE_URL = "https://multiplex.com.ar"
+MULTIPLEX_PRECIOS_URL = f"{MULTIPLEX_BASE_URL}/precios/"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; ScanCinesBot/1.0; uso personal; "
         "+https://cartelera.ar)"
     )
+}
+CINEMARK_HEADERS = {
+    "country": "AR",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/151.0.0.0 Safari/537.36",
+    "Accept": "application/json",
 }
 
 TIME_RE = re.compile(r"^([01]?\d|2[0-3]):[0-5]\d$")
@@ -118,6 +127,31 @@ IDIOMA_API = {
     "cas": "Doblada",
     "sub": "Subtitulada",
     "vos": "V.O.S.",
+}
+
+CINEMARK_SLUGS = {
+    "abasto": "hoyts-abasto",
+    "altoavellaneda": "cinemark-avellaneda",
+    "caballito": "cinemark-caballito",
+    "dot": "hoyts-dot-baires",
+    "malvinasargentinas": "cinemark-malvinas-argentinas",
+    "moreno": "hoyts-moreno",
+    "moron": "hoyts-moron",
+    "palermo": "cinemark-palermo",
+    "puertomadero": "cinemark-puerto-madero",
+    "quilmes": "hoyts-quilmes",
+    "sanjusto": "cinemark-san-justo",
+    "soleil": "cinemark-soleil",
+    "temperley": "hoyts-temperley",
+    "tortugas": "cinemark-tortugas",
+    "unicenter": "hoyts-unicenter",
+}
+
+MULTIPLEX_SLUGS = {
+    "multiplex belgrano": "multiplex-belgrano",
+    "multiplex canning": "multiplex-canning",
+    "multiplex lavalle": "multiplex-lavalle",
+    "multiplex pilar": "multiplex-pilar",
 }
 
 
@@ -489,6 +523,35 @@ def nombre_archivo_desde_url(url: str) -> str:
     return filename
 
 
+def slug_desde_texto(valor: str) -> str:
+    slug = normalizar_texto(valor).replace(" ", "-")
+    return slug.strip("-")
+
+
+def poster_local_existente(titulo: str = "", url: str = "", output_dir: str = "public/posters") -> str:
+    candidatos = []
+    if url:
+        path = urlparse(url).path.rstrip("/")
+        if path:
+            candidatos.append(path.rsplit("/", 1)[-1])
+    if titulo:
+        candidatos.append(slug_desde_texto(titulo))
+    candidatos.extend(
+        candidato.replace("un-nuevo-dia", "un-dia-nuevo")
+        for candidato in list(candidatos)
+        if "un-nuevo-dia" in candidato
+    )
+
+    for candidato in candidatos:
+        if not candidato:
+            continue
+        for extension in (".jpg", ".jpeg", ".png", ".webp"):
+            filename = f"{candidato}{extension}"
+            if os.path.exists(os.path.join(output_dir, filename)):
+                return f"/posters/{filename}"
+    return ""
+
+
 def descargar_imagen(url: str, session: requests.Session, output_dir: str = "public/posters") -> str:
     """Descarga la imagen de la película y devuelve la ruta local."""
     try:
@@ -642,9 +705,525 @@ def precio_para_formato(precios: dict, formato: str):
 
 def descargar_poster_pelicula(movie: dict, session: requests.Session, descargar_imagenes: bool) -> str:
     poster_url = movie.get("posterUrl") or ""
+    titulo = movie.get("title") or ""
+    pelicula_url = f"{BASE_URL}/pelicula/{movie.get('slug')}" if movie.get("slug") else ""
+    local = poster_local_existente(titulo, pelicula_url)
+    if local:
+        return local
     if not poster_url or not descargar_imagenes:
         return ""
     return descargar_imagen(poster_url, session)
+
+
+def normalizar_texto(valor: str) -> str:
+    tabla = str.maketrans("áéíóúüñÁÉÍÓÚÜÑ", "aeiouunAEIOUUN")
+    return re.sub(r"[^a-z0-9]+", " ", (valor or "").translate(tabla).lower()).strip()
+
+
+def normalizar_titulo(valor: str) -> str:
+    normalizado = normalizar_texto(valor)
+    if "noche del demonio" in normalizado or "insidious" in normalizado:
+        return "insidious noche demonio"
+    return normalizado
+
+
+def score_titulo(a: str, b: str) -> float:
+    set_a = set(normalizar_titulo(a).split())
+    set_b = set(normalizar_titulo(b).split())
+    if not set_a or not set_b:
+        return 0
+    interseccion = len(set_a & set_b)
+    return max(interseccion / len(set_a | set_b), interseccion / min(len(set_a), len(set_b)))
+
+
+def encontrar_pelicula(peliculas: list, titulo: str):
+    clave = normalizar_titulo(titulo)
+    for pelicula in peliculas:
+        if normalizar_titulo(pelicula.titulo) == clave:
+            return pelicula
+
+    mejor = None
+    mejor_score = 0.0
+    for pelicula in peliculas:
+        score = score_titulo(pelicula.titulo, titulo)
+        if score > mejor_score:
+            mejor = pelicula
+            mejor_score = score
+    return mejor if mejor_score >= 0.72 else None
+
+
+def funcion_key(funcion: Funcion) -> tuple:
+    return (
+        funcion.horario,
+        re.sub(r"\s+", " ", (funcion.formato or "").casefold()).strip(),
+    )
+
+
+def precio_por_horario_y_formato(funciones: list) -> dict:
+    precios = {}
+    for funcion in funciones:
+        if funcion.precio_general is None:
+            continue
+        precios[funcion_key(funcion)] = (
+            funcion.precio_general,
+            funcion.precio_jubilado,
+            funcion.precio_menor,
+        )
+    return precios
+
+
+def tipo_base_formato(formato: str) -> str:
+    normalizado = normalizar_texto(formato)
+    if "3d" in normalizado:
+        return "3d"
+    if "2d" in normalizado:
+        return "2d"
+    return ""
+
+
+def familia_sala_formato(formato: str) -> str:
+    normalizado = normalizar_texto(formato)
+    if "4d" in normalizado or "4dx" in normalizado:
+        return "4d"
+    if "d box" in normalizado or "dbox" in normalizado:
+        return "dbox"
+    if "imax" in normalizado:
+        return "imax"
+    if "screenx" in normalizado:
+        return "screenx"
+    if "premier" in normalizado:
+        return "premier"
+    if "comfort" in normalizado:
+        return "comfort"
+    if re.search(r"\bxd\b", normalizado):
+        return "xd"
+    if "laser" in normalizado:
+        return "laser"
+    return "standard"
+
+
+def idioma_base_formato(formato: str) -> str:
+    normalizado = normalizar_texto(formato)
+    if "sub" in normalizado:
+        return "sub"
+    if any(token in normalizado for token in ("doblada", "cast", "espanol", "castellano")):
+        return "dob"
+    return ""
+
+
+def construir_indice_precios(funciones: list) -> dict:
+    indice = {
+        "exacto": {},
+        "por_hora": {},
+        "por_familia_tipo_idioma": {},
+        "por_familia_tipo": {},
+        "por_familia": {},
+        "fallback_standard": None,
+    }
+    for funcion in funciones:
+        if funcion.precio_general is None:
+            continue
+        precio = (
+            funcion.precio_general,
+            funcion.precio_jubilado,
+            funcion.precio_menor,
+        )
+        indice["exacto"].setdefault(funcion_key(funcion), precio)
+        indice["por_hora"].setdefault(funcion.horario, []).append((funcion.formato, precio))
+        familia = familia_sala_formato(funcion.formato)
+        tipo = tipo_base_formato(funcion.formato)
+        idioma = idioma_base_formato(funcion.formato)
+        if tipo and idioma:
+            indice["por_familia_tipo_idioma"].setdefault((familia, tipo, idioma), precio)
+        if tipo:
+            indice["por_familia_tipo"].setdefault((familia, tipo), precio)
+        indice["por_familia"].setdefault(familia, precio)
+        if familia == "standard" and indice["fallback_standard"] is None:
+            indice["fallback_standard"] = precio
+    return indice
+
+
+def formatos_compatibles_para_precio(origen: str, destino: str) -> bool:
+    familia_origen = familia_sala_formato(origen)
+    familia_destino = familia_sala_formato(destino)
+    if familia_origen != familia_destino:
+        return False
+
+    tipo_origen = tipo_base_formato(origen)
+    tipo_destino = tipo_base_formato(destino)
+    if tipo_origen and tipo_destino and tipo_origen != tipo_destino:
+        return False
+
+    idioma_origen = idioma_base_formato(origen)
+    idioma_destino = idioma_base_formato(destino)
+    if idioma_origen and idioma_destino and idioma_origen != idioma_destino:
+        return False
+
+    return True
+
+
+def precio_desde_indice(indice: dict, funcion: Funcion):
+    familia = familia_sala_formato(funcion.formato)
+    tipo = tipo_base_formato(funcion.formato)
+    idioma = idioma_base_formato(funcion.formato)
+    precio = indice["exacto"].get(funcion_key(funcion))
+    if precio:
+        return precio
+
+    for formato_base, precio_hora in indice["por_hora"].get(funcion.horario, []):
+        if formatos_compatibles_para_precio(formato_base, funcion.formato):
+            return precio_hora
+
+    if tipo and idioma:
+        precio = indice["por_familia_tipo_idioma"].get((familia, tipo, idioma))
+        if precio:
+            return precio
+    if tipo:
+        precio = indice["por_familia_tipo"].get((familia, tipo))
+        if precio:
+            return precio
+
+    precio = indice["por_familia"].get(familia)
+    if precio:
+        return precio
+    if familia == "standard":
+        return indice["fallback_standard"]
+    return None
+
+
+def precios_tarifario_por_familia(tarifario: dict) -> dict:
+    precios = {}
+    for formato, precio in tarifario.items():
+        if precio[0] is None:
+            continue
+        familia = familia_sala_formato(formato)
+        tipo = tipo_base_formato(formato)
+        idioma = idioma_base_formato(formato)
+        if tipo and idioma:
+            precios.setdefault((familia, tipo, idioma), precio)
+        if tipo:
+            precios.setdefault((familia, tipo), precio)
+        precios.setdefault((familia,), precio)
+    return precios
+
+
+def todas_las_funciones(cine: Cine) -> list:
+    return [funcion for pelicula in cine.peliculas for funcion in pelicula.funciones]
+
+
+def enriquecer_precios(funciones_extra: list, funciones_base: list, indice_cine: dict | None = None) -> None:
+    indice_pelicula = construir_indice_precios(funciones_base)
+
+    for funcion in funciones_extra:
+        if funcion.precio_general is not None:
+            continue
+        precio = precio_desde_indice(indice_pelicula, funcion)
+        if not precio and indice_cine:
+            precio = precio_desde_indice(indice_cine, funcion)
+        if not precio:
+            continue
+        funcion.precio_general, funcion.precio_jubilado, funcion.precio_menor = precio
+
+
+def precio_fallback_tarifario(tarifario: dict):
+    for formato, precio in tarifario.items():
+        if familia_sala_formato(formato) != "standard":
+            continue
+        if precio[0] is not None:
+            return precio
+    return None
+
+
+def enriquecer_precios_desde_tarifario(funciones: list, tarifario: dict) -> None:
+    fallback = precio_fallback_tarifario(tarifario)
+    por_familia = precios_tarifario_por_familia(tarifario)
+    for funcion in funciones:
+        if funcion.precio_general is not None:
+            continue
+        precio = precio_para_formato(tarifario, funcion.formato)
+        if not precio or precio[0] is None:
+            familia = familia_sala_formato(funcion.formato)
+            tipo = tipo_base_formato(funcion.formato)
+            idioma = idioma_base_formato(funcion.formato)
+            precio = (
+                por_familia.get((familia, tipo, idioma))
+                or por_familia.get((familia, tipo))
+                or por_familia.get((familia,))
+            )
+        if not precio or precio[0] is None:
+            if familia_sala_formato(funcion.formato) == "standard":
+                precio = fallback
+        if precio:
+            funcion.precio_general, funcion.precio_jubilado, funcion.precio_menor = precio
+
+
+def mergear_cines(cines_base: list, cines_extra: list, debug: bool = False) -> list:
+    por_slug = {cine.slug: cine for cine in cines_base}
+    agregadas = 0
+    actualizadas = 0
+
+    for cine_extra in cines_extra:
+        cine_base = por_slug.get(cine_extra.slug)
+        if cine_base is None:
+            por_slug[cine_extra.slug] = cine_extra
+            cines_base.append(cine_extra)
+            agregadas += sum(len(p.funciones) for p in cine_extra.peliculas)
+            continue
+
+        indice_cine = construir_indice_precios(todas_las_funciones(cine_base))
+        for pelicula_extra in cine_extra.peliculas:
+            pelicula_base = encontrar_pelicula(cine_base.peliculas, pelicula_extra.titulo)
+            if pelicula_base is None:
+                enriquecer_precios(pelicula_extra.funciones, [], indice_cine)
+                cine_base.peliculas.append(pelicula_extra)
+                agregadas += len(pelicula_extra.funciones)
+                continue
+
+            enriquecer_precios(pelicula_extra.funciones, pelicula_base.funciones, indice_cine)
+            if not pelicula_extra.imagen:
+                pelicula_extra.imagen = pelicula_base.imagen
+            if not pelicula_extra.url:
+                pelicula_extra.url = pelicula_base.url
+            pelicula_base.url = pelicula_extra.url or pelicula_base.url
+            pelicula_base.imagen = pelicula_extra.imagen or pelicula_base.imagen
+            pelicula_base.funciones = sorted(
+                {funcion_key(f): f for f in pelicula_extra.funciones}.values(),
+                key=lambda f: (f.horario, f.formato),
+            )
+            actualizadas += len(pelicula_base.funciones)
+
+        cine_base.peliculas = [p for p in cine_base.peliculas if p.funciones]
+        cine_base.peliculas.sort(key=lambda p: normalizar_texto(p.titulo))
+
+    if debug:
+        log(f"Extras mergeados: {actualizadas} funciones actualizadas, {agregadas} agregadas.", True, debug)
+    return cines_base
+
+
+def split_session_datetime(raw: str) -> tuple[str, str]:
+    try:
+        date_part, time_part = raw.split("T", 1)
+        return date_part, time_part[:5]
+    except (AttributeError, ValueError):
+        return "", ""
+
+
+def api_get_cinemark(session: requests.Session, endpoint: str, params: dict | None = None):
+    resp = session.get(f"{CINEMARK_BASE_URL}{endpoint}", params=params, timeout=30)
+    resp.raise_for_status()
+    body = resp.json()
+    if not isinstance(body, dict) or "data" not in body:
+        raise RuntimeError(f"Formato inesperado de Cinemark en {resp.url}")
+    return body["data"]
+
+
+def formato_cinemark(showtime: dict) -> str:
+    formato = showtime.get("sessionFormat") or "2D"
+    language = showtime.get("language") or {}
+    idioma = language.get("shortName") or language.get("name") or ""
+    idioma_norm = normalizar_texto(idioma)
+    if idioma_norm in ("sub", "subtitulada", "subtitulado"):
+        idioma = "Subtitulada"
+    elif idioma_norm in ("cas", "cast", "esp", "dob", "doblada", "castellano", "espanol"):
+        idioma = "Doblada"
+    if idioma and normalizar_texto(idioma) not in normalizar_texto(formato):
+        formato = f"{formato} {idioma}"
+    return re.sub(r"\s+", " ", formato).strip()
+
+
+def escanear_cinemark_directo(fecha: str, debug: bool = False) -> list:
+    session = requests.Session()
+    session.headers.update(CINEMARK_HEADERS)
+    theaters = api_get_cinemark(session, "/cinema/theaters", {"limit": "100"})
+    movies = api_get_cinemark(session, "/cinema/movies")
+    theater_ids = [str(t["id"]) for t in theaters if t.get("id") is not None]
+    showtimes = api_get_cinemark(
+        session,
+        "/cinema/showtimes",
+        {"theater": ",".join(theater_ids), "_t": str(int(time.time() * 1000))},
+    )
+
+    theater_map = {str(t.get("id")): t for t in theaters}
+    movie_map = {str(m.get("corporateId")): m for m in movies if m.get("corporateId") is not None}
+    cines = {}
+    peliculas = {}
+
+    for showtime in showtimes:
+        date_part, horario = split_session_datetime(showtime.get("sessionDateTime", ""))
+        if date_part != fecha or not horario:
+            continue
+        theater = theater_map.get(str(showtime.get("theaterId", "")), {})
+        theater_slug = str(theater.get("slug") or "")
+        slug = CINEMARK_SLUGS.get(theater_slug)
+        if not slug:
+            continue
+
+        if slug not in cines:
+            cines[slug] = Cine(
+                cadena="Cinemark Hoyts",
+                nombre=theater.get("name") or slug.replace("-", " ").title(),
+                slug=slug,
+            )
+            peliculas[slug] = {}
+
+        movie = movie_map.get(str(showtime.get("corporateId", "")), {})
+        titulo = showtime.get("movieName") or movie.get("title") or "Sin título"
+        movie_key = normalizar_texto(titulo)
+        if movie_key not in peliculas[slug]:
+            movie_slug = movie.get("slug") or ""
+            url_pelicula = f"https://www.cinemark.com.ar/peliculas/{movie_slug}" if movie_slug else ""
+            peliculas[slug][movie_key] = Pelicula(
+                titulo=titulo,
+                url=url_pelicula,
+                imagen=poster_local_existente(titulo, url_pelicula),
+            )
+
+        peliculas[slug][movie_key].funciones.append(
+            Funcion(
+                horario=horario,
+                formato=formato_cinemark(showtime),
+            )
+        )
+
+    for slug, cine in cines.items():
+        cine.peliculas = list(peliculas[slug].values())
+
+    if debug:
+        total = sum(len(p.funciones) for c in cines.values() for p in c.peliculas)
+        log(f"Cinemark directo: {len(cines)} cines, {total} funciones para {fecha}.", True, debug)
+    return list(cines.values())
+
+
+def parsear_multiplex_complejos(soup: BeautifulSoup) -> dict:
+    mapa = {}
+    contenedor = soup.find(id="filtro-complejos")
+    if not contenedor:
+        return mapa
+    for label in contenedor.find_all("label"):
+        inp = label.find("input")
+        if inp and inp.get("value"):
+            mapa[str(inp["value"])] = label.get_text(strip=True)
+    return mapa
+
+
+def fecha_multiplex_iso(fecha_mdy: str) -> str:
+    try:
+        return datetime.strptime(fecha_mdy, "%m.%d.%Y").strftime("%Y-%m-%d")
+    except ValueError:
+        return fecha_mdy
+
+
+def formato_multiplex(funcion: dict) -> str:
+    partes = [funcion.get("formato") or "2D"]
+    idioma = funcion.get("idioma") or ""
+    if normalizar_texto(idioma) == "espanol":
+        idioma = "Doblada"
+    if idioma and normalizar_texto(idioma) not in normalizar_texto(partes[0]):
+        partes.append(idioma)
+    return re.sub(r"\s+", " ", " ".join(partes)).strip()
+
+
+def escanear_multiplex_directo(fecha: str, debug: bool = False, descargar_imagenes: bool = False) -> list:
+    session = requests.Session()
+    soup = get_soup(MULTIPLEX_BASE_URL, session)
+    complejos = parsear_multiplex_complejos(soup)
+    cines = {}
+    peliculas = {}
+
+    for bloque in soup.select("div.funcion-item"):
+        raw = bloque.get("data-funciones")
+        if not raw:
+            continue
+        try:
+            funciones_raw = json.loads(html.unescape(raw))
+        except json.JSONDecodeError:
+            continue
+        if not funciones_raw:
+            continue
+
+        cabecera = bloque.find("div", class_="pelicula-cabecera")
+        titulo = ""
+        url_pelicula = ""
+        img_url = ""
+        if cabecera:
+            a_titulo = cabecera.find("a", class_="titulo-link")
+            if a_titulo:
+                titulo = a_titulo.get_text(strip=True)
+                url_pelicula = a_titulo.get("href") or ""
+            a_portada = cabecera.find("a", class_="portada-link")
+            if a_portada:
+                url_pelicula = a_portada.get("href") or url_pelicula
+                img_tag = a_portada.find("img")
+                if img_tag:
+                    img_url = img_tag.get("src") or ""
+        if not titulo:
+            h4 = bloque.find("h4")
+            titulo = h4.get_text(strip=True) if h4 else "Sin título"
+
+        if url_pelicula.startswith("/"):
+            url_pelicula = f"{MULTIPLEX_BASE_URL}{url_pelicula}"
+        if img_url.startswith("/"):
+            img_url = f"{MULTIPLEX_BASE_URL}{img_url}"
+
+        for funcion in funciones_raw:
+            fecha_funcion = fecha_multiplex_iso(funcion.get("dia_real") or funcion.get("dia") or "")
+            if fecha_funcion != fecha:
+                continue
+            nombre_complejo = complejos.get(str(funcion.get("complejo", "")), "")
+            slug = MULTIPLEX_SLUGS.get(normalizar_texto(nombre_complejo))
+            if not slug:
+                continue
+
+            if slug not in cines:
+                cines[slug] = Cine(
+                    cadena="Multiplex",
+                    nombre=nombre_complejo or slug.replace("-", " ").title(),
+                    slug=slug,
+                )
+                peliculas[slug] = {}
+
+            movie_key = normalizar_texto(titulo)
+            if movie_key not in peliculas[slug]:
+                imagen = ""
+                if img_url and descargar_imagenes:
+                    imagen = descargar_imagen(img_url, session)
+                if not imagen:
+                    imagen = poster_local_existente(titulo, url_pelicula)
+                peliculas[slug][movie_key] = Pelicula(
+                    titulo=titulo,
+                    url=url_pelicula,
+                    imagen=imagen,
+                )
+
+            peliculas[slug][movie_key].funciones.append(
+                Funcion(
+                    horario=funcion.get("hora", ""),
+                    formato=formato_multiplex(funcion),
+                )
+            )
+
+    for slug, cine in cines.items():
+        cine.peliculas = list(peliculas[slug].values())
+
+    if debug:
+        total = sum(len(p.funciones) for c in cines.values() for p in c.peliculas)
+        log(f"Multiplex directo: {len(cines)} cines, {total} funciones para {fecha}.", True, debug)
+    return list(cines.values())
+
+
+def enriquecer_con_scrapers_directos(cines: list, fecha: str, debug: bool = False, descargar_imagenes: bool = False) -> list:
+    scanners = (
+        ("Cinemark", lambda: escanear_cinemark_directo(fecha, debug=debug)),
+        ("Multiplex", lambda: escanear_multiplex_directo(fecha, debug=debug, descargar_imagenes=descargar_imagenes)),
+    )
+    for nombre, scanner in scanners:
+        try:
+            cines_extra = scanner()
+        except Exception as e:
+            log(f"!! no se pudo enriquecer con {nombre}: {e}")
+            continue
+        mergear_cines(cines, cines_extra, debug=debug)
+    return cines
 
 
 def armar_cines_desde_api(
@@ -878,6 +1457,123 @@ def escanear(
 def exportar_json(cines: list, path: str):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     data = [asdict(c) for c in cines]
+    for cine in data:
+        for pelicula in cine["peliculas"]:
+            if not pelicula.get("imagen"):
+                pelicula["imagen"] = poster_local_existente(
+                    pelicula.get("titulo", ""),
+                    pelicula.get("url", ""),
+                )
+            for funcion in pelicula["funciones"]:
+                funcion.pop("precio_general", None)
+                funcion.pop("precio_jubilado", None)
+                funcion.pop("precio_menor", None)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def precio_a_dict(precio: tuple, formato: str) -> dict:
+    return {
+        "formato": formato,
+        "precio_general": precio[0],
+        "precio_jubilado": precio[1],
+        "precio_menor": precio[2],
+    }
+
+
+def agregar_precio_tarifario(tarifario: dict, formato: str, precio: tuple):
+    clave = clave_formato_precio(formato)
+    actual = tarifario.get(clave)
+    if actual is None:
+        tarifario[clave] = precio_a_dict(precio, formato)
+        return
+    if precio[0] is None:
+        return
+    if actual["precio_general"] is None or precio[0] > actual["precio_general"]:
+        tarifario[clave] = precio_a_dict(precio, formato)
+
+
+def recolectar_precios(cines: list) -> dict:
+    precios = {}
+    for cine in cines:
+        if cine.slug not in precios:
+            precios[cine.slug] = {
+                "cadena": cine.cadena,
+                "nombre": cine.nombre,
+                "formatos": {},
+            }
+        formatos = precios[cine.slug]["formatos"]
+        for pelicula in cine.peliculas:
+            for funcion in pelicula.funciones:
+                agregar_precio_tarifario(
+                    formatos,
+                    funcion.formato,
+                    (
+                        funcion.precio_general,
+                        funcion.precio_jubilado,
+                        funcion.precio_menor,
+                    ),
+                )
+    return {
+        slug: {
+            **cine,
+            "formatos": dict(sorted(cine["formatos"].items())),
+        }
+        for slug, cine in sorted(precios.items())
+        if cine["formatos"]
+    }
+
+
+def cargar_json_existente(path: str) -> dict:
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def fusionar_precios(generados: dict, existentes: dict) -> dict:
+    promociones = existentes.get("promociones")
+    if promociones is None:
+        promociones = [
+            {
+                "id": "ejemplo-2x1-miercoles",
+                "nombre": "2x1 miércoles",
+                "activa": False,
+                "dias": [3],
+                "cadenas": ["Cinemark Hoyts"],
+                "formatos": ["*"],
+                "tipo": "2x1",
+            }
+        ]
+    resultado = {
+        "version": 1,
+        "cines": generados,
+        "promociones": promociones,
+    }
+    for slug, cine_existente in existentes.get("cines", {}).items():
+        cine_resultado = resultado["cines"].setdefault(
+            slug,
+            {
+                "cadena": cine_existente.get("cadena", ""),
+                "nombre": cine_existente.get("nombre", slug),
+                "formatos": {},
+            },
+        )
+        for clave, precio_existente in cine_existente.get("formatos", {}).items():
+            if precio_existente.get("precio_general") is not None:
+                cine_resultado["formatos"][clave] = precio_existente
+            else:
+                cine_resultado["formatos"].setdefault(clave, precio_existente)
+    return resultado
+
+
+def exportar_precios_json(cines: list, path: str):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    existentes = cargar_json_existente(path)
+    data = fusionar_precios(recolectar_precios(cines), existentes)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -1000,9 +1696,9 @@ def exportar_csv(cines: list, path: str):
                             peli.titulo,
                             func.formato,
                             func.horario,
-                            func.precio_general if func.precio_general is not None else "",
-                            func.precio_jubilado if func.precio_jubilado is not None else "",
-                            func.precio_menor if func.precio_menor is not None else "",
+                            "",
+                            "",
+                            "",
                             peli.url,
                         ]
                     )
@@ -1041,6 +1737,10 @@ def imprimir_resumen(cines: list):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+
     parser = argparse.ArgumentParser(
         description=(
             "Escanea horarios de cine en CABA y GBA (todas las cadenas) "
@@ -1077,6 +1777,7 @@ def main():
     )
     parser.add_argument("--json-dir", default="public/cartelera", help="Directorio de JSON por día.")
     parser.add_argument("--csv-dir", default="cartelera-csv", help="Directorio de CSV por día.")
+    parser.add_argument("--precios", default="public/cartelera/precios.json", help="Archivo JSON único de precios.")
     parser.add_argument("--json", default=None, help="Archivo JSON de salida para un solo día.")
     parser.add_argument("--csv", default=None, help="Archivo CSV de salida para un solo día.")
     parser.add_argument("--delay", type=float, default=1.0, help="Segundos entre pedidos (default 1.0).")
@@ -1087,7 +1788,13 @@ def main():
         action="store_false",
         help="Desactivar la descarga de imágenes (por defecto SÍ se descargan).",
     )
-    parser.set_defaults(descargar_imagenes=True)
+    parser.add_argument(
+        "--sin-extras",
+        dest="usar_extras",
+        action="store_false",
+        help="No enriquecer Cinemark/Multiplex con los scrapers directos.",
+    )
+    parser.set_defaults(descargar_imagenes=True, usar_extras=True)
     args = parser.parse_args()
 
     cadenas = tuple(c.strip().lower() for c in args.cadenas.split(",") if c.strip())
@@ -1103,11 +1810,21 @@ def main():
 
         log(f"\n=== Escaneando fecha {fecha} ===")
         cines = escanear(args.zonas, cadenas, fecha, args.delay, debug=args.debug, descargar_imagenes=args.descargar_imagenes)
+        if args.usar_extras:
+            cines = enriquecer_con_scrapers_directos(
+                cines,
+                fecha,
+                debug=args.debug,
+                descargar_imagenes=args.descargar_imagenes,
+            )
         filtrar_funciones_pasadas(cines, fecha)
         exportar_json(cines, json_path)
         exportar_csv(cines, csv_path)
         resultados.extend(cines)
         print(f"Guardado: {json_path} y {csv_path}")
+
+    exportar_precios_json(resultados, args.precios)
+    print(f"Guardado: {args.precios}")
 
     limpiar_archivos_vencidos(args.json_dir, "json")
     limpiar_archivos_vencidos(args.csv_dir, "csv")

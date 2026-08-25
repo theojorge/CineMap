@@ -67,18 +67,38 @@ function PriceList({ funcion }: { funcion: Funcion }) {
   ].filter(([, price]) => typeof price === "number") as [string, number][];
 
   if (prices.length === 0) {
-    return <p className="text-sm text-fg-muted">Precio no disponible</p>;
+    return (
+      <div className="grid gap-2">
+        <p className="text-sm text-fg-muted">Precio no disponible</p>
+        {funcion.promociones?.length ? (
+          <div className="flex flex-wrap gap-1.5 text-xs font-medium text-cream">
+            {funcion.promociones.map((promo) => (
+              <span key={promo}>{promo}</span>
+            ))}
+          </div>
+        ) : null}
+      </div>
+    );
   }
 
   return (
-    <dl className="grid gap-1.5 text-sm">
-      {prices.map(([label, price]) => (
-        <div key={label} className="flex items-center justify-between gap-3">
-          <dt className="text-fg-muted">{label}</dt>
-          <dd className="font-semibold tabular-nums text-fg">{formatPrice(price)}</dd>
+    <div className="grid gap-2">
+      <dl className="grid gap-1.5 text-sm">
+        {prices.map(([label, price]) => (
+          <div key={label} className="flex items-center justify-between gap-3">
+            <dt className="text-fg-muted">{label}</dt>
+            <dd className="font-semibold tabular-nums text-fg">{formatPrice(price)}</dd>
+          </div>
+        ))}
+      </dl>
+      {funcion.promociones?.length ? (
+        <div className="flex flex-wrap gap-1.5 text-xs font-medium text-cream">
+          {funcion.promociones.map((promo) => (
+            <span key={promo}>{promo}</span>
+          ))}
         </div>
-      ))}
-    </dl>
+      ) : null}
+    </div>
   );
 }
 

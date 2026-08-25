@@ -94,6 +94,9 @@ export function CinemaPanel({ cine, loaded, onClose, onSelectFuncion, selectedDa
                       {typeof f.precio_general === "number" ? (
                         <span className="text-fg-muted">{formatPrice(f.precio_general)}</span>
                       ) : null}
+                      {f.promociones?.map((promo) => (
+                        <span key={promo} className="text-cream">{promo}</span>
+                      ))}
                     </button>
                   ))}
                 </div>

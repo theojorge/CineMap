@@ -64,6 +64,11 @@ export function MoviePanel({ movieTitle, showtimes, loaded, onClose, onSelectFun
                         <span className="font-medium text-fg">{formatPrice(funcion.precio_general)}</span>
                       </>
                     ) : null}
+                    {funcion.promociones?.map((promo) => (
+                      <span key={promo} className="font-medium text-cream">
+                        · {promo}
+                      </span>
+                    ))}
                   </div>
                 </button>
               </li>

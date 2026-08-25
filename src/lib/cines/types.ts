@@ -5,6 +5,7 @@ export type Funcion = {
   precio_general?: number;
   precio_jubilado?: number;
   precio_menor?: number;
+  promociones?: string[];
 };
 
 export type Pelicula = {
