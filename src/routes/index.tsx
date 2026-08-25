@@ -187,8 +187,17 @@ function CarteleraApp() {
   );
 }
 
+function normalizeText(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
 function filterMovies(cines: (Cine | CineSeed)[], raw: string): { movieTitle: string; cineSlug: string; cine: Cine | CineSeed }[] {
-  const q = raw.trim().toLowerCase();
+  const q = normalizeText(raw.trim());
   if (!q) return [];
   const results: { movieTitle: string; cineSlug: string; cine: Cine | CineSeed }[] = [];
   const seenMovies = new Set<string>();
@@ -196,8 +205,9 @@ function filterMovies(cines: (Cine | CineSeed)[], raw: string): { movieTitle: st
   cines.forEach((c) => {
     if ("peliculas" in c) {
       c.peliculas.forEach((p) => {
-        if (p.titulo.toLowerCase().includes(q) && !seenMovies.has(p.titulo)) {
-          seenMovies.add(p.titulo);
+        const normalizedTitle = normalizeText(p.titulo);
+        if (normalizedTitle.includes(q) && !seenMovies.has(normalizedTitle)) {
+          seenMovies.add(normalizedTitle);
           results.push({ movieTitle: p.titulo, cineSlug: c.slug, cine: c });
         }
       });
