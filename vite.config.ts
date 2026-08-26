@@ -15,16 +15,8 @@ export default defineConfig(({ command, isPreview }) => ({
     port: 8081,
     strictPort: true,
   },
-  resolve: { tsconfigPaths: true },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-          'leaflet-vendor': ['react-leaflet', 'leaflet'],
-        },
-      },
-    },
+  resolve: {
+    tsconfigPaths: true,
   },
   plugins: [
     tailwindcss(),
