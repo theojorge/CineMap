@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import type { Cine, CineSeed, Funcion } from "@/lib/cines/types";
 import { isUpcomingFuncion } from "@/lib/utils";
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
+import { preloadImage } from "@/lib/image-cache";
 
 type Props = {
   cine: Cine | CineSeed;
@@ -25,6 +26,15 @@ export function CinemaPanel({ cine, loaded, onClose, onSelectFuncion, selectedDa
       }))
       .filter((p) => p.funciones.length > 0);
   }, [peliculas, selectedDate]);
+
+  // Preload images
+  useEffect(() => {
+    filteredPeliculas.forEach((p) => {
+      if (p.imagen) {
+        preloadImage(p.imagen).catch(() => {});
+      }
+    });
+  }, [filteredPeliculas]);
 
   const n = filteredPeliculas.reduce((sum, p) => sum + p.funciones.length, 0);
 
@@ -71,34 +81,50 @@ export function CinemaPanel({ cine, loaded, onClose, onSelectFuncion, selectedDa
         ) : filteredPeliculas.length === 0 ? (
           <p className="text-sm text-fg-muted">Sin funciones hoy.</p>
         ) : (
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-3">
             {filteredPeliculas.map((p) => (
               <li key={p.titulo}>
-                <div className="mb-2 flex items-baseline justify-between gap-2">
-                  <h3 className="text-sm font-medium text-fg">{p.titulo}</h3>
-                  <span className="text-xs tabular-nums text-fg-subtle">
-                    {p.funciones.length}
-                  </span>
-                </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {p.funciones.map((f, i) => (
-                    <button
-                      key={`${f.horario}-${f.formato}-${i}`}
-                      type="button"
-                      onClick={() => onSelectFuncion?.(p.titulo, f, p.imagen)}
-                      className="inline-flex min-h-9 min-w-14 items-center justify-center gap-1.5 rounded-sm border border-border bg-surface-2 px-2.5 py-1.5 text-xs text-fg hover:border-cream hover:bg-surface"
-                      title={`${f.formato} — ver en mapa`}
-                    >
-                      <span className="font-medium tabular-nums">{f.horario}</span>
-                      <span className="text-fg-subtle">{shortFormat(f.formato)}</span>
-                      {typeof f.precio_general === "number" ? (
-                        <span className="text-fg-muted">{formatPrice(f.precio_general)}</span>
-                      ) : null}
-                      {f.promociones?.map((promo) => (
-                        <span key={promo} className="text-cream">{promo}</span>
+                <div className="flex gap-3 rounded-lg border border-border bg-surface-2 p-3">
+                  {p.imagen ? (
+                    <img
+                      src={p.imagen}
+                      alt={p.titulo}
+                      loading="lazy"
+                      width="56"
+                      height="80"
+                      className="h-20 w-14 shrink-0 rounded-sm object-cover"
+                    />
+                  ) : (
+                    <div className="h-20 w-14 shrink-0 rounded-sm bg-surface" />
+                  )}
+                  <div className="min-w-0 flex-1">
+                    <div className="mb-2 flex items-baseline justify-between gap-2">
+                      <h3 className="text-sm font-medium text-fg truncate">{p.titulo}</h3>
+                      <span className="text-xs tabular-nums text-fg-subtle shrink-0">
+                        {p.funciones.length}
+                      </span>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {p.funciones.map((f, i) => (
+                        <button
+                          key={`${f.horario}-${f.formato}-${i}`}
+                          type="button"
+                          onClick={() => onSelectFuncion?.(p.titulo, f, p.imagen)}
+                          className="inline-flex min-h-9 min-w-14 items-center justify-center gap-1.5 rounded-sm border border-border bg-surface px-2.5 py-1.5 text-xs text-fg hover:border-cream hover:bg-surface-2"
+                          title={`${f.formato} — ver en mapa`}
+                        >
+                          <span className="font-medium tabular-nums">{f.horario}</span>
+                          <span className="text-fg-subtle">{shortFormat(f.formato)}</span>
+                          {typeof f.precio_general === "number" ? (
+                            <span className="text-fg-muted">{formatPrice(f.precio_general)}</span>
+                          ) : null}
+                          {f.promociones?.map((promo) => (
+                            <span key={promo} className="text-cream">{promo}</span>
+                          ))}
+                        </button>
                       ))}
-                    </button>
-                  ))}
+                    </div>
+                  </div>
                 </div>
               </li>
             ))}

@@ -2,11 +2,14 @@ import { Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { cn, formatDayLabel } from "@/lib/utils";
 import type { Cine, CineSeed } from "@/lib/cines/types";
+import { useEffect } from "react";
+import { preloadImage } from "@/lib/image-cache";
 
 type MovieMatch = {
   movieTitle: string;
   cineSlug: string;
   cine: Cine | CineSeed;
+  movieImage?: string;
 };
 
 type Props = {
@@ -33,6 +36,15 @@ export function SearchBar({
   loading,
 }: Props) {
   const showList = query.trim().length > 0 && movieMatches.length > 0;
+
+  // Preload images for search results
+  useEffect(() => {
+    movieMatches.forEach((m) => {
+      if (m.movieImage) {
+        preloadImage(m.movieImage).catch(() => {});
+      }
+    });
+  }, [movieMatches]);
 
   return (
     <div className="pointer-events-auto flex w-full max-w-xl flex-col gap-2">
@@ -64,9 +76,21 @@ export function SearchBar({
               <li key={m.movieTitle}>
                 <button
                   type="button"
-                  className="flex w-full flex-col items-start rounded-sm px-3 py-2 text-left hover:bg-surface-2"
+                  className="flex w-full items-center gap-3 rounded-sm px-3 py-2 text-left hover:bg-surface-2"
                   onClick={() => onPickMovie(m.movieTitle)}
                 >
+                  {m.movieImage ? (
+                    <img
+                      src={m.movieImage}
+                      alt={m.movieTitle}
+                      loading="lazy"
+                      width="32"
+                      height="48"
+                      className="h-12 w-8 shrink-0 rounded-sm object-cover"
+                    />
+                  ) : (
+                    <div className="h-12 w-8 shrink-0 rounded-sm bg-surface" />
+                  )}
                   <span className="text-sm font-medium text-fg">{m.movieTitle}</span>
                 </button>
               </li>

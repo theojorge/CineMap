@@ -18,7 +18,13 @@ function Home() {
     () =>
       new QueryClient({
         defaultOptions: {
-          queries: { retry: 1, refetchOnWindowFocus: false },
+          queries: {
+            retry: 1,
+            refetchOnWindowFocus: false,
+            refetchOnMount: false,
+            staleTime: 5 * 60 * 1000, // 5 minutos
+            cacheTime: 10 * 60 * 1000, // 10 minutos
+          },
         },
       }),
   );
@@ -81,28 +87,39 @@ function CarteleraApp() {
   const selected = cines.find((c) => c.slug === selectedSlug);
 
   const movieShowtimes = useMemo(() => {
-    if (!selectedMovie || !cartelera.data) return [];
+    if (!selectedMovie || !cartelera.data) return { showtimes: [], movieImage: undefined };
     const showtimes: { cine: Cine | CineSeed; funcion: Funcion; pelicula: Pelicula }[] = [];
-    cines.forEach((c) => {
-      if ("peliculas" in c) {
-        const movie = c.peliculas.find((p) => p.titulo === selectedMovie);
-        if (movie) {
-          movie.funciones.forEach((f) => {
-            if (isUpcomingFuncion(f.horario, date)) {
-              showtimes.push({ cine: c, funcion: f, pelicula: movie });
-            }
-          });
+    let movieImage: string | undefined;
+
+    // Optimización: reducir iterations y procesamiento
+    for (const c of cines) {
+      if (!("peliculas" in c)) continue;
+
+      const movie = c.peliculas.find((p) => p.titulo === selectedMovie);
+      if (!movie) continue;
+
+      if (!movieImage) movieImage = movie.imagen;
+
+      // Filtrar y agregar funciones de forma más eficiente
+      for (const f of movie.funciones) {
+        if (isUpcomingFuncion(f.horario, date)) {
+          showtimes.push({ cine: c, funcion: f, pelicula: movie });
         }
       }
-    });
-    // Sort by time
-    return showtimes.sort((a, b) => {
-      const timeA = a.funcion.horario.split(':').map(Number);
-      const timeB = b.funcion.horario.split(':').map(Number);
-      if (timeA[0] !== timeB[0]) return timeA[0] - timeB[0];
-      return timeA[1] - timeB[1];
-    });
+    }
+
+    // Sort optimizado usando una sola comparación
+    return {
+      showtimes: showtimes.sort((a, b) => {
+        const [hoursA, minsA] = a.funcion.horario.split(':').map(Number);
+        const [hoursB, minsB] = b.funcion.horario.split(':').map(Number);
+        return hoursA * 60 + minsA - (hoursB * 60 + minsB);
+      }),
+      movieImage
+    };
   }, [selectedMovie, cartelera.data, cines, date]);
+
+  const { showtimes, movieImage } = movieShowtimes;
 
   const handleSelectFuncion = (cineSlug: string, movieTitle: string, funcion: Funcion, movieImage?: string) => {
     setSelectedSlug(cineSlug);
@@ -157,10 +174,11 @@ function CarteleraApp() {
           {selectedMovie ? (
             <MoviePanel
               movieTitle={selectedMovie}
-              showtimes={movieShowtimes}
+              showtimes={showtimes}
               loaded={Boolean(cartelera.data)}
               onClose={() => setSelectedMovie(null)}
               onSelectFuncion={handleSelectFuncion}
+              movieImage={movieImage}
             />
           ) : selected ? (
             <CinemaPanel
@@ -196,10 +214,10 @@ function normalizeText(value: string): string {
     .trim();
 }
 
-function filterMovies(cines: (Cine | CineSeed)[], raw: string): { movieTitle: string; cineSlug: string; cine: Cine | CineSeed }[] {
+function filterMovies(cines: (Cine | CineSeed)[], raw: string): { movieTitle: string; cineSlug: string; cine: Cine | CineSeed; movieImage?: string }[] {
   const q = normalizeText(raw.trim());
   if (!q) return [];
-  const results: { movieTitle: string; cineSlug: string; cine: Cine | CineSeed }[] = [];
+  const results: { movieTitle: string; cineSlug: string; cine: Cine | CineSeed; movieImage?: string }[] = [];
   const seenMovies = new Set<string>();
 
   cines.forEach((c) => {
@@ -208,7 +226,7 @@ function filterMovies(cines: (Cine | CineSeed)[], raw: string): { movieTitle: st
         const normalizedTitle = normalizeText(p.titulo);
         if (normalizedTitle.includes(q) && !seenMovies.has(normalizedTitle)) {
           seenMovies.add(normalizedTitle);
-          results.push({ movieTitle: p.titulo, cineSlug: c.slug, cine: c });
+          results.push({ movieTitle: p.titulo, cineSlug: c.slug, cine: c, movieImage: p.imagen });
         }
       });
     }

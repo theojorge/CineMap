@@ -16,6 +16,16 @@ export default defineConfig(({ command, isPreview }) => ({
     strictPort: true,
   },
   resolve: { tsconfigPaths: true },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'leaflet-vendor': ['react-leaflet', 'leaflet'],
+        },
+      },
+    },
+  },
   plugins: [
     tailwindcss(),
     tanstackStart(),
