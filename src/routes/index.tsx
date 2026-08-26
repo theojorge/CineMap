@@ -130,10 +130,10 @@ function CarteleraApp() {
       <div className="pointer-events-none absolute inset-0 z-10 flex flex-col">
         <header className="flex flex-col gap-3 p-3 pt-[max(0.75rem,env(safe-area-inset-top))] md:p-5">
           <div className="pointer-events-auto flex items-baseline gap-3">
-            <h1 className="font-display text-2xl tracking-tight text-cream md:text-3xl">
+            <h1 className="font-display text-2xl tracking-tight text-black md:text-3xl">
               CineMap
             </h1>
-            <p className="hidden text-sm text-fg-muted sm:block">CABA y GBA</p>
+            <p className="hidden text-sm text-black sm:block">CABA y GBA</p>
           </div>
           <SearchBar
             query={query}

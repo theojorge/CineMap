@@ -17,7 +17,7 @@ type Props = {
 
 export function MoviePanel({ movieTitle, showtimes, loaded, onClose, onSelectFuncion }: Props) {
   return (
-    <aside className="pointer-events-auto flex max-h-[52vh] w-full shrink-0 flex-col overflow-hidden rounded-t-xl border border-border bg-surface shadow-panel md:h-full md:max-h-none md:w-96 md:rounded-xl">
+    <aside className="pointer-events-auto flex max-h-[52vh] w-full shrink-0 flex-col overflow-hidden rounded-t-xl border border-border bg-surface shadow-panel md:h-full md:max-h-none md:w-[28rem] md:rounded-xl">
       <header className="flex items-start gap-3 border-b border-border p-4">
         <div className="min-w-0 flex-1">
           <p className="text-xs font-medium tracking-wide text-fg-muted uppercase">Funciones</p>

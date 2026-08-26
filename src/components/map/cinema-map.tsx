@@ -31,7 +31,7 @@ function FlyToSelected({ cine }: { cine: CineSeed | undefined }) {
   const map = useMap();
   useEffect(() => {
     if (!cine) return;
-    map.flyTo([cine.lat, cine.lng], 14, { duration: 0.75 });
+    map.flyTo([cine.lat, cine.lng], 16, { duration: 0.75 });
   }, [cine, map]);
   return null;
 }
