@@ -35,17 +35,17 @@
           "precio_jubilado": 14000,
           "precio_menor": 14000
         },
-        "4dx doblada": {
-          "formato": "4DX Doblada",
-          "precio_general": 17000,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
         "3d doblada": {
           "formato": "3D Doblada",
           "precio_general": 21000,
           "precio_jubilado": 17000,
           "precio_menor": 17000
+        },
+        "4dx doblada": {
+          "formato": "4DX Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
         }
       }
     },
@@ -59,17 +59,17 @@
           "precio_jubilado": 10500,
           "precio_menor": 10500
         },
-        "4dx doblada": {
-          "formato": "4DX Doblada",
-          "precio_general": 20000,
-          "precio_jubilado": 15000,
-          "precio_menor": 15000
-        },
         "3d doblada": {
           "formato": "3D Doblada",
           "precio_general": 17000,
           "precio_jubilado": 13500,
           "precio_menor": 13500
+        },
+        "4dx doblada": {
+          "formato": "4DX Doblada",
+          "precio_general": 20000,
+          "precio_jubilado": 15000,
+          "precio_menor": 15000
         }
       }
     },
@@ -538,6 +538,12 @@
           "precio_general": 19600,
           "precio_jubilado": 12500,
           "precio_menor": 12500
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 19600,
+          "precio_jubilado": 12500,
+          "precio_menor": 12500
         }
       }
     },
@@ -899,6 +905,12 @@
           "precio_jubilado": 12600,
           "precio_menor": 12600
         },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
         "4d 2d doblada": {
           "formato": "4D 2D Doblada",
           "precio_general": 27400,
@@ -1061,18 +1073,6 @@
       "cadena": "Multiplex",
       "nombre": "Multiplex Belgrano",
       "formatos": {
-        "2d + comfort plus doblada": {
-          "formato": "2D + COMFORT PLUS Doblada",
-          "precio_general": 16000,
-          "precio_jubilado": 12000,
-          "precio_menor": 12000
-        },
-        "2d + comfort plus subtitulada": {
-          "formato": "2D + COMFORT PLUS Subtitulada",
-          "precio_general": 16000,
-          "precio_jubilado": 12000,
-          "precio_menor": 12000
-        },
         "2d doblada": {
           "formato": "2D Doblada",
           "precio_general": 15000,
@@ -1084,6 +1084,18 @@
           "precio_general": 15000,
           "precio_jubilado": 11000,
           "precio_menor": 11000
+        },
+        "2d + comfort plus doblada": {
+          "formato": "2D + COMFORT PLUS Doblada",
+          "precio_general": 16000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
+        "2d + comfort plus subtitulada": {
+          "formato": "2D + COMFORT PLUS Subtitulada",
+          "precio_general": 16000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
         },
         "4d + 2d subtitulada": {
           "formato": "4D + 2D Subtitulada",

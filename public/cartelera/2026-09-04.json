@@ -12,7 +12,7 @@
         "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
         "funciones": [
           {
-            "horario": "19:50",
+            "horario": "22:35",
             "formato": "IMAX Subtitulada"
           }
         ]
@@ -23,11 +23,15 @@
         "imagen": "/posters/la-odisea.jpg",
         "funciones": [
           {
-            "horario": "12:40",
+            "horario": "12:00",
             "formato": "IMAX Subtitulada"
           },
           {
-            "horario": "22:30",
+            "horario": "15:25",
+            "formato": "IMAX Subtitulada"
+          },
+          {
+            "horario": "19:00",
             "formato": "IMAX Subtitulada"
           }
         ]
@@ -58,15 +62,26 @@
         "imagen": "",
         "funciones": [
           {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Que Dios perdona a todos",
+        "url": "",
+        "imagen": "",
+        "funciones": [
+          {
             "horario": "19:00",
             "formato": "2D Subtitulada"
           }
         ]
       },
       {
-        "titulo": "Un año de escuela",
+        "titulo": "Cosas que no olvidaré",
         "url": "",
-        "imagen": "",
+        "imagen": "/posters/zNgwvn3xKXlFM73xGwOjsERTaNf.jpg",
         "funciones": [
           {
             "horario": "16:30",
@@ -75,12 +90,47 @@
         ]
       },
       {
-        "titulo": "El secuestro de Arabella",
+        "titulo": "Una breve historia de Amor",
         "url": "",
         "imagen": "",
         "funciones": [
           {
-            "horario": "21:30",
+            "horario": "14:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
+        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-movie-3-hangyaku-no-monogatari",
+        "imagen": "/posters/sLoAws32ETKAownjg87LaEOvxmk.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -119,41 +169,6 @@
     ]
   },
   {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
-    "peliculas": [
-      {
-        "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
-        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-movie-3-hangyaku-no-monogatari",
-        "imagen": "/posters/sLoAws32ETKAownjg87LaEOvxmk.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Multiplex",
     "nombre": "Multiplex Belgrano",
     "slug": "multiplex-belgrano",
@@ -178,26 +193,6 @@
     ]
   },
   {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
-    "peliculas": [
-      {
-        "titulo": "A Metros de Distancia",
-        "url": "",
-        "imagen": "/posters/A3tEYeLijo1PWXZLTckVSM05YVX.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Catan",
     "slug": "atlas-catan",
@@ -211,7 +206,7 @@
         "funciones": [
           {
             "horario": "21:40",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -231,7 +226,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -251,27 +246,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Luján",
-    "slug": "cinepolis-lujan",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Constitución 1000, Luján",
-    "peliculas": [
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -331,7 +306,7 @@
         "funciones": [
           {
             "horario": "22:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -402,7 +377,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -427,13 +402,24 @@
         ]
       },
       {
+        "titulo": "JUAN GABRIEL: MI PRIMER BELLAS ARTES",
+        "url": "https://www.cinemark.com.ar/peliculas/juan-gabriel-mi-primer-bellas-artes",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
         "titulo": "TERMINATOR 2: EL JUICIO FINAL",
         "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
         "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -464,31 +450,22 @@
         "funciones": [
           {
             "horario": "19:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "3D Subtitulada"
           }
         ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "DOT",
-    "slug": "hoyts-dot-baires",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
+      },
       {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "titulo": "JUAN GABRIEL: MI PRIMER BELLAS ARTES",
+        "url": "https://www.cinemark.com.ar/peliculas/juan-gabriel-mi-primer-bellas-artes",
+        "imagen": "",
         "funciones": [
           {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "horario": "20:00",
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -508,7 +485,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "3D Subtitulada"
           }
         ]
       }
@@ -516,8 +493,8 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Moreno",
-    "slug": "hoyts-moreno",
+    "nombre": "DOT",
+    "slug": "hoyts-dot-baires",
     "zona": "",
     "direccion": "",
     "peliculas": [
@@ -528,27 +505,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Subtitulada"
           }
         ]
       }
@@ -568,7 +525,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -588,47 +545,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Alto Avellaneda",
-    "slug": "cinemark-avellaneda",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moron",
-    "slug": "hoyts-moron",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -648,7 +565,27 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moreno",
+    "slug": "hoyts-moreno",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "3D Doblada"
           }
         ]
       }
