@@ -197,6 +197,12 @@
           "precio_jubilado": 15000,
           "precio_menor": 15000
         },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
         "4d 2d doblada": {
           "formato": "4D 2D Doblada",
           "precio_general": 28600,
@@ -467,6 +473,12 @@
           "precio_jubilado": 14600,
           "precio_menor": 14600
         },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 18200,
+          "precio_jubilado": 14600,
+          "precio_menor": 14600
+        },
         "3d doblada": {
           "formato": "3D Doblada",
           "precio_general": 23800,
@@ -508,12 +520,6 @@
           "precio_general": 21400,
           "precio_jubilado": null,
           "precio_menor": null
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 18200,
-          "precio_jubilado": 14600,
-          "precio_menor": 14600
         }
       }
     },
@@ -1073,18 +1079,6 @@
       "cadena": "Multiplex",
       "nombre": "Multiplex Belgrano",
       "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 15000,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 15000,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
         "2d + comfort plus doblada": {
           "formato": "2D + COMFORT PLUS Doblada",
           "precio_general": 16000,
@@ -1096,6 +1090,18 @@
           "precio_general": 16000,
           "precio_jubilado": 12000,
           "precio_menor": 12000
+        },
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 15000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
         },
         "4d + 2d subtitulada": {
           "formato": "4D + 2D Subtitulada",
