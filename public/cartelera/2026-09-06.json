@@ -12,7 +12,7 @@
         "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
         "funciones": [
           {
-            "horario": "22:35",
+            "horario": "19:50",
             "formato": "IMAX Subtitulada"
           }
         ]
@@ -23,11 +23,15 @@
         "imagen": "/posters/la-odisea.jpg",
         "funciones": [
           {
-            "horario": "12:00",
+            "horario": "12:40",
             "formato": "IMAX Subtitulada"
           },
           {
-            "horario": "15:25",
+            "horario": "16:15",
+            "formato": "IMAX Subtitulada"
+          },
+          {
+            "horario": "22:30",
             "formato": "IMAX Subtitulada"
           }
         ]
@@ -272,94 +276,23 @@
     ]
   },
   {
-    "cadena": "Showcase",
-    "nombre": "Showcase Haedo",
-    "slug": "showcase-haedo",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
-    "peliculas": [
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Katy Perry: The Lifetimes Tour - Live From Paris",
-        "url": "",
-        "imagen": "/posters/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Showcase",
-    "nombre": "Showcase Norte (Norcenter)",
-    "slug": "showcase-norte-norcenter",
-    "zona": "GBA Norte",
-    "direccion": "Colectora Panamericana 3750, Norcenter",
-    "peliculas": [
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Katy Perry: The Lifetimes Tour - Live From Paris",
-        "url": "",
-        "imagen": "/posters/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Showcase",
-    "nombre": "Showcase Quilmes",
-    "slug": "showcase-quilmes",
-    "zona": "GBA Sur",
-    "direccion": "Av. Calchaquí 3950, Quilmes Factory",
-    "peliculas": [
-      {
-        "titulo": "Katy Perry: The Lifetimes Tour - Live From Paris",
-        "url": "",
-        "imagen": "/posters/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Cinépolis",
     "nombre": "Cinépolis Recoleta",
     "slug": "cinepolis-recoleta",
     "zona": "CABA",
     "direccion": "Vicente López 2050, Recoleta",
     "peliculas": [
+      {
+        "titulo": "Primavera en Beechwood",
+        "url": "https://cartelera.ar/pelicula/primavera-en-beechwood",
+        "imagen": "/posters/UbMdj5ourvbVKIXicQ0OwPR874.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
       {
         "titulo": "Terminator 2: El juicio final",
         "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
@@ -372,45 +305,12 @@
         ]
       },
       {
-        "titulo": "Katy Perry: The Lifetimes Tour - Live From Paris",
-        "url": "",
-        "imagen": "/posters/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La última copa",
+        "titulo": "Una breve historia de Amor",
         "url": "",
         "imagen": "",
-        "funciones": [
-          {
-            "horario": "16:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Tres adioses",
-        "url": "",
-        "imagen": "/posters/ooJChz3CumTevKFMd6fTETcmIm.jpg",
         "funciones": [
           {
             "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Ciudad Prohibída",
-        "url": "",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -421,7 +321,73 @@
         "imagen": "/posters/bLJz6OmPZ1uUa97UpUMVCK7cEUn.jpg",
         "funciones": [
           {
-            "horario": "19:00",
+            "horario": "16:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Testa o Croce?",
+        "url": "",
+        "imagen": "/posters/8r3ViWFIhzIk2LIJ5XxH1mo6mwO.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "MALBA Cine",
+    "slug": "malba-cine",
+    "zona": "CABA",
+    "direccion": "Av. Figueroa Alcorta 3415, Palermo",
+    "peliculas": [
+      {
+        "titulo": "Destellos en la oscuridad",
+        "url": "",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
+        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-movie-3-hangyaku-no-monogatari",
+        "imagen": "/posters/sLoAws32ETKAownjg87LaEOvxmk.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -456,61 +422,24 @@
             "formato": "2D Subtitulada"
           }
         ]
-      },
-      {
-        "titulo": "Katy Perry: The Lifetimes Tour - Live From Paris",
-        "url": "",
-        "imagen": "/posters/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
       }
     ]
   },
   {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
     "peliculas": [
       {
-        "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
-        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-movie-3-hangyaku-no-monogatari",
-        "imagen": "/posters/sLoAws32ETKAownjg87LaEOvxmk.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Katy Perry: The Lifetimes Tour - Live From Paris",
+        "titulo": "Los Vencedores",
         "url": "",
-        "imagen": "/posters/ulsXx67XgRupN53gZHCuzwBEA7O.jpg",
+        "imagen": "/posters/hJVeuvHc7xmeYHhCs1iypk6nPy.jpg",
         "funciones": [
           {
-            "horario": "15:00",
-            "formato": "2D Subtitulada"
+            "horario": "19:00",
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -535,66 +464,6 @@
           {
             "horario": "22:00",
             "formato": "COMFORT PLUS 2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
-    "peliculas": [
-      {
-        "titulo": "Los Nadadores",
-        "url": "",
-        "imagen": "/posters/4WLYa1B4Uba8sb0wVkUzD9uZIz1.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Atlas Cines",
-    "nombre": "Atlas Catan",
-    "slug": "atlas-catan",
-    "zona": "GBA Sur",
-    "direccion": "Camino de Cintura 2727, Shopping Catan",
-    "peliculas": [
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "21:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Houssay",
-    "slug": "cinepolis-houssay",
-    "zona": "CABA",
-    "direccion": "Av. Corrientes 917, Buenos Aires",
-    "peliculas": [
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -634,6 +503,26 @@
         "funciones": [
           {
             "horario": "22:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Houssay",
+    "slug": "cinepolis-houssay",
+    "zona": "CABA",
+    "direccion": "Av. Corrientes 917, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -661,62 +550,40 @@
     ]
   },
   {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moron",
-    "slug": "hoyts-moron",
-    "zona": "",
-    "direccion": "",
+    "cadena": "Showcase",
+    "nombre": "Showcase Haedo",
+    "slug": "showcase-haedo",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "horario": "22:10",
+            "formato": "2D Doblada"
           }
         ]
       }
     ]
   },
   {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Quilmes",
-    "slug": "hoyts-quilmes",
-    "zona": "",
-    "direccion": "",
+    "cadena": "Showcase",
+    "nombre": "Showcase Norte (Norcenter)",
+    "slug": "showcase-norte-norcenter",
+    "zona": "GBA Norte",
+    "direccion": "Colectora Panamericana 3750, Norcenter",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "PMMM LA PELICULA PARTE 1",
-        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-1",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "17:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
         "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
-            "horario": "22:00",
-            "formato": "2D Doblada"
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -730,13 +597,13 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
+        "titulo": "JUAN GABRIEL: MI PRIMER BELLAS ARTES",
+        "url": "https://www.cinemark.com.ar/peliculas/juan-gabriel-mi-primer-bellas-artes",
         "imagen": "",
         "funciones": [
           {
             "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -758,7 +625,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -772,13 +639,13 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
+        "titulo": "JUAN GABRIEL: MI PRIMER BELLAS ARTES",
+        "url": "https://www.cinemark.com.ar/peliculas/juan-gabriel-mi-primer-bellas-artes",
         "imagen": "",
         "funciones": [
           {
             "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -800,11 +667,11 @@
         "funciones": [
           {
             "horario": "19:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "3D Subtitulada"
           }
         ]
       }
@@ -812,18 +679,18 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Temperley",
-    "slug": "hoyts-temperley",
+    "nombre": "Quilmes",
+    "slug": "hoyts-quilmes",
     "zona": "",
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
+        "titulo": "PMMM LA PELICULA PARTE 1",
+        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-1",
         "imagen": "",
         "funciones": [
           {
-            "horario": "14:00",
+            "horario": "17:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -835,89 +702,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moreno",
-    "slug": "hoyts-moreno",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "DOT",
-    "slug": "hoyts-dot-baires",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -931,16 +716,25 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "horario": "22:00",
+            "formato": "3D Subtitulada"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "DOT",
+    "slug": "hoyts-dot-baires",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
       {
         "titulo": "TERMINATOR 2: EL JUICIO FINAL",
         "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
@@ -948,7 +742,27 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "3D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moreno",
+    "slug": "hoyts-moreno",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -962,24 +776,13 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
         "titulo": "TERMINATOR 2: EL JUICIO FINAL",
         "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
         "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
           }
         ]
       }
@@ -993,16 +796,25 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "horario": "22:00",
+            "formato": "3D Doblada"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Temperley",
+    "slug": "hoyts-temperley",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
       {
         "titulo": "TERMINATOR 2: EL JUICIO FINAL",
         "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
@@ -1010,7 +822,47 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "3D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moron",
+    "slug": "hoyts-moron",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1024,13 +876,13 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "KATY PERRY: THE LIFETIMES TOUR - LIVE FROM PAR",
-        "url": "https://www.cinemark.com.ar/peliculas/katy-perry-the-lifetimes-tour-live-from-paris",
-        "imagen": "",
+        "titulo": "TERMINATOR 2: EL JUICIO FINAL",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "horario": "22:00",
+            "formato": "2D Doblada"
           }
         ]
       }
