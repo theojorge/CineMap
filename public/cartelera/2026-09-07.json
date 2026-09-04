@@ -4385,6 +4385,218 @@
   },
   {
     "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Caballito",
+    "slug": "cinemark-caballito",
+    "zona": "CABA",
+    "direccion": "Av. La Plata 96, Caballito",
+    "peliculas": [
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Showcase",
+    "nombre": "IMAX Showcase Norte",
+    "slug": "imax-showcase-norte",
+    "zona": "GBA Norte",
+    "direccion": "Av. Ricardo Balbín 2550, Shopping Norcenter",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "IMAX Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "IMAX Subtitulada"
+          },
+          {
+            "horario": "16:15",
+            "formato": "IMAX Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "IMAX Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
     "nombre": "Cinemark Malvinas Argentinas",
     "slug": "cinemark-malvinas-argentinas",
     "zona": "GBA Oeste",
@@ -4693,218 +4905,6 @@
           {
             "horario": "22:20",
             "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Cinemark Caballito",
-    "slug": "cinemark-caballito",
-    "zona": "CABA",
-    "direccion": "Av. La Plata 96, Caballito",
-    "peliculas": [
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "15:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "23:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "18:40",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "16:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Showcase",
-    "nombre": "IMAX Showcase Norte",
-    "slug": "imax-showcase-norte",
-    "zona": "GBA Norte",
-    "direccion": "Av. Ricardo Balbín 2550, Shopping Norcenter",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
-        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
-        "funciones": [
-          {
-            "horario": "19:50",
-            "formato": "IMAX Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://cartelera.ar/pelicula/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "IMAX Subtitulada"
-          },
-          {
-            "horario": "16:15",
-            "formato": "IMAX Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "IMAX Subtitulada"
           }
         ]
       }
