@@ -1,5 +1,25 @@
 [
   {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Islandia",
+        "url": "",
+        "imagen": "/posters/7WPWoKkUkUtNp03NruyrMxNRnMV.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Multiplex",
     "nombre": "Multiplex Lavalle",
     "slug": "multiplex-lavalle",
@@ -45,26 +65,6 @@
   },
   {
     "cadena": "Multiplex",
-    "nombre": "Multiplex Canning",
-    "slug": "multiplex-canning",
-    "zona": "GBA Sur",
-    "direccion": "Formosa 653, Canning (Shopping Las Toscas)",
-    "peliculas": [
-      {
-        "titulo": "Oasis: Dont Look Back In Anger",
-        "url": "https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/",
-        "imagen": "/posters/oasis-dont-look-back-in-anger.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
     "nombre": "Multiplex Pilar",
     "slug": "multiplex-pilar",
     "zona": "GBA Norte",
@@ -88,20 +88,20 @@
     ]
   },
   {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Canning",
+    "slug": "multiplex-canning",
+    "zona": "GBA Sur",
+    "direccion": "Formosa 653, Canning (Shopping Las Toscas)",
     "peliculas": [
       {
-        "titulo": "A Metros de Distancia",
-        "url": "",
-        "imagen": "/posters/A3tEYeLijo1PWXZLTckVSM05YVX.jpg",
+        "titulo": "Oasis: Dont Look Back In Anger",
+        "url": "https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/",
+        "imagen": "/posters/oasis-dont-look-back-in-anger.jpg",
         "funciones": [
           {
-            "horario": "21:00",
-            "formato": "2D Doblada"
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
           }
         ]
       }
