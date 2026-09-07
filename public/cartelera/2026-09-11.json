@@ -8,7 +8,7 @@
     "peliculas": [
       {
         "titulo": "Islandia",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/islandia",
         "imagen": "/posters/7WPWoKkUkUtNp03NruyrMxNRnMV.jpg",
         "funciones": [
           {
@@ -28,7 +28,7 @@
     "peliculas": [
       {
         "titulo": "Oasis: Dont Look Back In Anger",
-        "url": "https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/",
+        "url": "https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger",
         "imagen": "/posters/oasis-dont-look-back-in-anger.jpg",
         "funciones": [
           {
@@ -52,12 +52,12 @@
     "peliculas": [
       {
         "titulo": "Oasis: Dont Look Back In Anger",
-        "url": "https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/",
+        "url": "https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger",
         "imagen": "/posters/oasis-dont-look-back-in-anger.jpg",
         "funciones": [
           {
             "horario": "20:20",
-            "formato": "COMFORT PLUS 2D Subtitulada"
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -72,7 +72,7 @@
     "peliculas": [
       {
         "titulo": "Oasis: Dont Look Back In Anger",
-        "url": "https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/",
+        "url": "https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger",
         "imagen": "/posters/oasis-dont-look-back-in-anger.jpg",
         "funciones": [
           {
@@ -96,11 +96,619 @@
     "peliculas": [
       {
         "titulo": "Oasis: Dont Look Back In Anger",
-        "url": "https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/",
+        "url": "https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger",
         "imagen": "/posters/oasis-dont-look-back-in-anger.jpg",
         "funciones": [
           {
             "horario": "20:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Caballito",
+    "slug": "cinemark-caballito",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Soleil",
+    "slug": "cinemark-soleil",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "San Justo",
+    "slug": "cinemark-san-justo",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Quilmes",
+    "slug": "hoyts-quilmes",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "PMMM LA PELICULA PARTE 2",
+        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Abasto",
+    "slug": "hoyts-abasto",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "PMMM LA PELICULA PARTE 2",
+        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Unicenter",
+    "slug": "hoyts-unicenter",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "PMMM LA PELICULA PARTE 2",
+        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moron",
+    "slug": "hoyts-moron",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Temperley",
+    "slug": "hoyts-temperley",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moreno",
+    "slug": "hoyts-moreno",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "DOT",
+    "slug": "hoyts-dot-baires",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Palermo",
+    "slug": "cinemark-palermo",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Malvinas Argentinas",
+    "slug": "cinemark-malvinas-argentinas",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Tortugas",
+    "slug": "cinemark-tortugas",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Alto Avellaneda",
+    "slug": "cinemark-avellaneda",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "CORALINE",
+        "url": "https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "OASIS: DON´T LOOK BACK IN ANGER",
+        "url": "https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "VOLVER AL FUTURO PARTE II",
+        "url": "https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
             "formato": "2D Subtitulada"
           }
         ]

@@ -201,7 +201,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -235,7 +235,7 @@
       },
       {
         "titulo": "El Gran Falsificador",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/el-gran-falsificador",
         "imagen": "/posters/el-gran-falsificador.jpg",
         "funciones": [
           {
@@ -246,7 +246,7 @@
       },
       {
         "titulo": "Tierra De Crimen",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/tierra-de-crimen",
         "imagen": "/posters/tierra-de-crimen.jpg",
         "funciones": [
           {
@@ -257,7 +257,7 @@
       },
       {
         "titulo": "La última copa",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/la-ultima-copa",
         "imagen": "",
         "funciones": [
           {
@@ -268,7 +268,7 @@
       },
       {
         "titulo": "Un año de escuela",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/un-ano-de-escuela",
         "imagen": "",
         "funciones": [
           {
@@ -279,7 +279,7 @@
       },
       {
         "titulo": "El secuestro de Arabella",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/el-secuestro-de-arabella",
         "imagen": "",
         "funciones": [
           {
@@ -290,7 +290,7 @@
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
@@ -569,6 +569,45 @@
           {
             "horario": "23:00",
             "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Showcase",
+    "nombre": "IMAX Showcase Norte",
+    "slug": "imax-showcase-norte",
+    "zona": "GBA Norte",
+    "direccion": "Av. Ricardo Balbín 2550, Shopping Norcenter",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "22:35",
+            "formato": "IMAX Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "IMAX Subtitulada"
+          },
+          {
+            "horario": "15:25",
+            "formato": "IMAX Subtitulada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "IMAX Subtitulada"
           }
         ]
       }
@@ -1047,45 +1086,6 @@
     ]
   },
   {
-    "cadena": "Showcase",
-    "nombre": "IMAX Showcase Norte",
-    "slug": "imax-showcase-norte",
-    "zona": "GBA Norte",
-    "direccion": "Av. Ricardo Balbín 2550, Shopping Norcenter",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
-        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
-        "funciones": [
-          {
-            "horario": "22:35",
-            "formato": "IMAX Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://cartelera.ar/pelicula/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "12:00",
-            "formato": "IMAX Subtitulada"
-          },
-          {
-            "horario": "15:25",
-            "formato": "IMAX Subtitulada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "IMAX Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Caballito",
     "slug": "atlas-caballito",
@@ -1336,7 +1336,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -1367,7 +1367,7 @@
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
@@ -1377,277 +1377,6 @@
           {
             "horario": "20:50",
             "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Cinemark Palermo",
-    "slug": "cinemark-palermo",
-    "zona": "CABA",
-    "direccion": "Beruti 3399, Palermo",
-    "peliculas": [
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Esa cosa con alas",
-        "url": "https://www.cinemark.com.ar/peliculas/esa-cosa-con-alas",
-        "imagen": "/posters/esa-cosa-con-alas.jpg",
-        "funciones": [
-          {
-            "horario": "20:50",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "15:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "23:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "LA GUERRA DE LOS ÚLTIMOS",
-        "url": "https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "15:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "23:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La invitación",
-        "url": "https://www.cinemark.com.ar/peliculas/la-invitacion",
-        "imagen": "/posters/la-invitacion.jpg",
-        "funciones": [
-          {
-            "horario": "18:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "13:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "17:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Solo por una noche",
-        "url": "https://www.cinemark.com.ar/peliculas/solo-por-una-noche",
-        "imagen": "/posters/solo-por-una-noche.jpg",
-        "funciones": [
-          {
-            "horario": "17:40",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "15:50",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:10",
-            "formato": "3D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "3D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "12:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada"
           }
         ]
       }
@@ -1967,72 +1696,61 @@
     ]
   },
   {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Pilar",
-    "slug": "multiplex-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Las Magnolias 754, Palmas del Pilar",
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Palermo",
+    "slug": "cinemark-palermo",
+    "zona": "CABA",
+    "direccion": "Beruti 3399, Palermo",
     "peliculas": [
       {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://multiplex.com.ar/peliculas/zona-cero/",
-        "imagen": "/posters/zona-cero.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
         "titulo": "Coyote vs. Acme",
-        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
-            "horario": "13:30",
+            "horario": "12:20",
             "formato": "2D Doblada"
           },
           {
-            "horario": "15:40",
+            "horario": "15:10",
             "formato": "2D Doblada"
           },
           {
             "horario": "17:50",
             "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "El Final de la Calle Oak",
-        "url": "https://multiplex.com.ar/peliculas/el-final-de-la-calle-oak/",
-        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
-        "funciones": [
+          },
           {
-            "horario": "17:10",
-            "formato": "2D Doblada"
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
           }
         ]
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "https://multiplex.com.ar/peliculas/esa-cosa-con-alas/",
+        "url": "https://www.cinemark.com.ar/peliculas/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
-            "horario": "12:40",
+            "horario": "20:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
             "formato": "2D Subtitulada"
           },
           {
-            "horario": "22:50",
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:40",
             "formato": "2D Subtitulada"
           }
         ]
@@ -2043,115 +1761,78 @@
         "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
         "funciones": [
           {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Guerra De Los Ultimos",
-        "url": "https://multiplex.com.ar/peliculas/la-guerra-de-los-ultimos/",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Negociación (The Negotiation)",
-        "url": "https://multiplex.com.ar/peliculas/la-negociacion/",
-        "imagen": "/posters/la-negociacion.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
+            "horario": "15:20",
             "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La noche del demonio: Están entre nosotros",
-        "url": "https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada"
           },
           {
             "horario": "23:10",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA GUERRA DE LOS ÚLTIMOS",
+        "url": "https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos",
+        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://www.cinemark.com.ar/peliculas/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "18:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
           }
         ]
       },
       {
         "titulo": "La Odisea",
-        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
         "imagen": "/posters/la-odisea.jpg",
         "funciones": [
           {
-            "horario": "15:00",
+            "horario": "13:10",
             "formato": "2D Subtitulada"
           },
           {
-            "horario": "18:30",
-            "formato": "PLATINUM 2D Subtitulada"
-          },
-          {
-            "horario": "19:20",
+            "horario": "13:30",
             "formato": "2D Subtitulada"
           },
           {
-            "horario": "21:50",
-            "formato": "PLATINUM 2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Masha Y Los Osos",
-        "url": "https://multiplex.com.ar/peliculas/masha-y-los-osos/",
-        "imagen": "/posters/masha-y-los-osos.jpg",
-        "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Minions & monstruos",
-        "url": "https://multiplex.com.ar/peliculas/minions-monstruos/",
-        "imagen": "/posters/minions-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada"
+            "horario": "17:10",
+            "formato": "2D Subtitulada"
           }
         ]
       },
       {
         "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://multiplex.com.ar/peliculas/paw-patrol-la-dino-pelicula/",
+        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
         "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
         "funciones": [
           {
-            "horario": "16:10",
+            "horario": "12:40",
             "formato": "2D Doblada"
           }
         ]
       },
       {
         "titulo": "Pepita la Pistolera",
-        "url": "https://multiplex.com.ar/peliculas/pepita-la-pistolera/",
+        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
         "imagen": "/posters/pepita-la-pistolera.jpg",
         "funciones": [
           {
@@ -2159,122 +1840,122 @@
             "formato": "2D Doblada"
           },
           {
-            "horario": "18:30",
+            "horario": "13:40",
             "formato": "2D Doblada"
           },
           {
-            "horario": "20:40",
+            "horario": "16:20",
             "formato": "2D Doblada"
           },
           {
-            "horario": "22:40",
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
             "formato": "2D Doblada"
           }
         ]
       },
       {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
-        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
+        "titulo": "Solo por una noche",
+        "url": "https://www.cinemark.com.ar/peliculas/solo-por-una-noche",
+        "imagen": "/posters/solo-por-una-noche.jpg",
         "funciones": [
           {
-            "horario": "12:30",
-            "formato": "2D Doblada"
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Subtitulada"
           },
+          {
+            "horario": "15:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "3D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
           {
             "horario": "12:50",
-            "formato": "PLATINUM 2D Subtitulada"
-          },
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
           {
-            "horario": "13:30",
-            "formato": "4D (3D) Doblada"
+            "horario": "12:10",
+            "formato": "2D Doblada"
           },
           {
             "horario": "14:30",
             "formato": "2D Doblada"
           },
           {
-            "horario": "15:40",
-            "formato": "PLATINUM 2D Subtitulada"
-          },
-          {
-            "horario": "16:20",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "17:20",
+            "horario": "15:30",
             "formato": "2D Doblada"
           },
           {
-            "horario": "19:10",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "20:10",
+            "horario": "16:30",
             "formato": "2D Doblada"
           },
           {
-            "horario": "22:00",
-            "formato": "4D (3D) Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://multiplex.com.ar/peliculas/terminator-2-el-juicio-final/",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Una quinta en Portugal",
-        "url": "https://multiplex.com.ar/peliculas/una-quinta-en-portugal/",
-        "imagen": "/posters/una-quinta-en-portugal.jpg",
-        "funciones": [
-          {
-            "horario": "15:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:50",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://multiplex.com.ar/peliculas/yo-narciso/",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
+            "horario": "17:00",
             "formato": "2D Doblada"
           },
           {
-            "horario": "16:20",
+            "horario": "19:30",
             "formato": "2D Doblada"
           },
           {
-            "horario": "18:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
+            "horario": "20:40",
             "formato": "2D Doblada"
           },
           {
@@ -2478,6 +2159,314 @@
           },
           {
             "horario": "20:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Las Magnolias 754, Palmas del Pilar",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Negociación (The Negotiation)",
+        "url": "https://cartelera.ar/pelicula/la-negociacion-the-negotiation",
+        "imagen": "/posters/AvscaTgHHxKAA4hIqDyuIzFIG9v.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "12:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://cartelera.ar/pelicula/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/minions-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/una-quinta-en-portugal.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El Final de la Calle Oak",
+        "url": "https://cartelera.ar/pelicula/el-final-de-la-calle-oak",
+        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Esa cosa con alas",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
+        "imagen": "/posters/esa-cosa-con-alas.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Masha Y Los Osos",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
+        "imagen": "/posters/masha-y-los-osos.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
             "formato": "2D Doblada"
           }
         ]
@@ -2819,6 +2808,975 @@
           },
           {
             "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Negociación (The Negotiation)",
+        "url": "https://cartelera.ar/pelicula/la-negociacion-the-negotiation",
+        "imagen": "/posters/AvscaTgHHxKAA4hIqDyuIzFIG9v.jpg",
+        "funciones": [
+          {
+            "horario": "19:45",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Impacto mortal",
+        "url": "https://cartelera.ar/pelicula/impacto-mortal",
+        "imagen": "/posters/impacto-mortal.jpg",
+        "funciones": [
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El Final de la Calle Oak",
+        "url": "https://cartelera.ar/pelicula/el-final-de-la-calle-oak",
+        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
+        "funciones": [
+          {
+            "horario": "23:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Masha Y Los Osos",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
+        "imagen": "/posters/masha-y-los-osos.jpg",
+        "funciones": [
+          {
+            "horario": "13:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Morón",
+    "slug": "hoyts-moron",
+    "zona": "GBA Oeste",
+    "direccion": "J.M. de Rosas 658, Plaza Oeste Shopping",
+    "peliculas": [
+      {
+        "titulo": "Colony",
+        "url": "https://www.cinemark.com.ar/peliculas/colony-zona-cero",
+        "imagen": "/posters/lkqrY8lioj8jwAXFnx6c5tc5Gv3.jpg",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "12:50",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "DBOX 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA GUERRA DE LOS ÚLTIMOS",
+        "url": "https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos",
+        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
+        "funciones": [
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "DBOX 3D Doblada"
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "DBOX 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Abasto",
+    "slug": "hoyts-abasto",
+    "zona": "CABA",
+    "direccion": "Av. Corrientes 3247, Abasto Shopping",
+    "peliculas": [
+      {
+        "titulo": "Colony",
+        "url": "https://www.cinemark.com.ar/peliculas/colony-zona-cero",
+        "imagen": "/posters/lkqrY8lioj8jwAXFnx6c5tc5Gv3.jpg",
+        "funciones": [
+          {
+            "horario": "17:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El Final de la Calle Oak",
+        "url": "https://www.cinemark.com.ar/peliculas/el-final-de-la-calle-oak",
+        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Impacto mortal",
+        "url": "https://www.cinemark.com.ar/peliculas/impacto-mortal",
+        "imagen": "/posters/impacto-mortal.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA GUERRA DE LOS ÚLTIMOS",
+        "url": "https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos",
+        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Negociación (The Negotiation)",
+        "url": "https://www.cinemark.com.ar/peliculas/la-negociacion",
+        "imagen": "/posters/la-negociacion.jpg",
+        "funciones": [
+          {
+            "horario": "17:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "13:40",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:10",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Masha Y Los Osos",
+        "url": "https://www.cinemark.com.ar/peliculas/masha-y-los-osos",
+        "imagen": "/posters/masha-y-los-osos.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pmmm la Pelicula Parte 1",
+        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-1",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "12:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "DBOX 3D Doblada"
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "DBOX 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "12:35",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
             "formato": "2D Doblada"
           }
         ]
@@ -3438,1148 +4396,6 @@
     ]
   },
   {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
-        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Negociación (The Negotiation)",
-        "url": "https://cartelera.ar/pelicula/la-negociacion-the-negotiation",
-        "imagen": "/posters/AvscaTgHHxKAA4hIqDyuIzFIG9v.jpg",
-        "funciones": [
-          {
-            "horario": "19:45",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://cartelera.ar/pelicula/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:50",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Impacto mortal",
-        "url": "https://cartelera.ar/pelicula/impacto-mortal",
-        "imagen": "/posters/impacto-mortal.jpg",
-        "funciones": [
-          {
-            "horario": "22:15",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "El Final de la Calle Oak",
-        "url": "https://cartelera.ar/pelicula/el-final-de-la-calle-oak",
-        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
-        "funciones": [
-          {
-            "horario": "23:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La noche del demonio: Están entre nosotros",
-        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:15",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "12:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Masha Y Los Osos",
-        "url": "",
-        "imagen": "/posters/masha-y-los-osos.jpg",
-        "funciones": [
-          {
-            "horario": "13:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Hoyts Abasto",
-    "slug": "hoyts-abasto",
-    "zona": "CABA",
-    "direccion": "Av. Corrientes 3247, Abasto Shopping",
-    "peliculas": [
-      {
-        "titulo": "Colony",
-        "url": "https://www.cinemark.com.ar/peliculas/colony-zona-cero",
-        "imagen": "/posters/lkqrY8lioj8jwAXFnx6c5tc5Gv3.jpg",
-        "funciones": [
-          {
-            "horario": "17:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "El Final de la Calle Oak",
-        "url": "https://www.cinemark.com.ar/peliculas/el-final-de-la-calle-oak",
-        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
-        "funciones": [
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Impacto mortal",
-        "url": "https://www.cinemark.com.ar/peliculas/impacto-mortal",
-        "imagen": "/posters/impacto-mortal.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "LA GUERRA DE LOS ÚLTIMOS",
-        "url": "https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Negociación (The Negotiation)",
-        "url": "https://www.cinemark.com.ar/peliculas/la-negociacion",
-        "imagen": "/posters/la-negociacion.jpg",
-        "funciones": [
-          {
-            "horario": "17:50",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "13:40",
-            "formato": "DBOX 2D Subtitulada"
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "17:20",
-            "formato": "DBOX 2D Subtitulada"
-          },
-          {
-            "horario": "21:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "21:10",
-            "formato": "DBOX 2D Subtitulada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Masha Y Los Osos",
-        "url": "https://www.cinemark.com.ar/peliculas/masha-y-los-osos",
-        "imagen": "/posters/masha-y-los-osos.jpg",
-        "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pmmm la Pelicula Parte 1",
-        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-1",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "17:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "12:30",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "14:30",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:50",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "DBOX 3D Doblada"
-          },
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:00",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "DBOX 2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "3D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "12:35",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "14:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Hoyts Morón",
-    "slug": "hoyts-moron",
-    "zona": "GBA Oeste",
-    "direccion": "J.M. de Rosas 658, Plaza Oeste Shopping",
-    "peliculas": [
-      {
-        "titulo": "Colony",
-        "url": "https://www.cinemark.com.ar/peliculas/colony-zona-cero",
-        "imagen": "/posters/lkqrY8lioj8jwAXFnx6c5tc5Gv3.jpg",
-        "funciones": [
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "12:50",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "DBOX 2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "LA GUERRA DE LOS ÚLTIMOS",
-        "url": "https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:10",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "16:20",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "16:20",
-            "formato": "DBOX 3D Doblada"
-          },
-          {
-            "horario": "18:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "DBOX 2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Cinemark Caballito",
-    "slug": "cinemark-caballito",
-    "zona": "CABA",
-    "direccion": "Av. La Plata 96, Caballito",
-    "peliculas": [
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "15:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "23:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "18:40",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "16:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Cinemark Malvinas Argentinas",
     "slug": "cinemark-malvinas-argentinas",
@@ -4888,6 +4704,179 @@
           },
           {
             "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Caballito",
+    "slug": "cinemark-caballito",
+    "zona": "CABA",
+    "direccion": "Av. La Plata 96, Caballito",
+    "peliculas": [
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
             "formato": "2D Doblada"
           }
         ]
@@ -5381,7 +5370,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -5402,426 +5391,6 @@
           },
           {
             "horario": "21:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Lavalle",
-    "slug": "multiplex-lavalle",
-    "zona": "CABA",
-    "direccion": "Lavalle 780, CABA",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://multiplex.com.ar/peliculas/zona-cero/",
-        "imagen": "/posters/zona-cero.jpg",
-        "funciones": [
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "20:15",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Guerra De Los Ultimos",
-        "url": "https://multiplex.com.ar/peliculas/la-guerra-de-los-ultimos/",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "20:15",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La noche del demonio: Están entre nosotros",
-        "url": "https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:55",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "17:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:05",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Masha Y Los Osos",
-        "url": "https://multiplex.com.ar/peliculas/masha-y-los-osos/",
-        "imagen": "/posters/masha-y-los-osos.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://multiplex.com.ar/peliculas/pepita-la-pistolera/",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
-        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
-        "funciones": [
-          {
-            "horario": "13:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:45",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "16:30",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "17:55",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:15",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "19:50",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "22:35",
-            "formato": "3D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://multiplex.com.ar/peliculas/terminator-2-el-juicio-final/",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "3D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://multiplex.com.ar/peliculas/yo-narciso/",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Merlo",
-    "slug": "cinepolis-merlo",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Juan Domingo Perón 24098",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
-        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
-        "funciones": [
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:45",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "3D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://cartelera.ar/pelicula/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La noche del demonio: Están entre nosotros",
-        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "16:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
             "formato": "2D Doblada"
           }
         ]
@@ -6006,7 +5575,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -6042,8 +5611,8 @@
     "peliculas": [
       {
         "titulo": "Afterburn (Zona cero)",
-        "url": "https://multiplex.com.ar/peliculas/zona-cero/",
-        "imagen": "/posters/zona-cero.jpg",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
         "funciones": [
           {
             "horario": "18:00",
@@ -6056,8 +5625,136 @@
         ]
       },
       {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://cartelera.ar/pelicula/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/minions-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:45",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
         "titulo": "Coyote vs. Acme",
-        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
@@ -6075,162 +5772,8 @@
         ]
       },
       {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Guerra De Los Ultimos",
-        "url": "https://multiplex.com.ar/peliculas/la-guerra-de-los-ultimos/",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La noche del demonio: Están entre nosotros",
-        "url": "https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "4D (2D) Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Masha Y Los Osos",
-        "url": "https://multiplex.com.ar/peliculas/masha-y-los-osos/",
-        "imagen": "/posters/masha-y-los-osos.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Minions & monstruos",
-        "url": "https://multiplex.com.ar/peliculas/minions-monstruos/",
-        "imagen": "/posters/minions-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://multiplex.com.ar/peliculas/pepita-la-pistolera/",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "18:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
-        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "14:00",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:40",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://multiplex.com.ar/peliculas/terminator-2-el-juicio-final/",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "22:45",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
         "titulo": "Yo Narciso",
-        "url": "https://multiplex.com.ar/peliculas/yo-narciso/",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -6250,6 +5793,21 @@
             "formato": "2D Doblada"
           }
         ]
+      },
+      {
+        "titulo": "Masha Y Los Osos",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
+        "imagen": "/posters/masha-y-los-osos.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          }
+        ]
       }
     ]
   },
@@ -6261,9 +5819,39 @@
     "direccion": "Vuelta de Obligado 2199, Belgrano",
     "peliculas": [
       {
+        "titulo": "Los Colores Del Tiempo",
+        "url": "https://cartelera.ar/pelicula/los-colores-del-tiempo",
+        "imagen": "/posters/los-colores-del-tiempo.jpg",
+        "funciones": [
+          {
+            "horario": "15:25",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:35",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:05",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Obsesión",
+        "url": "https://cartelera.ar/pelicula/obsesion",
+        "imagen": "/posters/obsesion.jpg",
+        "funciones": [
+          {
+            "horario": "22:45",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "Afterburn (Zona cero)",
-        "url": "https://multiplex.com.ar/peliculas/zona-cero/",
-        "imagen": "/posters/zona-cero.jpg",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
         "funciones": [
           {
             "horario": "22:40",
@@ -6272,13 +5860,218 @@
         ]
       },
       {
+        "titulo": "La Negociación (The Negotiation)",
+        "url": "https://cartelera.ar/pelicula/la-negociacion-the-negotiation",
+        "imagen": "/posters/AvscaTgHHxKAA4hIqDyuIzFIG9v.jpg",
+        "funciones": [
+          {
+            "horario": "14:55",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:45",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://cartelera.ar/pelicula/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:55",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:25",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Los domingos",
+        "url": "https://cartelera.ar/pelicula/los-domingos",
+        "imagen": "/posters/los-domingos.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "13:55",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:35",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:55",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://cartelera.ar/pelicula/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:55",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/minions-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/una-quinta-en-portugal.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "Coyote vs. Acme",
-        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
             "horario": "13:45",
-            "formato": "COMFORT PLUS 2D Doblada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "16:30",
@@ -6299,8 +6092,35 @@
         ]
       },
       {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
         "titulo": "Esa cosa con alas",
-        "url": "https://multiplex.com.ar/peliculas/esa-cosa-con-alas/",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
@@ -6313,7 +6133,169 @@
           },
           {
             "horario": "21:50",
-            "formato": "COMFORT PLUS 2D Subtitulada"
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Lavalle",
+    "slug": "multiplex-lavalle",
+    "zona": "CABA",
+    "direccion": "Lavalle 780, CABA",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:05",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:55",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:35",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://cartelera.ar/pelicula/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:55",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -6323,270 +6305,244 @@
         "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
         "funciones": [
           {
-            "horario": "20:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Guerra De Los Ultimos",
-        "url": "https://multiplex.com.ar/peliculas/la-guerra-de-los-ultimos/",
-        "imagen": "/posters/la-guerra-de-los-ultimos.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La invitación",
-        "url": "https://multiplex.com.ar/peliculas/la-invitacion/",
-        "imagen": "/posters/la-invitacion.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "17:55",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "20:25",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Negociación (The Negotiation)",
-        "url": "https://multiplex.com.ar/peliculas/la-negociacion/",
-        "imagen": "/posters/la-negociacion.jpg",
-        "funciones": [
-          {
-            "horario": "14:55",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:45",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "13:55",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "15:40",
-            "formato": "4D + 2D Subtitulada"
-          },
-          {
-            "horario": "17:10",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "21:35",
-            "formato": "4D + 2D Subtitulada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D + COMFORT PLUS Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Los Colores Del Tiempo",
-        "url": "https://multiplex.com.ar/peliculas/los-colores-del-tiempo/",
-        "imagen": "/posters/los-colores-del-tiempo.jpg",
-        "funciones": [
-          {
-            "horario": "15:25",
-            "formato": "2D + COMFORT PLUS Subtitulada"
-          },
-          {
-            "horario": "17:35",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "20:05",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Los domingos",
-        "url": "https://multiplex.com.ar/peliculas/los-domingos/",
-        "imagen": "/posters/los-domingos.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D + COMFORT PLUS Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Minions & monstruos",
-        "url": "https://multiplex.com.ar/peliculas/minions-monstruos/",
-        "imagen": "/posters/minions-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "14:45",
+            "horario": "20:15",
             "formato": "2D Doblada"
           }
         ]
       },
       {
-        "titulo": "Obsesión",
-        "url": "https://multiplex.com.ar/peliculas/obsesion/",
-        "imagen": "/posters/obsesion.jpg",
-        "funciones": [
-          {
-            "horario": "22:45",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://multiplex.com.ar/peliculas/pepita-la-pistolera/",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
             "horario": "13:40",
-            "formato": "COMFORT PLUS 2D Doblada"
-          },
-          {
-            "horario": "15:45",
-            "formato": "COMFORT PLUS 2D Doblada"
-          },
-          {
-            "horario": "17:50",
-            "formato": "COMFORT PLUS 2D Doblada"
-          },
-          {
-            "horario": "19:45",
-            "formato": "2D + COMFORT PLUS Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "COMFORT PLUS 2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
-        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "4D + 3D Doblada"
-          },
-          {
-            "horario": "14:50",
-            "formato": "COMFORT PLUS 2D Doblada"
-          },
-          {
-            "horario": "17:20",
             "formato": "2D Doblada"
           },
           {
-            "horario": "18:55",
-            "formato": "4D + 3D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://multiplex.com.ar/peliculas/terminator-2-el-juicio-final/",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
+            "horario": "15:50",
             "formato": "2D Doblada"
           },
           {
-            "horario": "16:55",
+            "horario": "18:00",
             "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Una quinta en Portugal",
-        "url": "https://multiplex.com.ar/peliculas/una-quinta-en-portugal/",
-        "imagen": "/posters/una-quinta-en-portugal.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "15:20",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "17:30",
-            "formato": "COMFORT PLUS 2D Subtitulada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "COMFORT PLUS 2D Subtitulada"
           }
         ]
       },
       {
         "titulo": "Yo Narciso",
-        "url": "https://multiplex.com.ar/peliculas/yo-narciso/",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
+            "horario": "16:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Masha Y Los Osos",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
+        "imagen": "/posters/masha-y-los-osos.jpg",
+        "funciones": [
+          {
             "horario": "13:00",
-            "formato": "COMFORT PLUS 2D Doblada"
+            "formato": "2D Doblada"
           },
           {
-            "horario": "16:00",
-            "formato": "COMFORT PLUS 2D Doblada"
+            "horario": "14:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Merlo",
+    "slug": "cinepolis-merlo",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Juan Domingo Perón 24098",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada"
           },
           {
-            "horario": "17:50",
-            "formato": "2D + COMFORT PLUS Doblada"
+            "horario": "19:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "3D Doblada"
           },
           {
-            "horario": "20:05",
-            "formato": "COMFORT PLUS 2D Doblada"
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:45",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://cartelera.ar/pelicula/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
           },
           {
             "horario": "22:30",
-            "formato": "COMFORT PLUS 2D Doblada"
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -6705,352 +6661,11 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
             "horario": "14:15",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Showcase",
-    "nombre": "Showcase Haedo",
-    "slug": "showcase-haedo",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
-        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
-        "funciones": [
-          {
-            "horario": "14:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:05",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://cartelera.ar/pelicula/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "15:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:35",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "18:35",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:05",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:35",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "13:40",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "16:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "16:40",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:40",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "21:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "3D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://cartelera.ar/pelicula/toy-story-5",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Minions & monstruos",
-        "url": "https://cartelera.ar/pelicula/minions-monstruos",
-        "imagen": "/posters/minions-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "El Final de la Calle Oak",
-        "url": "https://cartelera.ar/pelicula/el-final-de-la-calle-oak",
-        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
-        "funciones": [
-          {
-            "horario": "19:55",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "13:55",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La noche del demonio: Están entre nosotros",
-        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:35",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:25",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Solo por una noche",
-        "url": "https://cartelera.ar/pelicula/solo-por-una-noche",
-        "imagen": "/posters/solo-por-una-noche.jpg",
-        "funciones": [
-          {
-            "horario": "19:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "14:55",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "16:35",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:25",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La constelación del perro",
-        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
-        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
-        "funciones": [
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:25",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:05",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:35",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:55",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Masha Y Los Osos",
-        "url": "",
-        "imagen": "/posters/masha-y-los-osos.jpg",
-        "funciones": [
-          {
-            "horario": "14:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:05",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La raíz del mal ",
-        "url": "",
-        "imagen": "/posters/lcjQ3b8LS464bl36Br9HXni6Y0c.jpg",
-        "funciones": [
-          {
-            "horario": "14:25",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:50",
             "formato": "2D Doblada"
           }
         ]
@@ -7397,7 +7012,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -7428,7 +7043,7 @@
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
@@ -7443,7 +7058,7 @@
       },
       {
         "titulo": "Masha Y Los Osos",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
         "imagen": "/posters/masha-y-los-osos.jpg",
         "funciones": [
           {
@@ -7452,6 +7067,347 @@
           },
           {
             "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Showcase",
+    "nombre": "Showcase Haedo",
+    "slug": "showcase-haedo",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "14:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:05",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:35",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:35",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:05",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:35",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://cartelera.ar/pelicula/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/minions-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El Final de la Calle Oak",
+        "url": "https://cartelera.ar/pelicula/el-final-de-la-calle-oak",
+        "imagen": "/posters/el-final-de-la-calle-oak.jpg",
+        "funciones": [
+          {
+            "horario": "19:55",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "13:55",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:35",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:25",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Solo por una noche",
+        "url": "https://cartelera.ar/pelicula/solo-por-una-noche",
+        "imagen": "/posters/solo-por-una-noche.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "14:55",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "16:35",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La constelación del perro",
+        "url": "https://cartelera.ar/pelicula/la-constelacion-del-perro",
+        "imagen": "/posters/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:25",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:05",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:35",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:55",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Masha Y Los Osos",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
+        "imagen": "/posters/masha-y-los-osos.jpg",
+        "funciones": [
+          {
+            "horario": "14:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La raíz del mal ",
+        "url": "https://cartelera.ar/pelicula/la-raiz-del-mal",
+        "imagen": "/posters/lcjQ3b8LS464bl36Br9HXni6Y0c.jpg",
+        "funciones": [
+          {
+            "horario": "14:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
             "formato": "2D Doblada"
           }
         ]
@@ -7638,7 +7594,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -7661,7 +7617,7 @@
       },
       {
         "titulo": "Masha Y Los Osos",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
         "imagen": "/posters/masha-y-los-osos.jpg",
         "funciones": [
           {
@@ -7905,7 +7861,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -7920,7 +7876,7 @@
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
@@ -7931,7 +7887,7 @@
       },
       {
         "titulo": "Masha Y Los Osos",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
         "imagen": "/posters/masha-y-los-osos.jpg",
         "funciones": [
           {
@@ -7996,7 +7952,7 @@
       },
       {
         "titulo": "Amor Travesti",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/amor-travesti",
         "imagen": "",
         "funciones": [
           {
@@ -8007,7 +7963,7 @@
       },
       {
         "titulo": "Canelones",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/canelones",
         "imagen": "/posters/s2g8wLNs6G5XYa5ivfUNuWbQTKQ.jpg",
         "funciones": [
           {
@@ -8022,7 +7978,7 @@
       },
       {
         "titulo": "CIN3 FILI4",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/cin3-fili4",
         "imagen": "/posters/2Hdf2UKZ0ajJL4S0uP168J8fkx8.jpg",
         "funciones": [
           {
@@ -8033,7 +7989,7 @@
       },
       {
         "titulo": "El Temblor",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/el-temblor",
         "imagen": "/posters/sM72HkSy7nDpDEUL0gQ2yO8QcYV.jpg",
         "funciones": [
           {
@@ -8044,7 +8000,7 @@
       },
       {
         "titulo": "La casa del minotauro",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/la-casa-del-minotauro",
         "imagen": "",
         "funciones": [
           {
@@ -8055,7 +8011,7 @@
       },
       {
         "titulo": "Suite Juárez",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/suite-juarez",
         "imagen": "/posters/uBHEmEqBJduHyArchb7FZolo47q.jpg",
         "funciones": [
           {
@@ -8135,7 +8091,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -8253,7 +8209,7 @@
       },
       {
         "titulo": "Masha Y Los Osos",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/masha-y-los-osos",
         "imagen": "/posters/masha-y-los-osos.jpg",
         "funciones": [
           {
@@ -8596,6 +8552,161 @@
     ]
   },
   {
+    "cadena": "Atlas Cines",
+    "nombre": "Atlas Flores",
+    "slug": "atlas-flores",
+    "zona": "CABA",
+    "direccion": "Rivera Indarte 44, Flores",
+    "peliculas": [
+      {
+        "titulo": "Afterburn (Zona cero)",
+        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
+        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+        "funciones": [
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PAW Patrol: La Dino Película",
+        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
+        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Terminator 2: El juicio final",
+        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
+        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
+        "funciones": [
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://cartelera.ar/pelicula/insidious-fuera-del-mas-alla",
+        "imagen": "/posters/uEqCJh1fA9Ao9jaCL2xoROPJeUB.jpg",
+        "funciones": [
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Lu & Pau",
+        "url": "https://cartelera.ar/pelicula/lu-pau",
+        "imagen": "/posters/1n87FEAtVU6yCkhmJ1mNIzaB8uE.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Cinemark Puerto Madero",
     "slug": "cinemark-puerto-madero",
@@ -8807,161 +8918,6 @@
   },
   {
     "cadena": "Atlas Cines",
-    "nombre": "Atlas Flores",
-    "slug": "atlas-flores",
-    "zona": "CABA",
-    "direccion": "Rivera Indarte 44, Flores",
-    "peliculas": [
-      {
-        "titulo": "Afterburn (Zona cero)",
-        "url": "https://cartelera.ar/pelicula/afterburn-zona-cero",
-        "imagen": "/posters/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
-        "funciones": [
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://cartelera.ar/pelicula/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "16:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://cartelera.ar/pelicula/paw-patrol-la-dino-pelicula",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Terminator 2: El juicio final",
-        "url": "https://cartelera.ar/pelicula/terminator-2-el-juicio-final",
-        "imagen": "/posters/terminator-2-el-juicio-final.jpg",
-        "funciones": [
-          {
-            "horario": "19:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://cartelera.ar/pelicula/insidious-fuera-del-mas-alla",
-        "imagen": "/posters/uEqCJh1fA9Ao9jaCL2xoROPJeUB.jpg",
-        "funciones": [
-          {
-            "horario": "18:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Lu & Pau",
-        "url": "",
-        "imagen": "/posters/1n87FEAtVU6yCkhmJ1mNIzaB8uE.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Atlas Cines",
     "nombre": "Atlas Nordelta",
     "slug": "atlas-nordelta",
     "zona": "GBA Norte",
@@ -9088,7 +9044,7 @@
       },
       {
         "titulo": "Yo Narciso",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
         "imagen": "/posters/yo-narciso.jpg",
         "funciones": [
           {
@@ -9107,7 +9063,120 @@
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
+        "imagen": "/posters/esa-cosa-con-alas.jpg",
+        "funciones": [
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Atlas Cines",
+    "nombre": "Atlas Patio Bullrich",
+    "slug": "atlas-patio-bullrich",
+    "zona": "CABA",
+    "direccion": "Av. del Libertador 750, Patio Bullrich",
+    "peliculas": [
+      {
+        "titulo": "Los Colores Del Tiempo",
+        "url": "https://cartelera.ar/pelicula/los-colores-del-tiempo",
+        "imagen": "/posters/los-colores-del-tiempo.jpg",
+        "funciones": [
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Negociación (The Negotiation)",
+        "url": "https://cartelera.ar/pelicula/la-negociacion-the-negotiation",
+        "imagen": "/posters/AvscaTgHHxKAA4hIqDyuIzFIG9v.jpg",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://cartelera.ar/pelicula/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/una-quinta-en-portugal.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El Gran Falsificador",
+        "url": "https://cartelera.ar/pelicula/el-gran-falsificador",
+        "imagen": "/posters/el-gran-falsificador.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Esa cosa con alas",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
@@ -9197,7 +9266,7 @@
       },
       {
         "titulo": "Tierra De Crimen",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/tierra-de-crimen",
         "imagen": "/posters/tierra-de-crimen.jpg",
         "funciones": [
           {
@@ -9208,124 +9277,11 @@
       },
       {
         "titulo": "Esa cosa con alas",
-        "url": "",
+        "url": "https://cartelera.ar/pelicula/esa-cosa-con-alas",
         "imagen": "/posters/esa-cosa-con-alas.jpg",
         "funciones": [
           {
             "horario": "20:40",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Atlas Cines",
-    "nombre": "Atlas Patio Bullrich",
-    "slug": "atlas-patio-bullrich",
-    "zona": "CABA",
-    "direccion": "Av. del Libertador 750, Patio Bullrich",
-    "peliculas": [
-      {
-        "titulo": "Los Colores Del Tiempo",
-        "url": "https://cartelera.ar/pelicula/los-colores-del-tiempo",
-        "imagen": "/posters/los-colores-del-tiempo.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La Negociación (The Negotiation)",
-        "url": "https://cartelera.ar/pelicula/la-negociacion-the-negotiation",
-        "imagen": "/posters/AvscaTgHHxKAA4hIqDyuIzFIG9v.jpg",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "La invitación",
-        "url": "https://cartelera.ar/pelicula/la-invitacion",
-        "imagen": "/posters/la-invitacion.jpg",
-        "funciones": [
-          {
-            "horario": "16:10",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "21:10",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Una quinta en Portugal",
-        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
-        "imagen": "/posters/una-quinta-en-portugal.jpg",
-        "funciones": [
-          {
-            "horario": "16:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "El Gran Falsificador",
-        "url": "",
-        "imagen": "/posters/el-gran-falsificador.jpg",
-        "funciones": [
-          {
-            "horario": "17:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Esa cosa con alas",
-        "url": "",
-        "imagen": "/posters/esa-cosa-con-alas.jpg",
-        "funciones": [
-          {
-            "horario": "19:40",
             "formato": "2D Subtitulada"
           }
         ]
