@@ -1,51 +1,721 @@
 zona,cadena,cine,direccion,pelicula,formato,horario,precio_general,precio_jubilado,precio_menor,url_pelicula
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",CORALINE,3D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,20:20,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,22:40,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Insidious: Fuera del más allá,2D Subtitulada,17:45,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Insidious: Fuera del más allá,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",La Odisea,2D Subtitulada,19:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",La Odisea,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Pepita la Pistolera,2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Pepita la Pistolera,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",SHREK 25 ANIVERSARIO,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Spider-Man: Un nuevo día,2D Subtitulada,13:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Spider-Man: Un nuevo día,2D Subtitulada,16:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Spider-Man: Un nuevo día,3D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Spider-Man: Un nuevo día,2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Toy Story 5,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Yo Narciso,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Yo Narciso,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Yo Narciso,2D Doblada,23:10,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Afterburn (Zona cero),2D Doblada,22:40,,,,https://multiplex.com.ar/peliculas/zona-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Backrooms,2D Doblada,23:00,,,,https://multiplex.com.ar/peliculas/backrooms-sin-salida/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Código: Venganza,2D Doblada,21:00,,,,https://multiplex.com.ar/peliculas/codigo-venganza/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,12:00,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,14:10,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,16:20,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,18:40,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El Heladero: Dulce Sabor A Muerte,2D Doblada,18:30,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El Heladero: Dulce Sabor A Muerte,2D Doblada,23:00,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Hechizo de amor: La magia continúa,2D Doblada,14:30,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Hechizo de amor: La magia continúa,PLATINUM 2D Subtitulada,16:50,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Hechizo de amor: La magia continúa,2D Subtitulada,20:20,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Ice Cream Man,2D Doblada,18:30,,,,https://cartelera.ar/pelicula/ice-cream-man
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Ice Cream Man,2D Doblada,23:00,,,,https://cartelera.ar/pelicula/ice-cream-man
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La noche del demonio: Están entre nosotros,2D Doblada,20:50,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La noche del demonio: Están entre nosotros,2D Doblada,23:10,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,PLATINUM 2D Subtitulada,13:30,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,2D Doblada,15:20,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,PLATINUM 2D Subtitulada,18:50,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,2D Doblada,19:30,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,PLATINUM 2D Subtitulada,22:10,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Michael,2D Doblada,22:00,,,,https://multiplex.com.ar/peliculas/michael-la-historia-de-michael-jackson/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Minions & monstruos,2D Doblada,12:20,,,,https://multiplex.com.ar/peliculas/minions-monstruos/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Minions & monstruos,2D Doblada,14:10,,,,https://multiplex.com.ar/peliculas/minions-monstruos/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Moana,4D (3D) Doblada,12:50,,,,https://multiplex.com.ar/peliculas/moana/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Oasis: Dont Look Back In Anger,2D Subtitulada,20:30,,,,https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Oasis: Dont Look Back In Anger,2D Subtitulada,22:30,,,,https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Obsesión,2D Subtitulada,18:10,,,,https://multiplex.com.ar/peliculas/obsesion/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",PAW Patrol: La Dino Película,2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/paw-patrol-la-dino-pelicula/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",PAW Patrol: La Dino Película,2D Doblada,14:50,,,,https://multiplex.com.ar/peliculas/paw-patrol-la-dino-pelicula/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Pepita la Pistolera,2D Doblada,13:40,,,,https://multiplex.com.ar/peliculas/pepita-la-pistolera/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Pepita la Pistolera,2D Doblada,18:20,,,,https://multiplex.com.ar/peliculas/pepita-la-pistolera/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Pepita la Pistolera,2D Doblada,20:30,,,,https://multiplex.com.ar/peliculas/pepita-la-pistolera/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Scary Movie,2D Doblada,22:50,,,,https://multiplex.com.ar/peliculas/scary-movie-terrorificamente-incorrecta/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,12:10,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,15:00,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,16:40,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,17:50,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,4D (3D) Doblada,19:30,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,4D (3D) Doblada,22:20,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Super Mario Galaxy: La Pelicula,4D (3D) Doblada,15:10,,,,https://multiplex.com.ar/peliculas/super-mario-galaxy-la-pelicula/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Tadeo : El Explorador Y La Lampara Maravillosa,2D Doblada,12:30,,,,https://multiplex.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Tadeo : El Explorador Y La Lampara Maravillosa,2D Doblada,16:30,,,,https://multiplex.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Toy Story 5,2D Doblada,13:10,,,,https://multiplex.com.ar/peliculas/toy-story-5/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Toy Story 5,4D (3D) Doblada,17:20,,,,https://multiplex.com.ar/peliculas/toy-story-5/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Una quinta en Portugal,2D Subtitulada,15:50,,,,https://multiplex.com.ar/peliculas/una-quinta-en-portugal/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Yo Narciso,2D Doblada,16:00,,,,https://multiplex.com.ar/peliculas/yo-narciso/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Yo Narciso,2D Doblada,18:00,,,,https://multiplex.com.ar/peliculas/yo-narciso/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Yo Narciso,2D Doblada,20:00,,,,https://multiplex.com.ar/peliculas/yo-narciso/
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,AKIRA (1988),2D Subtitulada,19:40,,,,https://www.cinemark.com.ar/peliculas/akira-1988
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Backrooms,2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/backrooms-version-extendida
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,CÓDIGO: VENGANZA,2D Doblada,12:55,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,CÓDIGO: VENGANZA,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,CÓDIGO: VENGANZA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,CÓDIGO: VENGANZA,2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,CÓDIGO: VENGANZA,2D Doblada,22:55,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Colony,2D Doblada,22:45,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Coyote vs. Acme,2D Doblada,14:05,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Coyote vs. Acme,2D Doblada,16:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Coyote vs. Acme,2D Doblada,19:35,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,EL HELADERO,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,EL HELADERO,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,EL HELADERO,2D Doblada,17:05,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,EL HELADERO,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,EL HELADERO,2D Doblada,21:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,EL HELADERO,2D Doblada,23:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,17:15,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,20:05,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,22:05,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Insidious: Fuera del más allá,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Insidious: Fuera del más allá,2D Doblada,16:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Insidious: Fuera del más allá,2D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Insidious: Fuera del más allá,2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Insidious: Fuera del más allá,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,La Odisea,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,LOS BOXTROLLS,2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,PARANORMAN,2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/paranorman
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,PAW Patrol: La Dino Película,2D Doblada,12:45,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,PAW Patrol: La Dino Película,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Pepita la Pistolera,2D Doblada,23:05,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,PMMM LA PELICULA PARTE 2,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Scary Movie,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/scary-movie-terrorificamente-incorrecta
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,SHREK 25 ANIVERSARIO,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,SHREK 25 ANIVERSARIO,2D Doblada,15:05,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,4D 3D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,4D 3D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,4D 3D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Spider-Man: Un nuevo día,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:45,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Terminator 2: El juicio final,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Toy Story 5,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Toy Story 5,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Toy Story 5,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Yo Narciso,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+GBA Sur,Cinemark Hoyts,Hoyts Quilmes,Av. Calchaquí 3950,Yo Narciso,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Afterburn (Zona cero),2D Doblada,22:50,,,,https://multiplex.com.ar/peliculas/zona-cero/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Código: Venganza,2D Doblada,23:10,,,,https://multiplex.com.ar/peliculas/codigo-venganza/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Coyote vs. Acme,2D Doblada,15:40,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Coyote vs. Acme,2D Doblada,17:50,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Coyote vs. Acme,2D Doblada,20:45,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El Heladero: Dulce Sabor A Muerte,2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El Heladero: Dulce Sabor A Muerte,2D Doblada,14:45,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El Heladero: Dulce Sabor A Muerte,2D Doblada,19:15,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El Heladero: Dulce Sabor A Muerte,2D Doblada,21:30,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El Heladero: Dulce Sabor A Muerte,2D Doblada,23:10,,,,https://multiplex.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Hechizo de amor: La magia continúa,2D Doblada,13:30,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Hechizo de amor: La magia continúa,2D Doblada,15:40,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Hechizo de amor: La magia continúa,2D Doblada,17:35,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Ice Cream Man,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/ice-cream-man
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Ice Cream Man,2D Doblada,14:45,,,,https://cartelera.ar/pelicula/ice-cream-man
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Ice Cream Man,2D Doblada,19:15,,,,https://cartelera.ar/pelicula/ice-cream-man
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Ice Cream Man,2D Doblada,21:30,,,,https://cartelera.ar/pelicula/ice-cream-man
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Ice Cream Man,2D Doblada,23:10,,,,https://cartelera.ar/pelicula/ice-cream-man
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,14:55,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,18:45,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,21:00,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,23:00,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La Odisea,2D Doblada,20:05,,,,https://multiplex.com.ar/peliculas/la-odisea/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Michael,4D (2D) Doblada,20:05,,,,https://multiplex.com.ar/peliculas/michael-la-historia-de-michael-jackson/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Minions & monstruos,3D Doblada,13:45,,,,https://multiplex.com.ar/peliculas/minions-monstruos/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Minions & monstruos,2D Doblada,14:45,,,,https://multiplex.com.ar/peliculas/minions-monstruos/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Oasis: Dont Look Back In Anger,2D Subtitulada,20:00,,,,https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Oasis: Dont Look Back In Anger,2D Subtitulada,22:25,,,,https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Obsesión,2D Doblada,23:15,,,,https://multiplex.com.ar/peliculas/obsesion/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Pepita la Pistolera,2D Doblada,19:30,,,,https://multiplex.com.ar/peliculas/pepita-la-pistolera/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Scary Movie,2D Doblada,18:20,,,,https://multiplex.com.ar/peliculas/scary-movie-terrorificamente-incorrecta/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,3D Doblada,15:30,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,2D Doblada,16:30,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,4D (3D) Doblada,17:20,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,3D Doblada,20:15,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,4D (3D) Doblada,22:30,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Super Mario Galaxy: La Película,2D Doblada,13:40,,,,https://multiplex.com.ar/peliculas/super-mario-galaxy-la-pelicula/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Tadeo : El Explorador Y La Lampara Maravillosa,2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Tadeo : El Explorador Y La Lampara Maravillosa,2D Doblada,16:55,,,,https://multiplex.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Toy Story 5,4D (3D) Doblada,13:20,,,,https://multiplex.com.ar/peliculas/toy-story-5/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Toy Story 5,4D (3D) Doblada,15:20,,,,https://multiplex.com.ar/peliculas/toy-story-5/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Yo Narciso,2D Doblada,16:30,,,,https://multiplex.com.ar/peliculas/yo-narciso/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Yo Narciso,2D Doblada,18:15,,,,https://multiplex.com.ar/peliculas/yo-narciso/
+GBA Norte,Showcase,IMAX Showcase Norte,"Av. Ricardo Balbín 2550, Shopping Norcenter",Proyecto Fin del Mundo,IMAX Subtitulada,13:00,,,,https://cartelera.ar/pelicula/proyecto-fin-del-mundo
+GBA Norte,Showcase,IMAX Showcase Norte,"Av. Ricardo Balbín 2550, Shopping Norcenter",Michael,IMAX Subtitulada,16:15,,,,https://cartelera.ar/pelicula/michael
+GBA Norte,Showcase,IMAX Showcase Norte,"Av. Ricardo Balbín 2550, Shopping Norcenter",La Odisea,IMAX Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-odisea
+GBA Norte,Showcase,IMAX Showcase Norte,"Av. Ricardo Balbín 2550, Shopping Norcenter",Oasis: Dont Look Back In Anger,IMAX Subtitulada,22:35,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Pepita la Pistolera,2D Doblada,17:15,,,,https://cartelera.ar/pelicula/pepita-la-pistolera
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Pepita la Pistolera,2D Doblada,21:45,,,,https://cartelera.ar/pelicula/pepita-la-pistolera
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Canelones,2D Doblada,17:00,,,,https://cartelera.ar/pelicula/canelones
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Yo Narciso,2D Doblada,14:45,,,,https://cartelera.ar/pelicula/yo-narciso
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Yo Narciso,2D Doblada,20:00,,,,https://cartelera.ar/pelicula/yo-narciso
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Lu & Pau,2D Doblada,16:45,,,,https://cartelera.ar/pelicula/lu-pau
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Suite Juárez,2D Doblada,18:30,,,,https://cartelera.ar/pelicula/suite-juarez
 CABA,Cine Independiente,CineArte Cacodelphia,"Roque Sáenz Peña 1150, Buenos Aires",Islandia,2D Doblada,19:00,,,,https://cartelera.ar/pelicula/islandia
-CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Oasis: Dont Look Back In Anger,2D Subtitulada,20:00,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
-CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Oasis: Dont Look Back In Anger,2D Subtitulada,22:25,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
-CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Oasis: Dont Look Back In Anger,2D Subtitulada,20:20,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
-GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Oasis: Dont Look Back In Anger,2D Subtitulada,20:30,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
-GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Oasis: Dont Look Back In Anger,2D Subtitulada,22:30,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
-GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Oasis: Dont Look Back In Anger,2D Subtitulada,20:30,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
-,Cinemark Hoyts,Caballito,,CORALINE,3D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Caballito,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Caballito,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
-,Cinemark Hoyts,Soleil,,CORALINE,3D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Soleil,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,San Justo,,CORALINE,3D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,San Justo,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Quilmes,,PMMM LA PELICULA PARTE 2,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2
-,Cinemark Hoyts,Quilmes,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Quilmes,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
-,Cinemark Hoyts,Quilmes,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Abasto,,PMMM LA PELICULA PARTE 2,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2
-,Cinemark Hoyts,Abasto,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Abasto,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
-,Cinemark Hoyts,Unicenter,,PMMM LA PELICULA PARTE 2,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2
-,Cinemark Hoyts,Unicenter,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Unicenter,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
-,Cinemark Hoyts,Unicenter,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Moron,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Moron,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+GBA Oeste,Showcase,Showcase Haedo,"Av. Rivadavia 16.200, Shopping Haedo",Oasis: Dont Look Back In Anger,2D Subtitulada,19:45,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
+GBA Sur,Showcase,Showcase Quilmes,"Av. Calchaquí 3950, Quilmes Factory",Oasis: Dont Look Back In Anger,2D Subtitulada,19:45,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
+GBA Norte,Showcase,Showcase Norte (Norcenter),"Colectora Panamericana 3750, Norcenter",Oasis: Dont Look Back In Anger,2D Subtitulada,19:50,,,,https://cartelera.ar/pelicula/oasis-dont-look-back-in-anger
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Oasis: Dont Look Back In Anger,COMFORT PLUS 2D Subtitulada,20:20,,,,https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Oasis: Dont Look Back In Anger,2D Subtitulada,20:30,,,,https://multiplex.com.ar/peliculas/oasis-dont-look-back-in-anger/
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Subtitulada,12:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Subtitulada,15:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Subtitulada,15:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Subtitulada,18:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Subtitulada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Subtitulada,21:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,SPIDER-MAN: UN NUEVO DÍA,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,DOT,,TOY STORY 5,2D Doblada,12:10,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,DOT,,"YO, NARCISO",PREMIER 2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,DOT,,"YO, NARCISO",2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,DOT,,"YO, NARCISO",PREMIER 2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,DOT,,"YO, NARCISO",2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,DOT,,"YO, NARCISO",PREMIER 2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,DOT,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,DOT,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,DOT,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,DOT,,COYOTE VS ACME,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,DOT,,COYOTE VS ACME,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,DOT,,COYOTE VS ACME,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,DOT,,COYOTE VS ACME,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,DOT,,LA ODISEA,PREMIER 2D Subtitulada,13:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,DOT,,LA ODISEA,PREMIER 2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,DOT,,LA ODISEA,2D Subtitulada,19:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,DOT,,LA ODISEA,PREMIER 2D Subtitulada,21:30,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,DOT,,LA ODISEA,XD 2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,DOT,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,DOT,,SHREK 25 ANIVERSARIO,2D Doblada,13:50,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,DOT,,EL HELADERO,2D Subtitulada,15:00,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,DOT,,EL HELADERO,2D Subtitulada,23:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,DOT,,PEPITA LA PISTOLERA,PREMIER 2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,DOT,,PEPITA LA PISTOLERA,PREMIER 2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,DOT,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,16:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,DOT,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,19:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,DOT,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,DOT,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,16:20,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,DOT,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,DOT,,CÓDIGO: VENGANZA,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,DOT,,CÓDIGO: VENGANZA,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,DOT,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,DOT,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,DOT,,TERMINATOR 2: EL JUICIO FINAL,2D Subtitulada,22:40,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,DOT,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,DBOX 2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,DBOX 2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,DBOX 2D Doblada,17:10,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,17:10,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,DBOX 2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,DBOX XD 2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,XD 2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,DBOX XD 2D Doblada,14:25,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,XD 2D Doblada,14:25,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,DBOX XD 2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,XD 2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,DBOX XD 2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,XD 2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,DBOX XD 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,XD 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,4D 2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,TOY STORY 5,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Temperley,,TOY STORY 5,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Temperley,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Temperley,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,14:45,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Temperley,,LOS BOXTROLLS,2D Doblada,12:45,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+,Cinemark Hoyts,Temperley,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Temperley,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Temperley,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,16:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:45,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,CÓDIGO: VENGANZA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Temperley,,CÓDIGO: VENGANZA,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Temperley,,CÓDIGO: VENGANZA,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Temperley,,LA ODISEA,2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Temperley,,LA ODISEA,DBOX 2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Temperley,,LA ODISEA,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Temperley,,PARANORMAN,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/paranorman
+,Cinemark Hoyts,Temperley,,SHREK 25 ANIVERSARIO,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Temperley,,MICHAEL,2D Doblada,16:50,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,Temperley,,TERMINATOR 2: EL JUICIO FINAL,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,Temperley,,EL HELADERO,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Temperley,,EL HELADERO,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
 ,Cinemark Hoyts,Temperley,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Temperley,,EL DIABLO VISTE A LA MODA 2,DBOX 2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
+,Cinemark Hoyts,Temperley,,EL DIABLO VISTE A LA MODA 2,2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
+,Cinemark Hoyts,Temperley,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Temperley,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
 ,Cinemark Hoyts,Temperley,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
 ,Cinemark Hoyts,Temperley,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,Temperley,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Temperley,,"YO, NARCISO",2D Doblada,20:25,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Temperley,,"YO, NARCISO",2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Temperley,,PEPITA LA PISTOLERA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,PREMIER 2D Subtitulada,12:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,12:25,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Subtitulada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,2D Subtitulada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,PREMIER 2D Subtitulada,15:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Subtitulada,15:45,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,2D Subtitulada,15:45,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,PREMIER 2D Subtitulada,18:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,18:45,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,DBOX 3D Subtitulada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,3D Subtitulada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,4D 3D Doblada,21:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,PREMIER 2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Subtitulada,22:05,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,SPIDER-MAN: UN NUEVO DÍA,2D Subtitulada,22:05,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Unicenter,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Unicenter,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Unicenter,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,17:40,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Unicenter,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Unicenter,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Unicenter,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,12:10,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Unicenter,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Unicenter,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,12:15,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Unicenter,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,14:35,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Unicenter,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,17:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Unicenter,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,19:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Unicenter,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,DBOX 2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,DBOX 2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,DBOX 2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,DBOX 2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,DBOX 2D Subtitulada,21:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,COYOTE VS ACME,2D Subtitulada,21:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Unicenter,,EL HELADERO,2D Subtitulada,12:35,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Unicenter,,EL HELADERO,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Unicenter,,EL HELADERO,2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Unicenter,,CÓDIGO: VENGANZA,2D Subtitulada,12:40,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Unicenter,,CÓDIGO: VENGANZA,2D Subtitulada,15:10,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Unicenter,,CÓDIGO: VENGANZA,2D Subtitulada,17:20,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Unicenter,,CÓDIGO: VENGANZA,2D Subtitulada,19:40,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Unicenter,,CÓDIGO: VENGANZA,2D Subtitulada,22:15,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Unicenter,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,12:45,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Unicenter,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Unicenter,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:35,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Unicenter,,"YO, NARCISO",2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Unicenter,,"YO, NARCISO",2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Unicenter,,"YO, NARCISO",2D Doblada,17:45,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Unicenter,,"YO, NARCISO",2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Unicenter,,"YO, NARCISO",2D Doblada,21:55,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Unicenter,,LOS BOXTROLLS,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+,Cinemark Hoyts,Unicenter,,MINIONS & MONSTRUOS,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/minions-monstruos
+,Cinemark Hoyts,Unicenter,,MINIONS & MONSTRUOS,2D Doblada,15:25,,,,https://www.cinemark.com.ar/peliculas/minions-monstruos
+,Cinemark Hoyts,Unicenter,,TOY STORY 5,2D Doblada,13:15,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Unicenter,,TOY STORY 5,2D Doblada,15:35,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Unicenter,,TOY STORY 5,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Unicenter,,LA ODISEA,PREMIER 2D Subtitulada,13:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,DBOX 2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,PREMIER 2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,DBOX 2D Doblada,18:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,2D Doblada,18:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,PREMIER 2D Subtitulada,21:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,DBOX 2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,LA ODISEA,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Unicenter,,COLONY: ZONA CERO,2D Subtitulada,14:45,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Unicenter,,PARANORMAN,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/paranorman
+,Cinemark Hoyts,Unicenter,,PMMM LA PELICULA PARTE 2,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2
+,Cinemark Hoyts,Unicenter,,SHREK 25 ANIVERSARIO,2D Doblada,17:25,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Unicenter,,LA GUERRA DE LOS ÚLTIMOS,2D Subtitulada,17:30,,,,https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos
+,Cinemark Hoyts,Unicenter,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Unicenter,,AKIRA (1988),2D Subtitulada,19:45,,,,https://www.cinemark.com.ar/peliculas/akira-1988
+,Cinemark Hoyts,Unicenter,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Unicenter,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Unicenter,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,Unicenter,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,20:15,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Unicenter,,PEPITA LA PISTOLERA,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Unicenter,,PEPITA LA PISTOLERA,2D Doblada,22:45,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Unicenter,,MICHAEL,2D Subtitulada,22:15,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,Unicenter,,TERMINATOR 2: EL JUICIO FINAL,2D Subtitulada,22:40,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,Unicenter,,BACKROOMS: VERSIÓN EXTENDIDA,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/backrooms-version-extendida
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Subtitulada,12:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Subtitulada,15:35,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Subtitulada,19:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Subtitulada,22:45,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,DBOX 2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,DBOX 2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,DBOX 2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,DBOX 2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,DBOX 2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,"YO, NARCISO",2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Abasto,,"YO, NARCISO",2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Abasto,,"YO, NARCISO",2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Abasto,,CÓDIGO: VENGANZA,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Abasto,,CÓDIGO: VENGANZA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Abasto,,CÓDIGO: VENGANZA,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Abasto,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Abasto,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Abasto,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Abasto,,LOS BOXTROLLS,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+,Cinemark Hoyts,Abasto,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Abasto,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Abasto,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Abasto,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Abasto,,TOY STORY 5,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Abasto,,TOY STORY 5,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Abasto,,EL HELADERO,2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Abasto,,EL HELADERO,2D Doblada,18:20,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Abasto,,EL HELADERO,2D Doblada,23:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Abasto,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Abasto,,PEPITA LA PISTOLERA,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Abasto,,PEPITA LA PISTOLERA,2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Abasto,,EL FINAL DE LA CALLE OAK,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/el-final-de-la-calle-oak
+,Cinemark Hoyts,Abasto,,PARANORMAN,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/paranorman
+,Cinemark Hoyts,Abasto,,COLONY: ZONA CERO,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Abasto,,COLONY: ZONA CERO,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Abasto,,PMMM LA PELICULA PARTE 2,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-pelicula-parte-2
+,Cinemark Hoyts,Abasto,,SHREK 25 ANIVERSARIO,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Abasto,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Abasto,,AKIRA (1988),2D Subtitulada,19:30,,,,https://www.cinemark.com.ar/peliculas/akira-1988
+,Cinemark Hoyts,Abasto,,MICHAEL,2D Subtitulada,19:50,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,Abasto,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Abasto,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Abasto,,EL DIABLO VISTE A LA MODA 2,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
+,Cinemark Hoyts,Abasto,,TERMINATOR 2: EL JUICIO FINAL,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,Palermo,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Palermo,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Palermo,,SPIDER-MAN: UN NUEVO DÍA,3D Subtitulada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Palermo,,SPIDER-MAN: UN NUEVO DÍA,2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Palermo,,COYOTE VS ACME,2D Doblada,12:10,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Palermo,,COYOTE VS ACME,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Palermo,,COYOTE VS ACME,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Palermo,,COYOTE VS ACME,2D Subtitulada,20:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Palermo,,CÓDIGO: VENGANZA,2D Subtitulada,12:20,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Palermo,,CÓDIGO: VENGANZA,2D Subtitulada,17:10,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Palermo,,CÓDIGO: VENGANZA,2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Palermo,,LOS BOXTROLLS,2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+,Cinemark Hoyts,Palermo,,PEPITA LA PISTOLERA,2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Palermo,,PEPITA LA PISTOLERA,2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Palermo,,PEPITA LA PISTOLERA,2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Palermo,,EL HELADERO,2D Subtitulada,12:40,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Palermo,,EL HELADERO,2D Subtitulada,17:30,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Palermo,,EL HELADERO,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Palermo,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Palermo,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Palermo,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Palermo,,"YO, NARCISO",2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Palermo,,"YO, NARCISO",2D Doblada,20:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Palermo,,"YO, NARCISO",2D Doblada,23:10,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Palermo,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,13:20,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Palermo,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,16:20,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Palermo,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,19:20,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Palermo,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Palermo,,LA ODISEA,2D Subtitulada,14:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Palermo,,LA ODISEA,2D Subtitulada,18:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Palermo,,LA ODISEA,2D Subtitulada,21:50,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Palermo,,LA ODISEA,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Palermo,,SCARY MOVIE TERRORÍFICAMENTE INC,2D Subtitulada,14:40,,,,https://www.cinemark.com.ar/peliculas/scary-movie-terrorificamente-incorrecta
+,Cinemark Hoyts,Palermo,,LA GUERRA DE LOS ÚLTIMOS,2D Subtitulada,14:50,,,,https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos
+,Cinemark Hoyts,Palermo,,PARANORMAN,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/paranorman
+,Cinemark Hoyts,Palermo,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,15:25,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Palermo,,LA NOCHE DEL DEMONIO 6,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Palermo,,MICHAEL,2D Subtitulada,17:00,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,Palermo,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,17:15,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Palermo,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Palermo,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Palermo,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Palermo,,LA INVITACIÓN,2D Subtitulada,19:50,,,,https://www.cinemark.com.ar/peliculas/la-invitacion
+,Cinemark Hoyts,Palermo,,TERMINATOR 2: EL JUICIO FINAL,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,Palermo,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,Palermo,,EL DIABLO VISTE A LA MODA 2,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 3D Doblada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,XD 3D Doblada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,San Justo,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,San Justo,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,San Justo,,SHREK 25 ANIVERSARIO,2D Doblada,13:40,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,San Justo,,MICHAEL,2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,San Justo,,CORALINE,3D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,San Justo,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,San Justo,,SCARY MOVIE TERRORÍFICAMENTE INC,2D Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/scary-movie-terrorificamente-incorrecta
+,Cinemark Hoyts,San Justo,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,San Justo,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,San Justo,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,San Justo,,EL HELADERO,2D Doblada,20:40,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,San Justo,,EL HELADERO,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,San Justo,,"YO, NARCISO",2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,San Justo,,PEPITA LA PISTOLERA,2D Doblada,22:55,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,DBOX 2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,DBOX 2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,DBOX 2D Doblada,17:15,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,2D Doblada,17:15,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,DBOX 2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,COYOTE VS ACME,2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,DBOX 3D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,3D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,DBOX 2D Doblada,22:15,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:15,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moron,,LA NOCHE DEL DEMONIO 6,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moron,,LA NOCHE DEL DEMONIO 6,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moron,,LA NOCHE DEL DEMONIO 6,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moron,,LA NOCHE DEL DEMONIO 6,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moron,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moron,,TOY STORY 5,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Moron,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Moron,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Moron,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Moron,,CÓDIGO: VENGANZA,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Moron,,CÓDIGO: VENGANZA,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Moron,,CÓDIGO: VENGANZA,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Moron,,LA ODISEA,2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Moron,,LA ODISEA,DBOX 2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Moron,,LA ODISEA,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Moron,,"YO, NARCISO",2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moron,,"YO, NARCISO",2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moron,,"YO, NARCISO",2D Doblada,22:35,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moron,,MICHAEL,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,Moron,,SHREK 25 ANIVERSARIO,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Moron,,COLONY: ZONA CERO,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Moron,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Moron,,EL HELADERO,2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Moron,,EL HELADERO,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Moron,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Moron,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Moron,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Moron,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Moron,,PEPITA LA PISTOLERA,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Tortugas,,COYOTE VS ACME,2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Tortugas,,COYOTE VS ACME,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Tortugas,,COYOTE VS ACME,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Tortugas,,COYOTE VS ACME,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 3D Doblada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,XD 3D Doblada,18:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,DBOX XD 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,SPIDER-MAN: UN NUEVO DÍA,XD 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Tortugas,,LOS BOXTROLLS,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+,Cinemark Hoyts,Tortugas,,HOPPERS: OPERACIÓN CASTOR,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/hoppers
+,Cinemark Hoyts,Tortugas,,CÓDIGO: VENGANZA,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Tortugas,,CÓDIGO: VENGANZA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Tortugas,,CÓDIGO: VENGANZA,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Tortugas,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Tortugas,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Tortugas,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Tortugas,,TOY STORY 5,2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,2D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,21:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,2D Doblada,21:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Tortugas,,LA ODISEA,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Tortugas,,LA ODISEA,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Tortugas,,EL DIABLO VISTE A LA MODA 2,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
+,Cinemark Hoyts,Tortugas,,PEPITA LA PISTOLERA,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Tortugas,,PEPITA LA PISTOLERA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Tortugas,,SHREK 25 ANIVERSARIO,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Tortugas,,LA GUERRA DE LOS ÚLTIMOS,2D Doblada,16:20,,,,https://www.cinemark.com.ar/peliculas/la-guerra-de-los-ultimos
+,Cinemark Hoyts,Tortugas,,COLONY: ZONA CERO,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Tortugas,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Tortugas,,EL HELADERO,2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Tortugas,,EL HELADERO,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Tortugas,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Tortugas,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,21:50,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Tortugas,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Tortugas,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,Tortugas,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Tortugas,,TERMINATOR 2: EL JUICIO FINAL,2D Doblada,20:15,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,Tortugas,,"YO, NARCISO",2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Tortugas,,"YO, NARCISO",2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moreno,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moreno,,SPIDER-MAN: UN NUEVO DÍA,3D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moreno,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moreno,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,DBOX 2D Doblada,12:35,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,2D Doblada,12:35,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,DBOX 2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,DBOX 2D Doblada,17:25,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,2D Doblada,17:25,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,DBOX 2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,COYOTE VS ACME,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Moreno,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Moreno,,PAW PATROL: LA DINO PELÍCULA,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/paw-patrol-la-dino-pelicula
+,Cinemark Hoyts,Moreno,,LOS BOXTROLLS,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/los-boxtrolls
+,Cinemark Hoyts,Moreno,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Moreno,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Moreno,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Moreno,,EL HELADERO,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Moreno,,EL HELADERO,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Moreno,,EL HELADERO,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,13:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,2D Doblada,13:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,DBOX 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Moreno,,EL FINAL DE LA CALLE OAK,2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/el-final-de-la-calle-oak
+,Cinemark Hoyts,Moreno,,LA ODISEA,2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Moreno,,LA ODISEA,DBOX 2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Moreno,,LA ODISEA,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Moreno,,"YO, NARCISO",2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moreno,,"YO, NARCISO",2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moreno,,"YO, NARCISO",2D Doblada,22:45,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Moreno,,PARANORMAN,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/paranorman
+,Cinemark Hoyts,Moreno,,TOY STORY 5,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Moreno,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,16:20,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Moreno,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,19:15,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Moreno,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Doblada,22:15,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Moreno,,SHREK 25 ANIVERSARIO,2D Doblada,16:50,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Moreno,,TERMINATOR 2: EL JUICIO FINAL,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/terminator-2-el-juicio-final-35-aniversario
+,Cinemark Hoyts,Moreno,,COLONY: ZONA CERO,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
 ,Cinemark Hoyts,Moreno,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Moreno,,EL DIABLO VISTE A LA MODA 2,2D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
 ,Cinemark Hoyts,Moreno,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
 ,Cinemark Hoyts,Moreno,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,DOT,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,DOT,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
-,Cinemark Hoyts,DOT,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
+,Cinemark Hoyts,Moreno,,MICHAEL,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/michael
+,Cinemark Hoyts,Moreno,,CÓDIGO: VENGANZA,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Moreno,,CÓDIGO: VENGANZA,2D Doblada,23:10,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Moreno,,SCARY MOVIE TERRORÍFICAMENTE INC,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/scary-movie-terrorificamente-incorrecta
+,Cinemark Hoyts,Moreno,,PEPITA LA PISTOLERA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Moreno,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Puerto Madero,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Puerto Madero,,SPIDER-MAN: UN NUEVO DÍA,3D Doblada,16:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Puerto Madero,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Puerto Madero,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Puerto Madero,,TOY STORY 5,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Puerto Madero,,COYOTE VS ACME,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Puerto Madero,,COYOTE VS ACME,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Puerto Madero,,COYOTE VS ACME,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Puerto Madero,,COYOTE VS ACME,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Puerto Madero,,LA NOCHE DEL DEMONIO 6,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Puerto Madero,,LA NOCHE DEL DEMONIO 6,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Puerto Madero,,LA NOCHE DEL DEMONIO 6,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Puerto Madero,,LA NOCHE DEL DEMONIO 6,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Puerto Madero,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Puerto Madero,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Puerto Madero,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Puerto Madero,,TADEO EL EXPLORADOR Y LA LAMPARA,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/tadeo-el-explorador-y-la-lampara-maravillosa
+,Cinemark Hoyts,Puerto Madero,,"YO, NARCISO",2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Puerto Madero,,"YO, NARCISO",2D Doblada,20:15,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Puerto Madero,,"YO, NARCISO",2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Puerto Madero,,EL DIABLO VISTE A LA MODA 2,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/el-diablo-viste-a-la-moda-2
+,Cinemark Hoyts,Puerto Madero,,SHREK 25 ANIVERSARIO,2D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/shrek-25-aniversario
+,Cinemark Hoyts,Puerto Madero,,SCARY MOVIE TERRORÍFICAMENTE INC,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/scary-movie-terrorificamente-incorrecta
+,Cinemark Hoyts,Puerto Madero,,RÁPIDO Y FURIOSO: 25 ANIVERSARIO,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/rapido-y-furioso-25-aniversario
+,Cinemark Hoyts,Puerto Madero,,COLONY: ZONA CERO,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Puerto Madero,,CÓDIGO: VENGANZA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
+,Cinemark Hoyts,Puerto Madero,,CÓDIGO: VENGANZA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/codigo-venganza
 ,Cinemark Hoyts,Puerto Madero,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Puerto Madero,,LA ODISEA,2D Subtitulada,18:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Puerto Madero,,LA ODISEA,2D Subtitulada,21:50,,,,https://www.cinemark.com.ar/peliculas/la-odisea
 ,Cinemark Hoyts,Puerto Madero,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
 ,Cinemark Hoyts,Puerto Madero,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Palermo,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Palermo,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Palermo,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
+,Cinemark Hoyts,Puerto Madero,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Puerto Madero,,HECHIZO DE AMOR: LA MAGIA CONTINUA,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+,Cinemark Hoyts,Puerto Madero,,PEPITA LA PISTOLERA,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+,Cinemark Hoyts,Puerto Madero,,EL HELADERO,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/el-heladero-dulce-sabor-a-muerte
+,Cinemark Hoyts,Soleil,,CORALINE,3D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
+,Cinemark Hoyts,Soleil,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
 ,Cinemark Hoyts,Malvinas Argentinas,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
 ,Cinemark Hoyts,Malvinas Argentinas,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
 ,Cinemark Hoyts,Malvinas Argentinas,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
-,Cinemark Hoyts,Tortugas,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
-,Cinemark Hoyts,Tortugas,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
 ,Cinemark Hoyts,Alto Avellaneda,,CORALINE,3D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coraline-y-la-puerta-secreta
 ,Cinemark Hoyts,Alto Avellaneda,,OASIS: DON´T LOOK BACK IN ANGER,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/oasis-don-t-look-back-in-anger
 ,Cinemark Hoyts,Alto Avellaneda,,VOLVER AL FUTURO PARTE II,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/volver-al-futuro-parte-ii
