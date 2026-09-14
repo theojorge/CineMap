@@ -7,41 +7,6 @@
     "direccion": "Lavalle 780, CABA",
     "peliculas": [
       {
-        "titulo": "One Piece: La película",
-        "url": "https://multiplex.com.ar/peliculas/one-piece-la-pelicula/",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:40",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
         "titulo": "Resident Evil: Noche Cero",
         "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
@@ -477,10 +442,10 @@
   },
   {
     "cadena": "Cinépolis",
-    "nombre": "Cinépolis Pilar",
-    "slug": "cinepolis-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Panamericana Km. 50, Pilar",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
     "peliculas": [
       {
         "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
@@ -497,10 +462,10 @@
   },
   {
     "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
+    "nombre": "Cinépolis Pilar",
+    "slug": "cinepolis-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Panamericana Km. 50, Pilar",
     "peliculas": [
       {
         "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
@@ -725,10 +690,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -844,10 +805,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1002,10 +959,6 @@
           {
             "horario": "18:30",
             "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1073,10 +1026,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1133,17 +1082,6 @@
           {
             "horario": "22:00",
             "formato": "XD 2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada"
           }
         ]
       }
@@ -1220,21 +1158,6 @@
           {
             "horario": "23:00",
             "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1342,10 +1265,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1412,21 +1331,6 @@
             "formato": "4D 2D Doblada"
           }
         ]
-      },
-      {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          }
-        ]
       }
     ]
   },
@@ -1460,17 +1364,6 @@
           },
           {
             "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
             "formato": "2D Subtitulada"
           }
         ]
@@ -1535,21 +1428,6 @@
           },
           {
             "horario": "23:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
             "formato": "2D Subtitulada"
           }
         ]
@@ -1669,10 +1547,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:15",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1755,10 +1629,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:15",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1866,10 +1736,6 @@
           {
             "horario": "18:30",
             "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
           }
         ]
       }
@@ -1905,17 +1771,6 @@
           },
           {
             "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
             "formato": "2D Doblada"
           }
         ]
@@ -1968,10 +1823,6 @@
           {
             "horario": "18:30",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada"
           }
         ]
       }

@@ -7,12 +7,34 @@
     "direccion": "Vicente López 2050, Recoleta",
     "peliculas": [
       {
+        "titulo": "Babystar",
+        "url": "https://cartelera.ar/pelicula/babystar",
+        "imagen": "/posters/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
+        "url": "https://cartelera.ar/pelicula/nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas",
+        "imagen": "/posters/wLItpgfVeRL4VlqoaQJRQXzUmc1.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "Circusboy",
         "url": "https://cartelera.ar/pelicula/circusboy",
         "imagen": "/posters/nOTvmAXX7lVuAF56fZZl34BEzzO.jpg",
         "funciones": [
           {
-            "horario": "17:00",
+            "horario": "14:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -23,18 +45,7 @@
         "imagen": "",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "El Sonido al Caer",
-        "url": "https://cartelera.ar/pelicula/el-sonido-al-caer",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
+            "horario": "17:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -45,15 +56,15 @@
         "imagen": "",
         "funciones": [
           {
-            "horario": "19:30",
+            "horario": "22:00",
             "formato": "2D Subtitulada"
           }
         ]
       },
       {
-        "titulo": "Home Stories",
-        "url": "https://cartelera.ar/pelicula/home-stories",
-        "imagen": "/posters/yInkf546G1I63g4Im3XvFCnmxsf.jpg",
+        "titulo": "Rave On",
+        "url": "https://cartelera.ar/pelicula/rave-on",
+        "imagen": "/posters/20PIVsVADzvccIq1dW79lRGwEBC.jpg",
         "funciones": [
           {
             "horario": "11:30",
@@ -208,10 +219,10 @@
   },
   {
     "cadena": "Showcase",
-    "nombre": "Showcase Norte (Norcenter)",
-    "slug": "showcase-norte-norcenter",
-    "zona": "GBA Norte",
-    "direccion": "Colectora Panamericana 3750, Norcenter",
+    "nombre": "Showcase Haedo",
+    "slug": "showcase-haedo",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
     "peliculas": [
       {
         "titulo": "Resident Evil: Noche Cero",
@@ -267,10 +278,10 @@
   },
   {
     "cadena": "Showcase",
-    "nombre": "Showcase Haedo",
-    "slug": "showcase-haedo",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
+    "nombre": "Showcase Norte (Norcenter)",
+    "slug": "showcase-norte-norcenter",
+    "zona": "GBA Norte",
+    "direccion": "Colectora Panamericana 3750, Norcenter",
     "peliculas": [
       {
         "titulo": "Resident Evil: Noche Cero",
@@ -453,6 +464,37 @@
   },
   {
     "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
+        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-movie-3-hangyaku-no-monogatari",
+        "imagen": "/posters/sLoAws32ETKAownjg87LaEOvxmk.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
+        "url": "https://cartelera.ar/pelicula/nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas",
+        "imagen": "/posters/wLItpgfVeRL4VlqoaQJRQXzUmc1.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
     "nombre": "Cinépolis Pilar",
     "slug": "cinepolis-pilar",
     "zona": "GBA Norte",
@@ -468,20 +510,11 @@
             "formato": "2D Subtitulada"
           }
         ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
-    "peliculas": [
+      },
       {
-        "titulo": "Mahou Shoujo Madoka Magica Movie 3: Hangyaku no Monogatari",
-        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-movie-3-hangyaku-no-monogatari",
-        "imagen": "/posters/sLoAws32ETKAownjg87LaEOvxmk.jpg",
+        "titulo": "NCT 127 5TH TOUR ‘NEO CITY : SEOUL - THE REDLINE’ in CINEMAS",
+        "url": "https://cartelera.ar/pelicula/nct-127-5th-tour-neo-city-seoul-the-redline-in-cinemas",
+        "imagen": "/posters/wLItpgfVeRL4VlqoaQJRQXzUmc1.jpg",
         "funciones": [
           {
             "horario": "18:00",
@@ -566,6 +599,26 @@
     ]
   },
   {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Los Vencedores",
+        "url": "https://cartelera.ar/pelicula/los-vencedores",
+        "imagen": "/posters/hJVeuvHc7xmeYHhCs1iypk6nPy.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Caballito",
     "slug": "atlas-caballito",
@@ -595,26 +648,6 @@
           {
             "horario": "19:10",
             "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
-    "peliculas": [
-      {
-        "titulo": "Los Nadadores",
-        "url": "https://cartelera.ar/pelicula/los-nadadores",
-        "imagen": "/posters/4WLYa1B4Uba8sb0wVkUzD9uZIz1.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada"
           }
         ]
       }
@@ -679,6 +712,17 @@
           {
             "horario": "23:00",
             "formato": "4D 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "NCT 127 5TH TOUR NEO CITY: SEOUL THE REDLINE",
+        "url": "https://www.cinemark.com.ar/peliculas/nct-127-5th-tour-neo-city-seoul-the-redline-li",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -794,6 +838,17 @@
           {
             "horario": "23:00",
             "formato": "4D 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "NCT 127 5TH TOUR NEO CITY: SEOUL THE REDLINE",
+        "url": "https://www.cinemark.com.ar/peliculas/nct-127-5th-tour-neo-city-seoul-the-redline-li",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -952,6 +1007,17 @@
         ]
       },
       {
+        "titulo": "NCT 127 5TH TOUR NEO CITY: SEOUL THE REDLINE",
+        "url": "https://www.cinemark.com.ar/peliculas/nct-127-5th-tour-neo-city-seoul-the-redline-li",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "ONE PIECE: LA PELÍCULA",
         "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
         "imagen": "/posters/one-piece-la-pelicula.jpg",
@@ -1025,7 +1091,7 @@
         "funciones": [
           {
             "horario": "18:30",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1233,11 +1299,11 @@
           },
           {
             "horario": "20:40",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "20:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "22:00",
@@ -1249,11 +1315,11 @@
           },
           {
             "horario": "23:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "23:00",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -1540,57 +1606,13 @@
         ]
       },
       {
-        "titulo": "ONE PIECE: LA PELÍCULA",
-        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
-        "imagen": "/posters/one-piece-la-pelicula.jpg",
+        "titulo": "NCT 127 5TH TOUR NEO CITY: SEOUL THE REDLINE",
+        "url": "https://www.cinemark.com.ar/peliculas/nct-127-5th-tour-neo-city-seoul-the-redline-li",
+        "imagen": "",
         "funciones": [
           {
-            "horario": "18:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "RESIDENT EVIL: NOCHE CERO",
-        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
-        "imagen": "/posters/resident-evil-noche-cero.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:15",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
+            "horario": "18:00",
             "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
           }
         ]
       },
@@ -1601,7 +1623,7 @@
         "funciones": [
           {
             "horario": "18:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -1672,6 +1694,17 @@
         "funciones": [
           {
             "horario": "17:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "NCT 127 5TH TOUR NEO CITY: SEOUL THE REDLINE",
+        "url": "https://www.cinemark.com.ar/peliculas/nct-127-5th-tour-neo-city-seoul-the-redline-li",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -1830,6 +1863,57 @@
           },
           {
             "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "15:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "ONE PIECE: LA PELÍCULA",
+        "url": "https://www.cinemark.com.ar/peliculas/one-piece-la-pelicula",
+        "imagen": "/posters/one-piece-la-pelicula.jpg",
+        "funciones": [
+          {
+            "horario": "18:30",
             "formato": "2D Doblada"
           }
         ]

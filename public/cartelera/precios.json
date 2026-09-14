@@ -1171,18 +1171,6 @@
         }
       }
     },
-    "malba-cine": {
-      "cadena": "Cine Independiente",
-      "nombre": "MALBA Cine",
-      "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        }
-      }
-    },
     "multiplex-belgrano": {
       "cadena": "Multiplex",
       "nombre": "Multiplex Belgrano",
@@ -1480,6 +1468,18 @@
           "precio_general": 15500,
           "precio_jubilado": null,
           "precio_menor": 12000
+        }
+      }
+    },
+    "malba-cine": {
+      "cadena": "Cine Independiente",
+      "nombre": "MALBA Cine",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
         }
       }
     }
