@@ -631,8 +631,48 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Malvinas Argentinas",
-    "slug": "cinemark-malvinas-argentinas",
+    "nombre": "Temperley",
+    "slug": "hoyts-temperley",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "DBOX XD 3D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "4D 3D IV Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Tortugas",
+    "slug": "cinemark-tortugas",
     "zona": "",
     "direccion": "",
     "peliculas": [
@@ -663,8 +703,8 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Tortugas",
-    "slug": "cinemark-tortugas",
+    "nombre": "Malvinas Argentinas",
+    "slug": "cinemark-malvinas-argentinas",
     "zona": "",
     "direccion": "",
     "peliculas": [
@@ -707,10 +747,6 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "DBOX XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:00",
             "formato": "XD 3D IV Doblada"
           },
           {
@@ -720,46 +756,6 @@
           {
             "horario": "22:00",
             "formato": "XD 2D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Temperley",
-    "slug": "hoyts-temperley",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "DBOX XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "4D 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "4D 3D IV Doblada"
           }
         ]
       }
