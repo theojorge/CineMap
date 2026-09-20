@@ -100,6 +100,124 @@
     ]
   },
   {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Pilar",
+    "slug": "cinepolis-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Panamericana Km. 50, Pilar",
+    "peliculas": [
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La última copa",
+        "url": "https://cartelera.ar/pelicula/la-ultima-copa",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Que Dios perdona a todos",
+        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "3D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La última copa",
+        "url": "https://cartelera.ar/pelicula/la-ultima-copa",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Que Dios perdona a todos",
+        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "3D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Multiplex",
     "nombre": "Multiplex Lavalle",
     "slug": "multiplex-lavalle",
@@ -121,6 +239,34 @@
           },
           {
             "horario": "22:05",
+            "formato": "2D XTREMO Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Las Magnolias 754, Palmas del Pilar",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame (re Estreno)",
+        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "18:30",
+            "formato": "2D XTREMO Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "22:00",
             "formato": "2D XTREMO Doblada"
           }
         ]
@@ -161,34 +307,6 @@
   },
   {
     "cadena": "Multiplex",
-    "nombre": "Multiplex Pilar",
-    "slug": "multiplex-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Las Magnolias 754, Palmas del Pilar",
-    "peliculas": [
-      {
-        "titulo": "Avengers: Endgame (re Estreno)",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D XTREMO Doblada"
-          },
-          {
-            "horario": "21:30",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D XTREMO Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
     "nombre": "Multiplex Belgrano",
     "slug": "multiplex-belgrano",
     "zona": "CABA",
@@ -206,144 +324,6 @@
           {
             "horario": "22:00",
             "formato": "2D XTREMO Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
-    "peliculas": [
-      {
-        "titulo": "Primavera en Beechwood",
-        "url": "https://cartelera.ar/pelicula/primavera-en-beechwood",
-        "imagen": "/posters/UbMdj5ourvbVKIXicQ0OwPR874.jpg",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Tres adioses",
-        "url": "https://cartelera.ar/pelicula/tres-adioses",
-        "imagen": "/posters/tres-adioses.jpg",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "18:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "3D Subtitulada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "3D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Luján",
-    "slug": "cinepolis-lujan",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Constitución 1000, Luján",
-    "peliculas": [
-      {
-        "titulo": "Primavera en Beechwood",
-        "url": "https://cartelera.ar/pelicula/primavera-en-beechwood",
-        "imagen": "/posters/UbMdj5ourvbVKIXicQ0OwPR874.jpg",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Tres adioses",
-        "url": "https://cartelera.ar/pelicula/tres-adioses",
-        "imagen": "/posters/tres-adioses.jpg",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Pilar",
-    "slug": "cinepolis-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Panamericana Km. 50, Pilar",
-    "peliculas": [
-      {
-        "titulo": "Primavera en Beechwood",
-        "url": "https://cartelera.ar/pelicula/primavera-en-beechwood",
-        "imagen": "/posters/UbMdj5ourvbVKIXicQ0OwPR874.jpg",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Tres adioses",
-        "url": "https://cartelera.ar/pelicula/tres-adioses",
-        "imagen": "/posters/tres-adioses.jpg",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "3D Doblada"
           }
         ]
       }
@@ -378,30 +358,41 @@
     ]
   },
   {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Luján",
+    "slug": "cinepolis-lujan",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Constitución 1000, Luján",
     "peliculas": [
       {
-        "titulo": "Los Vencedores",
-        "url": "https://cartelera.ar/pelicula/los-vencedores",
-        "imagen": "/posters/hJVeuvHc7xmeYHhCs1iypk6nPy.jpg",
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
         "funciones": [
           {
-            "horario": "21:00",
-            "formato": "2D Doblada"
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
           }
         ]
       },
       {
-        "titulo": "Islandia",
-        "url": "https://cartelera.ar/pelicula/islandia",
-        "imagen": "/posters/7WPWoKkUkUtNp03NruyrMxNRnMV.jpg",
+        "titulo": "La última copa",
+        "url": "https://cartelera.ar/pelicula/la-ultima-copa",
+        "imagen": "",
         "funciones": [
           {
-            "horario": "19:00",
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "21:30",
             "formato": "2D Doblada"
           }
         ]
@@ -419,6 +410,26 @@
         "titulo": "Avengers: Endgame",
         "url": "https://cartelera.ar/pelicula/avengers-endgame",
         "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "funciones": [
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Los Nadadores",
+        "url": "https://cartelera.ar/pelicula/los-nadadores",
+        "imagen": "/posters/4WLYa1B4Uba8sb0wVkUzD9uZIz1.jpg",
         "funciones": [
           {
             "horario": "21:00",
@@ -462,7 +473,7 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -482,7 +493,7 @@
         "funciones": [
           {
             "horario": "14:00",
-            "formato": "XD 3D IV Subtitulada"
+            "formato": "XD 2D IV Doblada"
           },
           {
             "horario": "14:30",
@@ -490,11 +501,11 @@
           },
           {
             "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
+            "formato": "XD 3D IV Subtitulada"
           },
           {
             "horario": "18:30",
-            "formato": "4D 3D IV Subtitulada"
+            "formato": "4D 3D IV Doblada"
           },
           {
             "horario": "21:30",
@@ -502,11 +513,11 @@
           },
           {
             "horario": "22:00",
-            "formato": "XD 3D IV Subtitulada"
+            "formato": "XD 2D IV Subtitulada"
           },
           {
             "horario": "22:30",
-            "formato": "4D 3D IV Doblada"
+            "formato": "4D 3D IV Subtitulada"
           }
         ]
       }
@@ -526,15 +537,15 @@
         "funciones": [
           {
             "horario": "14:30",
-            "formato": "4D 3D IV Subtitulada"
+            "formato": "4D 3D IV Doblada"
           },
           {
             "horario": "18:00",
-            "formato": "DBOX 3D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "18:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "18:30",
@@ -546,11 +557,11 @@
           },
           {
             "horario": "22:00",
-            "formato": "DBOX 3D Doblada"
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "22:00",
-            "formato": "3D Doblada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:30",
@@ -582,7 +593,7 @@
           },
           {
             "horario": "18:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "18:30",
@@ -590,11 +601,11 @@
           },
           {
             "horario": "22:00",
-            "formato": "3D Doblada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:30",
-            "formato": "4D 3D IV Subtitulada"
+            "formato": "4D 3D IV Doblada"
           }
         ]
       }
@@ -614,11 +625,11 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "DBOX XD 2D IV Subtitulada"
+            "formato": "DBOX XD 3D IV Doblada"
           },
           {
             "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
+            "formato": "XD 3D IV Doblada"
           },
           {
             "horario": "18:30",
@@ -626,15 +637,15 @@
           },
           {
             "horario": "22:00",
-            "formato": "DBOX XD 3D IV Doblada"
+            "formato": "DBOX XD 2D IV Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "XD 3D IV Doblada"
+            "formato": "XD 2D IV Doblada"
           },
           {
             "horario": "22:30",
-            "formato": "4D 3D IV Subtitulada"
+            "formato": "4D 3D IV Doblada"
           }
         ]
       }
@@ -654,15 +665,19 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "DBOX XD 2D IV Subtitulada"
+            "formato": "DBOX XD 3D IV Doblada"
           },
           {
             "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
+            "formato": "XD 3D IV Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "XD 3D IV Doblada"
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
           }
         ]
       }
@@ -682,19 +697,19 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "DBOX XD 2D IV Subtitulada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
-          },
-          {
-            "horario": "22:00",
             "formato": "DBOX XD 3D IV Doblada"
           },
           {
-            "horario": "22:00",
+            "horario": "18:00",
             "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
           }
         ]
       }
@@ -714,19 +729,19 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "DBOX XD 2D IV Subtitulada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
-          },
-          {
-            "horario": "22:00",
             "formato": "DBOX XD 3D IV Doblada"
           },
           {
-            "horario": "22:00",
+            "horario": "18:00",
             "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
           }
         ]
       }
@@ -746,11 +761,11 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "DBOX XD 2D IV Subtitulada"
+            "formato": "DBOX XD 3D IV Doblada"
           },
           {
             "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
+            "formato": "XD 3D IV Doblada"
           },
           {
             "horario": "18:30",
@@ -758,15 +773,15 @@
           },
           {
             "horario": "22:00",
-            "formato": "DBOX XD 3D IV Doblada"
+            "formato": "DBOX XD 2D IV Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "XD 3D IV Doblada"
+            "formato": "XD 2D IV Doblada"
           },
           {
             "horario": "22:30",
-            "formato": "4D 3D IV Subtitulada"
+            "formato": "4D 3D IV Doblada"
           }
         ]
       }
@@ -786,19 +801,19 @@
         "funciones": [
           {
             "horario": "18:30",
-            "formato": "DBOX 3D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "18:30",
-            "formato": "3D Subtitulada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "22:30",
-            "formato": "DBOX 3D Doblada"
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "22:30",
-            "formato": "3D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -818,11 +833,11 @@
         "funciones": [
           {
             "horario": "18:30",
-            "formato": "3D Doblada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:30",
-            "formato": "3D Subtitulada"
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -842,11 +857,11 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "DBOX 3D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -866,51 +881,11 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "DBOX 3D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "3D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "3D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Soleil",
-    "slug": "cinemark-soleil",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "3D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -930,7 +905,47 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "3D Doblada"
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Soleil",
+    "slug": "cinemark-soleil",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
           }
         ]
       }
