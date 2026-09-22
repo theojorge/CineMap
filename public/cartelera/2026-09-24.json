@@ -1,5 +1,3107 @@
 [
   {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Dot Baires",
+    "slug": "hoyts-dot-baires",
+    "zona": "CABA",
+    "direccion": "Vedia 3626, Dot Baires Mall, Saavedra",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "4D 3D IV Subtitulada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "XD 3D IV Subtitulada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "4D 3D IV Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "11:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hechizo de amor: La magia continúa",
+        "url": "https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "13:25",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "PREMIER 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
+            "horario": "19:15",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Palermo",
+    "slug": "cinemark-palermo",
+    "zona": "CABA",
+    "direccion": "Beruti 3399, Palermo",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "BAJO TUS PIES",
+        "url": "https://www.cinemark.com.ar/peliculas/bajo-tus-pies",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "14:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL ÚLTIMO GRAN GOLPE",
+        "url": "https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hechizo de amor: La magia continúa",
+        "url": "https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://www.cinemark.com.ar/peliculas/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://www.cinemark.com.ar/peliculas/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "SU PROPIO INFIERNO",
+        "url": "https://www.cinemark.com.ar/peliculas/su-propio-infierno",
+        "imagen": "/posters/su-propio-infierno.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Tres adioses",
+        "url": "https://www.cinemark.com.ar/peliculas/tres-adioses",
+        "imagen": "/posters/tres-adioses.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Las Magnolias 754, Palmas del Pilar",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame (re Estreno)",
+        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "PLATINUM 2D Subtitulada"
+          },
+          {
+            "horario": "12:30",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "13:20",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "XTREMO 2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "XTREMO 2D Doblada"
+          },
+          {
+            "horario": "18:50",
+            "formato": "PLATINUM 2D Subtitulada"
+          },
+          {
+            "horario": "20:50",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XTREMO 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Her Private Hell",
+        "url": "https://cartelera.ar/pelicula/her-private-hell",
+        "imagen": "/posters/xFXoPwN8zRtC0ayA6UKmCK11Isy.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://multiplex.com.ar/peliculas/la-isla-olvidada/",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "PLATINUM 2D Subtitulada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "PLATINUM 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://multiplex.com.ar/peliculas/pepita-la-pistolera/",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "4D (2D) Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
+        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Su Propio Infierno",
+        "url": "https://multiplex.com.ar/peliculas/su-propio-infierno/",
+        "imagen": "/posters/su-propio-infierno.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://multiplex.com.ar/peliculas/yo-narciso/",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "21:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Morón",
+    "slug": "hoyts-moron",
+    "zona": "GBA Oeste",
+    "direccion": "J.M. de Rosas 658, Plaza Oeste Shopping",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "DBOX 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Recoleta",
+    "slug": "cinepolis-recoleta",
+    "zona": "CABA",
+    "direccion": "Vicente López 2050, Recoleta",
+    "peliculas": [
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/z2x8FwlZRMXADSikoHNj8VC1kwd.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://cartelera.ar/pelicula/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/una-quinta-en-portugal.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hechizo de amor: La magia continúa",
+        "url": "https://cartelera.ar/pelicula/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:15",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://cartelera.ar/pelicula/la-isla-olvidada",
+        "imagen": "/posters/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Tres adioses",
+        "url": "https://cartelera.ar/pelicula/tres-adioses",
+        "imagen": "/posters/tres-adioses.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "3D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Her Private Hell",
+        "url": "https://cartelera.ar/pelicula/her-private-hell",
+        "imagen": "/posters/xFXoPwN8zRtC0ayA6UKmCK11Isy.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Avellaneda",
+    "slug": "cinemark-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Güemes 897, Alto Avellaneda Shopping",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "DBOX XD 2D IV Subtitulada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "XD 2D IV Subtitulada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "4D 3D IV Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "DBOX 3D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "DBOX 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Canning",
+    "slug": "multiplex-canning",
+    "zona": "GBA Sur",
+    "direccion": "Formosa 653, Canning (Shopping Las Toscas)",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame (re Estreno)",
+        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:15",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "XTREMO 2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XTREMO 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://multiplex.com.ar/peliculas/la-isla-olvidada/",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:35",
+            "formato": "4D (2D) Doblada"
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "4D (2D) Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
+        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Pilar",
+    "slug": "cinepolis-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Panamericana Km. 50, Pilar",
+    "peliculas": [
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/z2x8FwlZRMXADSikoHNj8VC1kwd.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/minions-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hechizo de amor: La magia continúa",
+        "url": "https://cartelera.ar/pelicula/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://cartelera.ar/pelicula/la-isla-olvidada",
+        "imagen": "/posters/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Que Dios perdona a todos",
+        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "3D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://cartelera.ar/pelicula/el-ultimo-gran-golpe",
+        "imagen": "/posters/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+        "funciones": [
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Her Private Hell",
+        "url": "https://cartelera.ar/pelicula/her-private-hell",
+        "imagen": "/posters/xFXoPwN8zRtC0ayA6UKmCK11Isy.jpg",
+        "funciones": [
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Encantador",
+        "url": "https://cartelera.ar/pelicula/encantador",
+        "imagen": "/posters/vhObG7EezubC5QVrFTRMo8Arl9r.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Luján",
+    "slug": "cinepolis-lujan",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Constitución 1000, Luján",
+    "peliculas": [
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/z2x8FwlZRMXADSikoHNj8VC1kwd.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hechizo de amor: La magia continúa",
+        "url": "https://cartelera.ar/pelicula/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://cartelera.ar/pelicula/la-isla-olvidada",
+        "imagen": "/posters/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Que Dios perdona a todos",
+        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://cartelera.ar/pelicula/el-ultimo-gran-golpe",
+        "imagen": "/posters/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Belgrano",
+    "slug": "multiplex-belgrano",
+    "zona": "CABA",
+    "direccion": "Vuelta de Obligado 2199, Belgrano",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame (re Estreno)",
+        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "4D + 3D Subtitulada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "COMFORT PLUS 2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "4D + 3D Doblada"
+          },
+          {
+            "horario": "18:35",
+            "formato": "XTREMO 2D Subtitulada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "4D + 3D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XTREMO 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "COMFORT PLUS 2D Doblada"
+          },
+          {
+            "horario": "16:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:35",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "14:05",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "18:15",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "22:25",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hechizo de amor: La magia continúa",
+        "url": "https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Her Private Hell",
+        "url": "https://cartelera.ar/pelicula/her-private-hell",
+        "imagen": "/posters/xFXoPwN8zRtC0ayA6UKmCK11Isy.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://multiplex.com.ar/peliculas/la-invitacion/",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "16:15",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://multiplex.com.ar/peliculas/la-isla-olvidada/",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "COMFORT PLUS 2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:55",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://multiplex.com.ar/peliculas/la-odisea/",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D + COMFORT PLUS Subtitulada"
+          },
+          {
+            "horario": "16:35",
+            "formato": "2D + COMFORT PLUS Subtitulada"
+          },
+          {
+            "horario": "19:25",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D + COMFORT PLUS Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Los Colores Del Tiempo",
+        "url": "https://multiplex.com.ar/peliculas/los-colores-del-tiempo/",
+        "imagen": "/posters/los-colores-del-tiempo.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "17:35",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "20:05",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Obsesión",
+        "url": "https://multiplex.com.ar/peliculas/obsesion/",
+        "imagen": "/posters/obsesion.jpg",
+        "funciones": [
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "17:35",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "18:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Su Propio Infierno",
+        "url": "https://multiplex.com.ar/peliculas/su-propio-infierno/",
+        "imagen": "/posters/su-propio-infierno.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Tres adioses",
+        "url": "https://multiplex.com.ar/peliculas/tres-adioses/",
+        "imagen": "/posters/tres-adioses.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D + COMFORT PLUS Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://multiplex.com.ar/peliculas/una-quinta-en-portugal/",
+        "imagen": "/posters/una-quinta-en-portugal.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "COMFORT PLUS 2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/z2x8FwlZRMXADSikoHNj8VC1kwd.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:25",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://cartelera.ar/pelicula/la-isla-olvidada",
+        "imagen": "/posters/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "14:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Que Dios perdona a todos",
+        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:50",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "14:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "3D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Tadeo : El Explorador Y La Lampara Maravillosa",
+        "url": "https://cartelera.ar/pelicula/tadeo-el-explorador-y-la-lampara-maravillosa",
+        "imagen": "/posters/tadeo-el-explorador-y-la-lampara-maravillosa.jpg",
+        "funciones": [
+          {
+            "horario": "14:15",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://cartelera.ar/pelicula/el-ultimo-gran-golpe",
+        "imagen": "/posters/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+        "funciones": [
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Bajo tus pies",
+        "url": "https://cartelera.ar/pelicula/bajo-tus-pies",
+        "imagen": "/posters/fQTACeQLpFoMUqYitxY0DMzfQu9.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Lavalle",
+    "slug": "multiplex-lavalle",
+    "zona": "CABA",
+    "direccion": "Lavalle 780, CABA",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame (re Estreno)",
+        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "XTREMO 2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "18:05",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "18:40",
+            "formato": "XTREMO 2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "4D (3D) Doblada"
+          },
+          {
+            "horario": "22:05",
+            "formato": "XTREMO 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://multiplex.com.ar/peliculas/coyote-vs-acme/",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:05",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "14:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "El último gran golpe",
+        "url": "https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "13:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://multiplex.com.ar/peliculas/la-isla-olvidada/",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:05",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "21:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:05",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "4D (2D) Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
+        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "3D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Caballito",
+    "slug": "cinemark-caballito",
+    "zona": "CABA",
+    "direccion": "Av. La Plata 96, Caballito",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Catan",
     "slug": "atlas-catan",
@@ -28,36 +3130,105 @@
     ]
   },
   {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Recoleta",
-    "slug": "cinepolis-recoleta",
+    "cadena": "Cine Independiente",
+    "nombre": "Cine Gaumont",
+    "slug": "cine-gaumont",
     "zona": "CABA",
-    "direccion": "Vicente López 2050, Recoleta",
+    "direccion": "Av. Rivadavia 1635, Congreso",
     "peliculas": [
       {
-        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
+        "titulo": "Los domingos",
+        "url": "https://cartelera.ar/pelicula/los-domingos",
+        "imagen": "/posters/los-domingos.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "16:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "La noche está marchándose ya",
+        "url": "https://cartelera.ar/pelicula/la-noche-esta-marchandose-ya",
+        "imagen": "/posters/39jzHk0VK2kdt9lRAb8CqNuGcGc.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Canelones",
+        "url": "https://cartelera.ar/pelicula/canelones",
+        "imagen": "/posters/s2g8wLNs6G5XYa5ivfUNuWbQTKQ.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Suite Juárez",
+        "url": "https://cartelera.ar/pelicula/suite-juarez",
+        "imagen": "/posters/uBHEmEqBJduHyArchb7FZolo47q.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Lo Malo del Amor",
+        "url": "https://cartelera.ar/pelicula/lo-malo-del-amor",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Los días posibles - Trilogía de la ternura",
+        "url": "https://cartelera.ar/pelicula/los-dias-posibles-trilogia-de-la-ternura",
         "imagen": "",
         "funciones": [
           {
             "horario": "14:30",
-            "formato": "3D Subtitulada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "3D Subtitulada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "3D Subtitulada"
-          },
-          {
-            "horario": "22:15",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "3D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -100,162 +3271,208 @@
     ]
   },
   {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Canning",
-    "slug": "multiplex-canning",
-    "zona": "GBA Sur",
-    "direccion": "Formosa 653, Canning (Shopping Las Toscas)",
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "CABA",
+    "direccion": "Av. Alicia Moreau de Justo 1920",
     "peliculas": [
       {
-        "titulo": "Avengers: Endgame (re Estreno)",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
         "funciones": [
           {
-            "horario": "18:30",
-            "formato": "2D XTREMO Doblada"
+            "horario": "21:30",
+            "formato": "2D Subtitulada"
           },
           {
-            "horario": "19:10",
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
             "formato": "2D Doblada"
           },
           {
+            "horario": "18:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Insidious: Fuera del más allá",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:15",
+            "formato": "3D Doblada"
+          },
+          {
             "horario": "19:30",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D XTREMO Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Pilar",
-    "slug": "multiplex-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Las Magnolias 754, Palmas del Pilar",
-    "peliculas": [
+      },
       {
-        "titulo": "Avengers: Endgame (re Estreno)",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
         "funciones": [
           {
-            "horario": "18:30",
-            "formato": "2D XTREMO Doblada"
+            "horario": "15:00",
+            "formato": "2D Subtitulada"
           },
-          {
-            "horario": "21:30",
-            "formato": "4D (3D) Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D XTREMO Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Belgrano",
-    "slug": "multiplex-belgrano",
-    "zona": "CABA",
-    "direccion": "Vuelta de Obligado 2199, Belgrano",
-    "peliculas": [
-      {
-        "titulo": "Avengers: Endgame (re Estreno)",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:35",
-            "formato": "2D XTREMO Subtitulada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D XTREMO Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Lavalle",
-    "slug": "multiplex-lavalle",
-    "zona": "CABA",
-    "direccion": "Lavalle 780, CABA",
-    "peliculas": [
-      {
-        "titulo": "Avengers: Endgame (re Estreno)",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
           {
             "horario": "18:40",
-            "formato": "2D XTREMO Doblada"
+            "formato": "2D Subtitulada"
           },
           {
-            "horario": "21:25",
-            "formato": "4D (3D) Doblada"
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
           },
           {
-            "horario": "22:05",
-            "formato": "2D XTREMO Doblada"
+            "horario": "15:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
           }
         ]
       }
     ]
   },
   {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Avellaneda",
-    "slug": "cinepolis-avellaneda",
-    "zona": "GBA Sur",
-    "direccion": "Av. Mitre 2702, Avellaneda",
+    "cadena": "Showcase",
+    "nombre": "IMAX Showcase Norte",
+    "slug": "imax-showcase-norte",
+    "zona": "GBA Norte",
+    "direccion": "Av. Ricardo Balbín 2550, Shopping Norcenter",
     "peliculas": [
-      {
-        "titulo": "La vida es así",
-        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Que Dios perdona a todos",
-        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
       {
         "titulo": "Avengers: Endgame Bonus - Infinity Vision",
         "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
         "imagen": "",
         "funciones": [
           {
-            "horario": "18:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "3D Subtitulada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "3D Doblada"
+            "horario": "15:15",
+            "formato": "IMAX Subtitulada"
           }
         ]
       }
@@ -290,88 +3507,20 @@
     ]
   },
   {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Pilar",
-    "slug": "cinepolis-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Panamericana Km. 50, Pilar",
+    "cadena": "Atlas Cines",
+    "nombre": "Atlas Liniers",
+    "slug": "atlas-liniers",
+    "zona": "CABA",
+    "direccion": "Av. Rivadavia 11177, Liniers",
     "peliculas": [
       {
-        "titulo": "La vida es así",
-        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
-        "imagen": "",
+        "titulo": "Avengers: Endgame",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame",
+        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
         "funciones": [
           {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Que Dios perdona a todos",
-        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "19:00",
+            "horario": "21:00",
             "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "3D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinépolis",
-    "nombre": "Cinépolis Luján",
-    "slug": "cinepolis-lujan",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Constitución 1000, Luján",
-    "peliculas": [
-      {
-        "titulo": "La vida es así",
-        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Que Dios perdona a todos",
-        "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame Bonus - Infinity Vision",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -388,26 +3537,6 @@
         "titulo": "A Metros de Distancia",
         "url": "https://cartelera.ar/pelicula/a-metros-de-distancia",
         "imagen": "/posters/A3tEYeLijo1PWXZLTckVSM05YVX.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Atlas Cines",
-    "nombre": "Atlas Liniers",
-    "slug": "atlas-liniers",
-    "zona": "CABA",
-    "direccion": "Av. Rivadavia 11177, Liniers",
-    "peliculas": [
-      {
-        "titulo": "Avengers: Endgame",
-        "url": "https://cartelera.ar/pelicula/avengers-endgame",
-        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
         "funciones": [
           {
             "horario": "21:00",
@@ -459,8 +3588,1127 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "DOT",
-    "slug": "hoyts-dot-baires",
+    "nombre": "Temperley",
+    "slug": "hoyts-temperley",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "TOY STORY 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "4D 3D Doblada"
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "12:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:15",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "14:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "21:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "DBOX XD 3D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "4D 3D IV Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL ÚLTIMO GRAN GOLPE",
+        "url": "https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "YO, NARCISO",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA NOCHE DEL DEMONIO 6",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ODISEA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "22:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "San Justo",
+    "slug": "cinemark-san-justo",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:15",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "13:40",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA NOCHE DEL DEMONIO 6",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Malvinas Argentinas",
+    "slug": "cinemark-malvinas-argentinas",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA NOCHE DEL DEMONIO 6",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "TOY STORY 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:00",
+            "formato": "XD 2D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "DBOX XD 3D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "BAJO TUS PIES",
+        "url": "https://www.cinemark.com.ar/peliculas/bajo-tus-pies",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL ÚLTIMO GRAN GOLPE",
+        "url": "https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ODISEA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "YO, NARCISO",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Abasto",
+    "slug": "hoyts-abasto",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "LA NOCHE DEL DEMONIO 6",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:25",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "TOY STORY 5",
+        "url": "https://www.cinemark.com.ar/peliculas/toy-story-5",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:35",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "20:35",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COLONY: ZONA CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/colony-zona-cero",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:40",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "BAJO TUS PIES",
+        "url": "https://www.cinemark.com.ar/peliculas/bajo-tus-pies",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ODISEA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "PMMM LA REBELION",
+        "url": "https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-rebelion",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL ÚLTIMO GRAN GOLPE",
+        "url": "https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe",
+        "imagen": "/posters/el-ultimo-gran-golpe.jpg",
+        "funciones": [
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "HECHIZO DE AMOR: LA MAGIA CONTINUA",
+        "url": "https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "YO, NARCISO",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Tortugas",
+    "slug": "cinemark-tortugas",
     "zona": "",
     "direccion": "",
     "peliculas": [
@@ -471,31 +4719,201 @@
         "funciones": [
           {
             "horario": "14:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "14:00",
             "formato": "XD 2D IV Doblada"
           },
           {
-            "horario": "14:30",
-            "formato": "4D 3D IV Subtitulada"
+            "horario": "18:00",
+            "formato": "DBOX XD 3D IV Doblada"
           },
           {
             "horario": "18:00",
-            "formato": "XD 3D IV Subtitulada"
+            "formato": "XD 3D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D IV Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D IV Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Soleil",
+    "slug": "cinemark-soleil",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "15:15",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "21:20",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA NOCHE DEL DEMONIO 6",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Quilmes",
+    "slug": "hoyts-quilmes",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
           },
           {
             "horario": "18:30",
             "formato": "4D 3D IV Doblada"
           },
           {
-            "horario": "21:30",
-            "formato": "PREMIER 2D Subtitulada"
-          },
-          {
             "horario": "22:00",
-            "formato": "XD 2D IV Subtitulada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:30",
-            "formato": "4D 3D IV Subtitulada"
+            "formato": "4D 3D IV Doblada"
           }
         ]
       }
@@ -555,294 +4973,6 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Quilmes",
-    "slug": "hoyts-quilmes",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "4D 3D IV Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "4D 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "4D 3D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Alto Avellaneda",
-    "slug": "cinemark-avellaneda",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "DBOX XD 2D IV Subtitulada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 2D IV Subtitulada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "4D 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "4D 3D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Temperley",
-    "slug": "hoyts-temperley",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "DBOX XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "4D 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "4D 3D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Tortugas",
-    "slug": "cinemark-tortugas",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "DBOX XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "XD 2D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Malvinas Argentinas",
-    "slug": "cinemark-malvinas-argentinas",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "DBOX XD 3D IV Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "XD 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "XD 2D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "San Justo",
-    "slug": "cinemark-san-justo",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "XD 3D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX XD 2D IV Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "XD 2D IV Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Abasto",
-    "slug": "hoyts-abasto",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "DBOX 2D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Palermo",
-    "slug": "cinemark-palermo",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "18:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moron",
-    "slug": "hoyts-moron",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
     "nombre": "Moreno",
     "slug": "hoyts-moreno",
     "zona": "",
@@ -857,66 +4987,6 @@
             "horario": "22:00",
             "formato": "DBOX 2D Doblada"
           },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Caballito",
-    "slug": "cinemark-caballito",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Soleil",
-    "slug": "cinemark-soleil",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
           {
             "horario": "22:00",
             "formato": "2D Doblada"

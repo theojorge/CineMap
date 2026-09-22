@@ -1,57 +1,758 @@
 zona,cadena,cine,direccion,pelicula,formato,horario,precio_general,precio_jubilado,precio_menor,url_pelicula
-GBA Sur,Atlas Cines,Atlas Catan,"Camino de Cintura 2727, Shopping Catan",Avengers: Endgame,4DX Doblada,14:00,,,,https://cartelera.ar/pelicula/avengers-endgame
-GBA Sur,Atlas Cines,Atlas Catan,"Camino de Cintura 2727, Shopping Catan",Avengers: Endgame,4DX Doblada,17:40,,,,https://cartelera.ar/pelicula/avengers-endgame
-GBA Sur,Atlas Cines,Atlas Catan,"Camino de Cintura 2727, Shopping Catan",Avengers: Endgame,4DX Doblada,21:20,,,,https://cartelera.ar/pelicula/avengers-endgame
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",BAJO TUS PIES,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",BAJO TUS PIES,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",BAJO TUS PIES,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Coyote vs. Acme,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Coyote vs. Acme,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Coyote vs. Acme,2D Subtitulada,18:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL CORAZÓN DE LA BESTIA,2D Subtitulada,12:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL CORAZÓN DE LA BESTIA,2D Subtitulada,14:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL CORAZÓN DE LA BESTIA,2D Subtitulada,17:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL CORAZÓN DE LA BESTIA,2D Subtitulada,19:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL CORAZÓN DE LA BESTIA,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL ÚLTIMO GRAN GOLPE,2D Subtitulada,16:50,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",EL ÚLTIMO GRAN GOLPE,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Hechizo de amor: La magia continúa,2D Subtitulada,12:00,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Hechizo de amor: La magia continúa,2D Subtitulada,14:50,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Hechizo de amor: La magia continúa,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Insidious: Fuera del más allá,2D Subtitulada,23:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",La invitación,2D Subtitulada,17:40,,,,https://www.cinemark.com.ar/peliculas/la-invitacion
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",La invitación,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-invitacion
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",LA ISLA OLVIDADA,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",LA ISLA OLVIDADA,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",LA ISLA OLVIDADA,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",LA ISLA OLVIDADA,2D Doblada,20:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",La Odisea,2D Subtitulada,13:50,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",La Odisea,2D Subtitulada,17:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",La Odisea,2D Subtitulada,21:30,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Pepita la Pistolera,2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/pepita-la-pistolera
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,12:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,17:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,17:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,20:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Resident Evil: Noche Cero,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Spider-Man: Un nuevo día,2D Subtitulada,13:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Spider-Man: Un nuevo día,2D Subtitulada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",SU PROPIO INFIERNO,2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/su-propio-infierno
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Tres adioses,2D Subtitulada,14:00,,,,https://www.cinemark.com.ar/peliculas/tres-adioses
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Yo Narciso,2D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Palermo,"Beruti 3399, Palermo",Yo Narciso,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Subtitulada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Subtitulada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,19:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),PREMIER 2D Subtitulada,21:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Coyote vs. Acme,2D Doblada,11:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Coyote vs. Acme,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Coyote vs. Acme,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Coyote vs. Acme,2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",EL CORAZÓN DE LA BESTIA,2D Subtitulada,12:20,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",EL CORAZÓN DE LA BESTIA,2D Subtitulada,14:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",EL CORAZÓN DE LA BESTIA,2D Subtitulada,17:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",EL CORAZÓN DE LA BESTIA,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",EL CORAZÓN DE LA BESTIA,2D Subtitulada,22:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Hechizo de amor: La magia continúa,2D Subtitulada,13:25,,,,https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",LA ISLA OLVIDADA,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",LA ISLA OLVIDADA,3D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",LA ISLA OLVIDADA,2D Doblada,17:10,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",LA ISLA OLVIDADA,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",La Odisea,PREMIER 2D Subtitulada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",La Odisea,PREMIER 2D Subtitulada,17:50,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",La Odisea,2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",La Odisea,PREMIER 2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,13:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,15:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,17:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,18:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,20:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Resident Evil: Noche Cero,2D Subtitulada,23:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Spider-Man: Un nuevo día,PREMIER 2D Subtitulada,12:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Spider-Man: Un nuevo día,PREMIER 2D Subtitulada,16:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Spider-Man: Un nuevo día,PREMIER 2D Subtitulada,19:15,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Spider-Man: Un nuevo día,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Yo Narciso,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Hoyts Dot Baires,"Vedia 3626, Dot Baires Mall, Saavedra",Yo Narciso,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),PLATINUM 2D Subtitulada,12:10,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),4D (3D) Doblada,12:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),3D Doblada,13:20,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,15:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),3D Doblada,16:50,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),4D (3D) Doblada,18:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,18:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),PLATINUM 2D Subtitulada,18:50,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),3D Doblada,20:50,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),4D (3D) Doblada,21:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,22:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,13:10,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,15:10,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Coyote vs. Acme,2D Doblada,17:30,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El corazón de la bestia,2D Doblada,12:50,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El corazón de la bestia,2D Subtitulada,17:50,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El corazón de la bestia,2D Doblada,20:00,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El corazón de la bestia,2D Subtitulada,22:20,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El último gran golpe,2D Doblada,15:30,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",El último gran golpe,2D Doblada,23:10,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Her Private Hell,2D Subtitulada,23:00,,,,https://cartelera.ar/pelicula/her-private-hell
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La isla olvidada,2D Doblada,12:20,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La isla olvidada,2D Doblada,14:20,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La isla olvidada,2D Doblada,16:30,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La isla olvidada,2D Doblada,18:40,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La noche del demonio: Están entre nosotros,2D Doblada,22:40,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,2D Subtitulada,12:10,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,PLATINUM 2D Subtitulada,15:30,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,2D Subtitulada,17:40,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",La Odisea,PLATINUM 2D Subtitulada,22:10,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Pepita la Pistolera,2D Doblada,20:50,,,,https://multiplex.com.ar/peliculas/pepita-la-pistolera/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,2D Doblada,12:10,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,2D Doblada,14:10,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,4D (2D) Doblada,15:50,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,2D Doblada,16:20,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,2D Doblada,18:20,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,2D Doblada,20:30,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Resident Evil: Noche Cero,2D Doblada,22:30,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,12:10,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,14:50,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Spider-Man: Un nuevo día,2D Doblada,19:40,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Su Propio Infierno,2D Subtitulada,23:00,,,,https://multiplex.com.ar/peliculas/su-propio-infierno/
+GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Yo Narciso,2D Doblada,21:10,,,,https://multiplex.com.ar/peliculas/yo-narciso/
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",El corazón de la bestia,2D Subtitulada,12:30,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",El corazón de la bestia,2D Subtitulada,15:00,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",El corazón de la bestia,2D Subtitulada,17:20,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",El corazón de la bestia,2D Subtitulada,19:45,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",El corazón de la bestia,2D Subtitulada,22:10,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La invitación,2D Subtitulada,22:00,,,,https://cartelera.ar/pelicula/la-invitacion
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La Odisea,2D Subtitulada,15:00,,,,https://cartelera.ar/pelicula/la-odisea
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La Odisea,2D Subtitulada,18:50,,,,https://cartelera.ar/pelicula/la-odisea
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La Odisea,2D Subtitulada,22:30,,,,https://cartelera.ar/pelicula/la-odisea
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Una quinta en Portugal,2D Doblada,14:30,,,,https://cartelera.ar/pelicula/una-quinta-en-portugal
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Hechizo de amor: La magia continúa,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/hechizo-de-amor-la-magia-continua
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Resident Evil: Noche Cero,2D Subtitulada,13:15,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Resident Evil: Noche Cero,2D Subtitulada,15:30,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Resident Evil: Noche Cero,2D Subtitulada,17:40,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Resident Evil: Noche Cero,2D Subtitulada,20:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Resident Evil: Noche Cero,2D Subtitulada,22:20,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Resident Evil: Noche Cero,2D Subtitulada,23:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La isla olvidada,2D Doblada,12:40,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La isla olvidada,3D Doblada,15:10,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",La isla olvidada,2D Doblada,17:45,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Coyote vs. Acme,2D Subtitulada,14:00,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Coyote vs. Acme,2D Subtitulada,16:30,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Yo Narciso,2D Doblada,20:40,,,,https://cartelera.ar/pelicula/yo-narciso
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Tres adioses,2D Subtitulada,17:10,,,,https://cartelera.ar/pelicula/tres-adioses
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Tres adioses,2D Subtitulada,20:15,,,,https://cartelera.ar/pelicula/tres-adioses
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,13:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,2D Subtitulada,14:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,14:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,17:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,2D Subtitulada,18:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,18:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,2D Subtitulada,22:15,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Her Private Hell,2D Subtitulada,20:00,,,,https://cartelera.ar/pelicula/her-private-hell
+CABA,Cinépolis,Cinépolis Recoleta,"Vicente López 2050, Recoleta",Her Private Hell,2D Subtitulada,23:00,,,,https://cartelera.ar/pelicula/her-private-hell
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Coyote vs. Acme,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Coyote vs. Acme,2D Doblada,15:25,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Coyote vs. Acme,2D Doblada,17:50,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Insidious: Fuera del más allá,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Insidious: Fuera del más allá,2D Doblada,23:10,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,DBOX 2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,DBOX 3D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,3D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,DBOX 2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,DBOX 2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",LA ISLA OLVIDADA,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",La Odisea,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",La Odisea,2D Doblada,21:50,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,2D Doblada,13:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,2D Doblada,16:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,2D Doblada,18:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,2D Doblada,21:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Resident Evil: Noche Cero,DBOX 2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Spider-Man: Un nuevo día,2D Doblada,13:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Spider-Man: Un nuevo día,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Spider-Man: Un nuevo día,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Yo Narciso,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+GBA Sur,Cinemark Hoyts,Cinemark Avellaneda,"Güemes 897, Alto Avellaneda Shopping",Yo Narciso,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,21:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Coyote vs. Acme,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Coyote vs. Acme,2D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Coyote vs. Acme,2D Doblada,18:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,EL CORAZÓN DE LA BESTIA,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,EL CORAZÓN DE LA BESTIA,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,EL CORAZÓN DE LA BESTIA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,EL CORAZÓN DE LA BESTIA,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,EL CORAZÓN DE LA BESTIA,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Insidious: Fuera del más allá,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Insidious: Fuera del más allá,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,LA ISLA OLVIDADA,2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,LA ISLA OLVIDADA,3D Doblada,17:05,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,LA ISLA OLVIDADA,2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,La Odisea,2D Subtitulada,14:50,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,La Odisea,2D Subtitulada,18:30,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,La Odisea,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Subtitulada,13:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Subtitulada,15:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Subtitulada,18:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Subtitulada,20:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Resident Evil: Noche Cero,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Spider-Man: Un nuevo día,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Spider-Man: Un nuevo día,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Spider-Man: Un nuevo día,2D Doblada,19:45,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Yo Narciso,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Yo Narciso,2D Doblada,14:55,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Yo Narciso,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Cinemark Hoyts,Cinemark Puerto Madero,Av. Alicia Moreau de Justo 1920,Yo Narciso,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),4D (3D) Doblada,14:15,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),2D Doblada,15:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,18:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),2D Doblada,19:10,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),4D (3D) Doblada,19:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),XTREMO 2D Subtitulada,22:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Coyote vs. Acme,2D Doblada,12:50,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Coyote vs. Acme,2D Doblada,13:45,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",El corazón de la bestia,2D Doblada,13:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",El corazón de la bestia,2D Doblada,16:00,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",El corazón de la bestia,2D Doblada,20:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",El corazón de la bestia,2D Subtitulada,22:50,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",El último gran golpe,2D Doblada,22:30,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",La isla olvidada,2D Doblada,13:40,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",La isla olvidada,2D Doblada,15:50,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",La isla olvidada,2D Doblada,18:00,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",La noche del demonio: Están entre nosotros,2D Doblada,20:20,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",La noche del demonio: Están entre nosotros,2D Doblada,22:45,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",La Odisea,2D Doblada,16:00,,,,https://multiplex.com.ar/peliculas/la-odisea/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,2D Doblada,14:50,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,2D Doblada,16:40,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,4D (2D) Doblada,17:35,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,2D Doblada,18:50,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,2D Doblada,20:50,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,2D Doblada,22:40,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Resident Evil: Noche Cero,4D (2D) Doblada,22:50,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Spider-Man: Un nuevo día,2D Doblada,18:00,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Toy Story 5,2D Doblada,12:45,,,,https://multiplex.com.ar/peliculas/toy-story-5/
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,14:10,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,18:10,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Coyote vs. Acme,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",EL CORAZÓN DE LA BESTIA,2D Subtitulada,12:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",EL CORAZÓN DE LA BESTIA,2D Subtitulada,15:20,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",EL CORAZÓN DE LA BESTIA,2D Subtitulada,17:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",EL CORAZÓN DE LA BESTIA,2D Subtitulada,20:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",EL CORAZÓN DE LA BESTIA,2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",LA ISLA OLVIDADA,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",LA ISLA OLVIDADA,3D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",LA ISLA OLVIDADA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",LA ISLA OLVIDADA,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",La Odisea,2D Subtitulada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",La Odisea,2D Subtitulada,22:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Resident Evil: Noche Cero,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Resident Evil: Noche Cero,2D Subtitulada,15:15,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Resident Evil: Noche Cero,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Resident Evil: Noche Cero,2D Subtitulada,20:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Resident Evil: Noche Cero,2D Subtitulada,22:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Resident Evil: Noche Cero,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Spider-Man: Un nuevo día,2D Subtitulada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Spider-Man: Un nuevo día,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+CABA,Cinemark Hoyts,Cinemark Caballito,"Av. La Plata 96, Caballito",Yo Narciso,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),4D (3D) Doblada,13:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,15:15,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),3D Doblada,16:50,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),4D (3D) Doblada,18:05,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,18:40,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),2D Doblada,19:50,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),4D (3D) Doblada,21:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),XTREMO 2D Doblada,22:05,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Coyote vs. Acme,2D Doblada,13:10,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Coyote vs. Acme,2D Doblada,15:05,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Coyote vs. Acme,2D Doblada,19:05,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El corazón de la bestia,2D Doblada,14:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El corazón de la bestia,2D Doblada,16:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El corazón de la bestia,2D Doblada,18:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El corazón de la bestia,2D Doblada,20:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El corazón de la bestia,2D Doblada,22:45,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El último gran golpe,2D Doblada,13:05,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El último gran golpe,2D Doblada,17:05,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El último gran golpe,2D Doblada,21:05,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",El último gran golpe,2D Doblada,23:10,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La isla olvidada,2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La isla olvidada,2D Doblada,15:00,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La isla olvidada,2D Doblada,17:05,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La isla olvidada,2D Doblada,19:05,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,21:05,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",La noche del demonio: Están entre nosotros,2D Doblada,23:05,,,,https://multiplex.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Resident Evil: Noche Cero,2D Doblada,13:25,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Resident Evil: Noche Cero,2D Doblada,15:10,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Resident Evil: Noche Cero,4D (2D) Doblada,16:20,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Resident Evil: Noche Cero,2D Doblada,20:20,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Resident Evil: Noche Cero,2D Doblada,23:15,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,3D Doblada,14:00,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,2D Doblada,17:05,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Spider-Man: Un nuevo día,3D Doblada,22:30,,,,https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El corazón de la bestia,2D Doblada,13:20,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El corazón de la bestia,2D Doblada,15:50,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El corazón de la bestia,2D Doblada,18:20,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El corazón de la bestia,2D Doblada,20:50,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El corazón de la bestia,2D Doblada,23:20,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La noche del demonio: Están entre nosotros,2D Doblada,16:45,,,,https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La noche del demonio: Están entre nosotros,2D Doblada,23:25,,,,https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,14:30,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,15:30,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,17:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,18:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,19:30,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Subtitulada,20:30,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,22:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Doblada,22:45,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Resident Evil: Noche Cero,2D Subtitulada,23:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Pepita la Pistolera,2D Doblada,22:30,,,,https://cartelera.ar/pelicula/pepita-la-pistolera
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La isla olvidada,3D Doblada,13:00,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La isla olvidada,2D Doblada,14:45,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La isla olvidada,3D Doblada,15:40,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La isla olvidada,2D Doblada,17:30,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La isla olvidada,3D Doblada,18:20,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La isla olvidada,2D Doblada,20:10,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Coyote vs. Acme,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Coyote vs. Acme,2D Doblada,13:45,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Coyote vs. Acme,2D Doblada,15:40,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Coyote vs. Acme,2D Doblada,18:20,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Yo Narciso,2D Doblada,21:00,,,,https://cartelera.ar/pelicula/yo-narciso
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La vida es así,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-vida-es-asi
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La última copa,2D Subtitulada,21:30,,,,https://cartelera.ar/pelicula/la-ultima-copa
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Que Dios perdona a todos,2D Subtitulada,16:30,,,,https://cartelera.ar/pelicula/que-dios-perdona-a-todos
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,13:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,13:50,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,14:45,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,17:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,18:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,18:45,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,21:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,22:40,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Tadeo : El Explorador Y La Lampara Maravillosa,2D Doblada,14:15,,,,https://cartelera.ar/pelicula/tadeo-el-explorador-y-la-lampara-maravillosa
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El último gran golpe,2D Doblada,21:00,,,,https://cartelera.ar/pelicula/el-ultimo-gran-golpe
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",El último gran golpe,2D Doblada,23:30,,,,https://cartelera.ar/pelicula/el-ultimo-gran-golpe
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Bajo tus pies,2D Doblada,19:30,,,,https://cartelera.ar/pelicula/bajo-tus-pies
+GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Bajo tus pies,2D Doblada,23:00,,,,https://cartelera.ar/pelicula/bajo-tus-pies
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",El corazón de la bestia,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",El corazón de la bestia,2D Doblada,17:40,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",El corazón de la bestia,2D Doblada,20:00,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",El corazón de la bestia,2D Doblada,22:20,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Hechizo de amor: La magia continúa,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/hechizo-de-amor-la-magia-continua
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Resident Evil: Noche Cero,2D Doblada,15:40,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Resident Evil: Noche Cero,2D Doblada,17:50,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Resident Evil: Noche Cero,2D Doblada,20:10,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Resident Evil: Noche Cero,2D Doblada,22:30,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La isla olvidada,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La isla olvidada,2D Doblada,15:30,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La isla olvidada,3D Doblada,17:00,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La isla olvidada,2D Doblada,19:30,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Coyote vs. Acme,2D Doblada,13:30,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Coyote vs. Acme,2D Doblada,15:50,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Coyote vs. Acme,2D Doblada,18:10,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Yo Narciso,2D Doblada,15:20,,,,https://cartelera.ar/pelicula/yo-narciso
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La vida es así,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-vida-es-asi
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La última copa,2D Subtitulada,21:30,,,,https://cartelera.ar/pelicula/la-ultima-copa
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Que Dios perdona a todos,2D Subtitulada,16:30,,,,https://cartelera.ar/pelicula/que-dios-perdona-a-todos
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,13:20,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,17:50,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,21:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",El último gran golpe,2D Doblada,20:30,,,,https://cartelera.ar/pelicula/el-ultimo-gran-golpe
+GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",El último gran golpe,2D Doblada,22:50,,,,https://cartelera.ar/pelicula/el-ultimo-gran-golpe
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El corazón de la bestia,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El corazón de la bestia,2D Doblada,15:20,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El corazón de la bestia,2D Doblada,17:40,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El corazón de la bestia,2D Subtitulada,20:00,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El corazón de la bestia,2D Doblada,22:30,,,,https://cartelera.ar/pelicula/el-corazon-de-la-bestia
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La Odisea,2D Doblada,19:10,,,,https://cartelera.ar/pelicula/la-odisea
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Minions & monstruos,2D Doblada,14:30,,,,https://cartelera.ar/pelicula/minions-monstruos
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Hechizo de amor: La magia continúa,2D Doblada,13:30,,,,https://cartelera.ar/pelicula/hechizo-de-amor-la-magia-continua
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Doblada,13:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Doblada,15:10,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Doblada,17:20,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Subtitulada,19:40,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Doblada,20:40,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Subtitulada,22:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Resident Evil: Noche Cero,2D Doblada,23:00,,,,https://cartelera.ar/pelicula/resident-evil-noche-cero
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La isla olvidada,2D Doblada,13:10,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La isla olvidada,3D Doblada,15:40,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La isla olvidada,2D Doblada,18:10,,,,https://cartelera.ar/pelicula/la-isla-olvidada
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Coyote vs. Acme,2D Doblada,16:45,,,,https://cartelera.ar/pelicula/coyote-vs-acme
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La vida es así,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-vida-es-asi
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La última copa,2D Subtitulada,21:30,,,,https://cartelera.ar/pelicula/la-ultima-copa
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Que Dios perdona a todos,2D Subtitulada,16:30,,,,https://cartelera.ar/pelicula/que-dios-perdona-a-todos
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,2D Subtitulada,13:10,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,14:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,15:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,18:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,19:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,21:40,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:40,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El último gran golpe,2D Subtitulada,19:40,,,,https://cartelera.ar/pelicula/el-ultimo-gran-golpe
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",El último gran golpe,2D Doblada,22:50,,,,https://cartelera.ar/pelicula/el-ultimo-gran-golpe
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Her Private Hell,2D Subtitulada,22:20,,,,https://cartelera.ar/pelicula/her-private-hell
+GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Encantador,2D Doblada,17:00,,,,https://cartelera.ar/pelicula/encantador
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),4D + 3D Subtitulada,13:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),COMFORT PLUS 2D Doblada,15:10,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),4D + 3D Doblada,17:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),XTREMO 2D Subtitulada,18:35,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),4D + 3D Subtitulada,20:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),XTREMO 2D Subtitulada,22:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Coyote vs. Acme,COMFORT PLUS 2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Coyote vs. Acme,2D Doblada,16:15,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Coyote vs. Acme,2D Subtitulada,18:20,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Coyote vs. Acme,2D Subtitulada,20:30,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Coyote vs. Acme,2D Subtitulada,22:35,,,,https://multiplex.com.ar/peliculas/coyote-vs-acme/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El corazón de la bestia,COMFORT PLUS 2D Subtitulada,14:05,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El corazón de la bestia,COMFORT PLUS 2D Subtitulada,16:10,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El corazón de la bestia,COMFORT PLUS 2D Subtitulada,18:15,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El corazón de la bestia,COMFORT PLUS 2D Subtitulada,20:20,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El corazón de la bestia,COMFORT PLUS 2D Subtitulada,22:25,,,,https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El último gran golpe,COMFORT PLUS 2D Subtitulada,19:50,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",El último gran golpe,COMFORT PLUS 2D Subtitulada,22:00,,,,https://multiplex.com.ar/peliculas/el-ultimo-gran-golpe/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Hechizo de amor: La magia continúa,2D Subtitulada,13:50,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Hechizo de amor: La magia continúa,COMFORT PLUS 2D Subtitulada,22:30,,,,https://multiplex.com.ar/peliculas/hechizo-de-amor-la-magia-continua/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Her Private Hell,2D Subtitulada,22:30,,,,https://cartelera.ar/pelicula/her-private-hell
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La invitación,2D Subtitulada,16:15,,,,https://multiplex.com.ar/peliculas/la-invitacion/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La invitación,2D Subtitulada,20:20,,,,https://multiplex.com.ar/peliculas/la-invitacion/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La isla olvidada,COMFORT PLUS 2D Doblada,13:00,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La isla olvidada,2D Doblada,15:40,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La isla olvidada,2D Doblada,17:55,,,,https://multiplex.com.ar/peliculas/la-isla-olvidada/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La Odisea,2D + COMFORT PLUS Subtitulada,13:20,,,,https://multiplex.com.ar/peliculas/la-odisea/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La Odisea,2D + COMFORT PLUS Subtitulada,16:35,,,,https://multiplex.com.ar/peliculas/la-odisea/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La Odisea,COMFORT PLUS 2D Subtitulada,19:25,,,,https://multiplex.com.ar/peliculas/la-odisea/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",La Odisea,2D + COMFORT PLUS Subtitulada,22:10,,,,https://multiplex.com.ar/peliculas/la-odisea/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Los Colores Del Tiempo,2D Subtitulada,13:45,,,,https://multiplex.com.ar/peliculas/los-colores-del-tiempo/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Los Colores Del Tiempo,COMFORT PLUS 2D Subtitulada,15:10,,,,https://multiplex.com.ar/peliculas/los-colores-del-tiempo/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Los Colores Del Tiempo,COMFORT PLUS 2D Subtitulada,17:35,,,,https://multiplex.com.ar/peliculas/los-colores-del-tiempo/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Los Colores Del Tiempo,COMFORT PLUS 2D Subtitulada,20:05,,,,https://multiplex.com.ar/peliculas/los-colores-del-tiempo/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Obsesión,2D Subtitulada,22:10,,,,https://multiplex.com.ar/peliculas/obsesion/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Resident Evil: Noche Cero,COMFORT PLUS 2D Subtitulada,17:35,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Resident Evil: Noche Cero,2D Doblada,18:25,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Resident Evil: Noche Cero,2D Subtitulada,20:10,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Resident Evil: Noche Cero,COMFORT PLUS 2D Subtitulada,22:40,,,,https://multiplex.com.ar/peliculas/resident-evil-noche-cero/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Su Propio Infierno,2D Subtitulada,22:30,,,,https://multiplex.com.ar/peliculas/su-propio-infierno/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Toy Story 5,2D Doblada,13:30,,,,https://multiplex.com.ar/peliculas/toy-story-5/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Tres adioses,COMFORT PLUS 2D Subtitulada,13:00,,,,https://multiplex.com.ar/peliculas/tres-adioses/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Tres adioses,COMFORT PLUS 2D Subtitulada,15:15,,,,https://multiplex.com.ar/peliculas/tres-adioses/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Tres adioses,2D + COMFORT PLUS Subtitulada,19:50,,,,https://multiplex.com.ar/peliculas/tres-adioses/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Una quinta en Portugal,COMFORT PLUS 2D Subtitulada,13:00,,,,https://multiplex.com.ar/peliculas/una-quinta-en-portugal/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Una quinta en Portugal,COMFORT PLUS 2D Subtitulada,15:15,,,,https://multiplex.com.ar/peliculas/una-quinta-en-portugal/
+CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Una quinta en Portugal,COMFORT PLUS 2D Subtitulada,17:30,,,,https://multiplex.com.ar/peliculas/una-quinta-en-portugal/
+GBA Sur,Atlas Cines,Atlas Catan,"Camino de Cintura 2727, Shopping Catan",Avengers: Endgame,4DX Doblada,14:00,,,,https://cartelera.ar/pelicula/avengers-endgame
+GBA Sur,Atlas Cines,Atlas Catan,"Camino de Cintura 2727, Shopping Catan",Avengers: Endgame,4DX Doblada,17:40,,,,https://cartelera.ar/pelicula/avengers-endgame
+GBA Sur,Atlas Cines,Atlas Catan,"Camino de Cintura 2727, Shopping Catan",Avengers: Endgame,4DX Doblada,21:20,,,,https://cartelera.ar/pelicula/avengers-endgame
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Los domingos,2D Doblada,16:30,,,,https://cartelera.ar/pelicula/los-domingos
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Pepita la Pistolera,2D Doblada,16:15,,,,https://cartelera.ar/pelicula/pepita-la-pistolera
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Pepita la Pistolera,2D Doblada,21:00,,,,https://cartelera.ar/pelicula/pepita-la-pistolera
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",La noche está marchándose ya,2D Doblada,22:30,,,,https://cartelera.ar/pelicula/la-noche-esta-marchandose-ya
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Canelones,2D Doblada,16:00,,,,https://cartelera.ar/pelicula/canelones
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Yo Narciso,2D Doblada,14:00,,,,https://cartelera.ar/pelicula/yo-narciso
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Yo Narciso,2D Doblada,18:00,,,,https://cartelera.ar/pelicula/yo-narciso
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Suite Juárez,2D Doblada,15:00,,,,https://cartelera.ar/pelicula/suite-juarez
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Lo Malo del Amor,2D Doblada,18:45,,,,https://cartelera.ar/pelicula/lo-malo-del-amor
+CABA,Cine Independiente,Cine Gaumont,"Av. Rivadavia 1635, Congreso",Los días posibles - Trilogía de la ternura,2D Doblada,14:30,,,,https://cartelera.ar/pelicula/los-dias-posibles-trilogia-de-la-ternura
 CABA,Atlas Cines,Atlas Caballito,"Rivadavia 5071, Caballito",Avengers: Endgame,4DX Doblada,14:40,,,,https://cartelera.ar/pelicula/avengers-endgame
 CABA,Atlas Cines,Atlas Caballito,"Rivadavia 5071, Caballito",Avengers: Endgame,4DX Doblada,18:20,,,,https://cartelera.ar/pelicula/avengers-endgame
 CABA,Atlas Cines,Atlas Caballito,"Rivadavia 5071, Caballito",Avengers: Endgame,2D Doblada,19:20,,,,https://cartelera.ar/pelicula/avengers-endgame
 CABA,Atlas Cines,Atlas Caballito,"Rivadavia 5071, Caballito",Avengers: Endgame,4DX Doblada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame
 CABA,Atlas Cines,Atlas Caballito,"Rivadavia 5071, Caballito",Avengers: Endgame,2D Subtitulada,22:20,,,,https://cartelera.ar/pelicula/avengers-endgame
-GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La vida es así,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-vida-es-asi
-GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",La última copa,2D Subtitulada,21:30,,,,https://cartelera.ar/pelicula/la-ultima-copa
-GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Que Dios perdona a todos,2D Subtitulada,16:30,,,,https://cartelera.ar/pelicula/que-dios-perdona-a-todos
-GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,19:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-GBA Norte,Cinépolis,Cinépolis Pilar,"Panamericana Km. 50, Pilar",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:40,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La vida es así,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-vida-es-asi
-GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",La última copa,2D Subtitulada,21:30,,,,https://cartelera.ar/pelicula/la-ultima-copa
-GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Que Dios perdona a todos,2D Subtitulada,16:30,,,,https://cartelera.ar/pelicula/que-dios-perdona-a-todos
-GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,18:45,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-GBA Sur,Cinépolis,Cinépolis Avellaneda,"Av. Mitre 2702, Avellaneda",Avengers: Endgame Bonus - Infinity Vision,3D Doblada,22:40,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),4D (3D) Doblada,18:05,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),2D XTREMO Doblada,18:40,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-CABA,Multiplex,Multiplex Lavalle,"Lavalle 780, CABA",Avengers: Endgame (re Estreno),2D XTREMO Doblada,22:05,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),2D XTREMO Doblada,18:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),4D (3D) Doblada,21:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Norte,Multiplex,Multiplex Pilar,"Las Magnolias 754, Palmas del Pilar",Avengers: Endgame (re Estreno),2D XTREMO Doblada,22:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),2D XTREMO Doblada,18:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),2D Doblada,19:10,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),4D (3D) Doblada,19:30,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-GBA Sur,Multiplex,Multiplex Canning,"Formosa 653, Canning (Shopping Las Toscas)",Avengers: Endgame (re Estreno),2D XTREMO Subtitulada,22:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),2D XTREMO Subtitulada,18:35,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
-CABA,Multiplex,Multiplex Belgrano,"Vuelta de Obligado 2199, Belgrano",Avengers: Endgame (re Estreno),2D XTREMO Subtitulada,22:00,,,,https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Coyote vs. Acme,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",EL CORAZÓN DE LA BESTIA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,DBOX 2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,DBOX 2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,DBOX 2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Insidious: Fuera del más allá,DBOX 2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",LA ISLA OLVIDADA,2D Doblada,12:20,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",LA ISLA OLVIDADA,3D Doblada,13:50,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",LA ISLA OLVIDADA,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",LA ISLA OLVIDADA,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",La Odisea,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Doblada,15:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Doblada,18:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Subtitulada,19:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Doblada,20:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Resident Evil: Noche Cero,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Spider-Man: Un nuevo día,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Spider-Man: Un nuevo día,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Yo Narciso,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+GBA Oeste,Cinemark Hoyts,Hoyts Morón,"J.M. de Rosas 658, Plaza Oeste Shopping",Yo Narciso,2D Doblada,21:50,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
 GBA Oeste,Cinépolis,Cinépolis Merlo,Av. Juan Domingo Perón 24098,Avengers: Endgame Bonus - Infinity Vision,2D Doblada,19:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 GBA Oeste,Cinépolis,Cinépolis Merlo,Av. Juan Domingo Perón 24098,Avengers: Endgame Bonus - Infinity Vision,3D Doblada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 GBA Oeste,Cinépolis,Cinépolis Merlo,Av. Juan Domingo Perón 24098,Avengers: Endgame Bonus - Infinity Vision,3D Subtitulada,22:40,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La vida es así,2D Subtitulada,19:00,,,,https://cartelera.ar/pelicula/la-vida-es-asi
-GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",La última copa,2D Subtitulada,21:30,,,,https://cartelera.ar/pelicula/la-ultima-copa
-GBA Oeste,Cinépolis,Cinépolis Luján,"Av. Constitución 1000, Luján",Avengers: Endgame Bonus - Infinity Vision,2D Doblada,21:30,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
 CABA,Atlas Cines,Atlas Liniers,"Av. Rivadavia 11177, Liniers",Avengers: Endgame,2D Doblada,21:00,,,,https://cartelera.ar/pelicula/avengers-endgame
 CABA,Cine Independiente,CineArte Cacodelphia,"Roque Sáenz Peña 1150, Buenos Aires",Los Nadadores,2D Doblada,21:00,,,,https://cartelera.ar/pelicula/los-nadadores
 CABA,Atlas Cines,Atlas Flores,"Rivera Indarte 44, Flores",Avengers: Endgame,2D Doblada,21:20,,,,https://cartelera.ar/pelicula/avengers-endgame
 CABA,Cinépolis,Cinépolis Houssay,"Av. Corrientes 917, Buenos Aires",Avengers: Endgame Bonus - Infinity Vision,2D Subtitulada,22:00,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Subtitulada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Subtitulada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),PREMIER 2D Subtitulada,21:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,DOT,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+GBA Norte,Showcase,IMAX Showcase Norte,"Av. Ricardo Balbín 2550, Shopping Norcenter",Avengers: Endgame Bonus - Infinity Vision,IMAX Subtitulada,22:15,,,,https://cartelera.ar/pelicula/avengers-endgame-bonus-infinity-vision
+,Cinemark Hoyts,Temperley,,TOY STORY 5,4D 3D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Temperley,,TOY STORY 5,2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,12:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,14:15,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,14:15,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,21:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,21:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,RESIDENT EVIL: NOCHE CERO,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Temperley,,EL CORAZÓN DE LA BESTIA,2D Doblada,12:15,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Temperley,,EL CORAZÓN DE LA BESTIA,2D Doblada,14:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Temperley,,EL CORAZÓN DE LA BESTIA,2D Doblada,17:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Temperley,,EL CORAZÓN DE LA BESTIA,2D Doblada,20:15,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Temperley,,EL CORAZÓN DE LA BESTIA,2D Doblada,22:45,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,COYOTE VS ACME,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,12:50,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,16:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Temperley,,LA ISLA OLVIDADA,DBOX 2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Temperley,,LA ISLA OLVIDADA,2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Temperley,,LA ISLA OLVIDADA,DBOX 2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Temperley,,LA ISLA OLVIDADA,2D Doblada,17:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Temperley,,LA ISLA OLVIDADA,DBOX 2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Temperley,,LA ISLA OLVIDADA,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Temperley,,EL ÚLTIMO GRAN GOLPE,2D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+,Cinemark Hoyts,Temperley,,EL ÚLTIMO GRAN GOLPE,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+,Cinemark Hoyts,Temperley,,"YO, NARCISO",2D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Temperley,,LA ODISEA,DBOX 2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Temperley,,LA ODISEA,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,LA ISLA OLVIDADA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Abasto,,LA ISLA OLVIDADA,2D Doblada,14:10,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Abasto,,LA ISLA OLVIDADA,3D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Abasto,,LA ISLA OLVIDADA,2D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Abasto,,LA ISLA OLVIDADA,2D Doblada,21:50,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,20:25,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,LA NOCHE DEL DEMONIO 6,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Abasto,,TOY STORY 5,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Abasto,,TOY STORY 5,2D Doblada,15:20,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,16:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,3D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Subtitulada,16:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Subtitulada,16:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,18:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,18:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Subtitulada,20:35,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Subtitulada,20:35,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,RESIDENT EVIL: NOCHE CERO,2D Subtitulada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Abasto,,EL CORAZÓN DE LA BESTIA,2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Abasto,,EL CORAZÓN DE LA BESTIA,2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Abasto,,EL CORAZÓN DE LA BESTIA,2D Subtitulada,18:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Abasto,,EL CORAZÓN DE LA BESTIA,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Abasto,,EL CORAZÓN DE LA BESTIA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Abasto,,COLONY: ZONA CERO,2D Doblada,13:50,,,,https://www.cinemark.com.ar/peliculas/colony-zona-cero
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,16:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,COYOTE VS ACME,2D Doblada,21:40,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Abasto,,BAJO TUS PIES,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+,Cinemark Hoyts,Abasto,,BAJO TUS PIES,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Doblada,18:20,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,LA ODISEA,2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Abasto,,PMMM LA REBELION,2D Subtitulada,16:50,,,,https://www.cinemark.com.ar/peliculas/puella-magi-madoka-magica-la-rebelion
+,Cinemark Hoyts,Abasto,,EL ÚLTIMO GRAN GOLPE,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+,Cinemark Hoyts,Abasto,,EL ÚLTIMO GRAN GOLPE,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+,Cinemark Hoyts,Abasto,,"YO, NARCISO",2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,San Justo,,LA ISLA OLVIDADA,2D Doblada,12:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,San Justo,,LA ISLA OLVIDADA,3D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,San Justo,,LA ISLA OLVIDADA,2D Doblada,17:25,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,San Justo,,LA ISLA OLVIDADA,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,12:45,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,20:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,22:15,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,RESIDENT EVIL: NOCHE CERO,2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,13:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,COYOTE VS ACME,2D Doblada,18:15,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,San Justo,,EL CORAZÓN DE LA BESTIA,2D Doblada,13:15,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,San Justo,,EL CORAZÓN DE LA BESTIA,2D Doblada,15:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,San Justo,,EL CORAZÓN DE LA BESTIA,2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,San Justo,,EL CORAZÓN DE LA BESTIA,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,San Justo,,EL CORAZÓN DE LA BESTIA,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,13:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,13:40,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,13:40,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,San Justo,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:45,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Malvinas Argentinas,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,12:40,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Malvinas Argentinas,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Malvinas Argentinas,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,19:10,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Malvinas Argentinas,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Malvinas Argentinas,,LA ISLA OLVIDADA,2D Doblada,12:45,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Malvinas Argentinas,,LA ISLA OLVIDADA,3D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Malvinas Argentinas,,LA ISLA OLVIDADA,2D Doblada,17:45,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Malvinas Argentinas,,LA ISLA OLVIDADA,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Malvinas Argentinas,,BAJO TUS PIES,2D Doblada,13:10,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+,Cinemark Hoyts,Malvinas Argentinas,,BAJO TUS PIES,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/bajo-tus-pies
+,Cinemark Hoyts,Malvinas Argentinas,,TOY STORY 5,2D Doblada,13:30,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Malvinas Argentinas,,TOY STORY 5,2D Doblada,15:50,,,,https://www.cinemark.com.ar/peliculas/toy-story-5
+,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,14:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,14:55,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,17:05,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,19:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,20:10,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,21:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,DBOX 2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,RESIDENT EVIL: NOCHE CERO,2D Doblada,22:40,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Malvinas Argentinas,,EL CORAZÓN DE LA BESTIA,2D Doblada,15:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Malvinas Argentinas,,EL CORAZÓN DE LA BESTIA,2D Doblada,17:45,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Malvinas Argentinas,,EL CORAZÓN DE LA BESTIA,2D Doblada,20:05,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Malvinas Argentinas,,EL CORAZÓN DE LA BESTIA,2D Doblada,22:20,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Malvinas Argentinas,,COYOTE VS ACME,2D Doblada,16:30,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Malvinas Argentinas,,COYOTE VS ACME,2D Doblada,19:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Malvinas Argentinas,,EL ÚLTIMO GRAN GOLPE,2D Doblada,17:10,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+,Cinemark Hoyts,Malvinas Argentinas,,EL ÚLTIMO GRAN GOLPE,2D Doblada,22:10,,,,https://www.cinemark.com.ar/peliculas/el-ultimo-gran-golpe
+,Cinemark Hoyts,Malvinas Argentinas,,LA NOCHE DEL DEMONIO 6,2D Doblada,17:55,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Malvinas Argentinas,,LA NOCHE DEL DEMONIO 6,2D Doblada,20:20,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Malvinas Argentinas,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:50,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Malvinas Argentinas,,LA ODISEA,2D Doblada,18:10,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Malvinas Argentinas,,LA ODISEA,2D Doblada,21:40,,,,https://www.cinemark.com.ar/peliculas/la-odisea
+,Cinemark Hoyts,Malvinas Argentinas,,"YO, NARCISO",2D Doblada,23:00,,,,https://www.cinemark.com.ar/peliculas/yo-narciso
+,Cinemark Hoyts,Soleil,,RESIDENT EVIL: NOCHE CERO,2D Doblada,14:20,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Soleil,,RESIDENT EVIL: NOCHE CERO,2D Subtitulada,16:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Soleil,,RESIDENT EVIL: NOCHE CERO,2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Soleil,,RESIDENT EVIL: NOCHE CERO,2D Doblada,20:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Soleil,,RESIDENT EVIL: NOCHE CERO,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Soleil,,RESIDENT EVIL: NOCHE CERO,2D Subtitulada,22:50,,,,https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero
+,Cinemark Hoyts,Soleil,,LA ISLA OLVIDADA,2D Doblada,14:40,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Soleil,,LA ISLA OLVIDADA,3D Doblada,17:20,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Soleil,,LA ISLA OLVIDADA,2D Doblada,19:50,,,,https://www.cinemark.com.ar/peliculas/la-isla-olvidada
+,Cinemark Hoyts,Soleil,,COYOTE VS ACME,2D Doblada,15:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Soleil,,COYOTE VS ACME,2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/coyote-vs-acme
+,Cinemark Hoyts,Soleil,,EL CORAZÓN DE LA BESTIA,2D Doblada,15:15,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Soleil,,EL CORAZÓN DE LA BESTIA,2D Doblada,17:40,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Soleil,,EL CORAZÓN DE LA BESTIA,2D Doblada,20:00,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Soleil,,EL CORAZÓN DE LA BESTIA,2D Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia
+,Cinemark Hoyts,Soleil,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,16:00,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Soleil,,SPIDER-MAN: UN NUEVO DÍA,2D Doblada,21:20,,,,https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia
+,Cinemark Hoyts,Soleil,,LA NOCHE DEL DEMONIO 6,2D Doblada,19:30,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Soleil,,LA NOCHE DEL DEMONIO 6,2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros
+,Cinemark Hoyts,Soleil,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
+,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Unicenter,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Unicenter,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Unicenter,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
@@ -61,45 +762,9 @@ CABA,Cinépolis,Cinépolis Houssay,"Av. Corrientes 917, Buenos Aires",Avengers: 
 ,Cinemark Hoyts,Unicenter,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Unicenter,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Unicenter,,AVENGERS: ENDGAME (RE ESTRENO),PREMIER 2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,14:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Quilmes,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Temperley,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,San Justo,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Malvinas Argentinas,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Tortugas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Tortugas,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Tortugas,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Tortugas,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Alto Avellaneda,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Alto Avellaneda,,AVENGERS: ENDGAME (RE ESTRENO),XD 3D IV Doblada,18:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Alto Avellaneda,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Alto Avellaneda,,AVENGERS: ENDGAME (RE ESTRENO),DBOX XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Alto Avellaneda,,AVENGERS: ENDGAME (RE ESTRENO),XD 2D IV Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Alto Avellaneda,,AVENGERS: ENDGAME (RE ESTRENO),4D 3D IV Doblada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Abasto,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Palermo,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,18:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Palermo,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:30,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Moron,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Moron,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Moreno,,AVENGERS: ENDGAME (RE ESTRENO),DBOX 2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
 ,Cinemark Hoyts,Moreno,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Caballito,,AVENGERS: ENDGAME (RE ESTRENO),2D Subtitulada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Soleil,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
-,Cinemark Hoyts,Puerto Madero,,AVENGERS: ENDGAME (RE ESTRENO),2D Doblada,22:00,,,,https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno
