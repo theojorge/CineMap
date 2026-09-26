@@ -283,17 +283,6 @@
             "formato": "2D Subtitulada"
           }
         ]
-      },
-      {
-        "titulo": "Linkin Park: Unshatter",
-        "url": "https://cartelera.ar/pelicula/linkin-park-unshatter",
-        "imagen": "/posters/linkin-park-unshatter.jpg",
-        "funciones": [
-          {
-            "horario": "20:20",
-            "formato": "2D Subtitulada"
-          }
-        ]
       }
     ]
   },
@@ -488,6 +477,17 @@
         ]
       },
       {
+        "titulo": "Linkin Park: Unshatter",
+        "url": "https://multiplex.com.ar/peliculas/linkin-park-unshatter/",
+        "imagen": "/posters/linkin-park-unshatter.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "Verity. La sombra de un engaño",
         "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
@@ -590,6 +590,17 @@
         ]
       },
       {
+        "titulo": "Linkin Park: Unshatter",
+        "url": "https://multiplex.com.ar/peliculas/linkin-park-unshatter/",
+        "imagen": "/posters/linkin-park-unshatter.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "Verity. La sombra de un engaño",
         "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
@@ -620,6 +631,65 @@
         "funciones": [
           {
             "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "DOT",
+    "slug": "hoyts-dot-baires",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "11:30",
+            "formato": "XD 2D Subtitulada"
+          },
+          {
+            "horario": "14:10",
+            "formato": "XD 2D Subtitulada"
+          },
+          {
+            "horario": "16:50",
+            "formato": "XD 2D Subtitulada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "XD 2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "XD 2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "DIGGER",
+        "url": "https://www.cinemark.com.ar/peliculas/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:30",
             "formato": "2D Subtitulada"
           }
         ]
@@ -711,11 +781,11 @@
           },
           {
             "horario": "22:00",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -801,6 +871,10 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "13:00",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
             "horario": "15:00",
             "formato": "DBOX 2D Subtitulada"
           },
@@ -809,12 +883,20 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "15:50",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
             "horario": "17:30",
             "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "17:30",
             "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:40",
+            "formato": "PREMIER 2D Subtitulada"
           },
           {
             "horario": "20:00",
@@ -852,6 +934,10 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "13:30",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
             "horario": "15:20",
             "formato": "DBOX 2D Subtitulada"
           },
@@ -860,12 +946,20 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "16:20",
+            "formato": "PREMIER 2D Subtitulada"
+          },
+          {
             "horario": "18:10",
             "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "18:10",
             "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:10",
+            "formato": "PREMIER 2D Subtitulada"
           },
           {
             "horario": "21:00",
@@ -924,11 +1018,11 @@
           },
           {
             "horario": "17:40",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "17:40",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "20:20",
@@ -1133,11 +1227,11 @@
           },
           {
             "horario": "19:10",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "19:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "22:00",
@@ -1197,11 +1291,11 @@
           },
           {
             "horario": "23:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "23:00",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -1236,11 +1330,11 @@
           },
           {
             "horario": "22:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -1338,19 +1432,19 @@
           },
           {
             "horario": "19:00",
-            "formato": "DBOX 2D Subtitulada"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:10",
             "formato": "DBOX 2D Doblada"
           },
           {
-            "horario": "22:10",
+            "horario": "19:00",
             "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
           }
         ]
       }
@@ -1394,11 +1488,11 @@
           },
           {
             "horario": "22:00",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -1525,57 +1619,6 @@
           {
             "horario": "22:50",
             "formato": "XD 2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "DOT",
-    "slug": "hoyts-dot-baires",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "DIGGER",
-        "url": "https://www.cinemark.com.ar/peliculas/digger",
-        "imagen": "/posters/digger.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "16:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
-        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
-        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
-        "funciones": [
-          {
-            "horario": "16:50",
-            "formato": "XD 2D Subtitulada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "XD 2D Subtitulada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "XD 2D Subtitulada"
           }
         ]
       }
@@ -1749,7 +1792,7 @@
           },
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
