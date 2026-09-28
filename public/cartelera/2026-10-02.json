@@ -228,15 +228,15 @@
         "imagen": "/posters/digger.jpg",
         "funciones": [
           {
-            "horario": "16:20",
+            "horario": "16:00",
             "formato": "2D Subtitulada"
           },
           {
-            "horario": "19:00",
+            "horario": "18:40",
             "formato": "2D Subtitulada"
           },
           {
-            "horario": "21:40",
+            "horario": "21:20",
             "formato": "2D Subtitulada"
           }
         ]
@@ -456,56 +456,6 @@
   },
   {
     "cadena": "Multiplex",
-    "nombre": "Multiplex Lavalle",
-    "slug": "multiplex-lavalle",
-    "zona": "CABA",
-    "direccion": "Lavalle 780, CABA",
-    "peliculas": [
-      {
-        "titulo": "Digger",
-        "url": "https://multiplex.com.ar/peliculas/digger/",
-        "imagen": "/posters/digger.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "Linkin Park: Unshatter",
-        "url": "https://multiplex.com.ar/peliculas/linkin-park-unshatter/",
-        "imagen": "/posters/linkin-park-unshatter.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada"
-          }
-        ]
-      },
-      {
-        "titulo": "Verity. La sombra de un engaño",
-        "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
-        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
-        "funciones": [
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
     "nombre": "Multiplex Canning",
     "slug": "multiplex-canning",
     "zona": "GBA Sur",
@@ -537,6 +487,41 @@
           },
           {
             "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Lavalle",
+    "slug": "multiplex-lavalle",
+    "zona": "CABA",
+    "direccion": "Lavalle 780, CABA",
+    "peliculas": [
+      {
+        "titulo": "Digger",
+        "url": "https://multiplex.com.ar/peliculas/digger/",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Linkin Park: Unshatter",
+        "url": "https://multiplex.com.ar/peliculas/linkin-park-unshatter/",
+        "imagen": "/posters/linkin-park-unshatter.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
             "formato": "2D Subtitulada"
           }
         ]
@@ -581,11 +566,11 @@
         "funciones": [
           {
             "horario": "20:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Doblada"
           },
           {
             "horario": "22:50",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -799,6 +784,25 @@
     "direccion": "",
     "peliculas": [
       {
+        "titulo": "LA ODISEA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
         "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
         "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
@@ -808,7 +812,15 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "13:50",
+            "formato": "2D Subtitulada"
+          },
+          {
             "horario": "14:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:30",
             "formato": "2D Subtitulada"
           },
           {
@@ -816,12 +828,101 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "19:10",
+            "formato": "2D Subtitulada"
+          },
+          {
             "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:50",
             "formato": "2D Subtitulada"
           },
           {
             "horario": "22:50",
             "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "14:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "ESCONDIDA EN MI CABEZA",
+        "url": "https://www.cinemark.com.ar/peliculas/escondida-en-mi-cabeza",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -843,8 +944,323 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
             "horario": "22:00",
             "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "18:30",
+            "formato": "3D Subtitulada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "HECHIZO DE AMOR: LA MAGIA CONTINUA",
+        "url": "https://www.cinemark.com.ar/peliculas/hechizo-de-amor-la-magia-continua",
+        "imagen": "/posters/hechizo-de-amor-la-magia-continua.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "YO, NARCISO",
+        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA INVITACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "San Justo",
+    "slug": "cinemark-san-justo",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "3D Doblada"
+          },
+          {
+            "horario": "19:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "DIGGER",
+        "url": "https://www.cinemark.com.ar/peliculas/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "12:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "DBOX XD 2D Doblada"
+          },
+          {
+            "horario": "12:45",
+            "formato": "XD 2D Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "DBOX XD 2D Doblada"
+          },
+          {
+            "horario": "15:15",
+            "formato": "XD 2D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "DBOX XD 2D Doblada"
+          },
+          {
+            "horario": "17:45",
+            "formato": "XD 2D Doblada"
+          },
+          {
+            "horario": "20:15",
+            "formato": "DBOX XD 2D Doblada"
+          },
+          {
+            "horario": "20:15",
+            "formato": "XD 2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "DBOX XD 2D Doblada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "XD 2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "19:15",
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -990,109 +1406,6 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "San Justo",
-    "slug": "cinemark-san-justo",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "DIGGER",
-        "url": "https://www.cinemark.com.ar/peliculas/digger",
-        "imagen": "/posters/digger.jpg",
-        "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "12:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:40",
-            "formato": "DBOX 2D Subtitulada"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "DBOX 2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
-        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
-        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
-        "funciones": [
-          {
-            "horario": "12:45",
-            "formato": "DBOX XD 2D Doblada"
-          },
-          {
-            "horario": "12:45",
-            "formato": "XD 2D Doblada"
-          },
-          {
-            "horario": "15:15",
-            "formato": "DBOX XD 2D Doblada"
-          },
-          {
-            "horario": "15:15",
-            "formato": "XD 2D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "DBOX XD 2D Doblada"
-          },
-          {
-            "horario": "17:45",
-            "formato": "XD 2D Doblada"
-          },
-          {
-            "horario": "20:15",
-            "formato": "DBOX XD 2D Doblada"
-          },
-          {
-            "horario": "20:15",
-            "formato": "XD 2D Doblada"
-          },
-          {
-            "horario": "22:45",
-            "formato": "DBOX XD 2D Doblada"
-          },
-          {
-            "horario": "22:45",
-            "formato": "XD 2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
     "nombre": "Caballito",
     "slug": "cinemark-caballito",
     "zona": "",
@@ -1112,7 +1425,15 @@
             "formato": "2D Subtitulada"
           },
           {
+            "horario": "16:20",
+            "formato": "2D Subtitulada"
+          },
+          {
             "horario": "17:40",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "19:10",
             "formato": "2D Subtitulada"
           },
           {
@@ -1122,6 +1443,86 @@
           {
             "horario": "22:50",
             "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ISLA OLVIDADA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -1144,6 +1545,32 @@
           },
           {
             "horario": "22:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "LA ODISEA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "21:50",
             "formato": "2D Subtitulada"
           }
         ]
