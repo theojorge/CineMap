@@ -1659,12 +1659,36 @@
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
         "funciones": [
           {
+            "horario": "13:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "13:40",
+            "formato": "DBOX 2D Doblada"
+          },
+          {
             "horario": "14:00",
             "formato": "4D 3D IV Doblada"
           },
           {
+            "horario": "17:15",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "17:15",
+            "formato": "DBOX 2D Subtitulada"
+          },
+          {
             "horario": "18:00",
             "formato": "4D 3D IV Doblada"
+          },
+          {
+            "horario": "21:15",
+            "formato": "2D Subtitulada"
+          },
+          {
+            "horario": "21:15",
+            "formato": "DBOX 2D Subtitulada"
           },
           {
             "horario": "22:00",
@@ -2100,7 +2124,7 @@
           },
           {
             "horario": "14:00",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           },
           {
             "horario": "15:50",
@@ -2112,7 +2136,7 @@
           },
           {
             "horario": "17:30",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           },
           {
             "horario": "19:20",
@@ -2120,7 +2144,7 @@
           },
           {
             "horario": "21:10",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           }
         ]
       },
@@ -2566,7 +2590,7 @@
           },
           {
             "horario": "15:00",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           },
           {
             "horario": "17:20",
@@ -2574,7 +2598,7 @@
           },
           {
             "horario": "18:30",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           },
           {
             "horario": "22:00",
@@ -2773,7 +2797,7 @@
     "direccion": "Av. Pte. Illia 3770, Shopping Terrazas de Mayo",
     "peliculas": [
       {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
         "funciones": [
@@ -3092,7 +3116,7 @@
     "direccion": "Av. Victorica 1128, Nine Shopping",
     "peliculas": [
       {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
+        "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
         "funciones": [
@@ -6340,11 +6364,11 @@
           },
           {
             "horario": "15:15",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           },
           {
             "horario": "18:40",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           },
           {
             "horario": "19:50",
@@ -6352,7 +6376,7 @@
           },
           {
             "horario": "22:00",
-            "formato": "2D XTREMO Doblada"
+            "formato": "XTREMO 2D Doblada"
           }
         ]
       },
@@ -8150,14 +8174,6 @@
           {
             "horario": "16:00",
             "formato": "3D Doblada"
-          },
-          {
-            "horario": "18:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -8581,10 +8597,6 @@
             "formato": "2D Doblada"
           },
           {
-            "horario": "22:00",
-            "formato": "2D Doblada"
-          },
-          {
             "horario": "23:00",
             "formato": "2D Subtitulada"
           }
@@ -8692,6 +8704,10 @@
           },
           {
             "horario": "20:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:00",
             "formato": "2D Doblada"
           },
           {

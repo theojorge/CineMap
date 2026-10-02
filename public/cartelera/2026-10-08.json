@@ -1,0 +1,48 @@
+[
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/wdRK70SDxjhj3e3vJoYQaRZf4sD.jpg",
+        "funciones": [
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada"
+          }
+        ]
+      }
+    ]
+  }
+]
