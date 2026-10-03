@@ -1681,6 +1681,10 @@
           {
             "horario": "22:00",
             "formato": "4D 3D IV Subtitulada"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -1745,7 +1749,7 @@
             "formato": "PREMIER 2D Subtitulada"
           },
           {
-            "horario": "20:20",
+            "horario": "20:15",
             "formato": "2D Subtitulada"
           },
           {
@@ -1759,10 +1763,6 @@
           {
             "horario": "22:00",
             "formato": "PREMIER 2D Subtitulada"
-          },
-          {
-            "horario": "22:55",
-            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -2112,7 +2112,7 @@
           },
           {
             "horario": "14:00",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           },
           {
             "horario": "15:50",
@@ -2124,7 +2124,7 @@
           },
           {
             "horario": "17:30",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           },
           {
             "horario": "19:20",
@@ -2132,7 +2132,7 @@
           },
           {
             "horario": "21:10",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           }
         ]
       },
@@ -2578,7 +2578,7 @@
           },
           {
             "horario": "15:00",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           },
           {
             "horario": "17:20",
@@ -2586,11 +2586,11 @@
           },
           {
             "horario": "18:30",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D XTREMO Subtitulada"
           }
         ]
       },
@@ -2756,11 +2756,11 @@
         "funciones": [
           {
             "horario": "20:00",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           },
           {
             "horario": "22:20",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -6333,11 +6333,11 @@
           },
           {
             "horario": "15:15",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           },
           {
             "horario": "18:40",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           },
           {
             "horario": "19:50",
@@ -6345,7 +6345,7 @@
           },
           {
             "horario": "22:00",
-            "formato": "XTREMO 2D Doblada"
+            "formato": "2D XTREMO Doblada"
           }
         ]
       },
@@ -7102,6 +7102,21 @@
             "formato": "2D Doblada"
           }
         ]
+      },
+      {
+        "titulo": "Cuentos Del Jardin Magico",
+        "url": "https://cartelera.ar/pelicula/cuentos-del-jardin-magico",
+        "imagen": "/posters/cuentos-del-jardin-magico.jpg",
+        "funciones": [
+          {
+            "horario": "14:35",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:25",
+            "formato": "2D Doblada"
+          }
+        ]
       }
     ]
   },
@@ -7280,6 +7295,10 @@
           {
             "horario": "20:20",
             "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada"
           }
         ]
       },
@@ -7343,10 +7362,6 @@
           {
             "horario": "19:30",
             "formato": "2D Subtitulada"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada"
           }
         ]
       },
@@ -8060,6 +8075,21 @@
             "formato": "2D Doblada"
           }
         ]
+      },
+      {
+        "titulo": "Cuentos Del Jardin Magico",
+        "url": "https://cartelera.ar/pelicula/cuentos-del-jardin-magico",
+        "imagen": "/posters/cuentos-del-jardin-magico.jpg",
+        "funciones": [
+          {
+            "horario": "14:05",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada"
+          }
+        ]
       }
     ]
   },
@@ -8147,6 +8177,14 @@
           {
             "horario": "16:00",
             "formato": "3D Doblada"
+          },
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada"
           }
         ]
       },
