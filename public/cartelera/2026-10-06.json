@@ -5447,26 +5447,6 @@
     ]
   },
   {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
-    "peliculas": [
-      {
-        "titulo": "Ficuba",
-        "url": "https://cartelera.ar/pelicula/ficuba",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Cinemark Avellaneda",
     "slug": "cinemark-avellaneda",
@@ -5724,6 +5704,26 @@
           },
           {
             "horario": "23:00",
+            "formato": "2D Doblada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Ficuba",
+        "url": "https://cartelera.ar/pelicula/ficuba",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:00",
             "formato": "2D Doblada"
           }
         ]

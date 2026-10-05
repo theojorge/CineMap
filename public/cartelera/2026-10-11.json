@@ -12,11 +12,11 @@
         "imagen": "/posters/la-odisea.jpg",
         "funciones": [
           {
-            "horario": "15:25",
+            "horario": "13:30",
             "formato": "IMAX Subtitulada"
           },
           {
-            "horario": "19:00",
+            "horario": "22:20",
             "formato": "IMAX Subtitulada"
           }
         ]
@@ -27,8 +27,39 @@
         "imagen": "/posters/digger.jpg",
         "funciones": [
           {
-            "horario": "22:35",
+            "horario": "19:30",
             "formato": "IMAX Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Queen Budapest",
+        "url": "https://cartelera.ar/pelicula/queen-budapest",
+        "imagen": "/posters/queen-budapest.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "IMAX Subtitulada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Atlas Cines",
+    "nombre": "Atlas Patio Bullrich",
+    "slug": "atlas-patio-bullrich",
+    "zona": "CABA",
+    "direccion": "Av. del Libertador 750, Patio Bullrich",
+    "peliculas": [
+      {
+        "titulo": "Annemarie",
+        "url": "https://cartelera.ar/pelicula/annemarie",
+        "imagen": "/posters/uQLnV6G5fxWcjWvFs1igin3YykH.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -75,6 +106,17 @@
           {
             "horario": "16:30",
             "formato": "2D Subtitulada"
+          }
+        ]
+      },
+      {
+        "titulo": "Los Vencedores",
+        "url": "https://cartelera.ar/pelicula/los-vencedores",
+        "imagen": "/posters/hJVeuvHc7xmeYHhCs1iypk6nPy.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada"
           }
         ]
       }
@@ -918,29 +960,6 @@
         ]
       },
       {
-        "titulo": "COYOTE VS ACME",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
         "titulo": "GUARDIANES DEL MUSEO 2",
         "url": "https://www.cinemark.com.ar/peliculas/guardianes-del-museo-2",
         "imagen": "/posters/guardianes-del-museo-2.jpg",
@@ -970,6 +989,29 @@
           },
           {
             "horario": "22:50",
+            "formato": "2D Doblada"
+          }
+        ]
+      },
+      {
+        "titulo": "COYOTE VS ACME",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada"
+          },
+          {
+            "horario": "20:00",
             "formato": "2D Doblada"
           }
         ]
@@ -1202,7 +1244,7 @@
           },
           {
             "horario": "23:00",
-            "formato": "2D Doblada"
+            "formato": "2D Subtitulada"
           }
         ]
       },
@@ -1741,156 +1783,6 @@
           },
           {
             "horario": "22:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Soleil",
-    "slug": "cinemark-soleil",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "AVENGERS: ENDGAME (RE ESTRENO)",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:30",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "CARS 20° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:45",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "MADRE SINIESTRA",
-        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
-        "imagen": "/posters/madre-siniestra.jpg",
-        "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "16:55",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
-        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
-        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
-        "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:10",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "EL CORAZÓN DE LA BESTIA",
-        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
-        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
-        "funciones": [
-          {
-            "horario": "15:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "RESIDENT EVIL: NOCHE CERO",
-        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
-        "imagen": "/posters/resident-evil-noche-cero.jpg",
-        "funciones": [
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "18:20",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "20:40",
-            "formato": "2D Doblada"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada"
-          }
-        ]
-      },
-      {
-        "titulo": "SPIDER-MAN: UN NUEVO DÍA",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "22:30",
             "formato": "2D Doblada"
           }
         ]
