@@ -1,5 +1,6 @@
 import { CINES } from "./seed";
 import type { Cine, CineSeed } from "./types";
+import { compraUrlParaFuncion } from "./compra-url";
 
 type StaticFuncion = {
   horario: string;
@@ -92,7 +93,7 @@ export async function getCartelera(date: string): Promise<Cine[]> {
         funciones: pelicula.funciones.map((funcion) => ({
           horario: funcion.horario,
           formato: funcion.formato,
-          compraUrl: seed.sitioWeb,
+          compraUrl: compraUrlParaFuncion(seed.cadena, funcion, seed.sitioWeb),
           df: funcion.df ?? undefined,
           cinemark: funcion.cinemark ?? undefined,
           ...resolvePrecio(precios, seed, funcion.formato, date),
