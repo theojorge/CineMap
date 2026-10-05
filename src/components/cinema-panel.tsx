@@ -10,7 +10,12 @@ type Props = {
   cine: Cine | CineSeed;
   loaded: boolean;
   onClose: () => void;
-  onSelectFuncion?: (movieTitle: string, funcion: Funcion, movieImage?: string) => void;
+  onSelectFuncion?: (
+    movieTitle: string,
+    funcion: Funcion,
+    movieImage?: string,
+    movieUrl?: string,
+  ) => void;
   selectedDate?: string;
 };
 
@@ -109,7 +114,7 @@ export function CinemaPanel({ cine, loaded, onClose, onSelectFuncion, selectedDa
                         <button
                           key={`${f.horario}-${f.formato}-${i}`}
                           type="button"
-                          onClick={() => onSelectFuncion?.(p.titulo, f, p.imagen)}
+                          onClick={() => onSelectFuncion?.(p.titulo, f, p.imagen, p.url)}
                           className="inline-flex min-h-9 min-w-14 items-center justify-center gap-1.5 rounded-sm border border-border bg-surface px-2.5 py-1.5 text-xs text-fg hover:border-cream hover:bg-surface-2"
                           title={`${f.formato} — ver en mapa`}
                         >
@@ -119,7 +124,9 @@ export function CinemaPanel({ cine, loaded, onClose, onSelectFuncion, selectedDa
                             <span className="text-fg-muted">{formatPrice(f.precio_general)}</span>
                           ) : null}
                           {f.promociones?.map((promo) => (
-                            <span key={promo} className="text-cream">{promo}</span>
+                            <span key={promo} className="text-cream">
+                              {promo}
+                            </span>
                           ))}
                         </button>
                       ))}

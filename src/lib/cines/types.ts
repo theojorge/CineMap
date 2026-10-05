@@ -6,6 +6,8 @@ export type Funcion = {
   precio_jubilado?: number;
   precio_menor?: number;
   promociones?: string[];
+  df?: string;
+  cinemark?: string;
 };
 
 export type Pelicula = {

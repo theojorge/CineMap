@@ -7,6 +7,8 @@ type StaticFuncion = {
   precio_general?: number;
   precio_jubilado?: number;
   precio_menor?: number;
+  df?: string | null;
+  cinemark?: string | null;
 };
 
 type StaticPelicula = {
@@ -91,6 +93,8 @@ export async function getCartelera(date: string): Promise<Cine[]> {
           horario: funcion.horario,
           formato: funcion.formato,
           compraUrl: seed.sitioWeb,
+          df: funcion.df ?? undefined,
+          cinemark: funcion.cinemark ?? undefined,
           ...resolvePrecio(precios, seed, funcion.formato, date),
         })),
       })),
@@ -106,7 +110,12 @@ async function getPrecios(): Promise<StaticPrecios | null> {
   return (await response.json()) as StaticPrecios;
 }
 
-function resolvePrecio(precios: StaticPrecios | null, cine: CineSeed, formato: string, date: string) {
+function resolvePrecio(
+  precios: StaticPrecios | null,
+  cine: CineSeed,
+  formato: string,
+  date: string,
+) {
   const promociones = resolvePromociones(precios, cine, formato, date);
   const formatos = precios?.cines[cine.slug]?.formatos;
   if (!formatos) return promociones.length ? { promociones } : {};
@@ -117,7 +126,11 @@ function resolvePrecio(precios: StaticPrecios | null, cine: CineSeed, formato: s
   const compatible = Object.values(formatos).find((precio) =>
     areCompatibleFormats(precio.formato, formato),
   );
-  return compatible ? { ...priceFields(compatible), promociones } : promociones.length ? { promociones } : {};
+  return compatible
+    ? { ...priceFields(compatible), promociones }
+    : promociones.length
+      ? { promociones }
+      : {};
 }
 
 function priceFields(precio: StaticPrecio) {

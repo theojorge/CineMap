@@ -1,15 +1,50 @@
-import { X, ExternalLink } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
+import { X, ExternalLink, Armchair } from "lucide-react";
+import { ButacasMap } from "@/components/butacas-map";
 import type { Funcion } from "@/lib/cines/types";
+import { consultarButacasPlan, planearButacas } from "@/lib/cines/butacas-ui";
 
 type Props = {
   movieTitle: string;
   cineName: string;
+  cadena: string;
   funcion: Funcion;
   movieImage?: string;
+  movieUrl?: string;
   onClose: () => void;
 };
 
-export function MoviePopup({ movieTitle, cineName, funcion, movieImage, onClose }: Props) {
+export function MoviePopup({
+  movieTitle,
+  cineName,
+  cadena,
+  funcion,
+  movieImage,
+  movieUrl,
+  onClose,
+}: Props) {
+  const plan = useMemo(
+    () => planearButacas(cadena, funcion, movieUrl),
+    [cadena, funcion, movieUrl],
+  );
+  const [butacasOpen, setButacasOpen] = useState(false);
+
+  const butacasQuery = useQuery({
+    queryKey: plan.disponible ? plan.key : ["butacas", "vacío"],
+    queryFn: () => consultarButacasPlan(plan as never),
+    enabled: butacasOpen && plan.disponible,
+    staleTime: 5 * 60 * 1000,
+  });
+
+  // El detalle técnico no se muestra al usuario (ver ButacasMap), pero se
+  // deja en consola para poder diagnosticar fallas puntuales.
+  useEffect(() => {
+    if (butacasQuery.isError) {
+      console.error("[butacas]", butacasQuery.error);
+    }
+  }, [butacasQuery.isError, butacasQuery.error]);
+
   return (
     <div className="pointer-events-auto fixed bottom-4 left-4 z-50 w-[28rem] max-w-[calc(100vw-2rem)] rounded-xl border border-border bg-surface shadow-panel">
       <div className="flex items-start justify-between border-b border-border p-4">
@@ -45,6 +80,17 @@ export function MoviePopup({ movieTitle, cineName, funcion, movieImage, onClose 
             <PriceList funcion={funcion} />
           </div>
         </div>
+        {plan.disponible ? (
+          <button
+            type="button"
+            onClick={() => setButacasOpen((open) => !open)}
+            className="mb-2 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-border bg-surface-2 px-4 py-3 text-sm font-medium text-fg transition-colors hover:border-cream hover:bg-surface"
+            aria-expanded={butacasOpen}
+          >
+            <Armchair className="size-4" />
+            {butacasOpen ? "Ocultar butacas" : "Ver butacas"}
+          </button>
+        ) : null}
         <a
           href={funcion.compraUrl}
           target="_blank"
@@ -55,6 +101,20 @@ export function MoviePopup({ movieTitle, cineName, funcion, movieImage, onClose 
           <ExternalLink className="size-4" />
         </a>
       </div>
+      {butacasOpen ? (
+        <ButacasMap
+          butacas={
+            butacasQuery.isPending
+              ? []
+              : butacasQuery.data && butacasQuery.isSuccess
+                ? butacasQuery.data
+                : []
+          }
+          isLoading={butacasQuery.isPending}
+          error={butacasQuery.isError ? butacasQuery.error.message : undefined}
+          onClose={() => setButacasOpen(false)}
+        />
+      ) : null}
     </div>
   );
 }

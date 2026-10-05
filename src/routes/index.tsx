@@ -8,6 +8,7 @@ import { MoviePanel } from "@/components/movie-panel";
 import { MoviePopup } from "@/components/movie-popup";
 import { getCartelera } from "@/lib/cines/api";
 import { CINES } from "@/lib/cines/seed";
+import { crearSeleccionFuncion, type SeleccionFuncion } from "@/lib/cines/seleccion-funcion";
 import type { Cine, CineSeed, Funcion, Pelicula } from "@/lib/cines/types";
 import { addDaysISO, isUpcomingFuncion, todayAR } from "@/lib/utils";
 
@@ -23,7 +24,7 @@ function Home() {
             refetchOnWindowFocus: false,
             refetchOnMount: false,
             staleTime: 5 * 60 * 1000, // 5 minutos
-            cacheTime: 10 * 60 * 1000, // 10 minutos
+            gcTime: 10 * 60 * 1000, // 10 minutos
           },
         },
       }),
@@ -37,15 +38,12 @@ function Home() {
 
 function CarteleraApp() {
   const today = todayAR();
-  const dates = useMemo(
-    () => Array.from({ length: 7 }, (_, i) => addDaysISO(today, i)),
-    [today],
-  );
+  const dates = useMemo(() => Array.from({ length: 7 }, (_, i) => addDaysISO(today, i)), [today]);
   const [date, setDate] = useState(today);
   const [query, setQuery] = useState("");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [selectedMovie, setSelectedMovie] = useState<string | null>(null);
-  const [selectedFuncion, setSelectedFuncion] = useState<{ cineSlug: string; movieTitle: string; funcion: Funcion; movieImage?: string } | null>(null);
+  const [selectedFuncion, setSelectedFuncion] = useState<SeleccionFuncion | null>(null);
 
   const cartelera = useQuery({
     queryKey: ["cartelera", date],
@@ -111,24 +109,45 @@ function CarteleraApp() {
     // Sort optimizado usando una sola comparación
     return {
       showtimes: showtimes.sort((a, b) => {
-        const [hoursA, minsA] = a.funcion.horario.split(':').map(Number);
-        const [hoursB, minsB] = b.funcion.horario.split(':').map(Number);
+        const [hoursA, minsA] = a.funcion.horario.split(":").map(Number);
+        const [hoursB, minsB] = b.funcion.horario.split(":").map(Number);
         return hoursA * 60 + minsA - (hoursB * 60 + minsB);
       }),
-      movieImage
+      movieImage,
     };
   }, [selectedMovie, cartelera.data, cines, date]);
 
   const { showtimes, movieImage } = movieShowtimes;
 
-  const handleSelectFuncion = (cineSlug: string, movieTitle: string, funcion: Funcion, movieImage?: string) => {
-    setSelectedSlug(cineSlug);
-    setSelectedFuncion({ cineSlug, movieTitle, funcion, movieImage });
+  const handleSelectCine = (slug: string | null) => {
+    setSelectedSlug(slug);
+    // El popup muestra la función del cine seleccionado: si se cambia de
+    // cine, la selección anterior queda obsoleta (nombre y link de compra
+    // no coincidirían) y hay que cerrarlo.
+    setSelectedFuncion((prev) => (prev && prev.cineSlug !== slug ? null : prev));
   };
 
-  const handleSelectFuncionFromCinePanel = (movieTitle: string, funcion: Funcion, movieImage?: string) => {
+  const handleSelectFuncion = (
+    cineSlug: string,
+    movieTitle: string,
+    funcion: Funcion,
+    movieImage?: string,
+    movieUrl?: string,
+  ) => {
+    setSelectedSlug(cineSlug);
+    setSelectedFuncion(crearSeleccionFuncion(cineSlug, movieTitle, funcion, movieImage, movieUrl));
+  };
+
+  const handleSelectFuncionFromCinePanel = (
+    movieTitle: string,
+    funcion: Funcion,
+    movieImage?: string,
+    movieUrl?: string,
+  ) => {
     if (selected) {
-      setSelectedFuncion({ cineSlug: selected.slug, movieTitle, funcion, movieImage });
+      setSelectedFuncion(
+        crearSeleccionFuncion(selected.slug, movieTitle, funcion, movieImage, movieUrl),
+      );
     }
   };
 
@@ -140,16 +159,14 @@ function CarteleraApp() {
           visibleSlugs={visibleSlugs}
           selectedSlug={selectedSlug}
           loaded={Boolean(cartelera.data)}
-          onSelect={setSelectedSlug}
+          onSelect={handleSelectCine}
         />
       </div>
 
       <div className="pointer-events-none absolute inset-0 z-10 flex flex-col">
         <header className="flex flex-col gap-3 p-3 pt-[max(0.75rem,env(safe-area-inset-top))] md:p-5">
           <div className="pointer-events-auto flex items-baseline gap-3">
-            <h1 className="font-display text-2xl tracking-tight text-black md:text-3xl">
-              CineMap
-            </h1>
+            <h1 className="font-display text-2xl tracking-tight text-black md:text-3xl">CineMap</h1>
             <p className="hidden text-sm text-black sm:block">CABA y GBA</p>
           </div>
           <SearchBar
@@ -160,11 +177,15 @@ function CarteleraApp() {
             today={today}
             onDate={(d) => {
               setDate(d);
+              // La función del popup es de un día específico (el df lleva
+              // la fecha): al cambiar de día se cierra.
+              setSelectedFuncion(null);
             }}
             movieMatches={movieMatches}
             onPickMovie={(movieTitle: string) => {
               setSelectedMovie(movieTitle);
               setQuery("");
+              setSelectedFuncion(null);
             }}
             loading={cartelera.isFetching}
           />
@@ -195,8 +216,10 @@ function CarteleraApp() {
           <MoviePopup
             movieTitle={selectedFuncion.movieTitle}
             cineName={selected.nombre}
+            cadena={selected.cadena}
             funcion={selectedFuncion.funcion}
             movieImage={selectedFuncion.movieImage}
+            movieUrl={selectedFuncion.movieUrl}
             onClose={() => setSelectedFuncion(null)}
           />
         ) : null}
@@ -214,10 +237,18 @@ function normalizeText(value: string): string {
     .trim();
 }
 
-function filterMovies(cines: (Cine | CineSeed)[], raw: string): { movieTitle: string; cineSlug: string; cine: Cine | CineSeed; movieImage?: string }[] {
+function filterMovies(
+  cines: (Cine | CineSeed)[],
+  raw: string,
+): { movieTitle: string; cineSlug: string; cine: Cine | CineSeed; movieImage?: string }[] {
   const q = normalizeText(raw.trim());
   if (!q) return [];
-  const results: { movieTitle: string; cineSlug: string; cine: Cine | CineSeed; movieImage?: string }[] = [];
+  const results: {
+    movieTitle: string;
+    cineSlug: string;
+    cine: Cine | CineSeed;
+    movieImage?: string;
+  }[] = [];
   const seenMovies = new Set<string>();
 
   cines.forEach((c) => {

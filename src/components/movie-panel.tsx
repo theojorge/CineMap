@@ -14,49 +14,69 @@ type Props = {
   showtimes: MovieShowtime[];
   loaded: boolean;
   onClose: () => void;
-  onSelectFuncion: (cineSlug: string, movieTitle: string, funcion: Funcion, movieImage?: string) => void;
+  onSelectFuncion: (
+    cineSlug: string,
+    movieTitle: string,
+    funcion: Funcion,
+    movieImage?: string,
+    movieUrl?: string,
+  ) => void;
   movieImage?: string;
 };
 
-const ShowtimeItem = memo(({ cine, funcion, pelicula, onSelect }: {
-  cine: Cine | CineSeed;
-  funcion: Funcion;
-  pelicula: Pelicula;
-  onSelect: () => void;
-}) => (
-  <li>
-    <button
-      type="button"
-      onClick={onSelect}
-      className="flex w-full flex-col items-start rounded-lg border border-border bg-surface-2 p-3 text-left hover:border-cream hover:bg-surface"
-    >
-      <div className="flex items-center gap-2">
-        <MapPin className="size-4 shrink-0 text-fg-subtle" />
-        <span className="font-medium text-fg">{cine.nombre}</span>
-      </div>
-      <div className="mt-1 flex items-center gap-2 text-sm text-fg-muted">
-        <span className="tabular-nums">{funcion.horario}</span>
-        <span>·</span>
-        <span>{shortFormat(funcion.formato)}</span>
-        {typeof funcion.precio_general === "number" ? (
-          <>
-            <span>·</span>
-            <span className="font-medium text-fg">{formatPrice(funcion.precio_general)}</span>
-          </>
-        ) : null}
-        {funcion.promociones?.map((promo) => (
-          <span key={promo} className="font-medium text-cream">
-            · {promo}
-          </span>
-        ))}
-      </div>
-    </button>
-  </li>
-));
+const ShowtimeItem = memo(
+  ({
+    cine,
+    funcion,
+    pelicula,
+    onSelect,
+  }: {
+    cine: Cine | CineSeed;
+    funcion: Funcion;
+    pelicula: Pelicula;
+    onSelect: () => void;
+  }) => (
+    <li>
+      <button
+        type="button"
+        onClick={onSelect}
+        className="flex w-full flex-col items-start rounded-lg border border-border bg-surface-2 p-3 text-left hover:border-cream hover:bg-surface"
+      >
+        <div className="flex items-center gap-2">
+          <MapPin className="size-4 shrink-0 text-fg-subtle" />
+          <span className="font-medium text-fg">{cine.nombre}</span>
+        </div>
+        <div className="mt-1 flex items-center gap-2 text-sm text-fg-muted">
+          <span className="tabular-nums">{funcion.horario}</span>
+          <span>·</span>
+          <span>{shortFormat(funcion.formato)}</span>
+          {typeof funcion.precio_general === "number" ? (
+            <>
+              <span>·</span>
+              <span className="font-medium text-fg">{formatPrice(funcion.precio_general)}</span>
+            </>
+          ) : null}
+          {funcion.promociones?.map((promo) => (
+            <span key={promo} className="font-medium text-cream">
+              · {promo}
+            </span>
+          ))}
+        </div>
+      </button>
+    </li>
+  ),
+);
 
 ShowtimeItem.displayName = "ShowtimeItem";
 
-export function MoviePanel({ movieTitle, showtimes, loaded, onClose, onSelectFuncion, movieImage }: Props) {
+export function MoviePanel({
+  movieTitle,
+  showtimes,
+  loaded,
+  onClose,
+  onSelectFuncion,
+  movieImage,
+}: Props) {
   // Preload movie image
   useEffect(() => {
     if (movieImage) {
@@ -109,7 +129,9 @@ export function MoviePanel({ movieTitle, showtimes, loaded, onClose, onSelectFun
                 cine={cine}
                 funcion={funcion}
                 pelicula={pelicula}
-                onSelect={() => onSelectFuncion(cine.slug, movieTitle, funcion, pelicula.imagen)}
+                onSelect={() =>
+                  onSelectFuncion(cine.slug, movieTitle, funcion, pelicula.imagen, pelicula.url)
+                }
               />
             ))}
           </ul>
