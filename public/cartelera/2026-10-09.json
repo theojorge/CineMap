@@ -13,11 +13,15 @@
         "funciones": [
           {
             "horario": "15:25",
-            "formato": "IMAX Subtitulada"
+            "formato": "IMAX Subtitulada",
+            "df": null,
+            "cinemark": null
           },
           {
             "horario": "19:00",
-            "formato": "IMAX Subtitulada"
+            "formato": "IMAX Subtitulada",
+            "df": null,
+            "cinemark": null
           }
         ]
       },
@@ -28,7 +32,9 @@
         "funciones": [
           {
             "horario": "22:35",
-            "formato": "IMAX Subtitulada"
+            "formato": "IMAX Subtitulada",
+            "df": null,
+            "cinemark": null
           }
         ]
       }
@@ -48,11 +54,15 @@
         "funciones": [
           {
             "horario": "18:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
           },
           {
             "horario": "20:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
           }
         ]
       },
@@ -63,7 +73,9 @@
         "funciones": [
           {
             "horario": "20:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
           }
         ]
       },
@@ -74,7 +86,9 @@
         "funciones": [
           {
             "horario": "21:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
           }
         ]
       },
@@ -85,7 +99,9 @@
         "funciones": [
           {
             "horario": "16:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
           }
         ]
       },
@@ -96,7 +112,9 @@
         "funciones": [
           {
             "horario": "19:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
           }
         ]
       }
@@ -116,7 +134,9 @@
         "funciones": [
           {
             "horario": "20:30",
-            "formato": "COMFORT PLUS 2D Subtitulada"
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-181-224037-20261009-5",
+            "cinemark": null
           }
         ]
       }
@@ -136,23 +156,33 @@
         "funciones": [
           {
             "horario": "12:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255870, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "14:45",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255871, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "17:25",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255872, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "20:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255873, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "22:55",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255874, \"corporateFilmId\": \"110807\"}"
           }
         ]
       },
@@ -163,59 +193,87 @@
         "funciones": [
           {
             "horario": "12:05",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255875, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "12:05",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255875, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "13:00",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255894, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "14:35",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255876, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "14:35",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255876, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "15:50",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255895, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "17:30",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255877, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "17:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255877, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "18:40",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255896, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "20:00",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255878, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "20:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255878, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "21:30",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255897, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "22:40",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255879, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "22:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255879, \"corporateFilmId\": \"110808\"}"
           }
         ]
       },
@@ -226,27 +284,39 @@
         "funciones": [
           {
             "horario": "12:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255852, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "14:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255867, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "18:10",
-            "formato": "4D 3D IV Doblada"
+            "formato": "4D 3D IV Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255845, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "18:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255868, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "22:00",
-            "formato": "4D 3D IV Doblada"
+            "formato": "4D 3D IV Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255846, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "22:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255869, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },
@@ -257,11 +327,15 @@
         "funciones": [
           {
             "horario": "12:15",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255862, \"corporateFilmId\": \"110806\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255863, \"corporateFilmId\": \"110806\"}"
           }
         ]
       },
@@ -272,31 +346,45 @@
         "funciones": [
           {
             "horario": "12:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255847, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "14:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255848, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "17:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255849, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "17:30",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255900, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "19:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255850, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "22:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255851, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "22:30",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255902, \"corporateFilmId\": \"112894\"}"
           }
         ]
       },
@@ -307,43 +395,63 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "4D 2D Doblada"
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255843, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "13:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255880, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "13:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255880, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "15:30",
-            "formato": "4D 2D Doblada"
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255844, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "16:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255881, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "16:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255881, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "18:50",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255882, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "18:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255882, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "21:40",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255883, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "21:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255883, \"corporateFilmId\": \"113132\"}"
           }
         ]
       },
@@ -354,55 +462,81 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255898, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "12:35",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255866, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "13:05",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255889, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "14:50",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255899, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:15",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255890, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255853, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "17:35",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255891, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "18:15",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255854, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:00",
-            "formato": "PREMIER 2D Subtitulada"
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255901, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:15",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255892, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255855, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "22:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255893, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "23:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255856, \"corporateFilmId\": \"110805\"}"
           }
         ]
       },
@@ -413,15 +547,21 @@
         "funciones": [
           {
             "horario": "12:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255833, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "18:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255835, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "22:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255837, \"corporateFilmId\": \"113134\"}"
           }
         ]
       },
@@ -432,63 +572,93 @@
         "funciones": [
           {
             "horario": "12:45",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255857, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "13:15",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256310, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "13:15",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256310, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:25",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256271, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:55",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256311, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:55",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256311, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "17:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255859, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "18:10",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256312, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "18:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256312, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "19:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256272, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:25",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256313, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:25",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256313, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:15",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255861, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:45",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256314, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:45",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256314, \"corporateFilmId\": \"112852\"}"
           }
         ]
       },
@@ -499,7 +669,9 @@
         "funciones": [
           {
             "horario": "12:45",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256283, \"corporateFilmId\": \"113129\"}"
           }
         ]
       },
@@ -510,11 +682,15 @@
         "funciones": [
           {
             "horario": "12:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255829, \"corporateFilmId\": \"109316\"}"
           },
           {
             "horario": "19:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255831, \"corporateFilmId\": \"109316\"}"
           }
         ]
       },
@@ -525,11 +701,15 @@
         "funciones": [
           {
             "horario": "15:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255839, \"corporateFilmId\": \"110227\"}"
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255840, \"corporateFilmId\": \"110227\"}"
           }
         ]
       },
@@ -540,7 +720,9 @@
         "funciones": [
           {
             "horario": "15:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255834, \"corporateFilmId\": \"112518\"}"
           }
         ]
       },
@@ -551,11 +733,15 @@
         "funciones": [
           {
             "horario": "16:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255830, \"corporateFilmId\": \"113135\"}"
           },
           {
             "horario": "22:45",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255832, \"corporateFilmId\": \"113135\"}"
           }
         ]
       },
@@ -566,11 +752,15 @@
         "funciones": [
           {
             "horario": "17:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255864, \"corporateFilmId\": \"110137\"}"
           },
           {
             "horario": "21:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255865, \"corporateFilmId\": \"110137\"}"
           }
         ]
       },
@@ -581,11 +771,15 @@
         "funciones": [
           {
             "horario": "20:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255841, \"corporateFilmId\": \"113133\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255842, \"corporateFilmId\": \"113133\"}"
           }
         ]
       },
@@ -596,7 +790,9 @@
         "funciones": [
           {
             "horario": "20:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 255836, \"corporateFilmId\": \"111086\"}"
           }
         ]
       }
@@ -616,15 +812,21 @@
         "funciones": [
           {
             "horario": "12:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165105, \"corporateFilmId\": \"112897\"}"
           },
           {
             "horario": "14:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165106, \"corporateFilmId\": \"112897\"}"
           },
           {
             "horario": "20:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165108, \"corporateFilmId\": \"112897\"}"
           }
         ]
       },
@@ -635,23 +837,33 @@
         "funciones": [
           {
             "horario": "12:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165096, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "14:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165097, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "17:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165098, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "19:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165099, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "22:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165100, \"corporateFilmId\": \"112894\"}"
           }
         ]
       },
@@ -662,31 +874,45 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165124, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "14:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165134, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "16:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165135, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "17:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165126, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "19:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165136, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "20:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165127, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165137, \"corporateFilmId\": \"110808\"}"
           }
         ]
       },
@@ -697,31 +923,45 @@
         "funciones": [
           {
             "horario": "12:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165138, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165139, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165125, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "17:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165140, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "19:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165141, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "22:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165142, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "23:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165128, \"corporateFilmId\": \"110805\"}"
           }
         ]
       },
@@ -732,15 +972,21 @@
         "funciones": [
           {
             "horario": "12:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165119, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165121, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "20:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165122, \"corporateFilmId\": \"113134\"}"
           }
         ]
       },
@@ -751,31 +997,45 @@
         "funciones": [
           {
             "horario": "12:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165110, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165111, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "17:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165112, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "19:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165113, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165132, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165114, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165133, \"corporateFilmId\": \"112852\"}"
           }
         ]
       },
@@ -786,11 +1046,15 @@
         "funciones": [
           {
             "horario": "13:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165129, \"corporateFilmId\": \"110806\"}"
           },
           {
             "horario": "15:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165130, \"corporateFilmId\": \"110806\"}"
           }
         ]
       },
@@ -801,19 +1065,27 @@
         "funciones": [
           {
             "horario": "13:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165101, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "16:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165102, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "19:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165103, \"corporateFilmId\": \"110807\"}"
           },
           {
             "horario": "22:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165104, \"corporateFilmId\": \"110807\"}"
           }
         ]
       },
@@ -824,15 +1096,21 @@
         "funciones": [
           {
             "horario": "13:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165115, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "16:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165116, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "19:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165117, \"corporateFilmId\": \"113132\"}"
           }
         ]
       },
@@ -843,11 +1121,15 @@
         "funciones": [
           {
             "horario": "15:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165120, \"corporateFilmId\": \"113133\"}"
           },
           {
             "horario": "23:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165123, \"corporateFilmId\": \"113133\"}"
           }
         ]
       },
@@ -858,7 +1140,9 @@
         "funciones": [
           {
             "horario": "17:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165107, \"corporateFilmId\": \"111086\"}"
           }
         ]
       },
@@ -869,7 +1153,9 @@
         "funciones": [
           {
             "horario": "18:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165131, \"corporateFilmId\": \"111085\"}"
           }
         ]
       },
@@ -880,7 +1166,9 @@
         "funciones": [
           {
             "horario": "22:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165118, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },
@@ -891,7 +1179,9 @@
         "funciones": [
           {
             "horario": "22:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165109, \"corporateFilmId\": \"110137\"}"
           }
         ]
       }
@@ -911,51 +1201,75 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187627, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "12:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187627, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187628, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187628, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "17:30",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187629, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "17:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187629, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:00",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187630, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187630, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187607, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:20",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187631, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187631, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187626, \"corporateFilmId\": \"112852\"}"
           }
         ]
       },
@@ -966,11 +1280,15 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187618, \"corporateFilmId\": \"113129\"}"
           },
           {
             "horario": "14:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187619, \"corporateFilmId\": \"113129\"}"
           }
         ]
       },
@@ -981,15 +1299,21 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187613, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187614, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187617, \"corporateFilmId\": \"113134\"}"
           }
         ]
       },
@@ -1000,19 +1324,27 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187591, \"corporateFilmId\": \"110227\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187592, \"corporateFilmId\": \"110227\"}"
           },
           {
             "horario": "17:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187593, \"corporateFilmId\": \"110227\"}"
           },
           {
             "horario": "20:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187594, \"corporateFilmId\": \"110227\"}"
           }
         ]
       },
@@ -1023,47 +1355,69 @@
         "funciones": [
           {
             "horario": "12:40",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187632, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "12:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187632, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "15:15",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187633, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "15:15",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187633, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "17:50",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187634, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187634, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "20:25",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187635, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "20:25",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187635, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187595, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "23:00",
-            "formato": "DBOX 2D Subtitulada"
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187636, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "23:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187636, \"corporateFilmId\": \"110808\"}"
           }
         ]
       },
@@ -1074,15 +1428,21 @@
         "funciones": [
           {
             "horario": "12:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187604, \"corporateFilmId\": \"110806\"}"
           },
           {
             "horario": "15:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187605, \"corporateFilmId\": \"110806\"}"
           },
           {
             "horario": "18:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187606, \"corporateFilmId\": \"110806\"}"
           }
         ]
       },
@@ -1093,15 +1453,21 @@
         "funciones": [
           {
             "horario": "13:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187609, \"corporateFilmId\": \"109316\"}"
           },
           {
             "horario": "16:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187610, \"corporateFilmId\": \"109316\"}"
           },
           {
             "horario": "19:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187611, \"corporateFilmId\": \"109316\"}"
           }
         ]
       },
@@ -1112,23 +1478,33 @@
         "funciones": [
           {
             "horario": "13:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187599, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "15:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187600, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187601, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "20:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187602, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "22:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187603, \"corporateFilmId\": \"112894\"}"
           }
         ]
       },
@@ -1139,59 +1515,87 @@
         "funciones": [
           {
             "horario": "13:20",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187637, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "13:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187637, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "14:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187642, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:40",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187638, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187638, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "17:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187643, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "18:10",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187639, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "18:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187639, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "19:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187644, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:30",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187640, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187640, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "21:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187645, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "22:50",
-            "formato": "DBOX 2D Doblada"
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187641, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187641, \"corporateFilmId\": \"110805\"}"
           }
         ]
       },
@@ -1202,15 +1606,21 @@
         "funciones": [
           {
             "horario": "14:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187623, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "17:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187624, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "19:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187625, \"corporateFilmId\": \"113132\"}"
           }
         ]
       },
@@ -1221,15 +1631,21 @@
         "funciones": [
           {
             "horario": "14:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187596, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "18:15",
-            "formato": "3D Doblada"
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187597, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187598, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },
@@ -1240,11 +1656,15 @@
         "funciones": [
           {
             "horario": "16:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187620, \"corporateFilmId\": \"113135\"}"
           },
           {
             "horario": "23:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187622, \"corporateFilmId\": \"113135\"}"
           }
         ]
       },
@@ -1255,11 +1675,15 @@
         "funciones": [
           {
             "horario": "17:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187615, \"corporateFilmId\": \"113133\"}"
           },
           {
             "horario": "20:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187616, \"corporateFilmId\": \"113133\"}"
           }
         ]
       },
@@ -1270,7 +1694,9 @@
         "funciones": [
           {
             "horario": "20:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187621, \"corporateFilmId\": \"112518\"}"
           }
         ]
       },
@@ -1281,7 +1707,9 @@
         "funciones": [
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187612, \"corporateFilmId\": \"110807\"}"
           }
         ]
       },
@@ -1292,7 +1720,9 @@
         "funciones": [
           {
             "horario": "22:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187608, \"corporateFilmId\": \"111098\"}"
           }
         ]
       }
@@ -1312,23 +1742,33 @@
         "funciones": [
           {
             "horario": "12:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94460, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "15:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94461, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "17:40",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94462, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "20:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94463, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "23:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94464, \"corporateFilmId\": \"110808\"}"
           }
         ]
       },
@@ -1339,23 +1779,33 @@
         "funciones": [
           {
             "horario": "12:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94455, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "15:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94456, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "17:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94457, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "20:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94458, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "22:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94459, \"corporateFilmId\": \"112894\"}"
           }
         ]
       },
@@ -1366,23 +1816,33 @@
         "funciones": [
           {
             "horario": "13:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94478, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94479, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94480, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94481, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "22:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94482, \"corporateFilmId\": \"110805\"}"
           }
         ]
       },
@@ -1393,23 +1853,33 @@
         "funciones": [
           {
             "horario": "13:20",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94465, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94466, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "18:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94467, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94468, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94469, \"corporateFilmId\": \"112852\"}"
           }
         ]
       },
@@ -1420,11 +1890,15 @@
         "funciones": [
           {
             "horario": "13:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94474, \"corporateFilmId\": \"110806\"}"
           },
           {
             "horario": "16:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94475, \"corporateFilmId\": \"110806\"}"
           }
         ]
       },
@@ -1435,15 +1909,21 @@
         "funciones": [
           {
             "horario": "13:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94470, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "16:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94471, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "19:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94472, \"corporateFilmId\": \"113132\"}"
           }
         ]
       },
@@ -1454,7 +1934,9 @@
         "funciones": [
           {
             "horario": "18:30",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94476, \"corporateFilmId\": \"110137\"}"
           }
         ]
       },
@@ -1465,7 +1947,9 @@
         "funciones": [
           {
             "horario": "22:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94473, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },
@@ -1476,7 +1960,9 @@
         "funciones": [
           {
             "horario": "22:10",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94477, \"corporateFilmId\": \"110807\"}"
           }
         ]
       }
@@ -1496,23 +1982,33 @@
         "funciones": [
           {
             "horario": "13:00",
-            "formato": "4D 2D Doblada"
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184092, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "14:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184117, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "15:40",
-            "formato": "4D 2D Doblada"
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184093, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "17:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184118, \"corporateFilmId\": \"113132\"}"
           },
           {
             "horario": "19:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184119, \"corporateFilmId\": \"113132\"}"
           }
         ]
       },
@@ -1523,15 +2019,21 @@
         "funciones": [
           {
             "horario": "13:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184129, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "18:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184131, \"corporateFilmId\": \"113134\"}"
           },
           {
             "horario": "23:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184133, \"corporateFilmId\": \"113134\"}"
           }
         ]
       },
@@ -1542,31 +2044,45 @@
         "funciones": [
           {
             "horario": "13:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184107, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "15:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184108, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "17:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184109, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "19:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184110, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "20:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184132, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184111, \"corporateFilmId\": \"112852\"}"
           },
           {
             "horario": "22:35",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184120, \"corporateFilmId\": \"112852\"}"
           }
         ]
       },
@@ -1577,23 +2093,33 @@
         "funciones": [
           {
             "horario": "13:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184104, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "17:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184105, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "18:20",
-            "formato": "4D 3D IV Doblada"
+            "formato": "4D 3D IV Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184094, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "21:00",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184106, \"corporateFilmId\": \"112521\"}"
           },
           {
             "horario": "22:10",
-            "formato": "4D 3D IV Doblada"
+            "formato": "4D 3D IV Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184095, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },
@@ -1604,39 +2130,57 @@
         "funciones": [
           {
             "horario": "13:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184112, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "14:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184088, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "15:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184113, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "16:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184089, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "18:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184114, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "19:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184090, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "20:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184115, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "21:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184091, \"corporateFilmId\": \"110805\"}"
           },
           {
             "horario": "22:50",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184116, \"corporateFilmId\": \"110805\"}"
           }
         ]
       },
@@ -1647,11 +2191,15 @@
         "funciones": [
           {
             "horario": "13:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184125, \"corporateFilmId\": \"109316\"}"
           },
           {
             "horario": "17:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184126, \"corporateFilmId\": \"109316\"}"
           }
         ]
       },
@@ -1662,19 +2210,27 @@
         "funciones": [
           {
             "horario": "13:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184096, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "16:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184097, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "19:15",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184098, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "22:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184099, \"corporateFilmId\": \"110808\"}"
           }
         ]
       },
@@ -1685,19 +2241,27 @@
         "funciones": [
           {
             "horario": "14:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184100, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "16:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184101, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "19:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184102, \"corporateFilmId\": \"112894\"}"
           },
           {
             "horario": "21:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184103, \"corporateFilmId\": \"112894\"}"
           }
         ]
       },
@@ -1708,7 +2272,9 @@
         "funciones": [
           {
             "horario": "14:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184134, \"corporateFilmId\": \"110139\"}"
           }
         ]
       },
@@ -1719,11 +2285,15 @@
         "funciones": [
           {
             "horario": "14:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184121, \"corporateFilmId\": \"110227\"}"
           },
           {
             "horario": "17:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184122, \"corporateFilmId\": \"110227\"}"
           }
         ]
       },
@@ -1734,7 +2304,9 @@
         "funciones": [
           {
             "horario": "15:35",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184130, \"corporateFilmId\": \"112518\"}"
           }
         ]
       },
@@ -1745,15 +2317,21 @@
         "funciones": [
           {
             "horario": "16:45",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184135, \"corporateFilmId\": \"111098\"}"
           },
           {
             "horario": "20:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184127, \"corporateFilmId\": \"111098\"}"
           },
           {
             "horario": "23:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184128, \"corporateFilmId\": \"111098\"}"
           }
         ]
       },
@@ -1764,11 +2342,15 @@
         "funciones": [
           {
             "horario": "19:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184136, \"corporateFilmId\": \"113135\"}"
           },
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184137, \"corporateFilmId\": \"113135\"}"
           }
         ]
       },
@@ -1779,11 +2361,15 @@
         "funciones": [
           {
             "horario": "20:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184123, \"corporateFilmId\": \"113133\"}"
           },
           {
             "horario": "22:40",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184124, \"corporateFilmId\": \"113133\"}"
           }
         ]
       }
@@ -1803,11 +2389,15 @@
         "funciones": [
           {
             "horario": "16:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-212-7022-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "20:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-212-7019-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1818,15 +2408,21 @@
         "funciones": [
           {
             "horario": "13:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-217-7010-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "15:25",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-217-7011-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-217-7012-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1837,7 +2433,9 @@
         "funciones": [
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-218-7020-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1848,15 +2446,21 @@
         "funciones": [
           {
             "horario": "18:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-215-7028-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "20:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-215-7029-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "22:45",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-215-7009-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1867,11 +2471,15 @@
         "funciones": [
           {
             "horario": "13:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-203-7026-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "17:50",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-203-7018-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1882,11 +2490,15 @@
         "funciones": [
           {
             "horario": "22:35",
-            "formato": "2D Subtitulada"
+            "formato": "2D Subtitulada",
+            "df": "180-204-7014-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "20:15",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-204-7013-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1897,11 +2509,15 @@
         "funciones": [
           {
             "horario": "14:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-211-7016-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "16:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-211-7017-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1912,19 +2528,27 @@
         "funciones": [
           {
             "horario": "13:45",
-            "formato": "2D XTREMO Doblada"
+            "formato": "2D XTREMO Doblada",
+            "df": "180-180-7006-20261009-6",
+            "cinemark": null
           },
           {
             "horario": "17:15",
-            "formato": "2D XTREMO Doblada"
+            "formato": "2D XTREMO Doblada",
+            "df": "180-180-7007-20261009-6",
+            "cinemark": null
           },
           {
             "horario": "14:00",
-            "formato": "4D (3D) Doblada"
+            "formato": "4D (3D) Doblada",
+            "df": "180-180-7031-20261009-3",
+            "cinemark": null
           },
           {
             "horario": "17:20",
-            "formato": "4D (3D) Doblada"
+            "formato": "4D (3D) Doblada",
+            "df": "180-180-7032-20261009-3",
+            "cinemark": null
           }
         ]
       },
@@ -1935,23 +2559,33 @@
         "funciones": [
           {
             "horario": "18:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-193-7023-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "20:45",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-193-7008-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-193-7025-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "20:40",
-            "formato": "4D (2D) Doblada"
+            "formato": "4D (2D) Doblada",
+            "df": "180-193-7033-20261009-7",
+            "cinemark": null
           },
           {
             "horario": "22:40",
-            "formato": "4D (2D) Doblada"
+            "formato": "4D (2D) Doblada",
+            "df": "180-193-7034-20261009-7",
+            "cinemark": null
           }
         ]
       },
@@ -1962,15 +2596,21 @@
         "funciones": [
           {
             "horario": "16:20",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-199-7027-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "20:15",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-199-7024-20261009-1",
+            "cinemark": null
           },
           {
             "horario": "22:30",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-199-7030-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1981,7 +2621,9 @@
         "funciones": [
           {
             "horario": "14:00",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-178-7021-20261009-1",
+            "cinemark": null
           }
         ]
       },
@@ -1992,7 +2634,9 @@
         "funciones": [
           {
             "horario": "12:10",
-            "formato": "2D Doblada"
+            "formato": "2D Doblada",
+            "df": "180-135-7015-20261009-1",
+            "cinemark": null
           }
         ]
       }
