@@ -162,6 +162,11 @@ class Funcion:
     precio_general: Optional[int] = None
     precio_jubilado: Optional[int] = None
     precio_menor: Optional[int] = None
+    # Identificadores para butacas on-demand:
+    #  - df: código de función Multiplex/Atlas (formato `codComp-AAAAMMDD-...`)
+    #  - cinemark: payload JSON {cinemaId, sessionId, corporateFilmId} del BFF
+    df: Optional[str] = None
+    cinemark: Optional[str] = None
 
 
 @dataclass
@@ -1031,6 +1036,205 @@ def formato_cinemark(showtime: dict) -> str:
     return re.sub(r"\s+", " ", formato).strip()
 
 
+def armar_payload_cinemark(showtime: dict, theater: dict) -> dict:
+    """Identificadores que el cliente necesita para pedir el mapa de asientos
+    on-demand (`funcion.cinemark` en el JSON). Solo se completa si el showtime
+    tiene sessionId."""
+    session_id = showtime.get("sessionId")
+    if session_id is None:
+        return {}
+    cinema_id = showtime.get("cinemaId") or theater.get("id")
+    payload = {"cinemaId": int(cinema_id), "sessionId": int(session_id)}
+    corporate_id = showtime.get("corporateId")
+    if corporate_id is not None:
+        payload["corporateFilmId"] = str(corporate_id)
+    return {"cinemark": json.dumps(payload, ensure_ascii=False)}
+
+
+def extraer_df_booking(booking_url: Optional[str]) -> Optional[str]:
+    """Extrae el `df` de Multiplex desde la URL de compra
+    (`https://ventas.cinemultiplex.com.ar/funcion?df=...`). Devuelve None
+    para cualquier otra cadena o URL sin df."""
+    if not booking_url or "cinemultiplex.com.ar" not in booking_url:
+        return None
+    match = re.search(r"[?&]df=([0-9-]+)", booking_url)
+    return match.group(1) if match else None
+
+
+ATLAS_BASE_URL = "https://www.atlascines.com"
+ATLAS_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+}
+
+
+def armar_df_atlas(
+    cod_complejo: str,
+    fecha_iso: str,
+    cod_pelicula: str,
+    cod_funcion,
+    cod_tecnologia,
+) -> Optional[str]:
+    """Arma el `df` de Atlas con la misma fórmula que usa el sitio
+    (`codComp-AAAAMMDD-codPelicula-codFuncion-codTecnologia`).
+    Devuelve None si falta algún dato."""
+    if not cod_complejo or not fecha_iso or not cod_pelicula:
+        return None
+    if cod_funcion is None or cod_tecnologia is None:
+        return None
+    fecha = fecha_iso.replace("-", "")
+    if not re.fullmatch(r"\d{8}", fecha):
+        return None
+    return f"{cod_complejo}-{fecha}-{cod_pelicula}-{cod_funcion}-{cod_tecnologia}"
+
+
+def extraer_codigos_atlas(booking_url: Optional[str]) -> tuple:
+    """Extrae `(codComplejo, codPelicula)` de la URL de compra de Atlas
+    (`/Peliculas?codPelicula=...&codComplejo=...`)."""
+    if not booking_url or "atlascines.com" not in booking_url:
+        return (None, None)
+    match_peli = re.search(r"[?&]codPelicula=(\d+)", booking_url)
+    match_comp = re.search(r"[?&]codComplejo=(\d+)", booking_url)
+    if not match_peli or not match_comp:
+        return (None, None)
+    return (match_comp.group(1), match_peli.group(1))
+
+
+def elegir_url_pelicula(cadena: str, url_pelicula: str, booking_url: Optional[str]) -> str:
+    """Elige la URL de la película. Para Atlas se prefiere la URL de compra
+    (trae codComplejo/codPelicula, necesarios para el df de butacas);
+    el resto de las cadenas conserva su URL."""
+    if cadena == "Atlas Cines":
+        cod_complejo, cod_pelicula = extraer_codigos_atlas(booking_url or "")
+        if cod_complejo and cod_pelicula:
+            return booking_url or url_pelicula
+    return url_pelicula
+
+
+def _idioma_atlas_ok(funcion_atlas: dict, formato: str) -> bool:
+    """Chequea que el idioma de la función de Atlas coincida con el formato
+    de cartelera.ar (Doblada/Subtitulada). Si el formato no indica idioma,
+    acepta cualquiera."""
+    normalizado = normalizar_texto(formato or "")
+    if "doblada" in normalizado or re.search(r"\bdob\b", normalizado):
+        return bool(funcion_atlas.get("doblada"))
+    if "subtitulada" in normalizado or re.search(r"\bsub\b", normalizado):
+        return bool(funcion_atlas.get("subtitulada"))
+    return True
+
+
+def elegir_funcion_atlas(funciones_atlas: list, horario: str, formato: str) -> Optional[dict]:
+    """Elige la función de Atlas que corresponde a un horario/formato de
+    cartelera.ar. Si la hora es única, alcanza con que coincida el idioma
+    (Atlas nombra las tecnologías distinto, ej. "4D 3D INFINITY VISION" vs
+    "4DX"); si hay varias a la misma hora, además se exige la tecnología.
+    Con cero o más de una candidata, devuelve None (mejor no ofrecer
+    butacas que apuntar a la función equivocada)."""
+    if not funciones_atlas or not horario:
+        return None
+    por_hora = [
+        f
+        for f in funciones_atlas
+        if horario in (f.get("horaComienzoOriginal"), f.get("horaComienzoAjustada"))
+    ]
+    if len(por_hora) == 1 and _idioma_atlas_ok(por_hora[0], formato):
+        return por_hora[0]
+    tokens_formato = set(re.findall(r"[a-z0-9]+", normalizar_texto(formato or "")))
+    candidatas = []
+    for funcion in por_hora:
+        tecno = normalizar_texto(str(funcion.get("tecnologiaNombre", "") or ""))
+        if tecno and tecno not in tokens_formato:
+            continue
+        if not _idioma_atlas_ok(funcion, formato):
+            continue
+        candidatas.append(funcion)
+    if len(candidatas) != 1:
+        return None
+    return candidatas[0]
+
+
+def fetch_funciones_atlas(
+    session: requests.Session,
+    cod_complejo: str,
+    cod_pelicula: str,
+    fecha_iso: str,
+) -> list:
+    """Trae las funciones de Atlas para un complejo/película/fecha desde el
+    endpoint interno que usa su propia página (`GetCacheFunciones...`)."""
+    resp = session.get(
+        f"{ATLAS_BASE_URL}/Peliculas/GetCacheFuncionesComplejoPeliculaFecha",
+        params={"complejoId": cod_complejo, "codPelicula": cod_pelicula, "fecha": fecha_iso},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    if not isinstance(data, list):
+        return []
+    funciones = []
+    for grupo in data:
+        if not isinstance(grupo, dict):
+            continue
+        for funcion in grupo.get("funciones", []) or []:
+            if not isinstance(funcion, dict):
+                continue
+            copia = dict(funcion)
+            copia.setdefault("tecnologiaNombre", grupo.get("tecnologiaNombre", ""))
+            funciones.append(copia)
+    return funciones
+
+
+def enriquecer_atlas_con_df(
+    cines: list,
+    fecha: str,
+    delay: float = 0.5,
+    debug: bool = False,
+) -> list:
+    """Completa `Funcion.df` para los cines Atlas: resuelve
+    (codComplejo, codPelicula) desde la URL de compra y matchea cada
+    función por horario/formato contra el endpoint de Atlas. Las funciones
+    ambiguas o sin match quedan sin df (no ofrecen butacas)."""
+    session = requests.Session()
+    session.headers.update(ATLAS_HEADERS)
+    cache: dict = {}
+    completadas = 0
+    for cine in cines:
+        if cine.cadena != "Atlas Cines":
+            continue
+        for pelicula in cine.peliculas:
+            cod_complejo, cod_pelicula = extraer_codigos_atlas(pelicula.url)
+            if not cod_complejo or not cod_pelicula:
+                continue
+            clave = (cod_complejo, cod_pelicula)
+            if clave not in cache:
+                try:
+                    cache[clave] = fetch_funciones_atlas(session, cod_complejo, cod_pelicula, fecha)
+                except Exception as e:
+                    log(f"!! no se pudo traer funciones Atlas {clave}: {e}")
+                    cache[clave] = []
+                time.sleep(delay)
+            for funcion in pelicula.funciones:
+                if funcion.df:
+                    continue
+                elegida = elegir_funcion_atlas(cache[clave], funcion.horario, funcion.formato)
+                if elegida is None:
+                    continue
+                funcion.df = armar_df_atlas(
+                    cod_complejo,
+                    fecha,
+                    cod_pelicula,
+                    elegida.get("codFuncion"),
+                    elegida.get("codTecnologia"),
+                )
+                if funcion.df:
+                    completadas += 1
+    if debug:
+        log(f"Atlas: {completadas} funciones con df.", True, debug)
+    return cines
+
+
 def escanear_cinemark_directo(fecha: str, debug: bool = False) -> list:
     session = requests.Session()
     session.headers.update(CINEMARK_HEADERS)
@@ -1082,6 +1286,7 @@ def escanear_cinemark_directo(fecha: str, debug: bool = False) -> list:
             Funcion(
                 horario=horario,
                 formato=formato_cinemark(showtime),
+                **armar_payload_cinemark(showtime, theater),
             )
         )
 
@@ -1111,6 +1316,28 @@ def fecha_multiplex_iso(fecha_mdy: str) -> str:
         return datetime.strptime(fecha_mdy, "%m.%d.%Y").strftime("%Y-%m-%d")
     except ValueError:
         return fecha_mdy
+
+
+def armar_df_multiplex(
+    complejo: str,
+    pelicula_id: str,
+    funcion_id: str,
+    fecha_iso: str,
+    tech_code: str = "",
+) -> Optional[str]:
+    """Arma el `df` de Multiplex con la misma fórmula que usa el sitio
+    (`df=${complejo}-${pelicula}-${funcion}-${AAAAMMDD}[-${tech}]`).
+    Devuelve None si falta algún identificador."""
+    if not complejo or not pelicula_id or not funcion_id or not fecha_iso:
+        return None
+    fecha = fecha_iso.replace("-", "")
+    if not re.fullmatch(r"\d{8}", fecha):
+        return None
+    df = f"{complejo}-{pelicula_id}-{funcion_id}-{fecha}"
+    tech = (tech_code or "").strip()
+    if tech:
+        df += f"-{tech}"
+    return df
 
 
 def formato_multiplex(funcion: dict) -> str:
@@ -1199,6 +1426,13 @@ def escanear_multiplex_directo(fecha: str, debug: bool = False, descargar_imagen
                 Funcion(
                     horario=funcion.get("hora", ""),
                     formato=formato_multiplex(funcion),
+                    df=armar_df_multiplex(
+                        complejo=str(funcion.get("complejo", "") or ""),
+                        pelicula_id=str(funcion.get("pelicula_id", "") or ""),
+                        funcion_id=str(funcion.get("id", "") or ""),
+                        fecha_iso=fecha_funcion,
+                        tech_code=str(funcion.get("tech_code", "") or ""),
+                    ),
                 )
             )
 
@@ -1301,6 +1535,18 @@ def armar_cines_desde_api(
                 formato,
             )
 
+        identificadores: dict = {}
+        if cines_por_id[cinema_id].cadena == "Multiplex":
+            df = extraer_df_booking(showtime.get("bookingUrl") or "")
+            if df:
+                identificadores["df"] = df
+
+        peliculas[movie_id].url = elegir_url_pelicula(
+            cines_por_id[cinema_id].cadena,
+            peliculas[movie_id].url,
+            showtime.get("bookingUrl"),
+        )
+
         peliculas[movie_id].funciones.append(
             Funcion(
                 horario=showtime.get("time", ""),
@@ -1308,6 +1554,7 @@ def armar_cines_desde_api(
                 precio_general=precio_general,
                 precio_jubilado=precio_jubilado,
                 precio_menor=precio_menor,
+                **identificadores,
             )
         )
 
@@ -1817,6 +2064,7 @@ def main():
                 debug=args.debug,
                 descargar_imagenes=args.descargar_imagenes,
             )
+            cines = enriquecer_atlas_con_df(cines, fecha, debug=args.debug)
         filtrar_funciones_pasadas(cines, fecha)
         exportar_json(cines, json_path)
         exportar_csv(cines, csv_path)
