@@ -203,6 +203,12 @@
           "precio_jubilado": 4300,
           "precio_menor": 4300
         },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 28600,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
         "4d 3d iv doblada": {
           "formato": "4D 3D IV Doblada",
           "precio_general": null,
@@ -284,12 +290,6 @@
         "4d 3d iv subtitulada": {
           "formato": "4D 3D IV Subtitulada",
           "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
-        "4d 2d doblada": {
-          "formato": "4D 2D Doblada",
-          "precio_general": 28600,
           "precio_jubilado": null,
           "precio_menor": null
         },
@@ -1181,6 +1181,12 @@
           "precio_jubilado": 14800,
           "precio_menor": 14800
         },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 18400,
@@ -1192,12 +1198,6 @@
           "precio_general": 18400,
           "precio_jubilado": 14800,
           "precio_menor": 14800
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 23000,
-          "precio_jubilado": 7300,
-          "precio_menor": 7300
         },
         "dbox 3d doblada": {
           "formato": "DBOX 3D Doblada",
