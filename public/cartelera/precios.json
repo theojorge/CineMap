@@ -365,12 +365,6 @@
           "precio_jubilado": 5700,
           "precio_menor": 5700
         },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 11000,
-          "precio_jubilado": 7300,
-          "precio_menor": 7300
-        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 8600,
@@ -394,6 +388,12 @@
           "precio_general": 21400,
           "precio_jubilado": null,
           "precio_menor": null
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 11000,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
         },
         "dbox xd 2d iv doblada": {
           "formato": "DBOX XD 2D IV Doblada",
@@ -683,12 +683,6 @@
           "precio_jubilado": 14600,
           "precio_menor": 14600
         },
-        "dbox 2d subtitulada": {
-          "formato": "DBOX 2D Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
         "dbox xd 2d doblada": {
           "formato": "DBOX XD 2D Doblada",
           "precio_general": 21400,
@@ -698,6 +692,12 @@
         "xd 2d doblada": {
           "formato": "XD 2D Doblada",
           "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox 2d subtitulada": {
+          "formato": "DBOX 2D Subtitulada",
+          "precio_general": null,
           "precio_jubilado": null,
           "precio_menor": null
         },
@@ -779,14 +779,14 @@
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Avellaneda",
       "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 16600,
           "precio_jubilado": 12500,
           "precio_menor": 12500
         },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 16600,
           "precio_jubilado": 12500,
           "precio_menor": 12500
@@ -802,90 +802,6 @@
           "precio_general": 19600,
           "precio_jubilado": 12500,
           "precio_menor": 12500
-        }
-      }
-    },
-    "cinepolis-houssay": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Houssay",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 10000,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 10000,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 11500,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "3d subtitulada": {
-          "formato": "3D Subtitulada",
-          "precio_general": 11500,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        }
-      }
-    },
-    "cinepolis-lujan": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Luján",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 17400,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 17400,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 21000,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        }
-      }
-    },
-    "cinepolis-merlo": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Merlo",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 17000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 21000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 17000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        },
-        "3d subtitulada": {
-          "formato": "3D Subtitulada",
-          "precio_general": 21000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
         }
       }
     },
@@ -893,14 +809,14 @@
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Pilar",
       "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 15000,
           "precio_jubilado": 11400,
           "precio_menor": 11400
         },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 15000,
           "precio_jubilado": 11400,
           "precio_menor": 11400
@@ -923,14 +839,14 @@
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Recoleta",
       "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 19000,
           "precio_jubilado": 15000,
           "precio_menor": 15000
         },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 19000,
           "precio_jubilado": 15000,
           "precio_menor": 15000
@@ -1127,11 +1043,23 @@
           "precio_jubilado": 14800,
           "precio_menor": 14800
         },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 9200,
+          "precio_jubilado": 7400,
+          "precio_menor": 7400
+        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 18400,
           "precio_jubilado": 14800,
           "precio_menor": 14800
+        },
+        "dbox 3d subtitulada": {
+          "formato": "DBOX 3D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
         },
         "3d doblada": {
           "formato": "3D Doblada",
@@ -1147,18 +1075,6 @@
         },
         "dbox 3d doblada": {
           "formato": "DBOX 3D Doblada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
-        "3d subtitulada": {
-          "formato": "3D Subtitulada",
-          "precio_general": 9200,
-          "precio_jubilado": 7400,
-          "precio_menor": 7400
-        },
-        "dbox 3d subtitulada": {
-          "formato": "DBOX 3D Subtitulada",
           "precio_general": null,
           "precio_jubilado": null,
           "precio_menor": null
@@ -1307,12 +1223,6 @@
           "precio_jubilado": 12600,
           "precio_menor": 12600
         },
-        "dbox 2d subtitulada": {
-          "formato": "DBOX 2D Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
         "dbox xd 2d doblada": {
           "formato": "DBOX XD 2D Doblada",
           "precio_general": 20000,
@@ -1322,6 +1232,12 @@
         "xd 2d doblada": {
           "formato": "XD 2D Doblada",
           "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox 2d subtitulada": {
+          "formato": "DBOX 2D Subtitulada",
+          "precio_general": null,
           "precio_jubilado": null,
           "precio_menor": null
         },
@@ -1421,12 +1337,6 @@
           "precio_jubilado": null,
           "precio_menor": null
         },
-        "4d 3d iv subtitulada": {
-          "formato": "4D 3D IV Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 17600,
@@ -1444,6 +1354,12 @@
           "precio_general": 17600,
           "precio_jubilado": 14000,
           "precio_menor": 14000
+        },
+        "4d 3d iv subtitulada": {
+          "formato": "4D 3D IV Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
         },
         "3d subtitulada": {
           "formato": "3D Subtitulada",
@@ -1553,12 +1469,6 @@
           "precio_jubilado": 21000,
           "precio_menor": 21000
         },
-        "4d + 3d doblada": {
-          "formato": "4D + 3D Doblada",
-          "precio_general": 22000,
-          "precio_jubilado": 22000,
-          "precio_menor": 22000
-        },
         "comfort plus 2d doblada": {
           "formato": "COMFORT PLUS 2D Doblada",
           "precio_general": 16000,
@@ -1570,6 +1480,12 @@
           "precio_general": 16000,
           "precio_jubilado": 12000,
           "precio_menor": 12000
+        },
+        "4d + 3d doblada": {
+          "formato": "4D + 3D Doblada",
+          "precio_general": 22000,
+          "precio_jubilado": 22000,
+          "precio_menor": 22000
         },
         "4d + 3d subtitulada": {
           "formato": "4D + 3D Subtitulada",
@@ -1619,12 +1535,6 @@
           "precio_jubilado": 5300,
           "precio_menor": 5300
         },
-        "2d xtremo subtitulada": {
-          "formato": "2D XTREMO Subtitulada",
-          "precio_general": 8000,
-          "precio_jubilado": 5300,
-          "precio_menor": 5300
-        },
         "4d (2d) doblada": {
           "formato": "4D (2D) Doblada",
           "precio_general": 20000,
@@ -1636,6 +1546,12 @@
           "precio_general": 21000,
           "precio_jubilado": 21000,
           "precio_menor": 21000
+        },
+        "2d xtremo subtitulada": {
+          "formato": "2D XTREMO Subtitulada",
+          "precio_general": 8000,
+          "precio_jubilado": 5300,
+          "precio_menor": 5300
         },
         "xtremo 2d doblada": {
           "formato": "XTREMO 2D Doblada",
@@ -1691,12 +1607,6 @@
           "precio_jubilado": 3900,
           "precio_menor": null
         },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 18000,
-          "precio_jubilado": 12000,
-          "precio_menor": 12000
-        },
         "4d (2d) doblada": {
           "formato": "4D (2D) Doblada",
           "precio_general": null,
@@ -1708,6 +1618,12 @@
           "precio_general": 20000,
           "precio_jubilado": null,
           "precio_menor": null
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
         },
         "xtremo 2d doblada": {
           "formato": "XTREMO 2D Doblada",
@@ -1894,6 +1810,90 @@
           "precio_general": 15500,
           "precio_jubilado": null,
           "precio_menor": 12000
+        }
+      }
+    },
+    "cinepolis-houssay": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Houssay",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 10000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 10000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 11500,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 11500,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        }
+      }
+    },
+    "cinepolis-lujan": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Luján",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        }
+      }
+    },
+    "cinepolis-merlo": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Merlo",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 21000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
         }
       }
     },
