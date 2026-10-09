@@ -211,6 +211,12 @@
             "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153152, \"corporateFilmId\": \"112852\"}"
           },
           {
+            "horario": "21:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153170, \"corporateFilmId\": \"112852\"}"
+          },
+          {
             "horario": "23:00",
             "formato": "XD 2D Subtitulada",
             "df": null,
@@ -1355,8 +1361,8 @@
         "funciones": [
           {
             "horario": "20:10",
-            "formato": "2D Doblada",
-            "df": null,
+            "formato": "2D Subtitulada",
+            "df": "191-20261010-592-24431-1",
             "cinemark": null
           },
           {
@@ -2931,6 +2937,31 @@
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155519, \"corporateFilmId\": \"113133\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155505, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155506, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155507, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },

@@ -217,6 +217,12 @@
             "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153196, \"corporateFilmId\": \"112852\"}"
           },
           {
+            "horario": "21:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153214, \"corporateFilmId\": \"112852\"}"
+          },
+          {
             "horario": "23:00",
             "formato": "XD 2D Subtitulada",
             "df": null,
@@ -678,8 +684,8 @@
         "funciones": [
           {
             "horario": "20:10",
-            "formato": "2D Doblada",
-            "df": null,
+            "formato": "2D Subtitulada",
+            "df": "191-20261011-592-24432-1",
             "cinemark": null
           },
           {
@@ -2911,6 +2917,31 @@
         ]
       },
       {
+        "titulo": "Avengers: Endgame",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155541, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155542, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155543, \"corporateFilmId\": \"112521\"}"
+          }
+        ]
+      },
+      {
         "titulo": "Cars 20° Aniversario",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
         "imagen": "",
@@ -2940,12 +2971,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
-          {
-            "horario": "12:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155016, \"corporateFilmId\": \"110227\"}"
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
