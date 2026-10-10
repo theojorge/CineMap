@@ -169,6 +169,66 @@
         }
       }
     },
+    "centro-cultural-munro": {
+      "cadena": "Cine Independiente",
+      "nombre": "Centro Cultural Munro",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "cine-cosmos": {
+      "cadena": "Cine Independiente",
+      "nombre": "Cine Cosmos",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
+    "cine-gaumont": {
+      "cadena": "Cine Independiente",
+      "nombre": "Cine Gaumont",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 2500,
+          "precio_jubilado": 1300,
+          "precio_menor": 1300
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 2500,
+          "precio_jubilado": 1300,
+          "precio_menor": 1300
+        }
+      }
+    },
+    "cine-york": {
+      "cadena": "Cine Independiente",
+      "nombre": "Cine York",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
     "cinearte-cacodelphia": {
       "cadena": "Cine Independiente",
       "nombre": "CineArte Cacodelphia",
@@ -527,11 +587,23 @@
           "precio_jubilado": 15200,
           "precio_menor": 15200
         },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 23800,
+          "precio_jubilado": 7300,
+          "precio_menor": 7300
+        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 19000,
           "precio_jubilado": 15200,
           "precio_menor": 15200
+        },
+        "dbox 3d doblada": {
+          "formato": "DBOX 3D Doblada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
         },
         "dbox xd 2d doblada": {
           "formato": "DBOX XD 2D Doblada",
@@ -550,12 +622,6 @@
           "precio_general": 9500,
           "precio_jubilado": 7600,
           "precio_menor": 7600
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 23800,
-          "precio_jubilado": 7300,
-          "precio_menor": 7300
         },
         "dbox 2d subtitulada": {
           "formato": "DBOX 2D Subtitulada",
@@ -595,12 +661,6 @@
         },
         "xd 2d iv subtitulada": {
           "formato": "XD 2D IV Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
-        "dbox 3d doblada": {
-          "formato": "DBOX 3D Doblada",
           "precio_general": null,
           "precio_jubilado": null,
           "precio_menor": null
@@ -779,14 +839,14 @@
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Avellaneda",
       "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 16600,
           "precio_jubilado": 12500,
           "precio_menor": 12500
         },
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 16600,
           "precio_jubilado": 12500,
           "precio_menor": 12500
@@ -805,18 +865,102 @@
         }
       }
     },
+    "cinepolis-houssay": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Houssay",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 10000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 10000,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 11500,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 11500,
+          "precio_jubilado": 11000,
+          "precio_menor": 11000
+        }
+      }
+    },
+    "cinepolis-lujan": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Luján",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        }
+      }
+    },
+    "cinepolis-merlo": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Merlo",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        },
+        "3d subtitulada": {
+          "formato": "3D Subtitulada",
+          "precio_general": 21000,
+          "precio_jubilado": 13000,
+          "precio_menor": 13000
+        }
+      }
+    },
     "cinepolis-pilar": {
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Pilar",
       "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 15000,
           "precio_jubilado": 11400,
           "precio_menor": 11400
         },
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 15000,
           "precio_jubilado": 11400,
           "precio_menor": 11400
@@ -839,14 +983,14 @@
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Recoleta",
       "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 19000,
           "precio_jubilado": 15000,
           "precio_menor": 15000
         },
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 19000,
           "precio_jubilado": 15000,
           "precio_menor": 15000
@@ -1429,6 +1573,18 @@
         }
       }
     },
+    "malba-cine": {
+      "cadena": "Cine Independiente",
+      "nombre": "MALBA Cine",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
     "multiplex-belgrano": {
       "cadena": "Multiplex",
       "nombre": "Multiplex Belgrano",
@@ -1699,6 +1855,18 @@
         }
       }
     },
+    "sala-leopoldo-lugones": {
+      "cadena": "Cine Independiente",
+      "nombre": "Sala Leopoldo Lugones",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        }
+      }
+    },
     "showcase-belgrano": {
       "cadena": "Showcase",
       "nombre": "Showcase Belgrano",
@@ -1810,120 +1978,6 @@
           "precio_general": 15500,
           "precio_jubilado": null,
           "precio_menor": 12000
-        }
-      }
-    },
-    "cinepolis-houssay": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Houssay",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 10000,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 10000,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 11500,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        },
-        "3d subtitulada": {
-          "formato": "3D Subtitulada",
-          "precio_general": 11500,
-          "precio_jubilado": 11000,
-          "precio_menor": 11000
-        }
-      }
-    },
-    "cinepolis-lujan": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Luján",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 17400,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 17400,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 21000,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        }
-      }
-    },
-    "cinepolis-merlo": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Merlo",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 17000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 21000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 17000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        },
-        "3d subtitulada": {
-          "formato": "3D Subtitulada",
-          "precio_general": 21000,
-          "precio_jubilado": 13000,
-          "precio_menor": 13000
-        }
-      }
-    },
-    "cine-gaumont": {
-      "cadena": "Cine Independiente",
-      "nombre": "Cine Gaumont",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 2500,
-          "precio_jubilado": 1300,
-          "precio_menor": 1300
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 2500,
-          "precio_jubilado": 1300,
-          "precio_menor": 1300
-        }
-      }
-    },
-    "malba-cine": {
-      "cadena": "Cine Independiente",
-      "nombre": "MALBA Cine",
-      "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
         }
       }
     }

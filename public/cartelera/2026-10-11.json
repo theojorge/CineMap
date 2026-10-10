@@ -1,5 +1,939 @@
 [
   {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Recoleta",
+    "slug": "cinepolis-recoleta",
+    "zona": "CABA",
+    "direccion": "Vicente López 2050, Recoleta",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
+        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "3D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "11:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La invitación",
+        "url": "https://cartelera.ar/pelicula/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "00:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://cartelera.ar/pelicula/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "18:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Digger",
+        "url": "https://cartelera.ar/pelicula/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "00:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "16:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "11:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "00:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "/posters/la-vida-es-asi.jpg",
+        "funciones": [
+          {
+            "horario": "14:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Tres adioses",
+        "url": "https://cartelera.ar/pelicula/tres-adioses",
+        "imagen": "/posters/tres-adioses.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "A cualquier precio",
+        "url": "https://cartelera.ar/pelicula/a-cualquier-precio",
+        "imagen": "/posters/a-cualquier-precio.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hangar rojo",
+        "url": "https://cartelera.ar/pelicula/hangar-rojo",
+        "imagen": "/posters/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes Del Museo 2",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
+        "imagen": "/posters/guardianes-del-museo-2.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://cartelera.ar/pelicula/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "00:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "01:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Avellaneda",
+    "slug": "cinepolis-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Av. Mitre 2702, Avellaneda",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
+        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:30",
+            "formato": "3D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://cartelera.ar/pelicula/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La noche del demonio: Están entre nosotros",
+        "url": "https://cartelera.ar/pelicula/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "00:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "00:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Digger",
+        "url": "https://cartelera.ar/pelicula/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Mahou Shoujo Madoka Magica: Walpurgis no Kaiten",
+        "url": "https://cartelera.ar/pelicula/mahou-shoujo-madoka-magica-walpurgis-no-kaiten",
+        "imagen": "/posters/tc7wW6whJSvxM9f5RdqmQVpdl6n.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "A cualquier precio",
+        "url": "https://cartelera.ar/pelicula/a-cualquier-precio",
+        "imagen": "/posters/a-cualquier-precio.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Vértigo 2",
+        "url": "https://cartelera.ar/pelicula/vertigo-2",
+        "imagen": "/posters/vertigo-2.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes Del Museo 2",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
+        "imagen": "/posters/guardianes-del-museo-2.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://cartelera.ar/pelicula/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "00:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "01:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:25",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Hoyts Dot Baires",
     "slug": "hoyts-dot-baires",
@@ -51,9 +985,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "13:10",
@@ -812,9 +1746,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "12:00",
@@ -1252,9 +2186,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "12:30",
@@ -1878,9 +2812,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "13:50",
@@ -2279,7 +3213,7 @@
         ]
       },
       {
-        "titulo": "Cars (re Estreno)",
+        "titulo": "Cars",
         "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
@@ -2681,7 +3615,7 @@
         ]
       },
       {
-        "titulo": "Cars (re Estreno)",
+        "titulo": "Cars",
         "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
@@ -2942,9 +3876,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "12:20",
@@ -3318,6 +4252,18 @@
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
         "funciones": [
           {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149072, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "13:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149072, \"corporateFilmId\": \"112521\"}"
+          },
+          {
             "horario": "17:20",
             "formato": "3D Subtitulada",
             "df": null,
@@ -3328,13 +4274,25 @@
             "formato": "DBOX 3D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149073, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149074, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "21:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149074, \"corporateFilmId\": \"112521\"}"
           }
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "12:20",
@@ -3714,9 +4672,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "14:10",
@@ -4211,9 +5169,9 @@
     "direccion": "Av. La Plata 96, Caballito",
     "peliculas": [
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "13:50",
@@ -4463,9 +5421,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "14:20",
@@ -4743,6 +5701,166 @@
     ]
   },
   {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Houssay",
+    "slug": "cinepolis-houssay",
+    "zona": "CABA",
+    "direccion": "Av. Corrientes 917, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Digger",
+        "url": "https://cartelera.ar/pelicula/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "19:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "15:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes Del Museo 2",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
+        "imagen": "/posters/guardianes-del-museo-2.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://cartelera.ar/pelicula/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "14:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Cinemark Avellaneda",
     "slug": "cinemark-avellaneda",
@@ -4788,9 +5906,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "12:50",
@@ -5067,6 +6185,838 @@
     ]
   },
   {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Pilar",
+    "slug": "cinepolis-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Panamericana Km. 50, Pilar",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
+        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "12:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:25",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/9THY3T4kn5D2rZhwwQ6t7XQtHtv.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Digger",
+        "url": "https://cartelera.ar/pelicula/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La vida es así",
+        "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
+        "imagen": "/posters/la-vida-es-asi.jpg",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "A cualquier precio",
+        "url": "https://cartelera.ar/pelicula/a-cualquier-precio",
+        "imagen": "/posters/a-cualquier-precio.jpg",
+        "funciones": [
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes Del Museo 2",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
+        "imagen": "/posters/guardianes-del-museo-2.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://cartelera.ar/pelicula/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Luján",
+    "slug": "cinepolis-lujan",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Constitución 1000, Luján",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
+        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Digger",
+        "url": "https://cartelera.ar/pelicula/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "A cualquier precio",
+        "url": "https://cartelera.ar/pelicula/a-cualquier-precio",
+        "imagen": "/posters/a-cualquier-precio.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes Del Museo 2",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
+        "imagen": "/posters/guardianes-del-museo-2.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://cartelera.ar/pelicula/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinépolis",
+    "nombre": "Cinépolis Merlo",
+    "slug": "cinepolis-merlo",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Juan Domingo Perón 24098",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
+        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:00",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://cartelera.ar/pelicula/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Minions & monstruos",
+        "url": "https://cartelera.ar/pelicula/minions-monstruos",
+        "imagen": "/posters/9THY3T4kn5D2rZhwwQ6t7XQtHtv.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://cartelera.ar/pelicula/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope",
+        "url": "https://cartelera.ar/pelicula/hope",
+        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "A cualquier precio",
+        "url": "https://cartelera.ar/pelicula/a-cualquier-precio",
+        "imagen": "/posters/a-cualquier-precio.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://cartelera.ar/pelicula/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Hoyts Quilmes",
     "slug": "hoyts-quilmes",
@@ -5130,9 +7080,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "13:00",
@@ -5498,6 +7448,18 @@
             "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95255, \"corporateFilmId\": \"112521\"}"
           },
           {
+            "horario": "18:10",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95256, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "18:10",
+            "formato": "DBOX 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95256, \"corporateFilmId\": \"112521\"}"
+          },
+          {
             "horario": "21:50",
             "formato": "2D Doblada",
             "df": null,
@@ -5512,9 +7474,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "14:40",
@@ -5782,7 +7744,7 @@
         ]
       },
       {
-        "titulo": "Cars (re Estreno)",
+        "titulo": "Cars",
         "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
@@ -6217,7 +8179,7 @@
         ]
       },
       {
-        "titulo": "Cars (re Estreno)",
+        "titulo": "Cars",
         "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
@@ -6507,9 +8469,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "14:00",
@@ -6734,9 +8696,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "14:20",
@@ -7131,6 +9093,37 @@
           {
             "horario": "22:30",
             "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:25",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "21:45",
+            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -7605,32 +9598,132 @@
             "cinemark": null
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "Cine Gaumont",
+    "slug": "cine-gaumont",
+    "zona": "CABA",
+    "direccion": "Av. Rivadavia 1635, Congreso",
+    "peliculas": [
       {
-        "titulo": "Cars: 20 años",
-        "url": "https://cartelera.ar/pelicula/cars-20-anos",
-        "imagen": "",
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
         "funciones": [
           {
-            "horario": "13:45",
+            "horario": "14:15",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           },
           {
-            "horario": "16:25",
+            "horario": "21:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/yq3HwogoVCxYkWyEd0aCi62ewjY.jpg",
+        "funciones": [
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           },
           {
-            "horario": "19:05",
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Barbara Forever",
+        "url": "https://cartelera.ar/pelicula/barbara-forever",
+        "imagen": "/posters/kYjCmL8sg17zoKtm5Pb6Cn4H0nB.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Lo dejamos acá",
+        "url": "https://cartelera.ar/pelicula/lo-dejamos-aca",
+        "imagen": "/posters/bk8T4enLxtWgHgVS5iX5yksWlMA.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           },
           {
-            "horario": "21:45",
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Escondida en mi cabeza",
+        "url": "https://cartelera.ar/pelicula/escondida-en-mi-cabeza",
+        "imagen": "/posters/escondida-en-mi-cabeza.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Una Película de Parque Chas",
+        "url": "https://cartelera.ar/pelicula/una-pelicula-de-parque-chas",
+        "imagen": "/posters/hxFquHjSLT1pOhQHjlIS717vyIE.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": null
@@ -7833,6 +9926,54 @@
     ]
   },
   {
+    "cadena": "Cine Independiente",
+    "nombre": "Sala Leopoldo Lugones",
+    "slug": "sala-leopoldo-lugones",
+    "zona": "CABA",
+    "direccion": "Av. Corrientes 1530, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "El tren fluvial",
+        "url": "https://cartelera.ar/pelicula/el-tren-fluvial",
+        "imagen": "/posters/oFo8HghR0zzj5QLcrHlxSPvO5aL.jpg",
+        "funciones": [
+          {
+            "horario": "21:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El hombre de mármol",
+        "url": "https://cartelera.ar/pelicula/el-hombre-de-marmol",
+        "imagen": "/posters/iCAc0Eyxa1Gd3DqsoxfD3Pvl0re.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Paisaje después de la batalla",
+        "url": "https://cartelera.ar/pelicula/paisaje-despues-de-la-batalla",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Showcase",
     "nombre": "Showcase Haedo",
     "slug": "showcase-haedo",
@@ -7858,6 +9999,37 @@
           },
           {
             "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "14:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:55",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": null
@@ -8271,37 +10443,6 @@
             "cinemark": null
           }
         ]
-      },
-      {
-        "titulo": "Cars: 20 años",
-        "url": "https://cartelera.ar/pelicula/cars-20-anos",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:05",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "16:55",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
       }
     ]
   },
@@ -8320,6 +10461,37 @@
           {
             "horario": "21:50",
             "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "14:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "17:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "21:45",
+            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -8626,37 +10798,6 @@
             "cinemark": null
           }
         ]
-      },
-      {
-        "titulo": "Cars: 20 años",
-        "url": "https://cartelera.ar/pelicula/cars-20-anos",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "17:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "21:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
       }
     ]
   },
@@ -8681,6 +10822,37 @@
           {
             "horario": "22:30",
             "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://cartelera.ar/pelicula/cars",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:55",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:05",
+            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -8921,37 +11093,6 @@
           {
             "horario": "22:15",
             "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Cars: 20 años",
-        "url": "https://cartelera.ar/pelicula/cars-20-anos",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "16:55",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:05",
-            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -9212,9 +11353,9 @@
         ]
       },
       {
-        "titulo": "Cars 20° Aniversario",
+        "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
             "horario": "15:00",
@@ -9687,6 +11828,112 @@
     ]
   },
   {
+    "cadena": "Cine Independiente",
+    "nombre": "Cine Cosmos",
+    "slug": "cine-cosmos",
+    "zona": "CABA",
+    "direccion": "Av. Corrientes 2046, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "La invitación",
+        "url": "https://cartelera.ar/pelicula/la-invitacion",
+        "imagen": "/posters/la-invitacion.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "The Quiet Girl",
+        "url": "https://cartelera.ar/pelicula/the-quiet-girl",
+        "imagen": "/posters/9vEKZUiWUzJUz5naLrho1BLs54g.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Los domingos",
+        "url": "https://cartelera.ar/pelicula/los-domingos",
+        "imagen": "/posters/kwpDm6qtON8pLCSY0C8MltMofEE.jpg",
+        "funciones": [
+          {
+            "horario": "16:35",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Franz",
+        "url": "https://cartelera.ar/pelicula/franz",
+        "imagen": "/posters/t4dV6cyC8vkj6cu5mHXR8A2OFVQ.jpg",
+        "funciones": [
+          {
+            "horario": "18:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Amor que Permanece",
+        "url": "https://cartelera.ar/pelicula/el-amor-que-permanece",
+        "imagen": "/posters/gveoShAALiQfdINESmjmsPGb0IC.jpg",
+        "funciones": [
+          {
+            "horario": "20:55",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Gran Falsificador",
+        "url": "https://cartelera.ar/pelicula/el-gran-falsificador",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Bosco, el jardín de los sueños",
+        "url": "https://cartelera.ar/pelicula/el-bosco-el-jardin-de-los-suenos",
+        "imagen": "/posters/qK6WGL6y256MfYdAO039CEuIg5T.jpg",
+        "funciones": [
+          {
+            "horario": "15:05",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Nordelta",
     "slug": "atlas-nordelta",
@@ -10019,6 +12266,54 @@
   },
   {
     "cadena": "Cine Independiente",
+    "nombre": "Cine York",
+    "slug": "cine-york",
+    "zona": "GBA Norte",
+    "direccion": "Lincoln 1126, Villa del Parque, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Weser",
+        "url": "https://cartelera.ar/pelicula/weser",
+        "imagen": "/posters/7rcGZh6iJOPJJzUgkfSJOdYYDDR.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Tierra Citrus",
+        "url": "https://cartelera.ar/pelicula/tierra-citrus",
+        "imagen": "/posters/aT4kKMf08GmCCViHy6sxhcz1OVa.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Stelios",
+        "url": "https://cartelera.ar/pelicula/stelios",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
     "nombre": "CineArte Cacodelphia",
     "slug": "cinearte-cacodelphia",
     "zona": "CABA",
@@ -10115,6 +12410,63 @@
         "funciones": [
           {
             "horario": "18:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "Centro Cultural Munro",
+    "slug": "centro-cultural-munro",
+    "zona": "GBA Norte",
+    "direccion": "Munro, Vicente López, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Las brujas de Eastwick",
+        "url": "https://cartelera.ar/pelicula/las-brujas-de-eastwick",
+        "imagen": "/posters/1PC5sd5aLgLF5TNmf9jndfYJDhR.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Encantador",
+        "url": "https://cartelera.ar/pelicula/encantador",
+        "imagen": "/posters/vhObG7EezubC5QVrFTRMo8Arl9r.jpg",
+        "funciones": [
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "MALBA Cine",
+    "slug": "malba-cine",
+    "zona": "CABA",
+    "direccion": "Av. Figueroa Alcorta 3415, Palermo",
+    "peliculas": [
+      {
+        "titulo": "Ls83",
+        "url": "https://cartelera.ar/pelicula/ls83",
+        "imagen": "/posters/l2rKXV9oGuopwsKKwpF7sNQzGSN.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
