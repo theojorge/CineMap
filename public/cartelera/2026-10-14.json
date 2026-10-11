@@ -9687,163 +9687,6 @@
     ]
   },
   {
-    "cadena": "Cine Independiente",
-    "nombre": "Cine Gaumont",
-    "slug": "cine-gaumont",
-    "zona": "CABA",
-    "direccion": "Av. Rivadavia 1635, Congreso",
-    "peliculas": [
-      {
-        "titulo": "La casa",
-        "url": "https://cartelera.ar/pelicula/la-casa",
-        "imagen": "/posters/la-casa.jpg",
-        "funciones": [
-          {
-            "horario": "14:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "21:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Una quinta en Portugal",
-        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
-        "imagen": "/posters/yq3HwogoVCxYkWyEd0aCi62ewjY.jpg",
-        "funciones": [
-          {
-            "horario": "16:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "El séptimo sello",
-        "url": "https://cartelera.ar/pelicula/el-septimo-sello",
-        "imagen": "/posters/qo3JypyrkPvH8Na3Ir0IpjCwOCS.jpg",
-        "funciones": [
-          {
-            "horario": "19:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://cartelera.ar/pelicula/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "16:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Soy ella",
-        "url": "https://cartelera.ar/pelicula/soy-ella",
-        "imagen": "/posters/9C8eI39HYPkzucaRnw64iRjTlqt.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Lo dejamos acá",
-        "url": "https://cartelera.ar/pelicula/lo-dejamos-aca",
-        "imagen": "/posters/bk8T4enLxtWgHgVS5iX5yksWlMA.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "16:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Escondida en mi cabeza",
-        "url": "https://cartelera.ar/pelicula/escondida-en-mi-cabeza",
-        "imagen": "/posters/escondida-en-mi-cabeza.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Hangar rojo",
-        "url": "https://cartelera.ar/pelicula/hangar-rojo",
-        "imagen": "/posters/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg",
-        "funciones": [
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Soy Hermes",
-        "url": "https://cartelera.ar/pelicula/yo-soy-hermes",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Catan",
     "slug": "atlas-catan",
@@ -10042,6 +9885,163 @@
             "horario": "22:00",
             "formato": "2D Doblada",
             "df": "192-20261014-597-19217-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "Cine Gaumont",
+    "slug": "cine-gaumont",
+    "zona": "CABA",
+    "direccion": "Av. Rivadavia 1635, Congreso",
+    "peliculas": [
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "14:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "21:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/yq3HwogoVCxYkWyEd0aCi62ewjY.jpg",
+        "funciones": [
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El séptimo sello",
+        "url": "https://cartelera.ar/pelicula/el-septimo-sello",
+        "imagen": "/posters/qo3JypyrkPvH8Na3Ir0IpjCwOCS.jpg",
+        "funciones": [
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Soy ella",
+        "url": "https://cartelera.ar/pelicula/soy-ella",
+        "imagen": "/posters/9C8eI39HYPkzucaRnw64iRjTlqt.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Lo dejamos acá",
+        "url": "https://cartelera.ar/pelicula/lo-dejamos-aca",
+        "imagen": "/posters/bk8T4enLxtWgHgVS5iX5yksWlMA.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Escondida en mi cabeza",
+        "url": "https://cartelera.ar/pelicula/escondida-en-mi-cabeza",
+        "imagen": "/posters/escondida-en-mi-cabeza.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hangar rojo",
+        "url": "https://cartelera.ar/pelicula/hangar-rojo",
+        "imagen": "/posters/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg",
+        "funciones": [
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Soy Hermes",
+        "url": "https://cartelera.ar/pelicula/yo-soy-hermes",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
             "cinemark": null
           }
         ]
