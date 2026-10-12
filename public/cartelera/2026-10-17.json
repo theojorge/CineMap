@@ -30,33 +30,15 @@
             "cinemark": null
           },
           {
-            "horario": "18:00",
-            "formato": "4DX Doblada",
-            "df": "191-20261017-598-24379-4",
-            "cinemark": null
-          },
-          {
             "horario": "20:00",
             "formato": "2D Doblada",
             "df": "191-20261017-598-24407-1",
             "cinemark": null
           },
           {
-            "horario": "20:30",
-            "formato": "4DX Doblada",
-            "df": "191-20261017-598-24380-4",
-            "cinemark": null
-          },
-          {
             "horario": "22:30",
             "formato": "2D Subtitulada",
             "df": "191-20261017-598-24408-1",
-            "cinemark": null
-          },
-          {
-            "horario": "23:00",
-            "formato": "4DX Doblada",
-            "df": "191-20261017-598-24381-4",
             "cinemark": null
           }
         ]
@@ -257,6 +239,906 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Abasto",
+    "slug": "hoyts-abasto",
+    "zona": "CABA",
+    "direccion": "Av. Corrientes 3247, Abasto Shopping",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 185684, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187920, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187933, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187933, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187934, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187934, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187935, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187935, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187936, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187936, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Avellaneda",
+    "slug": "cinemark-avellaneda",
+    "zona": "GBA Sur",
+    "direccion": "Güemes 897, Alto Avellaneda Shopping",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 64155, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65643, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65656, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65657, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65658, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65659, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Dot Baires",
+    "slug": "hoyts-dot-baires",
+    "zona": "CABA",
+    "direccion": "Vedia 3626, Dot Baires Mall, Saavedra",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 151534, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153376, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153388, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153389, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153390, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153391, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Malvinas Argentinas",
+    "slug": "cinemark-malvinas-argentinas",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Pte. Illia 3770, Shopping Terrazas de Mayo",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 153486, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155706, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155719, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155720, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155721, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155722, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Moreno",
+    "slug": "hoyts-moreno",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Victorica 1128, Nine Shopping",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 147417, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149217, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149233, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149233, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149234, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149234, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149235, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149235, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149236, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149236, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Morón",
+    "slug": "hoyts-moron",
+    "zona": "GBA Oeste",
+    "direccion": "J.M. de Rosas 658, Plaza Oeste Shopping",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 134159, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135675, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135687, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135687, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135688, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135688, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135689, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135689, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135690, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135690, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Palermo",
+    "slug": "cinemark-palermo",
+    "zona": "CABA",
+    "direccion": "Beruti 3399, Palermo",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 163174, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165383, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165397, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165398, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165399, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165395, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165396, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "CABA",
+    "direccion": "Av. Alicia Moreau de Justo 1920",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 115553, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116904, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116914, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116915, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116916, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116917, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Quilmes",
+    "slug": "hoyts-quilmes",
+    "zona": "GBA Sur",
+    "direccion": "Av. Calchaquí 3950",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 182231, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184403, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184416, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184417, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184418, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "21:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184419, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Temperley",
+    "slug": "hoyts-temperley",
+    "zona": "GBA Sur",
+    "direccion": "Av. Hipólito Yrigoyen 10.700",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 133403, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135173, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135220, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "14:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135219, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135218, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135222, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135221, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Tortugas",
+    "slug": "cinemark-tortugas",
+    "zona": "GBA Norte",
+    "direccion": "Ramal Pilar km 36,5, Tortuguitas TOM",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 129504, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131147, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131167, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131168, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131169, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131170, \"corporateFilmId\": \"110811\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Hoyts Unicenter",
+    "slug": "hoyts-unicenter",
+    "zona": "GBA Norte",
+    "direccion": "Paraná 3745, Unicenter Shopping",
+    "peliculas": [
+      {
+        "titulo": "Always Lalisa",
+        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
+        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 252498, \"corporateFilmId\": \"112797\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256323, \"corporateFilmId\": \"113215\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "STREET FIGHTER",
+        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256336, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256336, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256337, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256337, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256338, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256338, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256339, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256339, \"corporateFilmId\": \"110811\"}"
           }
         ]
       }
@@ -956,32 +1838,6 @@
             "cinemark": null
           }
         ]
-      },
-      {
-        "titulo": "Los Vencedores",
-        "url": "https://cartelera.ar/pelicula/los-vencedores",
-        "imagen": "/posters/hJVeuvHc7xmeYHhCs1iypk6nPy.jpg",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "El tren fluvial",
-        "url": "https://cartelera.ar/pelicula/el-tren-fluvial",
-        "imagen": "/posters/oFo8HghR0zzj5QLcrHlxSPvO5aL.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
       }
     ]
   },
@@ -1102,6 +1958,28 @@
     ]
   },
   {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "Los Nadadores",
+        "url": "https://cartelera.ar/pelicula/los-nadadores",
+        "imagen": "/posters/4WLYa1B4Uba8sb0wVkUzD9uZIz1.jpg",
+        "funciones": [
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Multiplex",
     "nombre": "Multiplex Pilar",
     "slug": "multiplex-pilar",
@@ -1127,12 +2005,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "20:20",
-            "formato": "4D (2D) Doblada",
-            "df": "187-222-10207-20261017-7",
-            "cinemark": null
-          },
-          {
             "horario": "21:00",
             "formato": "2D Doblada",
             "df": "187-222-10206-20261017-1",
@@ -1142,34 +2014,6 @@
             "horario": "22:30",
             "formato": "4D (2D) Doblada",
             "df": "187-222-10208-20261017-7",
-            "cinemark": null
-          },
-          {
-            "horario": "23:10",
-            "formato": "2D Doblada",
-            "df": "187-222-10205-20261017-1",
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cine Independiente",
-    "nombre": "CineArte Cacodelphia",
-    "slug": "cinearte-cacodelphia",
-    "zona": "CABA",
-    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
-    "peliculas": [
-      {
-        "titulo": "Los Nadadores",
-        "url": "https://cartelera.ar/pelicula/los-nadadores",
-        "imagen": "/posters/4WLYa1B4Uba8sb0wVkUzD9uZIz1.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada",
-            "df": null,
             "cinemark": null
           }
         ]
@@ -1193,150 +2037,6 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Temperley",
-    "slug": "hoyts-temperley",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135220, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135219, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "17:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135218, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135222, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135221, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 133403, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135173, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Palermo",
-    "slug": "cinemark-palermo",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165397, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165398, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165399, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165395, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165396, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 163174, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165383, \"corporateFilmId\": \"113215\"}"
           }
         ]
       }
@@ -1383,762 +2083,6 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94644, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moreno",
-    "slug": "hoyts-moreno",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149233, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149233, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149234, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149234, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149235, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149235, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149236, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149236, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 147417, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149217, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "DOT",
-    "slug": "hoyts-dot-baires",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153388, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153389, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153390, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153391, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 151534, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153376, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Abasto",
-    "slug": "hoyts-abasto",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187933, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187933, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187934, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187934, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:10",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187935, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:10",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187935, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:00",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187936, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187936, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 185684, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187920, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Quilmes",
-    "slug": "hoyts-quilmes",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184416, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184417, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184418, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "21:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184419, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 182231, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184403, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Malvinas Argentinas",
-    "slug": "cinemark-malvinas-argentinas",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155719, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155720, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155721, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155722, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 153486, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155706, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Alto Avellaneda",
-    "slug": "cinemark-avellaneda",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65656, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65657, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65658, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65659, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 64155, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65643, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moron",
-    "slug": "hoyts-moron",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135687, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135687, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:50",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135688, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135688, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:40",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135689, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135689, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135690, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135690, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 134159, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135675, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Unicenter",
-    "slug": "hoyts-unicenter",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 252498, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256336, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256336, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "17:10",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256337, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "17:10",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256337, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:50",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256338, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:50",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256338, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256339, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256339, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256323, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 115553, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116914, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "17:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116915, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116916, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116917, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116904, \"corporateFilmId\": \"113215\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Tortugas",
-    "slug": "cinemark-tortugas",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ALWAYS LALISA",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 129504, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "STREET FIGHTER",
-        "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131167, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131168, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131169, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131170, \"corporateFilmId\": \"110811\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE: SINSAJO 2 (2015)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131147, \"corporateFilmId\": \"113215\"}"
           }
         ]
       }

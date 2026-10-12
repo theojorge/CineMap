@@ -698,10 +698,10 @@
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
           {
-            "horario": "11:30",
+            "horario": "11:05",
             "formato": "2D Subtitulada",
             "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153340, \"corporateFilmId\": \"110808\"}"
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153411, \"corporateFilmId\": \"110808\"}"
           },
           {
             "horario": "12:20",
@@ -1002,25 +1002,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=191",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "18:50",
-            "formato": "2D Doblada",
-            "df": "191-20261014-594-24172-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada",
-            "df": "191-20261014-594-24179-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Coyote vs. Acme",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=547&codComplejo=191",
         "imagen": "/posters/coyote-vs-acme.jpg",
@@ -1173,6 +1154,25 @@
             "horario": "22:40",
             "formato": "2D Subtitulada",
             "df": "191-20261014-597-24175-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=191",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": "191-20261014-594-24172-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": "191-20261014-594-24179-1",
             "cinemark": null
           }
         ]
@@ -1366,7 +1366,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -1640,7 +1640,7 @@
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
         "funciones": [
           {
-            "horario": "12:10",
+            "horario": "12:40",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256220, \"corporateFilmId\": \"112521\"}"
@@ -1800,13 +1800,13 @@
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
           {
-            "horario": "12:20",
+            "horario": "12:40",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256215, \"corporateFilmId\": \"112894\"}"
           },
           {
-            "horario": "14:40",
+            "horario": "14:50",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256216, \"corporateFilmId\": \"112894\"}"
@@ -1857,7 +1857,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -2819,7 +2819,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://multiplex.com.ar/peliculas/hopeel-primer-impacto/",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -3007,7 +3007,7 @@
         ]
       },
       {
-        "titulo": "Spider-Man: Un nuevo día",
+        "titulo": "Spider-man: Un Dia Nuevo",
         "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
         "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
         "funciones": [
@@ -3513,7 +3513,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -3915,7 +3915,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -4520,451 +4520,6 @@
     ]
   },
   {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Cinemark Malvinas Argentinas",
-    "slug": "cinemark-malvinas-argentinas",
-    "zona": "GBA Oeste",
-    "direccion": "Av. Pte. Illia 3770, Shopping Terrazas de Mayo",
-    "peliculas": [
-      {
-        "titulo": "A cualquier precio",
-        "url": "https://www.cinemark.com.ar/peliculas/a-cualquier-precio",
-        "imagen": "/posters/a-cualquier-precio.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155683, \"corporateFilmId\": \"113133\"}"
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155685, \"corporateFilmId\": \"113133\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155666, \"corporateFilmId\": \"112521\"}"
-          },
-          {
-            "horario": "18:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155667, \"corporateFilmId\": \"112521\"}"
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155668, \"corporateFilmId\": \"112521\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Cars",
-        "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
-        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155678, \"corporateFilmId\": \"113132\"}"
-          },
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155679, \"corporateFilmId\": \"113132\"}"
-          },
-          {
-            "horario": "19:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155680, \"corporateFilmId\": \"113132\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "16:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155697, \"corporateFilmId\": \"110227\"}"
-          },
-          {
-            "horario": "17:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155684, \"corporateFilmId\": \"110227\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Digger",
-        "url": "https://www.cinemark.com.ar/peliculas/digger",
-        "imagen": "/posters/digger.jpg",
-        "funciones": [
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155686, \"corporateFilmId\": \"110807\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "El corazón de la bestia",
-        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
-        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155669, \"corporateFilmId\": \"112894\"}"
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155670, \"corporateFilmId\": \"112894\"}"
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155671, \"corporateFilmId\": \"112894\"}"
-          },
-          {
-            "horario": "19:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155672, \"corporateFilmId\": \"112894\"}"
-          },
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155673, \"corporateFilmId\": \"112894\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Guardianes Del Museo 2",
-        "url": "https://www.cinemark.com.ar/peliculas/guardianes-del-museo-2",
-        "imagen": "/posters/guardianes-del-museo-2.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155682, \"corporateFilmId\": \"113129\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "La casa",
-        "url": "https://www.cinemark.com.ar/peliculas/la-casa",
-        "imagen": "/posters/la-casa.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155692, \"corporateFilmId\": \"113134\"}"
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155694, \"corporateFilmId\": \"113134\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "La isla olvidada",
-        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
-        "imagen": "/posters/la-isla-olvidada.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155696, \"corporateFilmId\": \"110806\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155698, \"corporateFilmId\": \"110137\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "LOS JUEGOS DEL HAMBRE (2012)",
-        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-2012",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "22:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155703, \"corporateFilmId\": \"113212\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Madre siniestra",
-        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
-        "imagen": "/posters/madre-siniestra.jpg",
-        "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155661, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155661, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "15:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155662, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "15:40",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155662, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155663, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "17:50",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155663, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "19:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155676, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155664, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "20:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155664, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155677, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155665, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "22:40",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155665, \"corporateFilmId\": \"112852\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Resident Evil: Noche Cero",
-        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
-        "imagen": "/posters/resident-evil-noche-cero.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155656, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "12:30",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155656, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "14:50",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155657, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "14:50",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155657, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "16:50",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155693, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "17:30",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155658, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "17:30",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155658, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "19:50",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155702, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "19:50",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155702, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "21:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155695, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155660, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "22:30",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155660, \"corporateFilmId\": \"110805\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155674, \"corporateFilmId\": \"109316\"}"
-          },
-          {
-            "horario": "16:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155675, \"corporateFilmId\": \"109316\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Verity. La sombra de un engaño",
-        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
-        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
-        "funciones": [
-          {
-            "horario": "12:55",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155687, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "15:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155688, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155689, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155690, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155691, \"corporateFilmId\": \"110808\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Vértigo 2",
-        "url": "https://www.cinemark.com.ar/peliculas/vertigo-2-punto-muerto",
-        "imagen": "/posters/vertigo-2.jpg",
-        "funciones": [
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155699, \"corporateFilmId\": \"111098\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Cinépolis",
     "nombre": "Cinépolis Houssay",
     "slug": "cinepolis-houssay",
@@ -5263,7 +4818,7 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:00",
+            "horario": "13:25",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65611, \"corporateFilmId\": \"112852\"}"
@@ -7148,6 +6703,427 @@
   },
   {
     "cadena": "Cinemark Hoyts",
+    "nombre": "Cinemark Malvinas Argentinas",
+    "slug": "cinemark-malvinas-argentinas",
+    "zona": "GBA Oeste",
+    "direccion": "Av. Pte. Illia 3770, Shopping Terrazas de Mayo",
+    "peliculas": [
+      {
+        "titulo": "A cualquier precio",
+        "url": "https://www.cinemark.com.ar/peliculas/a-cualquier-precio",
+        "imagen": "/posters/a-cualquier-precio.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155683, \"corporateFilmId\": \"113133\"}"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155685, \"corporateFilmId\": \"113133\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155666, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155667, \"corporateFilmId\": \"112521\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155668, \"corporateFilmId\": \"112521\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
+        "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155678, \"corporateFilmId\": \"113132\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155679, \"corporateFilmId\": \"113132\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155680, \"corporateFilmId\": \"113132\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Coyote vs. Acme",
+        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
+        "imagen": "/posters/coyote-vs-acme.jpg",
+        "funciones": [
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155697, \"corporateFilmId\": \"110227\"}"
+          },
+          {
+            "horario": "17:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155684, \"corporateFilmId\": \"110227\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Digger",
+        "url": "https://www.cinemark.com.ar/peliculas/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155686, \"corporateFilmId\": \"110807\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155670, \"corporateFilmId\": \"112894\"}"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155671, \"corporateFilmId\": \"112894\"}"
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155672, \"corporateFilmId\": \"112894\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155673, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes Del Museo 2",
+        "url": "https://www.cinemark.com.ar/peliculas/guardianes-del-museo-2",
+        "imagen": "/posters/guardianes-del-museo-2.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155682, \"corporateFilmId\": \"113129\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://www.cinemark.com.ar/peliculas/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155692, \"corporateFilmId\": \"113134\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155694, \"corporateFilmId\": \"113134\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "La isla olvidada",
+        "url": "https://www.cinemark.com.ar/peliculas/la-isla-olvidada",
+        "imagen": "/posters/la-isla-olvidada.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155696, \"corporateFilmId\": \"110806\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "La Odisea",
+        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
+        "imagen": "/posters/la-odisea.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155698, \"corporateFilmId\": \"110137\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LOS JUEGOS DEL HAMBRE (2012)",
+        "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-2012",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155703, \"corporateFilmId\": \"113212\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155661, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "13:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155661, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155662, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "15:40",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155662, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155663, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "17:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155663, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155676, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155664, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155664, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155677, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155665, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155665, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155657, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "14:50",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155657, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155693, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155658, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155658, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155702, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155702, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155695, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155660, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155660, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://www.cinemark.com.ar/peliculas/spider-man-un-nuevo-dia",
+        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155674, \"corporateFilmId\": \"109316\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155675, \"corporateFilmId\": \"109316\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155688, \"corporateFilmId\": \"110808\"}"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155689, \"corporateFilmId\": \"110808\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155690, \"corporateFilmId\": \"110808\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155691, \"corporateFilmId\": \"110808\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "Vértigo 2",
+        "url": "https://www.cinemark.com.ar/peliculas/vertigo-2-punto-muerto",
+        "imagen": "/posters/vertigo-2.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155699, \"corporateFilmId\": \"111098\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
     "nombre": "Hoyts Quilmes",
     "slug": "hoyts-quilmes",
     "zona": "GBA Sur",
@@ -7297,7 +7273,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -7312,19 +7288,6 @@
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184399, \"corporateFilmId\": \"113135\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Insidious: Fuera del más allá",
-        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
-        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184396, \"corporateFilmId\": \"110139\"}"
           }
         ]
       },
@@ -7350,6 +7313,19 @@
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184395, \"corporateFilmId\": \"113134\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "La Noche del Demonio 6",
+        "url": "https://www.cinemark.com.ar/peliculas/la-noche-del-demonio-estan-entre-nosotros",
+        "imagen": "/posters/la-noche-del-demonio-estan-entre-nosotros.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184396, \"corporateFilmId\": \"110139\"}"
           }
         ]
       },
@@ -8006,7 +7982,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://multiplex.com.ar/peliculas/hopeel-primer-impacto/",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -8398,7 +8374,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://multiplex.com.ar/peliculas/hopeel-primer-impacto/",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -8529,7 +8505,7 @@
         ]
       },
       {
-        "titulo": "Spider-Man: Un nuevo día",
+        "titulo": "Spider-man: Un Dia Nuevo",
         "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
         "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
         "funciones": [
@@ -8707,7 +8683,7 @@
         ]
       },
       {
-        "titulo": "Hope",
+        "titulo": "Hope: el Primer Impacto",
         "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
         "imagen": "/posters/hope-el-primer-impacto.jpg",
         "funciones": [
@@ -9466,31 +9442,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://cartelera.ar/pelicula/hope",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:05",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:25",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Coyote vs. Acme",
         "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
@@ -9617,25 +9568,6 @@
         ]
       },
       {
-        "titulo": "Guardianes Del Museo 2",
-        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
-        "imagen": "/posters/guardianes-del-museo-2.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Madre siniestra",
         "url": "https://cartelera.ar/pelicula/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
@@ -9679,6 +9611,50 @@
           {
             "horario": "22:40",
             "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://cartelera.ar/pelicula/hope-el-primer-impacto",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:05",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:25",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes del museo 2: los tesoros de Egipto",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2-los-tesoros-de-egipto",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -9801,25 +9777,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=192",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada",
-            "df": "192-20261014-594-19207-1",
-            "cinemark": null
-          },
-          {
-            "horario": "21:20",
-            "formato": "2D Doblada",
-            "df": "192-20261014-594-19213-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Verity. La sombra de un engaño",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=583&codComplejo=192",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
@@ -9885,6 +9842,25 @@
             "horario": "22:00",
             "formato": "2D Doblada",
             "df": "192-20261014-597-19217-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=192",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": "192-20261014-594-19207-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:20",
+            "formato": "2D Doblada",
+            "df": "192-20261014-594-19213-1",
             "cinemark": null
           }
         ]
@@ -10055,31 +10031,6 @@
     "zona": "GBA Oeste",
     "direccion": "Av. Rivadavia 16.200, Shopping Haedo",
     "peliculas": [
-      {
-        "titulo": "Avengers: Endgame",
-        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
-        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "18:45",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
       {
         "titulo": "Los Juegos del Hambre",
         "url": "https://cartelera.ar/pelicula/los-juegos-del-hambre",
@@ -10332,25 +10283,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://cartelera.ar/pelicula/hope",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Coyote vs. Acme",
         "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
@@ -10471,19 +10403,6 @@
         ]
       },
       {
-        "titulo": "Guardianes Del Museo 2",
-        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
-        "imagen": "/posters/guardianes-del-museo-2.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Madre siniestra",
         "url": "https://cartelera.ar/pelicula/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
@@ -10520,6 +10439,63 @@
           },
           {
             "horario": "22:25",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://cartelera.ar/pelicula/hope-el-primer-impacto",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers Endgame: Bonus ",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "18:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes del museo 2: los tesoros de Egipto",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2-los-tesoros-de-egipto",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "14:00",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": null
@@ -10731,25 +10707,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://cartelera.ar/pelicula/hope",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "16:15",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Coyote vs. Acme",
         "url": "https://cartelera.ar/pelicula/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
@@ -10838,19 +10795,6 @@
         ]
       },
       {
-        "titulo": "Guardianes Del Museo 2",
-        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
-        "imagen": "/posters/guardianes-del-museo-2.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Madre siniestra",
         "url": "https://cartelera.ar/pelicula/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
@@ -10876,6 +10820,38 @@
           {
             "horario": "22:20",
             "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://cartelera.ar/pelicula/hope-el-primer-impacto",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "16:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes del museo 2: los tesoros de Egipto",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2-los-tesoros-de-egipto",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -11095,25 +11071,6 @@
     "zona": "GBA Sur",
     "direccion": "Av. Calchaquí 3950, Quilmes Factory",
     "peliculas": [
-      {
-        "titulo": "Avengers: Endgame",
-        "url": "https://cartelera.ar/pelicula/vengadores-endgame",
-        "imagen": "/posters/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
-        "funciones": [
-          {
-            "horario": "18:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
       {
         "titulo": "Los Juegos del Hambre",
         "url": "https://cartelera.ar/pelicula/los-juegos-del-hambre",
@@ -11342,19 +11299,6 @@
         ]
       },
       {
-        "titulo": "Guardianes Del Museo 2",
-        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
-        "imagen": "/posters/guardianes-del-museo-2.jpg",
-        "funciones": [
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Madre siniestra",
         "url": "https://cartelera.ar/pelicula/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
@@ -11380,6 +11324,38 @@
           {
             "horario": "22:15",
             "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Avengers Endgame: Bonus ",
+        "url": "https://cartelera.ar/pelicula/avengers-endgame-bonus",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Guardianes del museo 2: los tesoros de Egipto",
+        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2-los-tesoros-de-egipto",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -11517,19 +11493,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=197",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Doblada",
-            "df": "197-20261014-594-18401-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Coyote vs. Acme",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=547&codComplejo=197",
         "imagen": "/posters/coyote-vs-acme.jpg",
@@ -11588,6 +11551,19 @@
             "horario": "22:50",
             "formato": "2D Doblada",
             "df": "197-20261014-597-18404-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=197",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Doblada",
+            "df": "197-20261014-594-18401-1",
             "cinemark": null
           }
         ]
@@ -12086,19 +12062,6 @@
     "direccion": "Av. Corrientes 1530, Buenos Aires",
     "peliculas": [
       {
-        "titulo": "El hombre de la máscara de hierro",
-        "url": "https://cartelera.ar/pelicula/el-hombre-de-la-mascara-de-hierro",
-        "imagen": "/posters/50Ug4tJ66gJ9ZgivMGzZnGkdw1p.jpg",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "El tren fluvial",
         "url": "https://cartelera.ar/pelicula/el-tren-fluvial",
         "imagen": "/posters/oFo8HghR0zzj5QLcrHlxSPvO5aL.jpg",
@@ -12118,6 +12081,19 @@
         "funciones": [
           {
             "horario": "15:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El hombre de hierro",
+        "url": "https://cartelera.ar/pelicula/el-hombre-de-hierro",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
@@ -12336,25 +12312,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=198",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada",
-            "df": "198-20261014-594-15339-1",
-            "cinemark": null
-          },
-          {
-            "horario": "21:10",
-            "formato": "2D Doblada",
-            "df": "198-20261014-594-15344-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Verity. La sombra de un engaño",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=583&codComplejo=198",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
@@ -12401,6 +12358,25 @@
             "horario": "22:00",
             "formato": "2D Doblada",
             "df": "198-20261014-597-15347-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://www.atlascines.com/Peliculas?codPelicula=594&codComplejo=198",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": "198-20261014-594-15339-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Doblada",
+            "df": "198-20261014-594-15344-1",
             "cinemark": null
           }
         ]
@@ -12508,19 +12484,6 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://cartelera.ar/pelicula/hope",
-        "imagen": "/posters/1n37BJchWHLiSYQkuFxe5KjB951.jpg",
-        "funciones": [
-          {
-            "horario": "20:50",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "La vida es así",
         "url": "https://cartelera.ar/pelicula/la-vida-es-asi",
         "imagen": "/posters/la-vida-es-asi.jpg",
@@ -12559,6 +12522,19 @@
         "funciones": [
           {
             "horario": "18:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Hope: el Primer Impacto",
+        "url": "https://cartelera.ar/pelicula/hope-el-primer-impacto",
+        "imagen": "/posters/hope-el-primer-impacto.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
