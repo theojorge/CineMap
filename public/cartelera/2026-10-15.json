@@ -1,5 +1,425 @@
 [
   {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Las Magnolias 754, Palmas del Pilar",
+    "peliculas": [
+      {
+        "titulo": "Avengers: Endgame",
+        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
+        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada",
+            "df": "187-180-10250-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cars",
+        "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
+        "imagen": "/posters/cars-re-estreno.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "187-217-10247-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada",
+            "df": "187-217-10262-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El corazón de la bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-199-10266-20261015-4",
+            "cinemark": null
+          },
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": "187-199-10226-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": "187-199-10227-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-199-10268-20261015-4",
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-199-10269-20261015-4",
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": "187-199-10230-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "En Llamas:los Juegos Del Hambre (re)",
+        "url": "https://multiplex.com.ar/peliculas/en-llamaslos-juegos-del-hambre-re/",
+        "imagen": "/posters/en-llamas-los-juegos-del-hambre-re.jpg",
+        "funciones": [
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "187-219-10181-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Escuela De Monstruos",
+        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
+        "imagen": "/posters/escuela-de-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Doblada",
+            "df": "187-224-10236-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "187-224-10252-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Juste une illusion",
+        "url": "https://cartelera.ar/pelicula/juste-une-illusion",
+        "imagen": "/posters/eWPq3wSvJEMakESTXzaBECUNBYr.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Subtitulada",
+            "df": "187-225-10257-20261015",
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": "187-225-10260-20261015",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La caída de la ballena",
+        "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
+        "imagen": "/posters/la-caida-de-la-ballena.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Doblada",
+            "df": "187-223-10231-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": "187-223-10232-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": "187-223-10233-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "4D (2D) Doblada",
+            "df": "187-223-10245-20261015-7",
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "4D (2D) Doblada",
+            "df": "187-223-10246-20261015-7",
+            "cinemark": null
+          },
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": "187-223-10234-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": "187-223-10235-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La casa",
+        "url": "https://multiplex.com.ar/peliculas/la-casa/",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": "187-214-10261-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": "187-214-10228-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": "187-214-10229-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "187-215-10248-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": "187-215-10249-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada",
+            "df": "187-215-10263-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": "187-215-10264-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": "187-215-10265-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Quiero Tu Sexo",
+        "url": "https://multiplex.com.ar/peliculas/quiero-tu-sexo/",
+        "imagen": "/posters/quiero-tu-sexo.jpg",
+        "funciones": [
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": "187-226-10253-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": "187-193-10238-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": "187-193-10239-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": "187-193-10240-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Doblada",
+            "df": "187-193-10241-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": "187-193-10242-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Spider-Man: Un nuevo día",
+        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
+        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
+        "funciones": [
+          {
+            "horario": "12:10",
+            "formato": "2D Doblada",
+            "df": "187-145-10237-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Street Fighter",
+        "url": "https://multiplex.com.ar/peliculas/street-fighter/",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada",
+            "df": "187-222-10251-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "13:30",
+            "formato": "4D (2D) Doblada",
+            "df": "187-222-10243-20261015-7",
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "4D (2D) Doblada",
+            "df": "187-222-10244-20261015-7",
+            "cinemark": null
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": "187-222-10254-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada",
+            "df": "187-222-10225-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada",
+            "df": "187-222-10200-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "4D (2D) Doblada",
+            "df": "187-222-10188-20261015-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Tiempos De Ilusion",
+        "url": "https://multiplex.com.ar/peliculas/tiempos-de-ilusion/",
+        "imagen": "/posters/tiempos-de-ilusion.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Subtitulada",
+            "df": "187-225-10257-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": "187-225-10260-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity. La sombra de un engaño",
+        "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": "187-204-10256-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-204-10267-20261015-4",
+            "cinemark": null
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada",
+            "df": "187-204-10258-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": "187-204-10259-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-204-10270-20261015-4",
+            "cinemark": null
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": "187-204-10255-20261015-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Caballito",
     "slug": "atlas-caballito",
@@ -609,6 +1029,31 @@
     "direccion": "Formosa 653, Canning (Shopping Las Toscas)",
     "peliculas": [
       {
+        "titulo": "El Corazon De La Bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": "180-199-7258-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada",
+            "df": "180-199-7243-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": "180-199-7260-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
         "titulo": "En Llamas:los Juegos Del Hambre (re)",
         "url": "https://multiplex.com.ar/peliculas/en-llamaslos-juegos-del-hambre-re/",
         "imagen": "/posters/en-llamas-los-juegos-del-hambre-re.jpg",
@@ -622,18 +1067,149 @@
         ]
       },
       {
+        "titulo": "Escuela De Monstruos",
+        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
+        "imagen": "/posters/escuela-de-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": "180-224-7247-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": "180-224-7248-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Caida De La Ballena",
+        "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
+        "imagen": "/posters/la-caida-de-la-ballena.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": "180-223-7252-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:15",
+            "formato": "2D Doblada",
+            "df": "180-223-7253-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada",
+            "df": "180-223-7259-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": "180-223-7255-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:45",
+            "formato": "4D (2D) Doblada",
+            "df": "180-223-7263-20261015-7",
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "4D (2D) Doblada",
+            "df": "180-223-7264-20261015-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Casa",
+        "url": "https://multiplex.com.ar/peliculas/la-casa/",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada",
+            "df": "180-214-7250-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre Siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": "180-215-7257-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:15",
+            "formato": "2D Doblada",
+            "df": "180-215-7249-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:45",
+            "formato": "2D Doblada",
+            "df": "180-215-7244-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "180-215-7245-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "18:25",
+            "formato": "2D Doblada",
+            "df": "180-193-7254-20261015-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "180-193-7261-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
         "titulo": "Street Fighter",
         "url": "https://multiplex.com.ar/peliculas/street-fighter/",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "15:30",
-            "formato": "4D (2D) Doblada",
-            "df": "180-222-7203-20261015-7",
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": "180-222-7256-20261015-1",
             "cinemark": null
           },
           {
-            "horario": "16:00",
+            "horario": "13:30",
+            "formato": "4D (2D) Doblada",
+            "df": "180-222-7262-20261015-7",
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
             "formato": "2D Doblada",
             "df": "180-222-7188-20261015-1",
             "cinemark": null
@@ -645,7 +1221,7 @@
             "cinemark": null
           },
           {
-            "horario": "18:10",
+            "horario": "18:00",
             "formato": "2D Doblada",
             "df": "180-222-7189-20261015-1",
             "cinemark": null
@@ -663,9 +1239,35 @@
             "cinemark": null
           },
           {
-            "horario": "22:30",
+            "horario": "22:40",
             "formato": "2D Doblada",
             "df": "180-222-7191-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada",
+            "df": "180-135-7246-20261015-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity,la Sombra De Un Engaño",
+        "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "22:35",
+            "formato": "2D Subtitulada",
+            "df": "180-204-7251-20261015-1",
             "cinemark": null
           }
         ]
@@ -987,68 +1589,9 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "20:00",
-            "formato": "2D Doblada",
-            "df": "184-222-8377-20261015-1",
-            "cinemark": null
-          },
-          {
             "horario": "20:50",
             "formato": "4D (2D) Doblada",
             "df": "184-222-8374-20261015-7",
-            "cinemark": null
-          },
-          {
-            "horario": "22:15",
-            "formato": "2D Doblada",
-            "df": "184-222-8378-20261015-1",
-            "cinemark": null
-          },
-          {
-            "horario": "23:05",
-            "formato": "4D (2D) Doblada",
-            "df": "184-222-8376-20261015-7",
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Pilar",
-    "slug": "multiplex-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Las Magnolias 754, Palmas del Pilar",
-    "peliculas": [
-      {
-        "titulo": "En Llamas:los Juegos Del Hambre (re)",
-        "url": "https://multiplex.com.ar/peliculas/en-llamaslos-juegos-del-hambre-re/",
-        "imagen": "/posters/en-llamas-los-juegos-del-hambre-re.jpg",
-        "funciones": [
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada",
-            "df": "187-219-10181-20261015-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Street Fighter",
-        "url": "https://multiplex.com.ar/peliculas/street-fighter/",
-        "imagen": "/posters/street-fighter.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada",
-            "df": "187-222-10200-20261015-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:30",
-            "formato": "4D (2D) Doblada",
-            "df": "187-222-10188-20261015-7",
             "cinemark": null
           }
         ]
