@@ -3337,12 +3337,6 @@
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188045, \"corporateFilmId\": \"112852\"}"
           },
           {
-            "horario": "20:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188054, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "22:20",
             "formato": "2D Doblada",
             "df": null,
@@ -3434,12 +3428,6 @@
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188041, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188019, \"corporateFilmId\": \"110805\"}"
           }
         ]
       },
@@ -3504,6 +3492,12 @@
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187943, \"corporateFilmId\": \"110811\"}"
           },
           {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188414, \"corporateFilmId\": \"110811\"}"
+          },
+          {
             "horario": "22:00",
             "formato": "2D Doblada",
             "df": null,
@@ -3514,6 +3508,12 @@
             "formato": "DBOX 2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187944, \"corporateFilmId\": \"110811\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188419, \"corporateFilmId\": \"110811\"}"
           }
         ]
       },
@@ -10255,19 +10255,6 @@
         ]
       },
       {
-        "titulo": "El corazón de la bestia",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=578&codComplejo=197",
-        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
-        "funciones": [
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "La casa",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=595&codComplejo=197",
         "imagen": "/posters/la-casa.jpg",
@@ -10281,32 +10268,6 @@
         ]
       },
       {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=497&codComplejo=197",
-        "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
-        "funciones": [
-          {
-            "horario": "15:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Resident Evil: Noche Cero",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=569&codComplejo=197",
-        "imagen": "/posters/resident-evil-noche-cero.jpg",
-        "funciones": [
-          {
-            "horario": "22:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "La isla olvidada",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=580&codComplejo=197",
         "imagen": "/posters/la-isla-olvidada.jpg",
@@ -10315,12 +10276,6 @@
             "horario": "14:40",
             "formato": "2D Doblada",
             "df": "197-20261019-580-18501-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada",
-            "df": null,
             "cinemark": null
           }
         ]
