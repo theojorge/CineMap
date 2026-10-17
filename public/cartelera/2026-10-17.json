@@ -7,19 +7,6 @@
     "direccion": "Paraná 3745, Unicenter Shopping",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 252498, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
@@ -44,12 +31,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "13:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256687, \"corporateFilmId\": \"113132\"}"
-          },
-          {
             "horario": "16:20",
             "formato": "2D Doblada",
             "df": null,
@@ -69,12 +50,6 @@
         "imagen": "",
         "funciones": [
           {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256471, \"corporateFilmId\": \"113312\"}"
-          },
-          {
             "horario": "18:00",
             "formato": "2D Doblada",
             "df": null,
@@ -89,35 +64,10 @@
         ]
       },
       {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "13:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256476, \"corporateFilmId\": \"110227\"}"
-          },
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256691, \"corporateFilmId\": \"110227\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Digger",
         "url": "https://www.cinemark.com.ar/peliculas/digger",
         "imagen": "/posters/digger.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "PREMIER 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256715, \"corporateFilmId\": \"110807\"}"
-          },
           {
             "horario": "16:20",
             "formato": "PREMIER 2D Subtitulada",
@@ -137,12 +87,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256489, \"corporateFilmId\": \"112894\"}"
-          },
           {
             "horario": "14:50",
             "formato": "2D Subtitulada",
@@ -175,12 +119,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256499, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "15:40",
             "formato": "2D Doblada",
             "df": null,
@@ -212,30 +150,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "12:15",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256696, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "12:15",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256696, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256697, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:40",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256697, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "16:10",
             "formato": "4D 2D Doblada",
@@ -317,12 +231,6 @@
         "imagen": "/posters/la-isla-olvidada.jpg",
         "funciones": [
           {
-            "horario": "12:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256690, \"corporateFilmId\": \"110806\"}"
-          },
-          {
             "horario": "16:30",
             "formato": "2D Doblada",
             "df": null,
@@ -361,24 +269,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "12:05",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256494, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256706, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "14:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256495, \"corporateFilmId\": \"112852\"}"
-          },
           {
             "horario": "15:20",
             "formato": "2D Doblada",
@@ -429,12 +319,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "15:40",
             "formato": "2D Doblada",
             "df": null,
@@ -472,18 +356,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256466, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256484, \"corporateFilmId\": \"110805\"}"
-          },
           {
             "horario": "15:50",
             "formato": "2D Doblada",
@@ -547,36 +419,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "11:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256695, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "11:50",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256695, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "13:40",
-            "formato": "4D 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256480, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256336, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256336, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "17:10",
             "formato": "2D Subtitulada",
             "df": null,
@@ -625,24 +467,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
-          {
-            "horario": "12:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256701, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "12:00",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256701, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "13:00",
-            "formato": "PREMIER 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 256711, \"corporateFilmId\": \"110808\"}"
-          },
           {
             "horario": "14:45",
             "formato": "2D Subtitulada",
@@ -726,12 +550,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": "191-20261017-593-24721-1",
-            "cinemark": null
-          },
-          {
             "horario": "17:10",
             "formato": "2D Doblada",
             "df": "191-20261017-593-24722-1",
@@ -785,35 +603,10 @@
         ]
       },
       {
-        "titulo": "PAW Patrol: La Dino Película",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=528&codComplejo=191",
-        "imagen": "/posters/paw-patrol-la-dino-pelicula.jpg",
-        "funciones": [
-          {
-            "horario": "12:10",
-            "formato": "2D Doblada",
-            "df": "191-20261017-528-24445-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": "191-20261017-528-24451-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Resident Evil: Noche Cero",
         "url": "https://www.atlascines.com/Peliculas?codPelicula=569&codComplejo=191",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "12:15",
-            "formato": "2D Doblada",
-            "df": "191-20261017-569-24443-1",
-            "cinemark": null
-          },
           {
             "horario": "18:30",
             "formato": "2D Subtitulada",
@@ -866,18 +659,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": "191-20261017-598-24404-1",
-            "cinemark": null
-          },
-          {
-            "horario": "13:00",
-            "formato": "4DX Doblada",
-            "df": "191-20261017-598-24706-4",
-            "cinemark": null
-          },
-          {
             "horario": "15:00",
             "formato": "2D Doblada",
             "df": "191-20261017-598-24405-1",
@@ -924,25 +705,6 @@
             "horario": "22:20",
             "formato": "2D Subtitulada",
             "df": "191-20261017-594-24724-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.atlascines.com/Peliculas?codPelicula=547&codComplejo=191",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": "191-20261017-547-24444-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": "191-20261017-547-24450-1",
             "cinemark": null
           }
         ]
@@ -1004,18 +766,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": "191-20261017-597-24442-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": "191-20261017-597-24448-1",
-            "cinemark": null
-          },
-          {
             "horario": "20:20",
             "formato": "2D Subtitulada",
             "df": "191-20261017-597-24462-1",
@@ -1034,12 +784,6 @@
         "url": "https://www.atlascines.com/Peliculas?codPelicula=605&codComplejo=191",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Doblada",
-            "df": "191-20261017-605-24441-1",
-            "cinemark": null
-          },
           {
             "horario": "15:00",
             "formato": "2D Doblada",
@@ -1084,12 +828,6 @@
         "imagen": "/posters/eWPq3wSvJEMakESTXzaBECUNBYr.jpg",
         "funciones": [
           {
-            "horario": "14:40",
-            "formato": "2D Subtitulada",
-            "df": "191-20261017-607-24449-1",
-            "cinemark": null
-          },
-          {
             "horario": "19:30",
             "formato": "2D Subtitulada",
             "df": "191-20261017-607-24461-1",
@@ -1116,18 +854,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": "191-20261017-604-24440-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": "191-20261017-604-24446-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:20",
             "formato": "2D Doblada",
             "df": "191-20261017-604-24452-1",
@@ -1149,12 +875,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94729, \"corporateFilmId\": \"113132\"}"
-          },
           {
             "horario": "15:10",
             "formato": "2D Doblada",
@@ -1207,12 +927,6 @@
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
           {
-            "horario": "12:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94724, \"corporateFilmId\": \"110809\"}"
-          },
-          {
             "horario": "14:50",
             "formato": "2D Subtitulada",
             "df": null,
@@ -1243,12 +957,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94719, \"corporateFilmId\": \"112852\"}"
-          },
           {
             "horario": "15:30",
             "formato": "2D Subtitulada",
@@ -1281,18 +989,6 @@
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
           {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94714, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94715, \"corporateFilmId\": \"110805\"}"
-          },
-          {
             "horario": "19:40",
             "formato": "2D Doblada",
             "df": null,
@@ -1311,12 +1007,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94640, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "15:00",
             "formato": "2D Doblada",
@@ -1349,18 +1039,6 @@
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
           {
-            "horario": "12:10",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94734, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "14:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 94735, \"corporateFilmId\": \"110808\"}"
-          },
-          {
             "horario": "17:20",
             "formato": "2D Subtitulada",
             "df": null,
@@ -1390,19 +1068,6 @@
     "direccion": "Vedia 3626, Dot Baires Mall, Saavedra",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 151534, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
@@ -1421,12 +1086,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153744, \"corporateFilmId\": \"113132\"}"
-          },
-          {
             "horario": "16:00",
             "formato": "2D Doblada",
             "df": null,
@@ -1437,19 +1096,6 @@
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153746, \"corporateFilmId\": \"113132\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153611, \"corporateFilmId\": \"110227\"}"
           }
         ]
       },
@@ -1472,12 +1118,6 @@
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
           {
-            "horario": "12:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153610, \"corporateFilmId\": \"112894\"}"
-          },
-          {
             "horario": "19:40",
             "formato": "2D Subtitulada",
             "df": null,
@@ -1496,12 +1136,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153688, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:30",
             "formato": "XD 2D Subtitulada",
@@ -1578,12 +1212,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "XD 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153580, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:10",
             "formato": "2D Subtitulada",
             "df": null,
@@ -1652,18 +1280,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "12:50",
-            "formato": "4D 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153639, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153388, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "16:20",
             "formato": "2D Doblada",
             "df": null,
@@ -1688,18 +1304,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
-          {
-            "horario": "12:00",
-            "formato": "PREMIER 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153555, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "13:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153663, \"corporateFilmId\": \"110808\"}"
-          },
           {
             "horario": "14:50",
             "formato": "PREMIER 2D Subtitulada",
@@ -1737,19 +1341,6 @@
             "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153666, \"corporateFilmId\": \"110808\"}"
           }
         ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://www.cinemark.com.ar/peliculas/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "PREMIER 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 153531, \"corporateFilmId\": \"111086\"}"
-          }
-        ]
       }
     ]
   },
@@ -1761,42 +1352,10 @@
     "direccion": "Av. Hipólito Yrigoyen 10.700",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 133403, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
-        "titulo": "Avengers: Endgame",
-        "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "4D 3D IV Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135510, \"corporateFilmId\": \"112521\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "13:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135509, \"corporateFilmId\": \"113132\"}"
-          },
           {
             "horario": "16:15",
             "formato": "2D Doblada",
@@ -1817,12 +1376,6 @@
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
           {
-            "horario": "14:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135522, \"corporateFilmId\": \"112894\"}"
-          },
-          {
             "horario": "19:45",
             "formato": "2D Doblada",
             "df": null,
@@ -1835,12 +1388,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/escuela-de-monstruos",
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
-          {
-            "horario": "13:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135511, \"corporateFilmId\": \"113311\"}"
-          },
           {
             "horario": "16:00",
             "formato": "2D Doblada",
@@ -1860,30 +1407,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135518, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "12:00",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135518, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135495, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135495, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:00",
             "formato": "DBOX XD 2D Doblada",
@@ -1971,24 +1494,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135519, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "12:30",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135508, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "12:30",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135508, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "16:40",
             "formato": "2D Doblada",
             "df": null,
@@ -2044,12 +1549,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "13:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:00",
             "formato": "2D Doblada",
             "df": null,
@@ -2068,30 +1567,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "12:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135520, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "12:10",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135520, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135494, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135494, \"corporateFilmId\": \"110805\"}"
-          },
           {
             "horario": "16:50",
             "formato": "2D Doblada",
@@ -2148,18 +1623,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "12:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135220, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 135219, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "17:10",
             "formato": "2D Doblada",
             "df": null,
@@ -2214,29 +1677,10 @@
     "direccion": "Beruti 3399, Palermo",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 163174, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165666, \"corporateFilmId\": \"113132\"}"
-          },
           {
             "horario": "15:10",
             "formato": "2D Doblada",
@@ -2250,12 +1694,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/digger",
         "imagen": "/posters/digger.jpg",
         "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165680, \"corporateFilmId\": \"110807\"}"
-          },
           {
             "horario": "16:10",
             "formato": "2D Subtitulada",
@@ -2281,12 +1719,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165687, \"corporateFilmId\": \"112894\"}"
-          },
           {
             "horario": "15:10",
             "formato": "2D Subtitulada",
@@ -2319,12 +1751,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165671, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "15:50",
             "formato": "2D Doblada",
             "df": null,
@@ -2337,18 +1763,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "12:10",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165692, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:40",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165693, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "17:20",
             "formato": "2D Subtitulada",
@@ -2426,12 +1840,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165701, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:20",
             "formato": "2D Subtitulada",
             "df": null,
@@ -2462,12 +1870,6 @@
         "url": "https://cartelera.ar/pelicula/monstruosa-mia",
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "15:50",
             "formato": "2D Doblada",
@@ -2532,12 +1934,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "12:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165397, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "15:00",
             "formato": "2D Subtitulada",
             "df": null,
@@ -2581,18 +1977,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165684, \"corporateFilmId\": \"110808\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 165676, \"corporateFilmId\": \"110808\"}"
-          },
           {
             "horario": "17:10",
             "formato": "2D Subtitulada",
@@ -2647,12 +2031,6 @@
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "187-217-10339-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:10",
             "formato": "2D Doblada",
             "df": "187-217-10354-20261017-1",
@@ -2665,18 +2043,6 @@
         "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "PLATINUM 2D Subtitulada",
-            "df": "187-199-10358-20261017-4",
-            "cinemark": null
-          },
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": "187-199-10318-20261017-1",
-            "cinemark": null
-          },
           {
             "horario": "16:00",
             "formato": "2D Doblada",
@@ -2709,12 +2075,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": "187-224-10328-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "14:50",
             "formato": "2D Doblada",
             "df": "187-224-10344-20261017-1",
@@ -2746,18 +2106,6 @@
         "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "12:10",
-            "formato": "2D Doblada",
-            "df": "187-223-10323-20261017-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": "187-223-10324-20261017-1",
-            "cinemark": null
-          },
           {
             "horario": "16:20",
             "formato": "2D Doblada",
@@ -2795,12 +2143,6 @@
         "url": "https://multiplex.com.ar/peliculas/la-casa/",
         "imagen": "/posters/la-casa.jpg",
         "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": "187-214-10353-20261017-1",
-            "cinemark": null
-          },
           {
             "horario": "18:00",
             "formato": "2D Doblada",
@@ -2857,12 +2199,6 @@
         "url": "https://cartelera.ar/pelicula/monstruosa-mia",
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
-          {
-            "horario": "12:20",
-            "formato": "2D Doblada",
-            "df": "187-224-10328-20261017",
-            "cinemark": null
-          },
           {
             "horario": "14:50",
             "formato": "2D Doblada",
@@ -2935,35 +2271,10 @@
         ]
       },
       {
-        "titulo": "Spider-Man: Un nuevo día",
-        "url": "https://multiplex.com.ar/peliculas/spider-man-un-dia-nuevo/",
-        "imagen": "/posters/spider-man-un-dia-nuevo.jpg",
-        "funciones": [
-          {
-            "horario": "12:10",
-            "formato": "2D Doblada",
-            "df": "187-145-10329-20261017-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Street Fighter",
         "url": "https://multiplex.com.ar/peliculas/street-fighter/",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": "187-222-10343-20261017-1",
-            "cinemark": null
-          },
-          {
-            "horario": "13:30",
-            "formato": "4D (2D) Doblada",
-            "df": "187-222-10335-20261017-7",
-            "cinemark": null
-          },
           {
             "horario": "15:50",
             "formato": "4D (2D) Doblada",
@@ -3021,12 +2332,6 @@
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
           {
-            "horario": "12:50",
-            "formato": "2D Doblada",
-            "df": "187-204-10348-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "15:40",
             "formato": "PLATINUM 2D Subtitulada",
             "df": "187-204-10359-20261017-4",
@@ -3067,19 +2372,6 @@
     "zona": "CABA",
     "direccion": "Av. Corrientes 3247, Abasto Shopping",
     "peliculas": [
-      {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 185684, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
       {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
@@ -3131,12 +2423,6 @@
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188184, \"corporateFilmId\": \"110227\"}"
-          },
-          {
             "horario": "16:50",
             "formato": "2D Doblada",
             "df": null,
@@ -3155,12 +2441,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188170, \"corporateFilmId\": \"112894\"}"
-          },
           {
             "horario": "15:40",
             "formato": "2D Doblada",
@@ -3193,12 +2473,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188155, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "16:00",
             "formato": "2D Doblada",
             "df": null,
@@ -3224,18 +2498,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188207, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188207, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:30",
             "formato": "2D Subtitulada",
@@ -3311,12 +2573,6 @@
         "imagen": "/posters/la-isla-olvidada.jpg",
         "funciones": [
           {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188192, \"corporateFilmId\": \"110806\"}"
-          },
-          {
             "horario": "18:20",
             "formato": "2D Doblada",
             "df": null,
@@ -3342,18 +2598,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188202, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "13:00",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188202, \"corporateFilmId\": \"112852\"}"
-          },
           {
             "horario": "15:20",
             "formato": "2D Doblada",
@@ -3422,12 +2666,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:00",
             "formato": "2D Doblada",
             "df": null,
@@ -3441,12 +2679,6 @@
         "imagen": "/posters/quiero-tu-sexo.jpg",
         "funciones": [
           {
-            "horario": "13:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188187, \"corporateFilmId\": \"113310\"}"
-          },
-          {
             "horario": "20:30",
             "formato": "2D Subtitulada",
             "df": null,
@@ -3459,12 +2691,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "13:25",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188197, \"corporateFilmId\": \"110805\"}"
-          },
           {
             "horario": "15:45",
             "formato": "2D Doblada",
@@ -3515,18 +2741,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187933, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "13:30",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 187933, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "16:20",
             "formato": "2D Doblada",
@@ -3583,12 +2797,6 @@
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
           {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188175, \"corporateFilmId\": \"110808\"}"
-          },
-          {
             "horario": "15:00",
             "formato": "2D Doblada",
             "df": null,
@@ -3613,19 +2821,6 @@
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188179, \"corporateFilmId\": \"110808\"}"
           }
         ]
-      },
-      {
-        "titulo": "Vértigo 2",
-        "url": "https://www.cinemark.com.ar/peliculas/vertigo-2-punto-muerto",
-        "imagen": "/posters/vertigo-2.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 188180, \"corporateFilmId\": \"111098\"}"
-          }
-        ]
       }
     ]
   },
@@ -3637,29 +2832,10 @@
     "direccion": "Av. Pte. Illia 3770, Shopping Terrazas de Mayo",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 153486, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155804, \"corporateFilmId\": \"113132\"}"
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
@@ -3705,12 +2881,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "12:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155807, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "15:00",
             "formato": "2D Doblada",
             "df": null,
@@ -3725,29 +2895,10 @@
         ]
       },
       {
-        "titulo": "Hope",
-        "url": "https://www.cinemark.com.ar/peliculas/hope-el-primer-impacto",
-        "imagen": "/posters/hope-el-primer-impacto.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155821, \"corporateFilmId\": \"113135\"}"
-          }
-        ]
-      },
-      {
         "titulo": "La caída de la ballena",
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155797, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:30",
             "formato": "DBOX XD 2D Doblada",
@@ -3806,19 +2957,6 @@
         ]
       },
       {
-        "titulo": "La Odisea",
-        "url": "https://www.cinemark.com.ar/peliculas/la-odisea",
-        "imagen": "/posters/la-odisea.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155817, \"corporateFilmId\": \"110137\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Los Juegos del Hambre",
         "url": "https://www.cinemark.com.ar/peliculas/los-juegos-del-hambre-sinsajo-parte-2-2015",
         "imagen": "/posters/qSEn7KsGchT7qB08HlviyeTPrEr.jpg",
@@ -3836,18 +2974,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155788, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "13:00",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155788, \"corporateFilmId\": \"112852\"}"
-          },
           {
             "horario": "15:00",
             "formato": "2D Doblada",
@@ -3928,12 +3054,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "12:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "15:00",
             "formato": "2D Doblada",
             "df": null,
@@ -3965,12 +3085,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "12:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155812, \"corporateFilmId\": \"110805\"}"
-          },
           {
             "horario": "15:10",
             "formato": "2D Doblada",
@@ -4021,12 +3135,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 155719, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "16:20",
             "formato": "2D Doblada",
@@ -4087,18 +3195,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 739, \"sessionId\": 95079, \"corporateFilmId\": \"113132\"}"
-          },
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 739, \"sessionId\": 94969, \"corporateFilmId\": \"113132\"}"
-          },
-          {
             "horario": "17:10",
             "formato": "2D Doblada",
             "df": null,
@@ -4130,12 +3226,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 739, \"sessionId\": 94849, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:00",
             "formato": "2D Doblada",
@@ -4180,12 +3270,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "12:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 739, \"sessionId\": 95083, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:20",
             "formato": "2D Doblada",
             "df": null,
@@ -4229,12 +3313,6 @@
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
           {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 739, \"sessionId\": 94889, \"corporateFilmId\": \"110805\"}"
-          },
-          {
             "horario": "19:15",
             "formato": "2D Doblada",
             "df": null,
@@ -4253,12 +3331,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 739, \"sessionId\": 94801, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "16:40",
             "formato": "2D Doblada",
@@ -4307,12 +3379,6 @@
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
           {
-            "horario": "13:45",
-            "formato": "2D Doblada",
-            "df": "180-217-7289-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:10",
             "formato": "2D Doblada",
             "df": "180-217-7290-20261017-1",
@@ -4351,12 +3417,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": "180-224-7295-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:30",
             "formato": "2D Doblada",
             "df": "180-224-7296-20261017-1",
@@ -4369,12 +3429,6 @@
         "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": "180-223-7300-20261017-1",
-            "cinemark": null
-          },
           {
             "horario": "15:45",
             "formato": "4D (2D) Doblada",
@@ -4426,12 +3480,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": "180-215-7305-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "18:15",
             "formato": "2D Doblada",
             "df": "180-215-7297-20261017-1",
@@ -4456,12 +3504,6 @@
         "url": "https://cartelera.ar/pelicula/monstruosa-mia",
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": "180-224-7295-20261017",
-            "cinemark": null
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
@@ -4508,18 +3550,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": "180-222-7304-20261017-1",
-            "cinemark": null
-          },
-          {
-            "horario": "13:30",
-            "formato": "4D (2D) Doblada",
-            "df": "180-222-7310-20261017-7",
-            "cinemark": null
-          },
-          {
             "horario": "15:50",
             "formato": "2D Doblada",
             "df": "180-222-7206-20261017-1",
@@ -4558,19 +3588,6 @@
         ]
       },
       {
-        "titulo": "Toy Story 5",
-        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "12:30",
-            "formato": "2D Doblada",
-            "df": "180-135-7294-20261017-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Verity. La sombra de un engaño",
         "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
@@ -4592,19 +3609,6 @@
     "zona": "GBA Oeste",
     "direccion": "J.M. de Rosas 658, Plaza Oeste Shopping",
     "peliculas": [
-      {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 134159, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
       {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
@@ -4718,18 +3722,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "12:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135772, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "12:50",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135772, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:10",
             "formato": "2D Doblada",
             "df": null,
@@ -4822,18 +3814,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135687, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:00",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 135687, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "16:50",
             "formato": "2D Doblada",
             "df": null,
@@ -4906,19 +3886,6 @@
     "direccion": "Güemes 897, Alto Avellaneda Shopping",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 64155, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
@@ -4956,12 +3923,6 @@
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
           {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65747, \"corporateFilmId\": \"112894\"}"
-          },
-          {
             "horario": "17:50",
             "formato": "2D Doblada",
             "df": null,
@@ -4981,12 +3942,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65757, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "15:30",
             "formato": "2D Doblada",
             "df": null,
@@ -4999,24 +3954,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "4D 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65762, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65766, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65766, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:20",
             "formato": "2D Doblada",
@@ -5080,12 +4017,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65742, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:30",
             "formato": "2D Doblada",
             "df": null,
@@ -5141,12 +4072,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "15:30",
             "formato": "2D Doblada",
             "df": null,
@@ -5159,18 +4084,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65752, \"corporateFilmId\": \"110805\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65752, \"corporateFilmId\": \"110805\"}"
-          },
           {
             "horario": "15:40",
             "formato": "2D Doblada",
@@ -5226,12 +4139,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65656, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
@@ -5293,19 +4200,6 @@
     "direccion": "Av. Victorica 1128, Nine Shopping",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 147417, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
@@ -5338,29 +4232,10 @@
         ]
       },
       {
-        "titulo": "Coyote vs. Acme",
-        "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
-        "imagen": "/posters/coyote-vs-acme.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149353, \"corporateFilmId\": \"110227\"}"
-          }
-        ]
-      },
-      {
         "titulo": "El corazón de la bestia",
         "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149360, \"corporateFilmId\": \"112894\"}"
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
@@ -5386,12 +4261,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/escuela-de-monstruos",
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149328, \"corporateFilmId\": \"113311\"}"
-          },
           {
             "horario": "15:30",
             "formato": "2D Doblada",
@@ -5424,18 +4293,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "13:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149349, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "13:45",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149349, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "16:00",
             "formato": "2D Doblada",
@@ -5492,12 +4349,6 @@
         "imagen": "/posters/la-casa.jpg",
         "funciones": [
           {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149345, \"corporateFilmId\": \"113134\"}"
-          },
-          {
             "horario": "19:20",
             "formato": "2D Doblada",
             "df": null,
@@ -5523,12 +4374,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "14:25",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149341, \"corporateFilmId\": \"112852\"}"
-          },
           {
             "horario": "16:50",
             "formato": "2D Doblada",
@@ -5566,12 +4411,6 @@
         "url": "https://cartelera.ar/pelicula/monstruosa-mia",
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "15:30",
             "formato": "2D Doblada",
@@ -5636,12 +4475,6 @@
         "imagen": "/posters/spider-man-un-nuevo-dia.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149333, \"corporateFilmId\": \"109316\"}"
-          },
-          {
             "horario": "15:50",
             "formato": "2D Doblada",
             "df": null,
@@ -5654,18 +4487,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149233, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "13:20",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149233, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "16:20",
             "formato": "2D Doblada",
@@ -5733,19 +4554,6 @@
     "direccion": "Av. Calchaquí 3950",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 182231, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
@@ -5770,12 +4578,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184536, \"corporateFilmId\": \"113132\"}"
-          },
-          {
             "horario": "16:30",
             "formato": "2D Doblada",
             "df": null,
@@ -5795,12 +4597,6 @@
         "imagen": "",
         "funciones": [
           {
-            "horario": "13:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184569, \"corporateFilmId\": \"113312\"}"
-          },
-          {
             "horario": "18:10",
             "formato": "2D Doblada",
             "df": null,
@@ -5819,12 +4615,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184577, \"corporateFilmId\": \"112894\"}"
-          },
           {
             "horario": "15:20",
             "formato": "2D Doblada",
@@ -5857,12 +4647,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:25",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184565, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "15:40",
             "formato": "2D Doblada",
             "df": null,
@@ -5888,18 +4672,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184548, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184553, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "16:35",
             "formato": "2D Doblada",
@@ -5982,18 +4754,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184543, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184557, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:25",
             "formato": "2D Doblada",
             "df": null,
@@ -6043,12 +4803,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "13:25",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "15:40",
             "formato": "2D Doblada",
             "df": null,
@@ -6080,12 +4834,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184561, \"corporateFilmId\": \"110805\"}"
-          },
           {
             "horario": "16:50",
             "formato": "2D Doblada",
@@ -6124,18 +4872,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184416, \"corporateFilmId\": \"110811\"}"
-          },
-          {
-            "horario": "14:00",
-            "formato": "4D 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184539, \"corporateFilmId\": \"110811\"}"
-          },
           {
             "horario": "16:15",
             "formato": "2D Doblada",
@@ -6203,12 +4939,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95449, \"corporateFilmId\": \"113132\"}"
-          },
-          {
             "horario": "17:00",
             "formato": "2D Doblada",
             "df": null,
@@ -6221,12 +4951,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
         "imagen": "/posters/el-corazon-de-la-bestia.jpg",
         "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95448, \"corporateFilmId\": \"112894\"}"
-          },
           {
             "horario": "20:30",
             "formato": "2D Doblada",
@@ -6246,12 +4970,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95450, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:20",
             "formato": "2D Doblada",
@@ -6289,18 +5007,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95577, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "14:20",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95577, \"corporateFilmId\": \"112852\"}"
-          },
           {
             "horario": "16:30",
             "formato": "DBOX XD 2D Doblada",
@@ -6363,12 +5069,6 @@
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95443, \"corporateFilmId\": \"110805\"}"
-          },
-          {
             "horario": "15:10",
             "formato": "2D Doblada",
             "df": null,
@@ -6400,12 +5100,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 95379, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "17:20",
             "formato": "2D Doblada",
             "df": null,
@@ -6435,29 +5129,10 @@
     "direccion": "Lavalle 780, CABA",
     "peliculas": [
       {
-        "titulo": "Avengers: Endgame",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D XTREMO Doblada",
-            "df": "184-180-8514-20261017-6",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Cars",
         "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-217-8534-20261017-1",
-            "cinemark": null
-          },
           {
             "horario": "15:10",
             "formato": "2D Doblada",
@@ -6497,18 +5172,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-224-8540-20261017-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": "184-224-8541-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:10",
             "formato": "2D Doblada",
             "df": "184-224-8542-20261017-1",
@@ -6534,18 +5197,6 @@
         "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": "184-223-8546-20261017-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:40",
-            "formato": "4D (2D) Doblada",
-            "df": "184-223-8518-20261017-7",
-            "cinemark": null
-          },
           {
             "horario": "15:55",
             "formato": "2D Doblada",
@@ -6603,12 +5254,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": "184-215-8528-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "15:15",
             "formato": "2D Doblada",
             "df": "184-215-8529-20261017-1",
@@ -6646,18 +5291,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-224-8540-20261017",
-            "cinemark": null
-          },
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": "184-224-8541-20261017",
-            "cinemark": null
-          },
-          {
             "horario": "16:10",
             "formato": "2D Doblada",
             "df": "184-224-8542-20261017",
@@ -6670,12 +5303,6 @@
         "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
         "imagen": "/posters/resident-evil-noche-cero.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "4D (2D) Doblada",
-            "df": "184-193-8517-20261017-7",
-            "cinemark": null
-          },
           {
             "horario": "17:30",
             "formato": "2D Doblada",
@@ -6734,12 +5361,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-222-8522-20261017-1",
-            "cinemark": null
-          },
-          {
             "horario": "15:15",
             "formato": "2D Doblada",
             "df": "184-222-8523-20261017-1",
@@ -6787,29 +5408,10 @@
     "direccion": "Vuelta de Obligado 2199, Belgrano",
     "peliculas": [
       {
-        "titulo": "Avengers: Endgame",
-        "url": "https://multiplex.com.ar/peliculas/avengers-endgame-re-estreno/",
-        "imagen": "/posters/avengers-endgame-re-estreno.jpg",
-        "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Subtitulada",
-            "df": "182-180-226359-20261017-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Cars",
         "url": "https://multiplex.com.ar/peliculas/cars-re-estreno/",
         "imagen": "/posters/cars-re-estreno.jpg",
         "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": "182-217-226362-20261017-1",
-            "cinemark": null
-          },
           {
             "horario": "16:05",
             "formato": "2D Doblada",
@@ -6843,12 +5445,6 @@
         "imagen": "/posters/digger.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-203-226360-20261017-5",
-            "cinemark": null
-          },
-          {
             "horario": "16:55",
             "formato": "2D + COMFORT PLUS Subtitulada",
             "df": "182-203-226378-20261017-11",
@@ -6876,35 +5472,10 @@
         ]
       },
       {
-        "titulo": "Escuela De Monstruos",
-        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
-        "imagen": "/posters/escuela-de-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": "182-224-226361-20261017-1",
-            "cinemark": null
-          },
-          {
-            "horario": "13:00",
-            "formato": "2D + COMFORT PLUS Doblada",
-            "df": "182-224-226358-20261017-11",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Juste une illusion",
         "url": "https://cartelera.ar/pelicula/juste-une-illusion",
         "imagen": "/posters/eWPq3wSvJEMakESTXzaBECUNBYr.jpg",
         "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Subtitulada",
-            "df": "182-225-226368-20261017",
-            "cinemark": null
-          },
           {
             "horario": "17:45",
             "formato": "2D Subtitulada",
@@ -6962,12 +5533,6 @@
         "imagen": "/posters/la-casa.jpg",
         "funciones": [
           {
-            "horario": "13:20",
-            "formato": "COMFORT PLUS 2D Doblada",
-            "df": "182-214-226355-20261017-5",
-            "cinemark": null
-          },
-          {
             "horario": "15:35",
             "formato": "COMFORT PLUS 2D Doblada",
             "df": "182-214-226365-20261017-5",
@@ -7012,12 +5577,6 @@
         "imagen": "/posters/la-vida-es-asi.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-213-226356-20261017-5",
-            "cinemark": null
-          },
-          {
             "horario": "15:20",
             "formato": "COMFORT PLUS 2D Subtitulada",
             "df": "182-213-226366-20261017-5",
@@ -7042,12 +5601,6 @@
         "url": "https://multiplex.com.ar/peliculas/los-colores-del-tiempo/",
         "imagen": "/posters/los-colores-del-tiempo.jpg",
         "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-149-226364-20261017-5",
-            "cinemark": null
-          },
           {
             "horario": "15:25",
             "formato": "COMFORT PLUS 2D Subtitulada",
@@ -7077,25 +5630,6 @@
             "horario": "22:20",
             "formato": "2D Subtitulada",
             "df": "182-215-226397-20261017-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Monstruosa Mia",
-        "url": "https://cartelera.ar/pelicula/monstruosa-mia",
-        "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "182-224-226358-20261017",
-            "cinemark": null
-          },
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": "182-224-226361-20261017",
             "cinemark": null
           }
         ]
@@ -7170,12 +5704,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "13:15",
-            "formato": "4D + 2D Subtitulada",
-            "df": "182-222-226363-20261017-10",
-            "cinemark": null
-          },
-          {
             "horario": "15:25",
             "formato": "COMFORT PLUS 2D Doblada",
             "df": "182-222-226370-20261017-5",
@@ -7219,12 +5747,6 @@
             "cinemark": null
           },
           {
-            "horario": "14:40",
-            "formato": "2D + COMFORT PLUS Subtitulada",
-            "df": "182-225-226368-20261017-11",
-            "cinemark": null
-          },
-          {
             "horario": "21:35",
             "formato": "2D + COMFORT PLUS Subtitulada",
             "df": "182-225-226395-20261017-11",
@@ -7237,12 +5759,6 @@
         "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
-          {
-            "horario": "13:15",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-204-226357-20261017-5",
-            "cinemark": null
-          },
           {
             "horario": "15:30",
             "formato": "COMFORT PLUS 2D Subtitulada",
@@ -7273,19 +5789,6 @@
     "direccion": "Ramal Pilar km 36,5, Tortuguitas TOM",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 129504, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Avengers: Endgame",
         "url": "https://www.cinemark.com.ar/peliculas/avengers-endgame-re-estreno",
         "imagen": "/posters/avengers-endgame-re-estreno.jpg",
@@ -7304,12 +5807,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131251, \"corporateFilmId\": \"113132\"}"
-          },
-          {
             "horario": "17:30",
             "formato": "2D Doblada",
             "df": null,
@@ -7322,12 +5819,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131329, \"corporateFilmId\": \"110227\"}"
-          },
           {
             "horario": "16:00",
             "formato": "2D Doblada",
@@ -7361,12 +5852,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131227, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "15:50",
             "formato": "2D Doblada",
             "df": null,
@@ -7392,18 +5877,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "DBOX XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131373, \"corporateFilmId\": \"110809\"}"
-          },
-          {
-            "horario": "14:20",
-            "formato": "XD 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131373, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "15:30",
             "formato": "2D Doblada",
@@ -7473,24 +5946,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131300, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131275, \"corporateFilmId\": \"112852\"}"
-          },
-          {
-            "horario": "14:40",
-            "formato": "DBOX 2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131275, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "17:00",
             "formato": "2D Doblada",
             "df": null,
@@ -7545,12 +6000,6 @@
         "url": "https://cartelera.ar/pelicula/monstruosa-mia",
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "15:50",
             "formato": "2D Doblada",
@@ -7615,12 +6064,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 756, \"sessionId\": 131167, \"corporateFilmId\": \"110811\"}"
-          },
-          {
             "horario": "16:50",
             "formato": "2D Doblada",
             "df": null,
@@ -7669,29 +6112,10 @@
     "direccion": "Av. Mitre 2702, Avellaneda",
     "peliculas": [
       {
-        "titulo": "Los Juegos del Hambre: Sinsajo - Parte 2",
-        "url": "https://cartelera.ar/pelicula/los-juegos-del-hambre-sinsajo-parte-2",
-        "imagen": "/posters/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Street Fighter",
         "url": "https://cartelera.ar/pelicula/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "13:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
@@ -7753,12 +6177,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:55",
             "formato": "2D Doblada",
             "df": null,
@@ -7815,12 +6233,6 @@
         "url": "https://cartelera.ar/pelicula/la-invitacion",
         "imagen": "/posters/la-invitacion.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "19:35",
             "formato": "2D Subtitulada",
@@ -7948,12 +6360,6 @@
         "imagen": "/posters/la-isla-olvidada.jpg",
         "funciones": [
           {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:25",
             "formato": "2D Doblada",
             "df": null,
@@ -7991,12 +6397,6 @@
         "url": "https://cartelera.ar/pelicula/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "16:40",
             "formato": "2D Doblada",
@@ -8054,12 +6454,6 @@
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "17:00",
             "formato": "2D Doblada",
             "df": null,
@@ -8078,12 +6472,6 @@
         "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:05",
             "formato": "2D Subtitulada",
@@ -8118,45 +6506,13 @@
         ]
       },
       {
-        "titulo": "Always Lalisa",
-        "url": "https://cartelera.ar/pelicula/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Quiero Tu Sexo",
         "url": "https://cartelera.ar/pelicula/quiero-tu-sexo",
         "imagen": "/posters/quiero-tu-sexo.jpg",
         "funciones": [
           {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "22:30",
             "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Guardianes Del Museo 2",
-        "url": "https://cartelera.ar/pelicula/guardianes-del-museo-2",
-        "imagen": "/posters/guardianes-del-museo-2.jpg",
-        "funciones": [
-          {
-            "horario": "14:05",
-            "formato": "2D Doblada",
             "df": null,
             "cinemark": null
           }
@@ -8211,12 +6567,6 @@
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
           {
-            "horario": "14:05",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "14:55",
             "formato": "2D Subtitulada",
             "df": null,
@@ -8260,12 +6610,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:15",
             "formato": "2D Doblada",
             "df": null,
@@ -8282,19 +6626,6 @@
     "zona": "CABA",
     "direccion": "Vicente López 2050, Recoleta",
     "peliculas": [
-      {
-        "titulo": "Los Juegos del Hambre: Sinsajo - Parte 2",
-        "url": "https://cartelera.ar/pelicula/los-juegos-del-hambre-sinsajo-parte-2",
-        "imagen": "/posters/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
       {
         "titulo": "Street Fighter",
         "url": "https://cartelera.ar/pelicula/street-fighter",
@@ -8337,29 +6668,10 @@
     "direccion": "Panamericana Km. 50, Pilar",
     "peliculas": [
       {
-        "titulo": "Los Juegos del Hambre: Sinsajo - Parte 2",
-        "url": "https://cartelera.ar/pelicula/los-juegos-del-hambre-sinsajo-parte-2",
-        "imagen": "/posters/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Street Fighter",
         "url": "https://cartelera.ar/pelicula/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:10",
             "formato": "2D Doblada",
@@ -8421,12 +6733,6 @@
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
           {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": "192-20261017-593-19293-1",
-            "cinemark": null
-          },
-          {
             "horario": "17:10",
             "formato": "2D Doblada",
             "df": "192-20261017-593-19297-1",
@@ -8464,18 +6770,6 @@
         "url": "https://www.atlascines.com/Peliculas?codPelicula=598&codComplejo=192",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "4DX Doblada",
-            "df": "192-20261017-598-19376-4",
-            "cinemark": null
-          },
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": "192-20261017-598-19240-1",
-            "cinemark": null
-          },
           {
             "horario": "16:30",
             "formato": "4DX Doblada",
@@ -8589,12 +6883,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": "192-20261017-604-19294-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:00",
             "formato": "2D Doblada",
             "df": "192-20261017-604-19298-1",
@@ -8616,12 +6904,6 @@
         "url": "https://www.atlascines.com/Peliculas?codPelicula=593&codComplejo=198",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": "198-20261017-593-15440-1",
-            "cinemark": null
-          },
           {
             "horario": "16:40",
             "formato": "2D Doblada",
@@ -8712,12 +6994,6 @@
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": "198-20261017-605-15443-1",
-            "cinemark": null
-          },
-          {
             "horario": "19:20",
             "formato": "2D Doblada",
             "df": "198-20261017-605-15394-1",
@@ -8760,29 +7036,10 @@
     "direccion": "Av. Alicia Moreau de Justo 1920",
     "peliculas": [
       {
-        "titulo": "Always Lalisa",
-        "url": "https://www.cinemark.com.ar/peliculas/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 115553, \"corporateFilmId\": \"112797\"}"
-          }
-        ]
-      },
-      {
         "titulo": "Cars",
         "url": "https://www.cinemark.com.ar/peliculas/cars-20-aniversario",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 117075, \"corporateFilmId\": \"113132\"}"
-          },
           {
             "horario": "17:10",
             "formato": "2D Doblada",
@@ -8796,12 +7053,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/coyote-vs-acme",
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
-          {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116974, \"corporateFilmId\": \"110227\"}"
-          },
           {
             "horario": "16:30",
             "formato": "2D Doblada",
@@ -8835,12 +7086,6 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 116999, \"corporateFilmId\": \"113311\"}"
-          },
-          {
             "horario": "16:00",
             "formato": "2D Doblada",
             "df": null,
@@ -8859,12 +7104,6 @@
         "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 117028, \"corporateFilmId\": \"110809\"}"
-          },
           {
             "horario": "17:00",
             "formato": "2D Subtitulada",
@@ -8959,12 +7198,6 @@
         "url": "https://cartelera.ar/pelicula/monstruosa-mia",
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "16:00",
             "formato": "2D Doblada",
@@ -9101,19 +7334,6 @@
         ]
       },
       {
-        "titulo": "Una quinta en Portugal",
-        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
-        "imagen": "/posters/yq3HwogoVCxYkWyEd0aCi62ewjY.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Pepita la Pistolera",
         "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
         "imagen": "/posters/pepita-la-pistolera.jpg",
@@ -9216,12 +7436,6 @@
         "imagen": "/posters/eUlcEgtuZRtDC7nemNNSavcIFgX.jpg",
         "funciones": [
           {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "22:15",
             "formato": "2D Doblada",
             "df": null,
@@ -9256,12 +7470,6 @@
         "url": "https://cartelera.ar/pelicula/cars",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "14:35",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:15",
             "formato": "2D Doblada",
@@ -9420,12 +7628,6 @@
         "imagen": "/posters/la-isla-olvidada.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:55",
             "formato": "2D Doblada",
             "df": null,
@@ -9438,12 +7640,6 @@
         "url": "https://cartelera.ar/pelicula/digger",
         "imagen": "/posters/digger.jpg",
         "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:05",
             "formato": "2D Subtitulada",
@@ -9469,12 +7665,6 @@
         "url": "https://cartelera.ar/pelicula/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:20",
             "formato": "2D Doblada",
@@ -9526,12 +7716,6 @@
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
-            "horario": "14:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:45",
             "formato": "2D Doblada",
             "df": null,
@@ -9551,12 +7735,6 @@
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
           {
-            "horario": "14:25",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "17:00",
             "formato": "2D Subtitulada",
             "df": null,
@@ -9570,19 +7748,6 @@
           },
           {
             "horario": "22:15",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Always Lalisa",
-        "url": "https://cartelera.ar/pelicula/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
@@ -9688,12 +7853,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "14:25",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:25",
             "formato": "2D Doblada",
             "df": null,
@@ -9715,12 +7874,6 @@
         "url": "https://cartelera.ar/pelicula/cars",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "16:35",
             "formato": "2D Doblada",
@@ -9850,12 +8003,6 @@
         "imagen": "/posters/la-isla-olvidada.jpg",
         "funciones": [
           {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:50",
             "formato": "2D Doblada",
             "df": null,
@@ -9894,12 +8041,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:25",
             "formato": "2D Subtitulada",
             "df": null,
@@ -9931,12 +8072,6 @@
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
-            "horario": "14:05",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "17:30",
             "formato": "2D Doblada",
             "df": null,
@@ -9949,12 +8084,6 @@
         "url": "https://cartelera.ar/pelicula/verity-la-sombra-de-un-engano",
         "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
         "funciones": [
-          {
-            "horario": "14:25",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:00",
             "formato": "2D Subtitulada",
@@ -9969,19 +8098,6 @@
           },
           {
             "horario": "22:25",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Always Lalisa",
-        "url": "https://cartelera.ar/pelicula/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
@@ -10006,12 +8122,6 @@
         "url": "https://cartelera.ar/pelicula/madre-siniestra",
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
-          {
-            "horario": "14:15",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "16:30",
             "formato": "2D Subtitulada",
@@ -10069,12 +8179,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:10",
             "formato": "2D Doblada",
             "df": null,
@@ -10096,12 +8200,6 @@
         "url": "https://cartelera.ar/pelicula/cars",
         "imagen": "/posters/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
         "funciones": [
-          {
-            "horario": "14:20",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:00",
             "formato": "2D Doblada",
@@ -10206,12 +8304,6 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "17:20",
             "formato": "2D Doblada",
             "df": null,
@@ -10243,12 +8335,6 @@
         "imagen": "/posters/coyote-vs-acme.jpg",
         "funciones": [
           {
-            "horario": "14:25",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
             "horario": "16:45",
             "formato": "2D Doblada",
             "df": null,
@@ -10275,19 +8361,6 @@
           },
           {
             "horario": "22:20",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Always Lalisa",
-        "url": "https://cartelera.ar/pelicula/always-lalisa",
-        "imagen": "/posters/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
@@ -10480,12 +8553,6 @@
         "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
         "funciones": [
           {
-            "horario": "14:10",
-            "formato": "2D Doblada",
-            "df": "194-20261017-604-11535-1",
-            "cinemark": null
-          },
-          {
             "horario": "16:10",
             "formato": "2D Doblada",
             "df": "194-20261017-604-11536-1",
@@ -10507,12 +8574,6 @@
         "url": "https://cartelera.ar/pelicula/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:10",
             "formato": "2D Doblada",
@@ -10626,12 +8687,6 @@
         "imagen": "/posters/la-isla-olvidada.jpg",
         "funciones": [
           {
-            "horario": "14:40",
-            "formato": "2D Doblada",
-            "df": "197-20261017-580-18469-1",
-            "cinemark": null
-          },
-          {
             "horario": "18:00",
             "formato": "2D Doblada",
             "df": "197-20261017-580-18475-1",
@@ -10644,12 +8699,6 @@
         "url": "https://www.atlascines.com/Peliculas?codPelicula=598&codComplejo=197",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": "197-20261017-598-18416-1",
-            "cinemark": null
-          },
           {
             "horario": "17:00",
             "formato": "2D Doblada",
@@ -10767,19 +8816,6 @@
             "cinemark": null
           }
         ]
-      },
-      {
-        "titulo": "Hasta el fin del mundo (Versión del director)",
-        "url": "https://cartelera.ar/pelicula/hasta-el-fin-del-mundo-version-del-director",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
       }
     ]
   },
@@ -10795,12 +8831,6 @@
         "url": "https://cartelera.ar/pelicula/street-fighter",
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "IMAX Subtitulada",
-            "df": null,
-            "cinemark": null
-          },
           {
             "horario": "17:10",
             "formato": "IMAX Doblada",
