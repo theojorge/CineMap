@@ -4856,12 +4856,6 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 65858, \"corporateFilmId\": \"112852\"}"
-          },
-          {
             "horario": "15:30",
             "formato": "2D Doblada",
             "df": null,
@@ -5156,19 +5150,19 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:30",
+            "horario": "13:55",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149465, \"corporateFilmId\": \"113311\"}"
           },
           {
-            "horario": "15:30",
+            "horario": "15:50",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149466, \"corporateFilmId\": \"113311\"}"
           },
           {
-            "horario": "17:30",
+            "horario": "17:50",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 110, \"sessionId\": 149467, \"corporateFilmId\": \"113311\"}"
@@ -5613,13 +5607,13 @@
         "imagen": "/posters/escuela-de-monstruos.jpg",
         "funciones": [
           {
-            "horario": "13:25",
+            "horario": "14:05",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184752, \"corporateFilmId\": \"113311\"}"
           },
           {
-            "horario": "15:40",
+            "horario": "16:05",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184753, \"corporateFilmId\": \"113311\"}"
@@ -5645,13 +5639,13 @@
         "imagen": "/posters/la-caida-de-la-ballena.jpg",
         "funciones": [
           {
-            "horario": "13:00",
+            "horario": "13:25",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184735, \"corporateFilmId\": \"110809\"}"
           },
           {
-            "horario": "13:50",
+            "horario": "14:20",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184740, \"corporateFilmId\": \"110809\"}"
@@ -5706,7 +5700,7 @@
         "imagen": "/posters/la-casa.jpg",
         "funciones": [
           {
-            "horario": "15:30",
+            "horario": "15:40",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184736, \"corporateFilmId\": \"113134\"}"
@@ -5738,7 +5732,7 @@
         "imagen": "/posters/madre-siniestra.jpg",
         "funciones": [
           {
-            "horario": "13:10",
+            "horario": "13:25",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184730, \"corporateFilmId\": \"112852\"}"
@@ -5881,7 +5875,7 @@
         "imagen": "/posters/street-fighter.jpg",
         "funciones": [
           {
-            "horario": "13:30",
+            "horario": "13:35",
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 102, \"sessionId\": 184432, \"corporateFilmId\": \"110811\"}"
@@ -8059,156 +8053,6 @@
     ]
   },
   {
-    "cadena": "Cine Independiente",
-    "nombre": "Cine Gaumont",
-    "slug": "cine-gaumont",
-    "zona": "CABA",
-    "direccion": "Av. Rivadavia 1635, Congreso",
-    "peliculas": [
-      {
-        "titulo": "La casa",
-        "url": "https://cartelera.ar/pelicula/la-casa",
-        "imagen": "/posters/la-casa.jpg",
-        "funciones": [
-          {
-            "horario": "17:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Una quinta en Portugal",
-        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
-        "imagen": "/posters/yq3HwogoVCxYkWyEd0aCi62ewjY.jpg",
-        "funciones": [
-          {
-            "horario": "14:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Pepita la Pistolera",
-        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
-        "imagen": "/posters/pepita-la-pistolera.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "20:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Yo Narciso",
-        "url": "https://cartelera.ar/pelicula/yo-narciso",
-        "imagen": "/posters/yo-narciso.jpg",
-        "funciones": [
-          {
-            "horario": "17:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Lo dejamos acá",
-        "url": "https://cartelera.ar/pelicula/lo-dejamos-aca",
-        "imagen": "/posters/bk8T4enLxtWgHgVS5iX5yksWlMA.jpg",
-        "funciones": [
-          {
-            "horario": "15:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "19:45",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Escondida en mi cabeza",
-        "url": "https://cartelera.ar/pelicula/escondida-en-mi-cabeza",
-        "imagen": "/posters/escondida-en-mi-cabeza.jpg",
-        "funciones": [
-          {
-            "horario": "16:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Lo que Trajo la Tormenta",
-        "url": "https://cartelera.ar/pelicula/lo-que-trajo-la-tormenta",
-        "imagen": "/posters/mtGEmDEHEOzUChBUIpWjuYDmJ1a.jpg",
-        "funciones": [
-          {
-            "horario": "19:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Autopista América 2000",
-        "url": "https://cartelera.ar/pelicula/autopista-america-2000",
-        "imagen": "/posters/70fpNMoL1to1iN62R8lmjmNutQS.jpg",
-        "funciones": [
-          {
-            "horario": "21:30",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Cordobeces la película",
-        "url": "https://cartelera.ar/pelicula/cordobeces-la-pelicula",
-        "imagen": "/posters/eUlcEgtuZRtDC7nemNNSavcIFgX.jpg",
-        "funciones": [
-          {
-            "horario": "14:00",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          },
-          {
-            "horario": "22:15",
-            "formato": "2D Doblada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Atlas Cines",
     "nombre": "Atlas Catan",
     "slug": "atlas-catan",
@@ -9065,6 +8909,156 @@
             "formato": "2D Doblada",
             "df": null,
             "cinemark": "{\"cinemaId\": 739, \"sessionId\": 95071, \"corporateFilmId\": \"110808\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "Cine Gaumont",
+    "slug": "cine-gaumont",
+    "zona": "CABA",
+    "direccion": "Av. Rivadavia 1635, Congreso",
+    "peliculas": [
+      {
+        "titulo": "La casa",
+        "url": "https://cartelera.ar/pelicula/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Una quinta en Portugal",
+        "url": "https://cartelera.ar/pelicula/una-quinta-en-portugal",
+        "imagen": "/posters/yq3HwogoVCxYkWyEd0aCi62ewjY.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Pepita la Pistolera",
+        "url": "https://cartelera.ar/pelicula/pepita-la-pistolera",
+        "imagen": "/posters/pepita-la-pistolera.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Yo Narciso",
+        "url": "https://cartelera.ar/pelicula/yo-narciso",
+        "imagen": "/posters/yo-narciso.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Lo dejamos acá",
+        "url": "https://cartelera.ar/pelicula/lo-dejamos-aca",
+        "imagen": "/posters/bk8T4enLxtWgHgVS5iX5yksWlMA.jpg",
+        "funciones": [
+          {
+            "horario": "15:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "19:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Escondida en mi cabeza",
+        "url": "https://cartelera.ar/pelicula/escondida-en-mi-cabeza",
+        "imagen": "/posters/escondida-en-mi-cabeza.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Lo que Trajo la Tormenta",
+        "url": "https://cartelera.ar/pelicula/lo-que-trajo-la-tormenta",
+        "imagen": "/posters/mtGEmDEHEOzUChBUIpWjuYDmJ1a.jpg",
+        "funciones": [
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Autopista América 2000",
+        "url": "https://cartelera.ar/pelicula/autopista-america-2000",
+        "imagen": "/posters/70fpNMoL1to1iN62R8lmjmNutQS.jpg",
+        "funciones": [
+          {
+            "horario": "21:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Cordobeces la película",
+        "url": "https://cartelera.ar/pelicula/cordobeces-la-pelicula",
+        "imagen": "/posters/eUlcEgtuZRtDC7nemNNSavcIFgX.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": null
           }
         ]
       }
