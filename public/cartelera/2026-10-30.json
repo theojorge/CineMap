@@ -155,6 +155,572 @@
     ]
   },
   {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Lavalle",
+    "slug": "multiplex-lavalle",
+    "zona": "CABA",
+    "direccion": "Lavalle 780, CABA",
+    "peliculas": [
+      {
+        "titulo": "Backrooms",
+        "url": "https://multiplex.com.ar/peliculas/backrooms-sin-salida-version-extendida/",
+        "imagen": "/posters/backrooms-sin-salida-version-extendida.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": "184-158-8984-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "19:15",
+            "formato": "2D Doblada",
+            "df": "184-227-9141-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Doblada",
+            "df": "184-227-9154-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "13:00",
+            "formato": "4D (2D) Doblada",
+            "df": "184-227-9144-20261030-7",
+            "cinemark": null
+          },
+          {
+            "horario": "23:05",
+            "formato": "4D (2D) Doblada",
+            "df": "184-227-9149-20261030-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Corazon De La Bestia",
+        "url": "https://multiplex.com.ar/peliculas/el-corazon-de-la-bestia/",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": "184-199-9083-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Escuela De Monstruos",
+        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
+        "imagen": "/posters/escuela-de-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": "184-224-8975-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": "184-224-8977-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Estacion Zombie",
+        "url": "https://multiplex.com.ar/peliculas/estacion-zombie/",
+        "imagen": "/posters/estacion-zombie.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "184-236-8974-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": "184-236-8978-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Caida De La Ballena",
+        "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
+        "imagen": "/posters/la-caida-de-la-ballena.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": "184-223-9086-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada",
+            "df": "184-223-9088-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:25",
+            "formato": "2D Doblada",
+            "df": "184-223-9089-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:05",
+            "formato": "4D (2D) Doblada",
+            "df": "184-223-9148-20261030-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Caja Del Demonio",
+        "url": "https://multiplex.com.ar/peliculas/la-caja-del-demonio/",
+        "imagen": "/posters/la-caja-del-demonio.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": "184-238-9151-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:05",
+            "formato": "2D Doblada",
+            "df": "184-238-9143-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Los Otros (re)",
+        "url": "https://multiplex.com.ar/peliculas/los-otros-re/",
+        "imagen": "/posters/los-otros-re.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": "184-233-8976-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "184-233-8979-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre Siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": "184-215-9081-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada",
+            "df": "184-215-9084-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:15",
+            "formato": "2D Doblada",
+            "df": "184-215-9085-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Monstruosa Mia",
+        "url": "https://cartelera.ar/pelicula/monstruosa-mia",
+        "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": "184-224-8975-20261030",
+            "cinemark": null
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": "184-224-8977-20261030",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Obsesión",
+        "url": "https://multiplex.com.ar/peliculas/obsesion/",
+        "imagen": "/posters/obsesion.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "184-117-8981-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada",
+            "df": "184-117-8983-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Península",
+        "url": "https://cartelera.ar/pelicula/peninsula",
+        "imagen": "/posters/nrGIZEhaTt5GrIYRvFW4cMWY8du.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "184-236-8974-20261030",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": "184-236-8978-20261030",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Pinocho Sin Cuerdas",
+        "url": "https://multiplex.com.ar/peliculas/pinocho-sin-cuerdas/",
+        "imagen": "/posters/pinocho-sin-cuerdas.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "184-237-9150-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "184-237-9139-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:20",
+            "formato": "2D Doblada",
+            "df": "184-237-9142-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": "184-237-9137-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "¿queres Ser Mi Hijo?",
+        "url": "https://multiplex.com.ar/peliculas/queres-ser-mi-hijo/",
+        "imagen": "/posters/queres-ser-mi-hijo.jpg",
+        "funciones": [
+          {
+            "horario": "18:15",
+            "formato": "2D Doblada",
+            "df": "184-228-9087-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Resident Evil: Noche Cero",
+        "url": "https://multiplex.com.ar/peliculas/resident-evil-noche-cero/",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada",
+            "df": "184-193-9152-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada",
+            "df": "184-193-9155-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:00",
+            "formato": "4D (2D) Doblada",
+            "df": "184-193-9145-20261030-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Scary Movie",
+        "url": "https://multiplex.com.ar/peliculas/scary-movie-terrorificamente-incorrecta/",
+        "imagen": "/posters/scary-movie-terrorificamente-incorrecta.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "184-128-8980-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:55",
+            "formato": "2D Doblada",
+            "df": "184-128-8982-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:55",
+            "formato": "4D (2D) Doblada",
+            "df": "184-128-9146-20261030-7",
+            "cinemark": null
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada",
+            "df": "184-128-8985-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Street Fighter",
+        "url": "https://multiplex.com.ar/peliculas/street-fighter/",
+        "imagen": "/posters/street-fighter.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": "184-222-9082-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:50",
+            "formato": "4D (2D) Doblada",
+            "df": "184-222-9147-20261030-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Wildwood: El Bosque Salvaje",
+        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "184-239-9138-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada",
+            "df": "184-239-9136-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:55",
+            "formato": "2D Doblada",
+            "df": "184-239-9140-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada",
+            "df": "184-239-9153-20261030-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "GBA Norte",
+    "direccion": "Las Magnolias 754, Palmas del Pilar",
+    "peliculas": [
+      {
+        "titulo": "Backrooms",
+        "url": "https://multiplex.com.ar/peliculas/backrooms-sin-salida-version-extendida/",
+        "imagen": "/posters/backrooms-sin-salida-version-extendida.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": "187-158-10945-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Escuela De Monstruos",
+        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
+        "imagen": "/posters/escuela-de-monstruos.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": "187-224-10929-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": "187-224-10936-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Estacion Zombie",
+        "url": "https://multiplex.com.ar/peliculas/estacion-zombie/",
+        "imagen": "/posters/estacion-zombie.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "187-236-10962-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": "187-236-10964-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Los Otros (re)",
+        "url": "https://multiplex.com.ar/peliculas/los-otros-re/",
+        "imagen": "/posters/los-otros-re.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": "187-233-10932-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "187-233-10937-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Monstruosa Mia",
+        "url": "https://cartelera.ar/pelicula/monstruosa-mia",
+        "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": "187-224-10929-20261030",
+            "cinemark": null
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": "187-224-10936-20261030",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Obsesión",
+        "url": "https://multiplex.com.ar/peliculas/obsesion/",
+        "imagen": "/posters/obsesion.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "187-117-10941-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:45",
+            "formato": "2D Doblada",
+            "df": "187-117-10944-20261030-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Península",
+        "url": "https://cartelera.ar/pelicula/peninsula",
+        "imagen": "/posters/nrGIZEhaTt5GrIYRvFW4cMWY8du.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "187-236-10962-20261030",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": "187-236-10964-20261030",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Scary Movie",
+        "url": "https://multiplex.com.ar/peliculas/scary-movie-terrorificamente-incorrecta/",
+        "imagen": "/posters/scary-movie-terrorificamente-incorrecta.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "187-128-10939-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:55",
+            "formato": "2D Doblada",
+            "df": "187-128-10943-20261030-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:15",
+            "formato": "2D Doblada",
+            "df": "187-128-10946-20261030-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "cadena": "Cinemark Hoyts",
     "nombre": "Hoyts Abasto",
     "slug": "hoyts-abasto",
@@ -496,328 +1062,6 @@
     ]
   },
   {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Lavalle",
-    "slug": "multiplex-lavalle",
-    "zona": "CABA",
-    "direccion": "Lavalle 780, CABA",
-    "peliculas": [
-      {
-        "titulo": "Backrooms",
-        "url": "https://multiplex.com.ar/peliculas/backrooms-sin-salida-version-extendida/",
-        "imagen": "/posters/backrooms-sin-salida-version-extendida.jpg",
-        "funciones": [
-          {
-            "horario": "20:50",
-            "formato": "2D Doblada",
-            "df": "184-158-8984-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Escuela De Monstruos",
-        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
-        "imagen": "/posters/escuela-de-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada",
-            "df": "184-224-8975-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:50",
-            "formato": "2D Doblada",
-            "df": "184-224-8977-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Estacion Zombie",
-        "url": "https://multiplex.com.ar/peliculas/estacion-zombie/",
-        "imagen": "/posters/estacion-zombie.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-236-8974-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada",
-            "df": "184-236-8978-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Los Otros (re)",
-        "url": "https://multiplex.com.ar/peliculas/los-otros-re/",
-        "imagen": "/posters/los-otros-re.jpg",
-        "funciones": [
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada",
-            "df": "184-233-8976-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada",
-            "df": "184-233-8979-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Monstruosa Mia",
-        "url": "https://cartelera.ar/pelicula/monstruosa-mia",
-        "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada",
-            "df": "184-224-8975-20261030",
-            "cinemark": null
-          },
-          {
-            "horario": "18:50",
-            "formato": "2D Doblada",
-            "df": "184-224-8977-20261030",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Obsesión",
-        "url": "https://multiplex.com.ar/peliculas/obsesion/",
-        "imagen": "/posters/obsesion.jpg",
-        "funciones": [
-          {
-            "horario": "14:50",
-            "formato": "2D Doblada",
-            "df": "184-117-8981-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:45",
-            "formato": "2D Doblada",
-            "df": "184-117-8983-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Península",
-        "url": "https://cartelera.ar/pelicula/peninsula",
-        "imagen": "/posters/nrGIZEhaTt5GrIYRvFW4cMWY8du.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-236-8974-20261030",
-            "cinemark": null
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada",
-            "df": "184-236-8978-20261030",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Scary Movie",
-        "url": "https://multiplex.com.ar/peliculas/scary-movie-terrorificamente-incorrecta/",
-        "imagen": "/posters/scary-movie-terrorificamente-incorrecta.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "184-128-8980-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "16:55",
-            "formato": "2D Doblada",
-            "df": "184-128-8982-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "23:15",
-            "formato": "2D Doblada",
-            "df": "184-128-8985-20261030-1",
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Pilar",
-    "slug": "multiplex-pilar",
-    "zona": "GBA Norte",
-    "direccion": "Las Magnolias 754, Palmas del Pilar",
-    "peliculas": [
-      {
-        "titulo": "Backrooms",
-        "url": "https://multiplex.com.ar/peliculas/backrooms-sin-salida-version-extendida/",
-        "imagen": "/posters/backrooms-sin-salida-version-extendida.jpg",
-        "funciones": [
-          {
-            "horario": "20:50",
-            "formato": "2D Doblada",
-            "df": "187-158-10945-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Escuela De Monstruos",
-        "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
-        "imagen": "/posters/escuela-de-monstruos.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada",
-            "df": "187-224-10929-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:50",
-            "formato": "2D Doblada",
-            "df": "187-224-10936-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Estacion Zombie",
-        "url": "https://multiplex.com.ar/peliculas/estacion-zombie/",
-        "imagen": "/posters/estacion-zombie.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "187-236-10962-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada",
-            "df": "187-236-10964-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Los Otros (re)",
-        "url": "https://multiplex.com.ar/peliculas/los-otros-re/",
-        "imagen": "/posters/los-otros-re.jpg",
-        "funciones": [
-          {
-            "horario": "16:50",
-            "formato": "2D Doblada",
-            "df": "187-233-10932-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada",
-            "df": "187-233-10937-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Monstruosa Mia",
-        "url": "https://cartelera.ar/pelicula/monstruosa-mia",
-        "imagen": "/posters/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
-        "funciones": [
-          {
-            "horario": "15:10",
-            "formato": "2D Doblada",
-            "df": "187-224-10929-20261030",
-            "cinemark": null
-          },
-          {
-            "horario": "18:50",
-            "formato": "2D Doblada",
-            "df": "187-224-10936-20261030",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Obsesión",
-        "url": "https://multiplex.com.ar/peliculas/obsesion/",
-        "imagen": "/posters/obsesion.jpg",
-        "funciones": [
-          {
-            "horario": "14:50",
-            "formato": "2D Doblada",
-            "df": "187-117-10941-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:45",
-            "formato": "2D Doblada",
-            "df": "187-117-10944-20261030-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Península",
-        "url": "https://cartelera.ar/pelicula/peninsula",
-        "imagen": "/posters/nrGIZEhaTt5GrIYRvFW4cMWY8du.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "187-236-10962-20261030",
-            "cinemark": null
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada",
-            "df": "187-236-10964-20261030",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Scary Movie",
-        "url": "https://multiplex.com.ar/peliculas/scary-movie-terrorificamente-incorrecta/",
-        "imagen": "/posters/scary-movie-terrorificamente-incorrecta.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "187-128-10939-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "16:55",
-            "formato": "2D Doblada",
-            "df": "187-128-10943-20261030-1",
-            "cinemark": null
-          },
-          {
-            "horario": "23:15",
-            "formato": "2D Doblada",
-            "df": "187-128-10946-20261030-1",
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "cadena": "Cine Independiente",
     "nombre": "Sala Leopoldo Lugones",
     "slug": "sala-leopoldo-lugones",
@@ -947,6 +1191,28 @@
             "horario": "20:15",
             "formato": "2D Subtitulada",
             "df": "182-128-226976-20261030-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cine Independiente",
+    "nombre": "CineArte Cacodelphia",
+    "slug": "cinearte-cacodelphia",
+    "zona": "CABA",
+    "direccion": "Roque Sáenz Peña 1150, Buenos Aires",
+    "peliculas": [
+      {
+        "titulo": "NAZA",
+        "url": "https://cartelera.ar/pelicula/naza",
+        "imagen": "/posters/urM4MnCGIsCxowqDnwExSUtVKAg.jpg",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada",
+            "df": null,
             "cinemark": null
           }
         ]

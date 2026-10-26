@@ -859,30 +859,6 @@
         }
       }
     },
-    "cinepolis-lujan": {
-      "cadena": "Cinépolis",
-      "nombre": "Cinépolis Luján",
-      "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 17400,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 17400,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 21000,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        }
-      }
-    },
     "cinepolis-pilar": {
       "cadena": "Cinépolis",
       "nombre": "Cinépolis Pilar",
@@ -1037,14 +1013,14 @@
           "precio_jubilado": 14400,
           "precio_menor": 14400
         },
-        "xd 2d doblada": {
-          "formato": "XD 2D Doblada",
+        "xd 2d subtitulada": {
+          "formato": "XD 2D Subtitulada",
           "precio_general": 20000,
           "precio_jubilado": null,
           "precio_menor": null
         },
-        "xd 2d subtitulada": {
-          "formato": "XD 2D Subtitulada",
+        "xd 2d doblada": {
+          "formato": "XD 2D Doblada",
           "precio_general": 20000,
           "precio_jubilado": null,
           "precio_menor": null
@@ -1900,6 +1876,30 @@
           "precio_general": 15500,
           "precio_jubilado": null,
           "precio_menor": 12000
+        }
+      }
+    },
+    "cinepolis-lujan": {
+      "cadena": "Cinépolis",
+      "nombre": "Cinépolis Luján",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17400,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 21000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
         }
       }
     },
