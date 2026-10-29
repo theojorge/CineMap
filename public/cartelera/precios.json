@@ -1,24 +1,6 @@
 {
   "version": 1,
   "cines": {
-    "atlas-alcorta": {
-      "cadena": "Atlas Cines",
-      "nombre": "Atlas Alcorta",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 24000,
-          "precio_jubilado": 17000,
-          "precio_menor": 17000
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 24000,
-          "precio_jubilado": 17000,
-          "precio_menor": 17000
-        }
-      }
-    },
     "atlas-caballito": {
       "cadena": "Atlas Cines",
       "nombre": "Atlas Caballito",
@@ -131,14 +113,14 @@
       "cadena": "Atlas Cines",
       "nombre": "Atlas Nordelta",
       "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
           "precio_general": 18000,
           "precio_jubilado": 14000,
           "precio_menor": 14000
         },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
+        "2d doblada": {
+          "formato": "2D Doblada",
           "precio_general": 18000,
           "precio_jubilado": 14000,
           "precio_menor": 14000
@@ -148,24 +130,6 @@
           "precio_general": 15400,
           "precio_jubilado": 12400,
           "precio_menor": 12400
-        }
-      }
-    },
-    "atlas-patio-bullrich": {
-      "cadena": "Atlas Cines",
-      "nombre": "Atlas Patio Bullrich",
-      "formatos": {
-        "2d doblada": {
-          "formato": "2D Doblada",
-          "precio_general": 17000,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
-        },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 17000,
-          "precio_jubilado": 13500,
-          "precio_menor": 13500
         }
       }
     },
@@ -257,12 +221,6 @@
           "precio_jubilado": null,
           "precio_menor": null
         },
-        "4d 2d subtitulada": {
-          "formato": "4D 2D Subtitulada",
-          "precio_general": 28600,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 18800,
@@ -296,6 +254,12 @@
         "xd 2d subtitulada": {
           "formato": "XD 2D Subtitulada",
           "precio_general": 21400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d 2d subtitulada": {
+          "formato": "4D 2D Subtitulada",
+          "precio_general": 28600,
           "precio_jubilado": null,
           "precio_menor": null
         },
@@ -917,12 +881,6 @@
           "precio_jubilado": null,
           "precio_menor": null
         },
-        "premier 2d doblada": {
-          "formato": "PREMIER 2D Doblada",
-          "precio_general": 18000,
-          "precio_jubilado": 14400,
-          "precio_menor": 14400
-        },
         "premier 2d subtitulada": {
           "formato": "PREMIER 2D Subtitulada",
           "precio_general": 18000,
@@ -940,6 +898,12 @@
           "precio_general": 20000,
           "precio_jubilado": null,
           "precio_menor": null
+        },
+        "premier 2d doblada": {
+          "formato": "PREMIER 2D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 14400,
+          "precio_menor": 14400
         },
         "4d 3d iv subtitulada": {
           "formato": "4D 3D IV Subtitulada",
@@ -1193,12 +1157,6 @@
           "precio_jubilado": null,
           "precio_menor": null
         },
-        "dbox xd 2d subtitulada": {
-          "formato": "DBOX XD 2D Subtitulada",
-          "precio_general": 20000,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
         "xd 2d doblada": {
           "formato": "XD 2D Doblada",
           "precio_general": 20000,
@@ -1207,6 +1165,12 @@
         },
         "xd 2d subtitulada": {
           "formato": "XD 2D Subtitulada",
+          "precio_general": 20000,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "dbox xd 2d subtitulada": {
+          "formato": "DBOX XD 2D Subtitulada",
           "precio_general": 20000,
           "precio_jubilado": null,
           "precio_menor": null
@@ -1295,12 +1259,6 @@
           "precio_jubilado": null,
           "precio_menor": null
         },
-        "4d 2d subtitulada": {
-          "formato": "4D 2D Subtitulada",
-          "precio_general": 27400,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
         "dbox 2d doblada": {
           "formato": "DBOX 2D Doblada",
           "precio_general": 17600,
@@ -1324,6 +1282,12 @@
           "precio_general": 17600,
           "precio_jubilado": 14000,
           "precio_menor": 14000
+        },
+        "4d 2d subtitulada": {
+          "formato": "4D 2D Subtitulada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
         },
         "3d subtitulada": {
           "formato": "3D Subtitulada",
@@ -1559,17 +1523,17 @@
           "precio_jubilado": 10000,
           "precio_menor": 10000
         },
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": 15000,
-          "precio_jubilado": 10000,
-          "precio_menor": 10000
-        },
         "4d (2d) doblada": {
           "formato": "4D (2D) Doblada",
           "precio_general": null,
           "precio_jubilado": null,
           "precio_menor": null
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 15000,
+          "precio_jubilado": 10000,
+          "precio_menor": 10000
         },
         "2d xtremo doblada": {
           "formato": "2D XTREMO Doblada",
@@ -1786,6 +1750,42 @@
           "precio_general": 15500,
           "precio_jubilado": null,
           "precio_menor": 12000
+        }
+      }
+    },
+    "atlas-alcorta": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Alcorta",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 24000,
+          "precio_jubilado": 17000,
+          "precio_menor": 17000
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 24000,
+          "precio_jubilado": 17000,
+          "precio_menor": 17000
+        }
+      }
+    },
+    "atlas-patio-bullrich": {
+      "cadena": "Atlas Cines",
+      "nombre": "Atlas Patio Bullrich",
+      "formatos": {
+        "2d doblada": {
+          "formato": "2D Doblada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
+        },
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": 17000,
+          "precio_jubilado": 13500,
+          "precio_menor": 13500
         }
       }
     },
