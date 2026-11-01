@@ -1273,5 +1273,57 @@
         ]
       }
     ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Lavalle",
+    "slug": "multiplex-lavalle",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "Godzilla Minus Zero",
+        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "184-235-9284-20261106-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:25",
+            "formato": "2D Doblada",
+            "df": "184-235-9285-20261106-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": "184-235-9286-20261106-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:35",
+            "formato": "2D Doblada",
+            "df": "184-235-9287-20261106-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:35",
+            "formato": "4D (2D) Doblada",
+            "df": "184-235-9288-20261106-7",
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "4D (2D) Doblada",
+            "df": "184-235-9289-20261106-7",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
   }
 ]
