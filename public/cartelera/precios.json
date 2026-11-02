@@ -1463,17 +1463,17 @@
           "precio_jubilado": 20000,
           "precio_menor": 20000
         },
-        "2d xtremo doblada": {
-          "formato": "2D XTREMO Doblada",
-          "precio_general": 8000,
-          "precio_jubilado": 5300,
-          "precio_menor": 5300
-        },
         "4d (3d) doblada": {
           "formato": "4D (3D) Doblada",
           "precio_general": 21000,
           "precio_jubilado": 21000,
           "precio_menor": 21000
+        },
+        "2d xtremo doblada": {
+          "formato": "2D XTREMO Doblada",
+          "precio_general": 8000,
+          "precio_jubilado": 5300,
+          "precio_menor": 5300
         },
         "2d xtremo subtitulada": {
           "formato": "2D XTREMO Subtitulada",
@@ -1523,9 +1523,21 @@
           "precio_jubilado": 10000,
           "precio_menor": 10000
         },
+        "3d doblada": {
+          "formato": "3D Doblada",
+          "precio_general": 18000,
+          "precio_jubilado": 12000,
+          "precio_menor": 12000
+        },
         "4d (2d) doblada": {
           "formato": "4D (2D) Doblada",
           "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
+        "4d (3d) doblada": {
+          "formato": "4D (3D) Doblada",
+          "precio_general": 20000,
           "precio_jubilado": null,
           "precio_menor": null
         },
@@ -1546,18 +1558,6 @@
           "precio_general": null,
           "precio_jubilado": null,
           "precio_menor": null
-        },
-        "4d (3d) doblada": {
-          "formato": "4D (3D) Doblada",
-          "precio_general": 20000,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
-        "3d doblada": {
-          "formato": "3D Doblada",
-          "precio_general": 18000,
-          "precio_jubilado": 12000,
-          "precio_menor": 12000
         },
         "xtremo 2d doblada": {
           "formato": "XTREMO 2D Doblada",
