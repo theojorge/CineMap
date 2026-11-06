@@ -2171,6 +2171,12 @@
             "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166699, \"corporateFilmId\": \"111102\"}"
           },
           {
+            "horario": "16:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166700, \"corporateFilmId\": \"111102\"}"
+          },
+          {
             "horario": "19:20",
             "formato": "2D Subtitulada",
             "df": null,
@@ -8787,25 +8793,6 @@
         ]
       },
       {
-        "titulo": "Tierra De Mi Padre",
-        "url": "https://multiplex.com.ar/peliculas/tierra-de-mi-padre/",
-        "imagen": "/posters/tierra-de-mi-padre.jpg",
-        "funciones": [
-          {
-            "horario": "15:40",
-            "formato": "2D Subtitulada",
-            "df": "187-240-11508-20261109-1",
-            "cinemark": null
-          },
-          {
-            "horario": "19:20",
-            "formato": "2D Subtitulada",
-            "df": "187-240-11520-20261109-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Clayface",
         "url": "https://multiplex.com.ar/peliculas/clayface/",
         "imagen": "/posters/clayface.jpg",
@@ -8845,6 +8832,25 @@
             "horario": "23:00",
             "formato": "2D Doblada",
             "df": "187-215-11540-20261109-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Tierra De Mi Padre",
+        "url": "https://multiplex.com.ar/peliculas/tierra-de-mi-padre/",
+        "imagen": "/posters/tierra-de-mi-padre.jpg",
+        "funciones": [
+          {
+            "horario": "15:40",
+            "formato": "2D Subtitulada",
+            "df": "187-240-11508-20261109-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada",
+            "df": "187-240-11520-20261109-1",
             "cinemark": null
           }
         ]
@@ -9151,6 +9157,25 @@
         ]
       },
       {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-227-227603-20261109-5",
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D + COMFORT PLUS Subtitulada",
+            "df": "182-227-227627-20261109-11",
+            "cinemark": null
+          }
+        ]
+      },
+      {
         "titulo": "Tierra De Mi Padre",
         "url": "https://multiplex.com.ar/peliculas/tierra-de-mi-padre/",
         "imagen": "/posters/tierra-de-mi-padre.jpg",
@@ -9213,44 +9238,6 @@
         ]
       },
       {
-        "titulo": "La Cena",
-        "url": "https://multiplex.com.ar/peliculas/la-cena/",
-        "imagen": "/posters/la-cena.jpg",
-        "funciones": [
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada",
-            "df": "182-242-227600-20261109-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:30",
-            "formato": "COMFORT PLUS 2D Doblada",
-            "df": "182-242-227629-20261109-5",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Clayface",
-        "url": "https://multiplex.com.ar/peliculas/clayface/",
-        "imagen": "/posters/clayface.jpg",
-        "funciones": [
-          {
-            "horario": "15:30",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-227-227603-20261109-5",
-            "cinemark": null
-          },
-          {
-            "horario": "22:30",
-            "formato": "2D + COMFORT PLUS Subtitulada",
-            "df": "182-227-227627-20261109-11",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Escuela De Monstruos",
         "url": "https://multiplex.com.ar/peliculas/escuela-de-monstruos/",
         "imagen": "/posters/escuela-de-monstruos.jpg",
@@ -9303,6 +9290,25 @@
             "horario": "20:00",
             "formato": "COMFORT PLUS 2D Subtitulada",
             "df": "182-149-227619-20261109-5",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Cena",
+        "url": "https://multiplex.com.ar/peliculas/la-cena/",
+        "imagen": "/posters/la-cena.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "182-242-227600-20261109-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "COMFORT PLUS 2D Doblada",
+            "df": "182-242-227629-20261109-5",
             "cinemark": null
           }
         ]
