@@ -115,187 +115,328 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Moron",
-    "slug": "hoyts-moron",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 136657, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Quilmes",
-    "slug": "hoyts-quilmes",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 185749, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Abasto",
-    "slug": "hoyts-abasto",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189218, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Unicenter",
-    "slug": "hoyts-unicenter",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 258410, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Temperley",
-    "slug": "hoyts-temperley",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 136249, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Moreno",
-    "slug": "hoyts-moreno",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150243, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "DOT",
-    "slug": "hoyts-dot-baires",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 154501, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
-    "nombre": "Puerto Madero",
-    "slug": "cinemark-puerto-madero",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "ROCKY 50° ANIVERSARIO",
-        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
-        "imagen": "",
-        "funciones": [
-          {
-            "horario": "20:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 117726, \"corporateFilmId\": \"113935\"}"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Cinemark Hoyts",
     "nombre": "Palermo",
     "slug": "cinemark-palermo",
     "zona": "",
     "direccion": "",
     "peliculas": [
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "12:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166930, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166932, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166934, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166958, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "13:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166935, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166959, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166936, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166960, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166937, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "21:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166961, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166938, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "SENSATEZ Y SENTIMIENTO",
+        "url": "https://www.cinemark.com.ar/peliculas/sensatez-y-sentimiento",
+        "imagen": "/posters/sensatez-y-sentimiento.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166926, \"corporateFilmId\": \"113236\"}"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166927, \"corporateFilmId\": \"113236\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166928, \"corporateFilmId\": \"113236\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166929, \"corporateFilmId\": \"113236\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166954, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166950, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166955, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166956, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166957, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166941, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166946, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166947, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166948, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166949, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166922, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166923, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166924, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166925, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166942, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166943, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166944, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166945, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166939, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166940, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "DIGGER",
+        "url": "https://www.cinemark.com.ar/peliculas/digger",
+        "imagen": "/posters/digger.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166931, \"corporateFilmId\": \"110807\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166933, \"corporateFilmId\": \"110807\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166951, \"corporateFilmId\": \"110808\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166953, \"corporateFilmId\": \"110808\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "TIERRA DE MI PADRE",
+        "url": "https://www.cinemark.com.ar/peliculas/tierra-de-mi-padre",
+        "imagen": "/posters/tierra-de-mi-padre.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 733, \"sessionId\": 166952, \"corporateFilmId\": \"113775\"}"
+          }
+        ]
+      },
       {
         "titulo": "ROCKY 50° ANIVERSARIO",
         "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
@@ -319,6 +460,371 @@
     "direccion": "",
     "peliculas": [
       {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157207, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "17:25",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157209, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157210, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157177, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "13:00",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157177, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157178, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157178, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "18:50",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157179, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "18:50",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157179, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157191, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157180, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157180, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157192, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157211, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157212, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157213, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157214, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157193, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157194, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157195, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157196, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157197, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157181, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157181, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157182, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157182, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157183, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157183, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:40",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157184, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157184, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157218, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "¡PLUMAS! OPERACIÓN RESCATE",
+        "url": "https://www.cinemark.com.ar/peliculas/patos-operacion-rescate",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157202, \"corporateFilmId\": \"114050\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157203, \"corporateFilmId\": \"114050\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157215, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157216, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157217, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157185, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157189, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157186, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157190, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157187, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157198, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157199, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157200, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157201, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157208, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157204, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157206, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
         "titulo": "ROCKY 50° ANIVERSARIO",
         "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
         "imagen": "",
@@ -328,6 +834,3389 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 749, \"sessionId\": 156790, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "JU-ON: EL GRITO",
+        "url": "https://www.cinemark.com.ar/peliculas/ju-on-el-grito",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157205, \"corporateFilmId\": \"114048\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 749, \"sessionId\": 157188, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moron",
+    "slug": "hoyts-moron",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137026, \"corporateFilmId\": \"112894\"}"
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137027, \"corporateFilmId\": \"112894\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137029, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137009, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:10",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137010, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137011, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137012, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137021, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137022, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137023, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137024, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137025, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137005, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137005, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137006, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137006, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137007, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137007, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137008, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137008, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137031, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137032, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137033, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137034, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137035, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137037, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137018, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137013, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137014, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137014, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137015, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137015, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137016, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137016, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137017, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137017, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137019, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137020, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137036, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137038, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137028, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137030, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 101, \"sessionId\": 136657, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Unicenter",
+    "slug": "hoyts-unicenter",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "LA CASA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-casa",
+        "imagen": "/posters/la-casa.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259100, \"corporateFilmId\": \"113134\"}"
+          },
+          {
+            "horario": "15:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259101, \"corporateFilmId\": \"113134\"}"
+          },
+          {
+            "horario": "18:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259102, \"corporateFilmId\": \"113134\"}"
+          },
+          {
+            "horario": "20:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259103, \"corporateFilmId\": \"113134\"}"
+          },
+          {
+            "horario": "23:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259104, \"corporateFilmId\": \"113134\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259069, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259071, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:35",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259073, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259092, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "15:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259093, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259094, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259096, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259095, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259109, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:30",
+            "formato": "4D 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259084, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:50",
+            "formato": "DBOX 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259122, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:50",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259122, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259110, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "4D 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259085, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259123, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259123, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259111, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259124, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259124, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259112, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259114, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259114, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259115, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259115, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259116, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259116, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259086, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259117, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259117, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "4D 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259087, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259113, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259088, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259089, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259090, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259091, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "¡PLUMAS! OPERACIÓN RESCATE",
+        "url": "https://www.cinemark.com.ar/peliculas/patos-operacion-rescate",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259079, \"corporateFilmId\": \"114050\"}"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259080, \"corporateFilmId\": \"114050\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259074, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "18:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259076, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259078, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259097, \"corporateFilmId\": \"110808\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259098, \"corporateFilmId\": \"110808\"}"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259099, \"corporateFilmId\": \"110808\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259130, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "14:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259126, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259131, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "16:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259127, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259132, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259128, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "21:30",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259133, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259129, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259105, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259106, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259107, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259108, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259118, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259118, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:30",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259134, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259119, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259119, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259135, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:15",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259120, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259120, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259136, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:40",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259121, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259121, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "PREMIER 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259137, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259125, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259125, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "SENSATEZ Y SENTIMIENTO",
+        "url": "https://www.cinemark.com.ar/peliculas/sensatez-y-sentimiento",
+        "imagen": "/posters/sensatez-y-sentimiento.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259070, \"corporateFilmId\": \"113236\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259075, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259083, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "¿QUERÉS SER MI HIJO?",
+        "url": "https://www.cinemark.com.ar/peliculas/queres-ser-mi-hijo",
+        "imagen": "/posters/queres-ser-mi-hijo.jpg",
+        "funciones": [
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259081, \"corporateFilmId\": \"113211\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 258410, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "20:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259072, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "JU-ON: EL GRITO",
+        "url": "https://www.cinemark.com.ar/peliculas/ju-on-el-grito",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259082, \"corporateFilmId\": \"114048\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "PERFUME",
+        "url": "https://www.cinemark.com.ar/peliculas/perfume",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259077, \"corporateFilmId\": \"114053\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Abasto",
+    "slug": "hoyts-abasto",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189997, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189997, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189998, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189998, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189999, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189999, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189755, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:15",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190000, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190000, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189756, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189818, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189820, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189822, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "¡PLUMAS! OPERACIÓN RESCATE",
+        "url": "https://www.cinemark.com.ar/peliculas/patos-operacion-rescate",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "13:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189793, \"corporateFilmId\": \"114050\"}"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189794, \"corporateFilmId\": \"114050\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190001, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190001, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189753, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:50",
+            "formato": "DBOX 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190002, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:50",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190002, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189754, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "18:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190003, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190003, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189733, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189878, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189878, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189734, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189879, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189879, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189735, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189880, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189880, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189736, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:45",
+            "formato": "DBOX 2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189881, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189881, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189843, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189844, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189845, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189846, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189773, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189774, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189775, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189776, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189713, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189938, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189939, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189715, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189940, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190004, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189941, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189863, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189795, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189797, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189819, \"corporateFilmId\": \"110808\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189714, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189716, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189864, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189865, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189218, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "JU-ON: EL GRITO",
+        "url": "https://www.cinemark.com.ar/peliculas/ju-on-el-grito",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189796, \"corporateFilmId\": \"114048\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 189821, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Moreno",
+    "slug": "hoyts-moreno",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150628, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150629, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150630, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150650, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150650, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150631, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150651, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150651, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150623, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150625, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150627, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150657, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150658, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150659, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150660, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150636, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150637, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150638, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150639, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "¡PLUMAS! OPERACIÓN RESCATE",
+        "url": "https://www.cinemark.com.ar/peliculas/patos-operacion-rescate",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "13:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150652, \"corporateFilmId\": \"114050\"}"
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150653, \"corporateFilmId\": \"114050\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150632, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150633, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150634, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150635, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150647, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150647, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150619, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150620, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150621, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150622, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150645, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150645, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150871, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150871, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "DBOX 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150644, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150644, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150872, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150872, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150646, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150646, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150640, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150641, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150642, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150643, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150624, \"corporateFilmId\": \"112894\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150626, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150654, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150656, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150243, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "JU-ON: EL GRITO",
+        "url": "https://www.cinemark.com.ar/peliculas/ju-on-el-grito",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 110, \"sessionId\": 150655, \"corporateFilmId\": \"114048\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Alto Avellaneda",
+    "slug": "cinemark-avellaneda",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67033, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67034, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67036, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67037, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67061, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "13:30",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67061, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67062, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67062, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67059, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67063, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67063, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67060, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67064, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67064, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "4D 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67057, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:10",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67049, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67049, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "4D 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67058, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "18:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67050, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67050, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67051, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67051, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67045, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67046, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67047, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67048, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67053, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67054, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67055, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67041, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67042, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67043, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67044, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67038, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67039, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67040, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67035, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67056, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 66620, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67052, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 67052, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Caballito",
+    "slug": "cinemark-caballito",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95512, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95513, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95514, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95515, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95528, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95529, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95530, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95531, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "SENSATEZ Y SENTIMIENTO",
+        "url": "https://www.cinemark.com.ar/peliculas/sensatez-y-sentimiento",
+        "imagen": "/posters/sensatez-y-sentimiento.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95524, \"corporateFilmId\": \"113236\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95628, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95509, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95516, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95517, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95518, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95519, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95520, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95521, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95522, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95523, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95525, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95527, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95510, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95511, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "VERITY: LA SOMBRA DE UN ENGAÑO",
+        "url": "https://www.cinemark.com.ar/peliculas/verity-la-sombra-de-un-engano",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "20:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 734, \"sessionId\": 95526, \"corporateFilmId\": \"110808\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Quilmes",
+    "slug": "hoyts-quilmes",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186300, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186306, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186299, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186317, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186318, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186319, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186313, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "16:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186314, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "19:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186315, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186316, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "4D 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186277, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186288, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186296, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "16:30",
+            "formato": "4D 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186278, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186289, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:55",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186297, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "19:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186290, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186298, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186292, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "14:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186284, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "16:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186293, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186294, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186286, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "21:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186295, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:25",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186291, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "¡PLUMAS! OPERACIÓN RESCATE",
+        "url": "https://www.cinemark.com.ar/peliculas/patos-operacion-rescate",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186308, \"corporateFilmId\": \"114050\"}"
+          },
+          {
+            "horario": "16:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186309, \"corporateFilmId\": \"114050\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186304, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186301, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186285, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186302, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:20",
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186279, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "21:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186303, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "4D 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186280, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186287, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186281, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186282, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186283, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186273, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186274, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186275, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186276, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186305, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186307, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "18:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186310, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "23:05",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186312, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 185749, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "JU-ON: EL GRITO",
+        "url": "https://www.cinemark.com.ar/peliculas/ju-on-el-grito",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186311, \"corporateFilmId\": \"114048\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL CORAZÓN DE LA BESTIA",
+        "url": "https://www.cinemark.com.ar/peliculas/el-corazon-de-la-bestia",
+        "imagen": "/posters/el-corazon-de-la-bestia.jpg",
+        "funciones": [
+          {
+            "horario": "22:35",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 102, \"sessionId\": 186320, \"corporateFilmId\": \"112894\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "Puerto Madero",
+    "slug": "cinemark-puerto-madero",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "14:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118055, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118056, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "19:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118057, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118058, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "14:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118028, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118029, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118030, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118031, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "14:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118044, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118045, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "19:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118046, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118047, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CABALLO SALVAJE NUEVE",
+        "url": "https://www.cinemark.com.ar/peliculas/caballo-salvaje-nueve",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "14:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118040, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "17:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118041, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118042, \"corporateFilmId\": \"114045\"}"
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118043, \"corporateFilmId\": \"114045\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118048, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118049, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118050, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118051, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "15:15",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118032, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118034, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118036, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:45",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118037, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118038, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "LA CAÍDA DE LA BALLENA",
+        "url": "https://www.cinemark.com.ar/peliculas/la-caida-de-la-ballena",
+        "imagen": "/posters/la-caida-de-la-ballena.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118052, \"corporateFilmId\": \"110809\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118033, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118035, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118053, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118054, \"corporateFilmId\": \"112852\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 117726, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 730, \"sessionId\": 118039, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "San Justo",
+    "slug": "cinemark-san-justo",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "EL GATO CON SOMBRERO",
+        "url": "https://www.cinemark.com.ar/peliculas/el-gato-con-sombrero",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "DBOX 3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96641, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "15:00",
+            "formato": "3D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96641, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96642, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96642, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:00",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96643, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "20:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96643, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "DBOX 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96644, \"corporateFilmId\": \"110813\"}"
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96644, \"corporateFilmId\": \"110813\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "ANIQUILACIÓN",
+        "url": "https://www.cinemark.com.ar/peliculas/aniquilacion",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96524, \"corporateFilmId\": \"114047\"}"
+          },
+          {
+            "horario": "19:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96526, \"corporateFilmId\": \"114047\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "WILDWOOD: EL BOSQUE SALVAJE",
+        "url": "https://www.cinemark.com.ar/peliculas/wildwood-el-bosque-salvaje",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96532, \"corporateFilmId\": \"111102\"}"
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96533, \"corporateFilmId\": \"111102\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "url": "https://www.cinemark.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96528, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96529, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96530, \"corporateFilmId\": \"114046\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96531, \"corporateFilmId\": \"114046\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CLAYFACE",
+        "url": "https://www.cinemark.com.ar/peliculas/clayface",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96536, \"corporateFilmId\": \"110812\"}"
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96538, \"corporateFilmId\": \"110812\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "GODZILLA MINUS ZERO",
+        "url": "https://www.cinemark.com.ar/peliculas/godzilla-minus-zero",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96540, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "16:00",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96540, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96541, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "19:00",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96541, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "DBOX XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96542, \"corporateFilmId\": \"111103\"}"
+          },
+          {
+            "horario": "22:00",
+            "formato": "XD 2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96542, \"corporateFilmId\": \"111103\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "CÓMO ROBAR UN BANCO",
+        "url": "https://www.cinemark.com.ar/peliculas/como-robar-un-banco",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96525, \"corporateFilmId\": \"110804\"}"
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96527, \"corporateFilmId\": \"110804\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "RESIDENT EVIL: NOCHE CERO",
+        "url": "https://www.cinemark.com.ar/peliculas/resident-evil-noche-cero",
+        "imagen": "/posters/resident-evil-noche-cero.jpg",
+        "funciones": [
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96537, \"corporateFilmId\": \"110805\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96539, \"corporateFilmId\": \"110805\"}"
+          }
+        ]
+      },
+      {
+        "titulo": "MADRE SINIESTRA",
+        "url": "https://www.cinemark.com.ar/peliculas/madre-siniestra",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96534, \"corporateFilmId\": \"112852\"}"
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 748, \"sessionId\": 96535, \"corporateFilmId\": \"112852\"}"
           }
         ]
       }
@@ -357,8 +4246,8 @@
   },
   {
     "cadena": "Cinemark Hoyts",
-    "nombre": "Alto Avellaneda",
-    "slug": "cinemark-avellaneda",
+    "nombre": "Temperley",
+    "slug": "hoyts-temperley",
     "zona": "",
     "direccion": "",
     "peliculas": [
@@ -371,7 +4260,295 @@
             "horario": "20:00",
             "formato": "2D Subtitulada",
             "df": null,
-            "cinemark": "{\"cinemaId\": 2015, \"sessionId\": 66620, \"corporateFilmId\": \"113935\"}"
+            "cinemark": "{\"cinemaId\": 109, \"sessionId\": 136249, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Cinemark Hoyts",
+    "nombre": "DOT",
+    "slug": "hoyts-dot-baires",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "ROCKY 50° ANIVERSARIO",
+        "url": "https://www.cinemark.com.ar/peliculas/rocky-50-aniversario",
+        "imagen": "",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 111, \"sessionId\": 154501, \"corporateFilmId\": \"113935\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Canning",
+    "slug": "multiplex-canning",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "Aniquilacion",
+        "url": "https://multiplex.com.ar/peliculas/aniquilacion/",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "180-251-8220-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "15:45",
+            "formato": "2D Subtitulada",
+            "df": "180-254-8222-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada",
+            "df": "180-254-8213-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada",
+            "df": "180-254-8224-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": "180-249-8228-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": "180-249-8230-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Ebenezer: Los Fantasmas De Navidad",
+        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": "180-248-8217-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": "180-248-8218-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Doblada",
+            "df": "180-248-8219-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Plumas: Operacion Rescate",
+        "url": "https://multiplex.com.ar/peliculas/plumas-operacion-rescate/",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": "180-250-8211-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "2D Doblada",
+            "df": "180-250-8212-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Godzilla Minus Zero",
+        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": "180-235-8221-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "180-235-8227-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Doblada",
+            "df": "180-235-8209-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "180-235-8210-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:10",
+            "formato": "4D (2D) Doblada",
+            "df": "180-235-8234-20261113-7",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "4D (2D) Doblada",
+            "df": "180-235-8235-20261113-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Gato Con Sombrero",
+        "url": "https://multiplex.com.ar/peliculas/el-gato-con-sombrero/",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": "180-243-8216-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": "180-243-8229-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:45",
+            "formato": "3D Doblada",
+            "df": "180-243-8207-20261113-2",
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada",
+            "df": "180-243-8208-20261113-2",
+            "cinemark": null
+          },
+          {
+            "horario": "13:20",
+            "formato": "4D (3D) Doblada",
+            "df": "180-243-8231-20261113-3",
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "4D (3D) Doblada",
+            "df": "180-243-8232-20261113-3",
+            "cinemark": null
+          },
+          {
+            "horario": "17:50",
+            "formato": "4D (3D) Doblada",
+            "df": "180-243-8233-20261113-3",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Wildwood: El Bosque Salvaje",
+        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:15",
+            "formato": "2D Doblada",
+            "df": "180-239-8206-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": "180-239-8223-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "180-227-8225-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre Siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": "180-215-8214-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "180-215-8215-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "180-135-8226-20261113-1",
+            "cinemark": null
           }
         ]
       }
@@ -687,6 +4864,394 @@
             "horario": "19:05",
             "formato": "2D Doblada",
             "df": "184-223-9662-20261113-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "Aniquilacion",
+        "url": "https://multiplex.com.ar/peliculas/aniquilacion/",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "18:40",
+            "formato": "2D Doblada",
+            "df": "187-251-11799-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:30",
+            "formato": "2D Doblada",
+            "df": "187-251-11817-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "20:00",
+            "formato": "2D Subtitulada",
+            "df": "187-254-11811-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "13:30",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-254-11782-20261113-4",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-254-11803-20261113-4",
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-254-11821-20261113-4",
+            "cinemark": null
+          },
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada",
+            "df": "187-254-11779-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "187-254-11788-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:50",
+            "formato": "2D Doblada",
+            "df": "187-254-11800-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "20:20",
+            "formato": "2D Subtitulada",
+            "df": "187-249-11810-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "12:30",
+            "formato": "2D Doblada",
+            "df": "187-249-11780-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": "187-249-11801-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": "187-249-11819-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Ebenezer: Los Fantasmas De Navidad",
+        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-248-11791-20261113-4",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-248-11812-20261113-4",
+            "cinemark": null
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "187-248-11781-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "187-248-11790-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": "187-248-11802-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": "187-248-11820-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Plumas: Operacion Rescate",
+        "url": "https://multiplex.com.ar/peliculas/plumas-operacion-rescate/",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": "187-250-11778-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": "187-250-11787-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:50",
+            "formato": "2D Doblada",
+            "df": "187-250-11793-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Godzilla Minus Zero",
+        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "15:00",
+            "formato": "2D Doblada",
+            "df": "187-235-11789-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Doblada",
+            "df": "187-235-11795-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": "187-235-11804-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "187-235-11813-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:20",
+            "formato": "4D (2D) Doblada",
+            "df": "187-235-11807-20261113-7",
+            "cinemark": null
+          },
+          {
+            "horario": "22:00",
+            "formato": "4D (2D) Doblada",
+            "df": "187-235-11816-20261113-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Gato Con Sombrero",
+        "url": "https://multiplex.com.ar/peliculas/el-gato-con-sombrero/",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "12:50",
+            "formato": "2D Doblada",
+            "df": "187-243-11774-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:10",
+            "formato": "2D Doblada",
+            "df": "187-243-11783-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "12:10",
+            "formato": "3D Doblada",
+            "df": "187-243-11775-20261113-2",
+            "cinemark": null
+          },
+          {
+            "horario": "14:20",
+            "formato": "3D Doblada",
+            "df": "187-243-11784-20261113-2",
+            "cinemark": null
+          },
+          {
+            "horario": "16:40",
+            "formato": "3D Doblada",
+            "df": "187-243-11792-20261113-2",
+            "cinemark": null
+          },
+          {
+            "horario": "19:00",
+            "formato": "3D Doblada",
+            "df": "187-243-11796-20261113-2",
+            "cinemark": null
+          },
+          {
+            "horario": "12:30",
+            "formato": "4D (3D) Doblada",
+            "df": "187-243-11777-20261113-3",
+            "cinemark": null
+          },
+          {
+            "horario": "14:40",
+            "formato": "4D (3D) Doblada",
+            "df": "187-243-11786-20261113-3",
+            "cinemark": null
+          },
+          {
+            "horario": "17:00",
+            "formato": "4D (3D) Doblada",
+            "df": "187-243-11798-20261113-3",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Entrega Al Limite",
+        "url": "https://multiplex.com.ar/peliculas/entrega-al-limite/",
+        "imagen": "/posters/entrega-al-limite.jpg",
+        "funciones": [
+          {
+            "horario": "20:40",
+            "formato": "2D Doblada",
+            "df": "187-244-11808-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Wildwood: El Bosque Salvaje",
+        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "12:20",
+            "formato": "2D Doblada",
+            "df": "187-239-11776-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "187-239-11785-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": "187-239-11797-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "187-227-11818-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre Siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "21:20",
+            "formato": "2D Doblada",
+            "df": "187-215-11805-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": "187-215-11814-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Tierra De Mi Padre",
+        "url": "https://multiplex.com.ar/peliculas/tierra-de-mi-padre/",
+        "imagen": "/posters/tierra-de-mi-padre.jpg",
+        "funciones": [
+          {
+            "horario": "17:10",
+            "formato": "2D Subtitulada",
+            "df": "187-240-11794-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "21:10",
+            "formato": "2D Subtitulada",
+            "df": "187-240-11809-20261113-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Verity,la Sombra De Un Engaño",
+        "url": "https://multiplex.com.ar/peliculas/verityla-sombra-de-un-engano/",
+        "imagen": "/posters/verity-la-sombra-de-un-engano.jpg",
+        "funciones": [
+          {
+            "horario": "19:50",
+            "formato": "2D Subtitulada",
+            "df": "187-204-11806-20261113-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": "187-204-11815-20261113-1",
             "cinemark": null
           }
         ]
