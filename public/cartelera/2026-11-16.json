@@ -7281,11 +7281,36 @@
   },
   {
     "cadena": "Multiplex",
-    "nombre": "Multiplex Pilar",
-    "slug": "multiplex-pilar",
+    "nombre": "Multiplex Canning",
+    "slug": "multiplex-canning",
     "zona": "",
     "direccion": "",
     "peliculas": [
+      {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "15:45",
+            "formato": "2D Subtitulada",
+            "df": "180-254-8312-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada",
+            "df": "180-254-8303-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "2D Subtitulada",
+            "df": "180-254-8314-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
       {
         "titulo": "Ebenezer: Los Fantasmas De Navidad",
         "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
@@ -7293,42 +7318,562 @@
         "funciones": [
           {
             "horario": "15:50",
-            "formato": "PLATINUM 2D Subtitulada",
-            "df": "187-248-11983-20261116-4",
+            "formato": "2D Doblada",
+            "df": "180-248-8307-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": "180-248-8308-20261116-1",
             "cinemark": null
           },
           {
             "horario": "20:30",
-            "formato": "PLATINUM 2D Subtitulada",
-            "df": "187-248-12004-20261116-4",
+            "formato": "2D Doblada",
+            "df": "180-248-8309-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "18:00",
+            "formato": "2D Doblada",
+            "df": "180-249-8318-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Doblada",
+            "df": "180-249-8320-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Plumas: Operacion Rescate",
+        "url": "https://multiplex.com.ar/peliculas/plumas-operacion-rescate/",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "14:50",
+            "formato": "2D Doblada",
+            "df": "180-250-8301-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:40",
+            "formato": "2D Doblada",
+            "df": "180-250-8302-20261116-1",
             "cinemark": null
           },
           {
             "horario": "13:00",
             "formato": "2D Doblada",
-            "df": "187-248-11973-20261116-1",
+            "df": "180-250-8365-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Aniquilacion",
+        "url": "https://multiplex.com.ar/peliculas/aniquilacion/",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "180-251-8310-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Gato Con Sombrero",
+        "url": "https://multiplex.com.ar/peliculas/el-gato-con-sombrero/",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": "180-243-8306-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": "180-243-8319-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:45",
+            "formato": "3D Doblada",
+            "df": "180-243-8297-20261116-2",
+            "cinemark": null
+          },
+          {
+            "horario": "18:00",
+            "formato": "3D Doblada",
+            "df": "180-243-8298-20261116-2",
+            "cinemark": null
+          },
+          {
+            "horario": "13:20",
+            "formato": "4D (3D) Doblada",
+            "df": "180-243-8321-20261116-3",
+            "cinemark": null
+          },
+          {
+            "horario": "15:40",
+            "formato": "4D (3D) Doblada",
+            "df": "180-243-8322-20261116-3",
+            "cinemark": null
+          },
+          {
+            "horario": "17:50",
+            "formato": "4D (3D) Doblada",
+            "df": "180-243-8323-20261116-3",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Godzilla Minus Zero",
+        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": "180-235-8311-20261116-1",
             "cinemark": null
           },
           {
             "horario": "15:20",
             "formato": "2D Doblada",
-            "df": "187-248-11982-20261116-1",
+            "df": "180-235-8317-20261116-1",
             "cinemark": null
           },
           {
-            "horario": "17:40",
+            "horario": "20:15",
             "formato": "2D Doblada",
-            "df": "187-248-11994-20261116-1",
+            "df": "180-235-8299-20261116-1",
             "cinemark": null
           },
           {
-            "horario": "22:20",
+            "horario": "22:50",
             "formato": "2D Doblada",
-            "df": "187-248-12012-20261116-1",
+            "df": "180-235-8300-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:10",
+            "formato": "4D (2D) Doblada",
+            "df": "180-235-8324-20261116-7",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "4D (2D) Doblada",
+            "df": "180-235-8325-20261116-7",
             "cinemark": null
           }
         ]
       },
+      {
+        "titulo": "Wildwood: El Bosque Salvaje",
+        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:15",
+            "formato": "2D Doblada",
+            "df": "180-239-8296-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D Doblada",
+            "df": "180-239-8313-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre Siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": "180-215-8304-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "180-215-8305-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "22:50",
+            "formato": "2D Doblada",
+            "df": "180-227-8315-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Toy Story 5",
+        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
+        "imagen": "/posters/toy-story-5.jpg",
+        "funciones": [
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "180-135-8316-20261116-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Lavalle",
+    "slug": "multiplex-lavalle",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
+      {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "15:30",
+            "formato": "2D Subtitulada",
+            "df": "184-254-9761-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Subtitulada",
+            "df": "184-254-9749-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:15",
+            "formato": "2D Subtitulada",
+            "df": "184-254-9760-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Ebenezer: Los Fantasmas De Navidad",
+        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": "184-248-9762-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "184-248-9763-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:05",
+            "formato": "2D Doblada",
+            "df": "184-248-9739-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D Doblada",
+            "df": "184-248-9740-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "13:10",
+            "formato": "2D Doblada",
+            "df": "184-249-9757-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:50",
+            "formato": "2D Doblada",
+            "df": "184-249-9758-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:35",
+            "formato": "2D Doblada",
+            "df": "184-249-9759-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Plumas: Operacion Rescate",
+        "url": "https://multiplex.com.ar/peliculas/plumas-operacion-rescate/",
+        "imagen": "/posters/plumas-operacion-rescate.jpg",
+        "funciones": [
+          {
+            "horario": "13:50",
+            "formato": "2D Doblada",
+            "df": "184-250-9767-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:35",
+            "formato": "2D Doblada",
+            "df": "184-250-9768-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:20",
+            "formato": "2D Doblada",
+            "df": "184-250-9769-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Aniquilacion",
+        "url": "https://multiplex.com.ar/peliculas/aniquilacion/",
+        "imagen": "/posters/aniquilacion.jpg",
+        "funciones": [
+          {
+            "horario": "21:10",
+            "formato": "2D Doblada",
+            "df": "184-251-9771-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:05",
+            "formato": "2D Doblada",
+            "df": "184-251-9772-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Ju-on: El Grito (re)",
+        "url": "https://multiplex.com.ar/peliculas/ju-on-el-grito-re/",
+        "imagen": "/posters/ju-on-el-grito-re.jpg",
+        "funciones": [
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "184-252-9766-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "El Gato Con Sombrero",
+        "url": "https://multiplex.com.ar/peliculas/el-gato-con-sombrero/",
+        "imagen": "/posters/el-gato-con-sombrero.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": "184-243-9737-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:50",
+            "formato": "2D Doblada",
+            "df": "184-243-9738-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "14:00",
+            "formato": "3D Doblada",
+            "df": "184-243-9747-20261116-2",
+            "cinemark": null
+          },
+          {
+            "horario": "16:15",
+            "formato": "3D Doblada",
+            "df": "184-243-9748-20261116-2",
+            "cinemark": null
+          },
+          {
+            "horario": "13:00",
+            "formato": "4D (3D) Doblada",
+            "df": "184-243-9742-20261116-3",
+            "cinemark": null
+          },
+          {
+            "horario": "15:15",
+            "formato": "4D (3D) Doblada",
+            "df": "184-243-9743-20261116-3",
+            "cinemark": null
+          },
+          {
+            "horario": "17:30",
+            "formato": "4D (3D) Doblada",
+            "df": "184-243-9744-20261116-3",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Godzilla Minus Zero",
+        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
+        "imagen": "/posters/godzilla-minus-zero.jpg",
+        "funciones": [
+          {
+            "horario": "17:35",
+            "formato": "2D Doblada",
+            "df": "184-235-9764-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "20:10",
+            "formato": "2D Doblada",
+            "df": "184-235-9765-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:35",
+            "formato": "2D Doblada",
+            "df": "184-235-9741-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "19:45",
+            "formato": "4D (2D) Doblada",
+            "df": "184-235-9745-20261116-7",
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "4D (2D) Doblada",
+            "df": "184-235-9746-20261116-7",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Wildwood: El Bosque Salvaje",
+        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
+        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "2D Doblada",
+            "df": "184-239-9752-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D Doblada",
+            "df": "184-239-9753-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "18:30",
+            "formato": "2D Doblada",
+            "df": "184-239-9754-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Madre Siniestra",
+        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
+        "imagen": "/posters/madre-siniestra.jpg",
+        "funciones": [
+          {
+            "horario": "23:10",
+            "formato": "2D Doblada",
+            "df": "184-215-9756-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "20:50",
+            "formato": "2D Doblada",
+            "df": "184-227-9750-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": "184-227-9751-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Entrega Al Limite",
+        "url": "https://multiplex.com.ar/peliculas/entrega-al-limite/",
+        "imagen": "/posters/entrega-al-limite.jpg",
+        "funciones": [
+          {
+            "horario": "21:00",
+            "formato": "2D Doblada",
+            "df": "184-244-9755-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "La Caida De La Ballena",
+        "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
+        "imagen": "/posters/la-caida-de-la-ballena.jpg",
+        "funciones": [
+          {
+            "horario": "19:05",
+            "formato": "2D Doblada",
+            "df": "184-223-9770-20261116-1",
+            "cinemark": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cadena": "Multiplex",
+    "nombre": "Multiplex Pilar",
+    "slug": "multiplex-pilar",
+    "zona": "",
+    "direccion": "",
+    "peliculas": [
       {
         "titulo": "Caballo Salvaje Nueve",
         "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
@@ -7374,6 +7919,49 @@
             "horario": "22:50",
             "formato": "PLATINUM 2D Subtitulada",
             "df": "187-254-12013-20261116-4",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Ebenezer: Los Fantasmas De Navidad",
+        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "15:50",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-248-11983-20261116-4",
+            "cinemark": null
+          },
+          {
+            "horario": "20:30",
+            "formato": "PLATINUM 2D Subtitulada",
+            "df": "187-248-12004-20261116-4",
+            "cinemark": null
+          },
+          {
+            "horario": "13:00",
+            "formato": "2D Doblada",
+            "df": "187-248-11973-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:20",
+            "formato": "2D Doblada",
+            "df": "187-248-11982-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:40",
+            "formato": "2D Doblada",
+            "df": "187-248-11994-20261116-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "2D Doblada",
+            "df": "187-248-12012-20261116-1",
             "cinemark": null
           }
         ]
@@ -7675,43 +8263,6 @@
     "direccion": "",
     "peliculas": [
       {
-        "titulo": "Ebenezer: Los Fantasmas De Navidad",
-        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
-        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
-        "funciones": [
-          {
-            "horario": "22:15",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-248-228050-20261116-5",
-            "cinemark": null
-          },
-          {
-            "horario": "13:45",
-            "formato": "2D + COMFORT PLUS Subtitulada",
-            "df": "182-248-228011-20261116-11",
-            "cinemark": null
-          },
-          {
-            "horario": "16:00",
-            "formato": "2D + COMFORT PLUS Subtitulada",
-            "df": "182-248-228021-20261116-11",
-            "cinemark": null
-          },
-          {
-            "horario": "18:10",
-            "formato": "2D + COMFORT PLUS Subtitulada",
-            "df": "182-248-228031-20261116-11",
-            "cinemark": null
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D + COMFORT PLUS Subtitulada",
-            "df": "182-248-228041-20261116-11",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Caballo Salvaje Nueve",
         "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
         "imagen": "/posters/caballo-salvaje-nueve.jpg",
@@ -7750,6 +8301,43 @@
             "horario": "22:25",
             "formato": "COMFORT PLUS 2D Subtitulada",
             "df": "182-254-228048-20261116-5",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Ebenezer: Los Fantasmas De Navidad",
+        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
+        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
+        "funciones": [
+          {
+            "horario": "22:15",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-248-228050-20261116-5",
+            "cinemark": null
+          },
+          {
+            "horario": "13:45",
+            "formato": "2D + COMFORT PLUS Subtitulada",
+            "df": "182-248-228011-20261116-11",
+            "cinemark": null
+          },
+          {
+            "horario": "16:00",
+            "formato": "2D + COMFORT PLUS Subtitulada",
+            "df": "182-248-228021-20261116-11",
+            "cinemark": null
+          },
+          {
+            "horario": "18:10",
+            "formato": "2D + COMFORT PLUS Subtitulada",
+            "df": "182-248-228031-20261116-11",
+            "cinemark": null
+          },
+          {
+            "horario": "20:20",
+            "formato": "2D + COMFORT PLUS Subtitulada",
+            "df": "182-248-228041-20261116-11",
             "cinemark": null
           }
         ]
@@ -7960,6 +8548,19 @@
         ]
       },
       {
+        "titulo": "Clayface",
+        "url": "https://multiplex.com.ar/peliculas/clayface/",
+        "imagen": "/posters/clayface.jpg",
+        "funciones": [
+          {
+            "horario": "22:35",
+            "formato": "2D Subtitulada",
+            "df": "182-227-228057-20261116-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
         "titulo": "Sensatez Y Sentimiento",
         "url": "https://multiplex.com.ar/peliculas/sensatez-y-sentimiento/",
         "imagen": "/posters/sensatez-y-sentimiento.jpg",
@@ -7986,19 +8587,6 @@
             "horario": "22:00",
             "formato": "COMFORT PLUS 2D Subtitulada",
             "df": "182-241-228053-20261116-5",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Clayface",
-        "url": "https://multiplex.com.ar/peliculas/clayface/",
-        "imagen": "/posters/clayface.jpg",
-        "funciones": [
-          {
-            "horario": "22:35",
-            "formato": "2D Subtitulada",
-            "df": "182-227-228057-20261116-1",
             "cinemark": null
           }
         ]
@@ -8075,594 +8663,6 @@
             "horario": "22:30",
             "formato": "2D + COMFORT PLUS Doblada",
             "df": "182-242-228051-20261116-11",
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Canning",
-    "slug": "multiplex-canning",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "Ebenezer: Los Fantasmas De Navidad",
-        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
-        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
-        "funciones": [
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada",
-            "df": "180-248-8307-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:10",
-            "formato": "2D Doblada",
-            "df": "180-248-8308-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Doblada",
-            "df": "180-248-8309-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Caballo Salvaje Nueve",
-        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
-        "imagen": "/posters/caballo-salvaje-nueve.jpg",
-        "funciones": [
-          {
-            "horario": "15:45",
-            "formato": "2D Subtitulada",
-            "df": "180-254-8312-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:30",
-            "formato": "2D Subtitulada",
-            "df": "180-254-8303-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:30",
-            "formato": "2D Subtitulada",
-            "df": "180-254-8314-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Como Robar Un Banco",
-        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
-        "imagen": "/posters/como-robar-un-banco.jpg",
-        "funciones": [
-          {
-            "horario": "18:00",
-            "formato": "2D Doblada",
-            "df": "180-249-8318-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:40",
-            "formato": "2D Doblada",
-            "df": "180-249-8320-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Plumas: Operacion Rescate",
-        "url": "https://multiplex.com.ar/peliculas/plumas-operacion-rescate/",
-        "imagen": "/posters/plumas-operacion-rescate.jpg",
-        "funciones": [
-          {
-            "horario": "14:50",
-            "formato": "2D Doblada",
-            "df": "180-250-8301-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "16:40",
-            "formato": "2D Doblada",
-            "df": "180-250-8302-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "180-250-8365-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Aniquilacion",
-        "url": "https://multiplex.com.ar/peliculas/aniquilacion/",
-        "imagen": "/posters/aniquilacion.jpg",
-        "funciones": [
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada",
-            "df": "180-251-8310-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "El Gato Con Sombrero",
-        "url": "https://multiplex.com.ar/peliculas/el-gato-con-sombrero/",
-        "imagen": "/posters/el-gato-con-sombrero.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": "180-243-8306-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada",
-            "df": "180-243-8319-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "15:45",
-            "formato": "3D Doblada",
-            "df": "180-243-8297-20261116-2",
-            "cinemark": null
-          },
-          {
-            "horario": "18:00",
-            "formato": "3D Doblada",
-            "df": "180-243-8298-20261116-2",
-            "cinemark": null
-          },
-          {
-            "horario": "13:20",
-            "formato": "4D (3D) Doblada",
-            "df": "180-243-8321-20261116-3",
-            "cinemark": null
-          },
-          {
-            "horario": "15:40",
-            "formato": "4D (3D) Doblada",
-            "df": "180-243-8322-20261116-3",
-            "cinemark": null
-          },
-          {
-            "horario": "17:50",
-            "formato": "4D (3D) Doblada",
-            "df": "180-243-8323-20261116-3",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Godzilla Minus Zero",
-        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
-        "imagen": "/posters/godzilla-minus-zero.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": "180-235-8311-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada",
-            "df": "180-235-8317-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:15",
-            "formato": "2D Doblada",
-            "df": "180-235-8299-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada",
-            "df": "180-235-8300-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:10",
-            "formato": "4D (2D) Doblada",
-            "df": "180-235-8324-20261116-7",
-            "cinemark": null
-          },
-          {
-            "horario": "22:45",
-            "formato": "4D (2D) Doblada",
-            "df": "180-235-8325-20261116-7",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Wildwood: El Bosque Salvaje",
-        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
-        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
-        "funciones": [
-          {
-            "horario": "13:15",
-            "formato": "2D Doblada",
-            "df": "180-239-8296-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:10",
-            "formato": "2D Doblada",
-            "df": "180-239-8313-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Madre Siniestra",
-        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
-        "imagen": "/posters/madre-siniestra.jpg",
-        "funciones": [
-          {
-            "horario": "20:50",
-            "formato": "2D Doblada",
-            "df": "180-215-8304-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada",
-            "df": "180-215-8305-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Clayface",
-        "url": "https://multiplex.com.ar/peliculas/clayface/",
-        "imagen": "/posters/clayface.jpg",
-        "funciones": [
-          {
-            "horario": "22:50",
-            "formato": "2D Doblada",
-            "df": "180-227-8315-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Toy Story 5",
-        "url": "https://multiplex.com.ar/peliculas/toy-story-5/",
-        "imagen": "/posters/toy-story-5.jpg",
-        "funciones": [
-          {
-            "horario": "13:00",
-            "formato": "2D Doblada",
-            "df": "180-135-8316-20261116-1",
-            "cinemark": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cadena": "Multiplex",
-    "nombre": "Multiplex Lavalle",
-    "slug": "multiplex-lavalle",
-    "zona": "",
-    "direccion": "",
-    "peliculas": [
-      {
-        "titulo": "Ebenezer: Los Fantasmas De Navidad",
-        "url": "https://multiplex.com.ar/peliculas/ebenezer-los-fantasmas-de-navidad/",
-        "imagen": "/posters/ebenezer-los-fantasmas-de-navidad.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": "184-248-9762-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "15:20",
-            "formato": "2D Doblada",
-            "df": "184-248-9763-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:05",
-            "formato": "2D Doblada",
-            "df": "184-248-9739-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:20",
-            "formato": "2D Doblada",
-            "df": "184-248-9740-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Caballo Salvaje Nueve",
-        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
-        "imagen": "/posters/caballo-salvaje-nueve.jpg",
-        "funciones": [
-          {
-            "horario": "15:30",
-            "formato": "2D Subtitulada",
-            "df": "184-254-9761-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:30",
-            "formato": "2D Subtitulada",
-            "df": "184-254-9749-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:15",
-            "formato": "2D Subtitulada",
-            "df": "184-254-9760-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Como Robar Un Banco",
-        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
-        "imagen": "/posters/como-robar-un-banco.jpg",
-        "funciones": [
-          {
-            "horario": "13:10",
-            "formato": "2D Doblada",
-            "df": "184-249-9757-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "17:50",
-            "formato": "2D Doblada",
-            "df": "184-249-9758-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:35",
-            "formato": "2D Doblada",
-            "df": "184-249-9759-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Plumas: Operacion Rescate",
-        "url": "https://multiplex.com.ar/peliculas/plumas-operacion-rescate/",
-        "imagen": "/posters/plumas-operacion-rescate.jpg",
-        "funciones": [
-          {
-            "horario": "13:50",
-            "formato": "2D Doblada",
-            "df": "184-250-9767-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "15:35",
-            "formato": "2D Doblada",
-            "df": "184-250-9768-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "17:20",
-            "formato": "2D Doblada",
-            "df": "184-250-9769-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Aniquilacion",
-        "url": "https://multiplex.com.ar/peliculas/aniquilacion/",
-        "imagen": "/posters/aniquilacion.jpg",
-        "funciones": [
-          {
-            "horario": "21:10",
-            "formato": "2D Doblada",
-            "df": "184-251-9771-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "23:05",
-            "formato": "2D Doblada",
-            "df": "184-251-9772-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Ju-on: El Grito (re)",
-        "url": "https://multiplex.com.ar/peliculas/ju-on-el-grito-re/",
-        "imagen": "/posters/ju-on-el-grito-re.jpg",
-        "funciones": [
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada",
-            "df": "184-252-9766-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "El Gato Con Sombrero",
-        "url": "https://multiplex.com.ar/peliculas/el-gato-con-sombrero/",
-        "imagen": "/posters/el-gato-con-sombrero.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": "184-243-9737-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "15:50",
-            "formato": "2D Doblada",
-            "df": "184-243-9738-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "14:00",
-            "formato": "3D Doblada",
-            "df": "184-243-9747-20261116-2",
-            "cinemark": null
-          },
-          {
-            "horario": "16:15",
-            "formato": "3D Doblada",
-            "df": "184-243-9748-20261116-2",
-            "cinemark": null
-          },
-          {
-            "horario": "13:00",
-            "formato": "4D (3D) Doblada",
-            "df": "184-243-9742-20261116-3",
-            "cinemark": null
-          },
-          {
-            "horario": "15:15",
-            "formato": "4D (3D) Doblada",
-            "df": "184-243-9743-20261116-3",
-            "cinemark": null
-          },
-          {
-            "horario": "17:30",
-            "formato": "4D (3D) Doblada",
-            "df": "184-243-9744-20261116-3",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Godzilla Minus Zero",
-        "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
-        "imagen": "/posters/godzilla-minus-zero.jpg",
-        "funciones": [
-          {
-            "horario": "17:35",
-            "formato": "2D Doblada",
-            "df": "184-235-9764-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "20:10",
-            "formato": "2D Doblada",
-            "df": "184-235-9765-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:35",
-            "formato": "2D Doblada",
-            "df": "184-235-9741-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "19:45",
-            "formato": "4D (2D) Doblada",
-            "df": "184-235-9745-20261116-7",
-            "cinemark": null
-          },
-          {
-            "horario": "22:20",
-            "formato": "4D (2D) Doblada",
-            "df": "184-235-9746-20261116-7",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Wildwood: El Bosque Salvaje",
-        "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
-        "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "2D Doblada",
-            "df": "184-239-9752-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "16:00",
-            "formato": "2D Doblada",
-            "df": "184-239-9753-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "18:30",
-            "formato": "2D Doblada",
-            "df": "184-239-9754-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Madre Siniestra",
-        "url": "https://multiplex.com.ar/peliculas/madre-siniestra/",
-        "imagen": "/posters/madre-siniestra.jpg",
-        "funciones": [
-          {
-            "horario": "23:10",
-            "formato": "2D Doblada",
-            "df": "184-215-9756-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Clayface",
-        "url": "https://multiplex.com.ar/peliculas/clayface/",
-        "imagen": "/posters/clayface.jpg",
-        "funciones": [
-          {
-            "horario": "20:50",
-            "formato": "2D Doblada",
-            "df": "184-227-9750-20261116-1",
-            "cinemark": null
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada",
-            "df": "184-227-9751-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Entrega Al Limite",
-        "url": "https://multiplex.com.ar/peliculas/entrega-al-limite/",
-        "imagen": "/posters/entrega-al-limite.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
-            "formato": "2D Doblada",
-            "df": "184-244-9755-20261116-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "La Caida De La Ballena",
-        "url": "https://multiplex.com.ar/peliculas/la-caida-de-la-ballena/",
-        "imagen": "/posters/la-caida-de-la-ballena.jpg",
-        "funciones": [
-          {
-            "horario": "19:05",
-            "formato": "2D Doblada",
-            "df": "184-223-9770-20261116-1",
             "cinemark": null
           }
         ]
