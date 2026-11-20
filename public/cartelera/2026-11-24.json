@@ -47,12 +47,6 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190170, \"corporateFilmId\": \"114046\"}"
-          },
-          {
-            "horario": "23:00",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190171, \"corporateFilmId\": \"114046\"}"
           }
         ]
       },
@@ -396,6 +390,12 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190065, \"corporateFilmId\": \"114052\"}"
+          },
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 103, \"sessionId\": 190338, \"corporateFilmId\": \"114052\"}"
           }
         ]
       }
@@ -737,18 +737,6 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259754, \"corporateFilmId\": \"110812\"}"
-          },
-          {
-            "horario": "22:50",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259878, \"corporateFilmId\": \"110812\"}"
-          },
-          {
-            "horario": "22:50",
-            "formato": "DBOX 2D Subtitulada",
-            "df": null,
-            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259878, \"corporateFilmId\": \"110812\"}"
           }
         ]
       },
@@ -1203,6 +1191,12 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259508, \"corporateFilmId\": \"114052\"}"
+          },
+          {
+            "horario": "22:40",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": "{\"cinemaId\": 104, \"sessionId\": 259992, \"corporateFilmId\": \"114052\"}"
           }
         ]
       }
@@ -2253,7 +2247,7 @@
           },
           {
             "horario": "19:25",
-            "formato": "2D Doblada",
+            "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137343, \"corporateFilmId\": \"110814\"}"
           },
@@ -2295,7 +2289,7 @@
           },
           {
             "horario": "22:45",
-            "formato": "2D Doblada",
+            "formato": "2D Subtitulada",
             "df": null,
             "cinemark": "{\"cinemaId\": 101, \"sessionId\": 137344, \"corporateFilmId\": \"110814\"}"
           },
@@ -5023,6 +5017,19 @@
     "direccion": "Av. Rivadavia 1635, Congreso",
     "peliculas": [
       {
+        "titulo": "Los otros",
+        "url": "https://cartelera.ar/pelicula/los-otros",
+        "imagen": "/posters/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+        "funciones": [
+          {
+            "horario": "22:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
+          }
+        ]
+      },
+      {
         "titulo": "Que Dios perdona a todos",
         "url": "https://cartelera.ar/pelicula/que-dios-perdona-a-todos",
         "imagen": "/posters/tj7kgHJsIQIu9Ly4tsLLBER76BX.jpg",
@@ -6217,6 +6224,12 @@
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
+          },
+          {
+            "horario": "21:00",
+            "formato": "2D Subtitulada",
+            "df": null,
+            "cinemark": null
           }
         ]
       },
@@ -6233,19 +6246,6 @@
           },
           {
             "horario": "20:50",
-            "formato": "2D Subtitulada",
-            "df": null,
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Estamos No Ar",
-        "url": "https://cartelera.ar/pelicula/estamos-no-ar",
-        "imagen": "/posters/1BNywKP9S5UmFJLyERVGJenSISA.jpg",
-        "funciones": [
-          {
-            "horario": "21:00",
             "formato": "2D Subtitulada",
             "df": null,
             "cinemark": null
@@ -6446,19 +6446,6 @@
         ]
       },
       {
-        "titulo": "Como Robar Un Banco",
-        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
-        "imagen": "/posters/como-robar-un-banco.jpg",
-        "funciones": [
-          {
-            "horario": "22:45",
-            "formato": "2D Doblada",
-            "df": "180-249-8490-20261124-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Godzilla Minus Zero",
         "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
         "imagen": "/posters/godzilla-minus-zero.jpg",
@@ -6536,6 +6523,19 @@
             "horario": "22:40",
             "formato": "2D Doblada",
             "df": "180-215-8485-20261124-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "22:45",
+            "formato": "2D Doblada",
+            "df": "180-249-8490-20261124-1",
             "cinemark": null
           }
         ]
@@ -6735,50 +6735,6 @@
         ]
       },
       {
-        "titulo": "Caballo Salvaje Nueve",
-        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
-        "imagen": "/posters/caballo-salvaje-nueve.jpg",
-        "funciones": [
-          {
-            "horario": "12:40",
-            "formato": "2D Subtitulada",
-            "df": "187-254-12246-20261124-1",
-            "cinemark": null
-          },
-          {
-            "horario": "15:00",
-            "formato": "2D Subtitulada",
-            "df": "187-254-12253-20261124-1",
-            "cinemark": null
-          },
-          {
-            "horario": "17:30",
-            "formato": "2D Subtitulada",
-            "df": "187-254-12260-20261124-1",
-            "cinemark": null
-          },
-          {
-            "horario": "22:10",
-            "formato": "2D Subtitulada",
-            "df": "187-254-12272-20261124-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Como Robar Un Banco",
-        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
-        "imagen": "/posters/como-robar-un-banco.jpg",
-        "funciones": [
-          {
-            "horario": "23:00",
-            "formato": "2D Doblada",
-            "df": "187-249-12271-20261124-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Godzilla Minus Zero",
         "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
         "imagen": "/posters/godzilla-minus-zero.jpg",
@@ -6835,6 +6791,37 @@
         ]
       },
       {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "12:40",
+            "formato": "2D Subtitulada",
+            "df": "187-254-12246-20261124-1",
+            "cinemark": null
+          },
+          {
+            "horario": "15:00",
+            "formato": "2D Subtitulada",
+            "df": "187-254-12253-20261124-1",
+            "cinemark": null
+          },
+          {
+            "horario": "17:30",
+            "formato": "2D Subtitulada",
+            "df": "187-254-12260-20261124-1",
+            "cinemark": null
+          },
+          {
+            "horario": "22:10",
+            "formato": "2D Subtitulada",
+            "df": "187-254-12272-20261124-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
         "titulo": "Wildwood: El Bosque Salvaje",
         "url": "https://multiplex.com.ar/peliculas/wildwood-el-bosque-salvaje/",
         "imagen": "/posters/wildwood-el-bosque-salvaje.jpg",
@@ -6875,6 +6862,19 @@
             "horario": "23:10",
             "formato": "2D Doblada",
             "df": "187-215-12270-20261124-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "23:00",
+            "formato": "2D Doblada",
+            "df": "187-249-12271-20261124-1",
             "cinemark": null
           }
         ]
@@ -7106,56 +7106,6 @@
         ]
       },
       {
-        "titulo": "Caballo Salvaje Nueve",
-        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
-        "imagen": "/posters/caballo-salvaje-nueve.jpg",
-        "funciones": [
-          {
-            "horario": "13:30",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-254-228376-20261124-5",
-            "cinemark": null
-          },
-          {
-            "horario": "15:10",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-254-228386-20261124-5",
-            "cinemark": null
-          },
-          {
-            "horario": "17:40",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-254-228391-20261124-5",
-            "cinemark": null
-          },
-          {
-            "horario": "20:00",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-254-228397-20261124-5",
-            "cinemark": null
-          },
-          {
-            "horario": "22:20",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-254-228403-20261124-5",
-            "cinemark": null
-          }
-        ]
-      },
-      {
-        "titulo": "Como Robar Un Banco",
-        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
-        "imagen": "/posters/como-robar-un-banco.jpg",
-        "funciones": [
-          {
-            "horario": "14:45",
-            "formato": "COMFORT PLUS 2D Subtitulada",
-            "df": "182-249-228390-20261124-5",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Godzilla Minus Zero",
         "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
         "imagen": "/posters/godzilla-minus-zero.jpg",
@@ -7201,6 +7151,43 @@
             "horario": "17:55",
             "formato": "2D Doblada",
             "df": "182-243-228394-20261124-1",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "13:30",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-254-228376-20261124-5",
+            "cinemark": null
+          },
+          {
+            "horario": "15:10",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-254-228386-20261124-5",
+            "cinemark": null
+          },
+          {
+            "horario": "17:40",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-254-228391-20261124-5",
+            "cinemark": null
+          },
+          {
+            "horario": "20:00",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-254-228397-20261124-5",
+            "cinemark": null
+          },
+          {
+            "horario": "22:20",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-254-228403-20261124-5",
             "cinemark": null
           }
         ]
@@ -7257,6 +7244,19 @@
             "horario": "15:50",
             "formato": "COMFORT PLUS 2D Subtitulada",
             "df": "182-240-228384-20261124-5",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Como Robar Un Banco",
+        "url": "https://multiplex.com.ar/peliculas/como-robar-un-banco/",
+        "imagen": "/posters/como-robar-un-banco.jpg",
+        "funciones": [
+          {
+            "horario": "14:45",
+            "formato": "COMFORT PLUS 2D Subtitulada",
+            "df": "182-249-228390-20261124-5",
             "cinemark": null
           }
         ]
@@ -7451,19 +7451,6 @@
         ]
       },
       {
-        "titulo": "Caballo Salvaje Nueve",
-        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
-        "imagen": "/posters/caballo-salvaje-nueve.jpg",
-        "funciones": [
-          {
-            "horario": "16:00",
-            "formato": "2D Subtitulada",
-            "df": "184-254-9992-20261124-1",
-            "cinemark": null
-          }
-        ]
-      },
-      {
         "titulo": "Godzilla Minus Zero",
         "url": "https://multiplex.com.ar/peliculas/godzilla-minus-zero/",
         "imagen": "/posters/godzilla-minus-zero.jpg",
@@ -7509,6 +7496,19 @@
             "horario": "15:15",
             "formato": "3D Doblada",
             "df": "184-243-9987-20261124-2",
+            "cinemark": null
+          }
+        ]
+      },
+      {
+        "titulo": "Caballo Salvaje Nueve",
+        "url": "https://multiplex.com.ar/peliculas/caballo-salvaje-nueve/",
+        "imagen": "/posters/caballo-salvaje-nueve.jpg",
+        "funciones": [
+          {
+            "horario": "16:00",
+            "formato": "2D Subtitulada",
+            "df": "184-254-9992-20261124-1",
             "cinemark": null
           }
         ]
