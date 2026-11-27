@@ -755,6 +755,12 @@
           "precio_jubilado": 7200,
           "precio_menor": 7200
         },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
         "4d 2d subtitulada": {
           "formato": "4D 2D Subtitulada",
           "precio_general": 27400,
@@ -788,12 +794,6 @@
         "xd 2d doblada": {
           "formato": "XD 2D Doblada",
           "precio_general": 20000,
-          "precio_jubilado": null,
-          "precio_menor": null
-        },
-        "4d 2d doblada": {
-          "formato": "4D 2D Doblada",
-          "precio_general": 27400,
           "precio_jubilado": null,
           "precio_menor": null
         },
@@ -1151,6 +1151,12 @@
           "precio_jubilado": 7300,
           "precio_menor": 7300
         },
+        "4d 2d doblada": {
+          "formato": "4D 2D Doblada",
+          "precio_general": 27400,
+          "precio_jubilado": null,
+          "precio_menor": null
+        },
         "4d 2d subtitulada": {
           "formato": "4D 2D Subtitulada",
           "precio_general": 27400,
@@ -1180,12 +1186,6 @@
           "precio_general": 17600,
           "precio_jubilado": 14000,
           "precio_menor": 14000
-        },
-        "4d 2d doblada": {
-          "formato": "4D 2D Doblada",
-          "precio_general": 27400,
-          "precio_jubilado": null,
-          "precio_menor": null
         },
         "dbox 3d doblada": {
           "formato": "DBOX 3D Doblada",
@@ -1246,18 +1246,6 @@
           "precio_general": 19500,
           "precio_jubilado": null,
           "precio_menor": 15000
-        }
-      }
-    },
-    "malba-cine": {
-      "cadena": "Cine Independiente",
-      "nombre": "MALBA Cine",
-      "formatos": {
-        "2d subtitulada": {
-          "formato": "2D Subtitulada",
-          "precio_general": null,
-          "precio_jubilado": null,
-          "precio_menor": null
         }
       }
     },
@@ -1654,6 +1642,18 @@
           "precio_general": 15500,
           "precio_jubilado": null,
           "precio_menor": 12000
+        }
+      }
+    },
+    "malba-cine": {
+      "cadena": "Cine Independiente",
+      "nombre": "MALBA Cine",
+      "formatos": {
+        "2d subtitulada": {
+          "formato": "2D Subtitulada",
+          "precio_general": null,
+          "precio_jubilado": null,
+          "precio_menor": null
         }
       }
     },
